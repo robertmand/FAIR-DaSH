@@ -1,5 +1,5 @@
 ---
-title: "Lesson Organization"
+title: "Moving from the DMP to managing your data for the study"
 teaching: 10
 exercises: 0
 questions:
