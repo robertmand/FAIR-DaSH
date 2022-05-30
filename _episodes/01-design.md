@@ -1,5 +1,5 @@
 ---
-title: "Lesson Design"
+title: "Data Management life cycle"
 redirect_to:
 - https://carpentries.github.io/curriculum-development/
 questions:
