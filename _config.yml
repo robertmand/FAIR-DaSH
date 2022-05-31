@@ -93,6 +93,6 @@ exclude:
   - vendor/
   - .docker-vendor/
 
+highlighter: false
 
-# Turn on built-in syntax highlighting.
-highlighter: rouge
+remote_theme: carpentries/carpentries-theme
