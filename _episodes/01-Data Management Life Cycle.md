@@ -1,12 +1,11 @@
 ---
-title: "Data Management life cycle"
-redirect_to:
-- https://carpentries.github.io/curriculum-development/
+title: "Introducing the Shell"
+teaching: 20
+exercises: 10
 questions:
-- "How do we design lessons?"
-hidden: True
+- "What is a command shell and why would I use one?"
+- "How can I move around on my computer?"
+- "How can I see what files and directories I have?"
+- "How can I specify the location of a file or directory on my computer?"
 
----
-
-Visit our [new curriculum development guide](https://carpentries.github.io/curriculum-development/).
 
