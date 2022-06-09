@@ -10,10 +10,10 @@ questions:
 
 ## What is FAIR?
 
-- F stands for Findable </br>
-- A stands for Accessible </br>
-- I stands for Interoperable </br>
-- R stands for Reusable </br>
+- F stands for Findable 
+- A stands for Accessible 
+- I stands for Interoperable 
+- R stands for Reusable 
 
 The FAIR publication of 2016 makes reference to the fair guiding principles where there are 4 categories FAIR F indicates findable, A indicates accessible, I indicates interoperable and R indicates reusable. These principles were published in 
 
