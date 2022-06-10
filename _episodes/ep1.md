@@ -7,6 +7,10 @@ questions:
 - What is FAIRness of data?
 objectives:
 - Illustrate the main concept of FAIR
+keypoints:
+- After this lesson, you can explain:
+- What is FAIR?
+- What is the difference between FAIRness and FAIRification of data?
 ---
 
 With the current expansion of biomedical research data, there was an urgent need to develop guidelines to ensure proper data management. That's why FAIR principles were published to help researchers properly share, reuse, and manage their data. 
