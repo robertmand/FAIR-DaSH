@@ -102,7 +102,8 @@ It included one main category that describes the importance of the use of well-d
 > 
 {: .callout}
 
-> ## After watching these videos, how many of these principles have you applied to your data?
+> ## Exercise
+> After watching these videos, how many of these principles have you applied to your data?
 > 
 {: .discussion}
 
