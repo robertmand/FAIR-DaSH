@@ -10,7 +10,7 @@ objectives:
 - Illustrate the main concept of FAIR
 ---
 
-![FAIR principles](../fig/FAIR.jpg)
+![FAIR principles](../fig/FAIR.png)
 
 With the current expansion of biomedical research data, there was an urgent need to develop guidelines to ensure proper data management. That's why FAIR principles were published to help researchers properly share, reuse, and manage their data. 
 Also bear in mind that FAIR principles are not only applied to data but also to software, and workflows. They are easily adapted to different data types and more resources are available on how to apply FAIR principles to different types of data, algorithms, tools, workflows, and software. 
