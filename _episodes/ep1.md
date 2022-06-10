@@ -1,6 +1,7 @@
 ---
 title: What is FAIR?
 teaching: 40
+exercise: 5
 questions:
 - Explaining the acronym (the F .. the A .. the I .. the R ..)
 - What is FAIRification of data?
