@@ -27,7 +27,7 @@ These principles were published in
 
 Wilkinson, M., Dumontier, M., Aalbersberg, I. et al. The FAIR Guiding Principles for scientific data management and stewardship. Sci Data 3, 160018 (2016). https://doi.org/10.1038/sdata.2016.18
 
-#### To apply FAIR to your data, each principles has set of specific requirements that guide researchers through the process of FAIRification of their data to make their data Findable, Accessible, Interoperable, Reusable.
+To apply FAIR to your data, each principles has set of specific requirements that guide researchers through the process of FAIRification of their data to make their data Findable, Accessible, Interoperable, Reusable.
 
 ### F in FAIR 
 F in FAIR includes 4 principles:
