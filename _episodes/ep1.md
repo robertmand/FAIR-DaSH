@@ -66,7 +66,7 @@ These categories are:
 -	I2: (Meta)data use vocabularies that follow the FAIR principles
 
 -	I3: (Meta)data include qualified references to other (meta)data
--	
+
 -	Watch this video to know what is i in FAIR through different examples
 
 ### R in FAIR
@@ -77,6 +77,16 @@ It included one main category that describes the importance of the use of well-d
 - R1: (Meta)data are richly described with a plurality of accurate and relevant attributes
 
 Watch this video to know what is R in FAIR through different examples
+
+## What is FAIRification?
+It is a process of applying FAIR of your data. Your data will be Findable, Accessible, Interoperable, Reusable.
+This will be discussed later in details in this lesson
+
+## What is FAIRness?
+When you apply FAIR to your data, you can apply one or more of the principles. FAIRness describes how much your data fulfilled FAIR principles.
+Usually you can use one of assessment tools that will help you know and guide you how to make your data more FAIR
+
+
 
 
 
