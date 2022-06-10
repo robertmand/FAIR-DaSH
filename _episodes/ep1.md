@@ -41,6 +41,7 @@ F in FAIR includes 4 principles:
 - F4: Metadata and data are registered or indexed in a searchable resource
 
 > ## Watch this video to know what is F in FAIR through different examples
+> www
 > 
 {: .callout}
 
@@ -62,6 +63,7 @@ A1.2: The protocol allows for an authentication and authorization where necessar
 As mentioned in Landi et al. The “A” of FAIR – As Open as Possible, as Closed as Necessary 
 
 > ## Watch this video to know what is A in FAIR through different examples
+> www
 > 
 {: .callout}
 
@@ -77,6 +79,7 @@ These categories are:
 -	I3: (Meta)data include qualified references to other (meta)data
 
 > ## Watch this video to know what is I in FAIR through different examples
+> www
 > 
 {: .callout}
 
@@ -88,6 +91,7 @@ It included one main category that describes the importance of the use of well-d
 - R1: (Meta)data are richly described with a plurality of accurate and relevant attributes
 
 > ## Watch this video to know what is R in FAIR through different examples
+> www
 > 
 {: .callout}
 
@@ -95,11 +99,11 @@ It included one main category that describes the importance of the use of well-d
 > 
 {: .discussion}
 
-## What is FAIRification?
+## What is FAIRification of data?
 It is a process of applying FAIR of your data. Your data will be Findable, Accessible, Interoperable, Reusable.
 This will be discussed later in details 
 
-## What is FAIRness?
+## What is FAIRness of data?
 When you apply FAIR to your data, you can apply one or more of the principles. FAIRness describes how much your data fulfilled FAIR principles.
 Usually you can use one of assessment tools that will help you know and guide you how to make your data more FAIR
 This will be discussed later in details
