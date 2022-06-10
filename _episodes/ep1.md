@@ -9,7 +9,7 @@ objectives:
 - Illustrate the main concept of FAIR
 ---
 
-![FAIR principles](/fig/FAIR.png)
+![FAIR principles](../fig/FAIR.png)
 
 With the current expansion of biomedical research data, there was an urgent need to develop guidelines to ensure proper data management. That's why FAIR principles were published to help researchers properly share, reuse, and manage their data. 
 Also bear in mind that FAIR principles are not only applied to data but also to software, and workflows. They are easily adapted to different data types and more resources are available on how to apply FAIR principles to different types of data, algorithms, tools, workflows, and software. 
@@ -22,7 +22,7 @@ The FAIR publication of 2016 makes reference to the FAIR principles which are:
 - I stands for Interoperable 
 - R stands for Reusable 
 
-> These principles were published in 
+> ## These principles were published in 
 > Wilkinson, M., Dumontier, M., Aalbersberg, I. et al. The FAIR Guiding Principles for scientific data management and stewardship. Sci Data 3, 160018 (2016). 
 > 
 {: .callout}
@@ -40,7 +40,10 @@ F in FAIR includes 4 principles:
 
 - F4: Metadata and data are registered or indexed in a searchable resource
 
-Watch this video to know what is F in FAIR through different examples
+> ## Watch this video to know what is F in FAIR through different examples
+> 
+{: .callout}
+
 
 
 ### A in FAIR
@@ -58,7 +61,9 @@ A1.2: The protocol allows for an authentication and authorization where necessar
 
 As mentioned in Landi et al. The “A” of FAIR – As Open as Possible, as Closed as Necessary 
 
-Watch this video to know what is A in FAIR through different examples
+> ## Watch this video to know what is A in FAIR through different examples
+> 
+{: .callout}
 
 ### I in FAIR
 I is related to technical interoperability 
@@ -71,7 +76,9 @@ These categories are:
 
 -	I3: (Meta)data include qualified references to other (meta)data
 
--	Watch this video to know what is i in FAIR through different examples
+> ## Watch this video to know what is I in FAIR through different examples
+> 
+{: .callout}
 
 ### R in FAIR
 R indicates reusability which is the last principle of FAIR. 
@@ -80,7 +87,9 @@ It included one main category that describes the importance of the use of well-d
 
 - R1: (Meta)data are richly described with a plurality of accurate and relevant attributes
 
-Watch this video to know what is R in FAIR through different examples
+> ## Watch this video to know what is R in FAIR through different examples
+> 
+{: .callout}
 
 > ## After watching this videos, how many of these principles have you applied to your data?
 > 
@@ -95,11 +104,11 @@ When you apply FAIR to your data, you can apply one or more of the principles. F
 Usually you can use one of assessment tools that will help you know and guide you how to make your data more FAIR
 This will be discussed later in details
 
-> ### For further reading
+> ## For further reading
 >
-> https://www.go-fair.org/fair-principles/
-> https://faircookbook.elixir-europe.org/content/home.html
-> https://www.nature.com/articles/sdata201618
+> - https://www.go-fair.org/fair-principles/
+> - https://faircookbook.elixir-europe.org/content/home.html
+> - https://www.nature.com/articles/sdata201618
 > 
 {: .callout}
 
