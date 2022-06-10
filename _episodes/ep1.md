@@ -82,7 +82,7 @@ It included one main category that describes the importance of the use of well-d
 
 Watch this video to know what is R in FAIR through different examples
 
-> ## After watching this videa, how many of these principles have you applied to your data?
+> ## After watching this videos, how many of these principles have you applied to your data?
 > 
 {: .discussion}
 
