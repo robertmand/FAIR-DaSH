@@ -1,7 +1,6 @@
 ---
 title: What is FAIR?
 teaching: 40
-exercises: 20
 questions:
 - Explaining the acronym (the F .. the A .. the I .. the R ..)
 - What is FAIRification of data?
@@ -10,7 +9,7 @@ objectives:
 - Illustrate the main concept of FAIR
 ---
 
-![FAIR principles](../fig/FAIR.png)
+![FAIR principles](/fig/FAIR.png)
 
 With the current expansion of biomedical research data, there was an urgent need to develop guidelines to ensure proper data management. That's why FAIR principles were published to help researchers properly share, reuse, and manage their data. 
 Also bear in mind that FAIR principles are not only applied to data but also to software, and workflows. They are easily adapted to different data types and more resources are available on how to apply FAIR principles to different types of data, algorithms, tools, workflows, and software. 
@@ -92,9 +91,9 @@ Usually you can use one of assessment tools that will help you know and guide yo
 This will be discussed later in details
 
 ### For further reading
-https://www.go-fair.org/fair-principles/
-https://faircookbook.elixir-europe.org/content/home.html
-https://www.nature.com/articles/sdata201618
+- https://www.go-fair.org/fair-principles/
+- https://faircookbook.elixir-europe.org/content/home.html
+- https://www.nature.com/articles/sdata201618
 
 
 
