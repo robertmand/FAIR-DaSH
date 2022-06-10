@@ -23,8 +23,8 @@ The FAIR publication of 2016 makes reference to the FAIR principles which are:
 - R stands for Reusable 
 
 > These principles were published in 
->Wilkinson, M., Dumontier, M., Aalbersberg, I. et al. The FAIR Guiding Principles for scientific data management and stewardship. Sci Data 3, 160018 (2016). https://doi.org/10.1038/sdata.2016.18
-{: .source}
+> Wilkinson, M., Dumontier, M., Aalbersberg, I. et al. The FAIR Guiding Principles for scientific data management and stewardship. Sci Data 3, 160018 (2016). 
+> 
 {: .callout}
 
 To apply FAIR to your data, each principles has set of specific requirements that guide researchers through the process of FAIRification of their data to make their data Findable, Accessible, Interoperable, Reusable.
@@ -100,7 +100,7 @@ This will be discussed later in details
 > https://www.go-fair.org/fair-principles/
 > https://faircookbook.elixir-europe.org/content/home.html
 > https://www.nature.com/articles/sdata201618
-> {: .source}
+> 
 {: .callout}
 
 
