@@ -82,7 +82,8 @@ It included one main category that describes the importance of the use of well-d
 Watch this video to know what is R in FAIR through different examples
 
 > ## After watching this videa, how many of these principles have you applied to your data?
->{: .discussion}
+>
+{: .discussion}
 
 ## What is FAIRification?
 It is a process of applying FAIR of your data. Your data will be Findable, Accessible, Interoperable, Reusable.
