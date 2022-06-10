@@ -6,11 +6,15 @@ questions:
 - Explaining the acronym (the F .. the A .. the I .. the R ..)
 - What is FAIRification of data?
 - What is FAIRness of data?
+objectives:
+- Illustrate the main concept of FAIR
 ---
+
 
 With the current expansion of biomedical research data, there was an urgent need to develop guidelines to ensure proper data management. That's why FAIR principles were published to help researchers properly share, reuse, and manage their data. 
 Also bear in mind that FAIR principles are not only applied to data but also to software, and workflows. They are easily adapted to different data types and more resources are available on how to apply FAIR principles to different types of data, algorithms, tools, workflows, and software. 
 In this lesson, we will explain FAIR principles and how FAIR principles will help you properly manage your data.
+
 
 
 ## What is FAIR?
@@ -82,6 +86,7 @@ Watch this video to know what is R in FAIR through different examples
 ## What is FAIRification?
 It is a process of applying FAIR of your data. Your data will be Findable, Accessible, Interoperable, Reusable.
 This will be discussed later in details 
+
 ## What is FAIRness?
 When you apply FAIR to your data, you can apply one or more of the principles. FAIRness describes how much your data fulfilled FAIR principles.
 Usually you can use one of assessment tools that will help you know and guide you how to make your data more FAIR
