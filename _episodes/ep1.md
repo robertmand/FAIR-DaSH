@@ -32,7 +32,7 @@ The FAIR publication of 2016 makes reference to the FAIR principles which are:
 > 
 {: .callout}
 
-To apply FAIR to your data, each principles has set of specific requirements that guide researchers through the process of FAIRification of their data to make their data Findable, Accessible, Interoperable, Reusable.
+To apply FAIR to your data, each principle has set of specific requirements that guide researchers through the process of FAIRification of their data to make their data Findable, Accessible, Interoperable, Reusable.
 
 ### F in FAIR 
 F in FAIR includes 4 principles:
