@@ -51,7 +51,7 @@ keypoints:
 
 ## What are misunderstandings of FAIR?
 
-![FAIR data do not have to be open](../fig/Openfair.png)
+![FAIR data do not have to be open](../fig/Openfair.PNG)
 
 ##### There is a misconception that aligning with FAIR principles means your data has to be open. There are many examples where data can be FAIR but not open like sensitive data and any data subject to intellectual property. These data can still be FAIR and have controlled access. That's why the research community uses the phrase **“open as possible, closed as necessary”**
 ##### However, the research community strives to make the data as open as possible to allow the reproducibility of research results. There are a lot of methods that can be used to make your data FAIR and open. Different anonymization and controlled access techniques can be used to ensure the FAIRness of your data and yet your data is secure. These will be discussed in more detail in another lesson
