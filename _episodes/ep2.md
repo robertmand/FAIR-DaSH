@@ -22,7 +22,7 @@ keypoints:
 {: .checklist}
 
 
-# Benefits of FAIRness
+## Benefits of FAIRness
 #### Reusability of data assets
 ##### FAIRification of your data allows short- and long-term use of these data. Furthermore, the availability of these data allowed the implementation and testing of different predictive models. 
 #### Cost savings
@@ -36,7 +36,7 @@ keypoints:
 > 
 {: .callout}
 
-# Costs of not FAIRifying your data
+## Costs of not FAIRifying your data
 ##### Based on a report by the EU, not complying with FAIR principles have a detrimental effect at many levels: Research activities, Collaboration, and innovation. At each step of the data life cycle, there is a cost for not FAIRifying your data. 
 
 > ## To know more about costs of not FAIRifying your data, Watch our RDMBites on costs of not FAIRifying your data
@@ -51,7 +51,7 @@ keypoints:
 {: .keypoints}
 
 
-# What are misunderstandings of FAIR?
+## What are misunderstandings of FAIR?
 
 ![FAIR data do not have to be open](../fig/Openfair.png)
 
