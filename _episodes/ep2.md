@@ -22,16 +22,12 @@ keypoints:
 {: .checklist}
 
 
-# Benefits of FAIRness
-
-### Reusability of data assets
+### Benefits of FAIRness
+#### Reusability of data assets
 FAIRification of your data allows short- and long-term use of these data. Furthermore, the availability of these data allowed the implementation and testing of different predictive models. 
-
-### Cost savings
+#### Cost savings
 FAIR data saves not only time but also money spent on finding relevant data. Bear in mind, that it also helps researchers avoid duplicating experiments which will lower the costs and accelerate the research process. 
-
-
-### Time efficiency
+#### Time efficiency
 FAIRification of your data will allow machine and human readability of your data. A and I of FAIR create a single point of access that saves time for researchers using and accessing your data. Machine readability ensures that research engines can find your data which will increase the visibility of your data
 
 
@@ -59,7 +55,6 @@ Based on a report by the EU, not complying with FAIR principles have a detriment
 ![FAIR data do not have to be open](../fig/Openfair.png)
 
 There is a misconception that aligning with FAIR principles means your data has to be open. There are many examples where data can be FAIR but not open like sensitive data and any data subject to intellectual property. These data can still be FAIR and have controlled access. That's why the research community uses the phrase **“open as possible, closed as necessary”**
-
 However, the research community strives to make the data as open as possible to allow the reproducibility of research results. There are a lot of methods that can be used to make your data FAIR and open. Different anonymization and controlled access techniques can be used to ensure the FAIRness of your data and yet your data is secure. These will be discussed in more detail in another lesson
 
 # Examples of where data have been shared according to FAIR 
@@ -69,8 +64,6 @@ There are a lot of data shared according to FAIR. You will notice that each rese
 > Share with us an example of FAIR data and explain how it aligns with the FAIR principles
 >  
 {: .discussion}
-
-
 
 
 > ## References For further reading
