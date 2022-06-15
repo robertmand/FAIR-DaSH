@@ -27,7 +27,7 @@ The FAIR publication of 2016 makes reference to the FAIR principles which are:
 - I stands for Interoperable 
 - R stands for Reusable 
 
-![FAIR principles](../fig/FAIR.png)
+![FAIR principles https://www.scibite.com/solutions/enterprise-fair-data-mdm/](../fig/FAIR.png)
 
 > ## These principles were published in 
 > Wilkinson, M., Dumontier, M., Aalbersberg, I. et al. The FAIR Guiding Principles for scientific data management and stewardship. Sci Data 3, 160018 (2016). 
