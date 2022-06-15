@@ -15,7 +15,7 @@ keypoints:
 ---
 
 
-> Check-in
+> ## Check-in
 > As we mentioned in the previous lesson, FAIR principles are important for the sustainability and openness of your research data. FAIR ensures that your data is 
 > easily retrieved, shared, and reused. 
 > 
@@ -48,7 +48,7 @@ Based on a report by the EU, not complying with FAIR principles have a detriment
 > ## In this research paper, the authors assessed the cost/benefit relationship of the FAIRification process
 > Ebtisam Alharbi, Rigina Skeva, Nick Juty, Caroline Jay, Carole Goble; Exploring the Current Practices, Costs and Benefits of FAIR Implementation in Pharmaceutical > Research and Development: A Qualitative Interview Study. Data Intelligence 2021; 3 (4): 507–527. doi: https://doi.org/10.1162/dint_a_00109
 > 
-{: .callout}
+{: .keypoints}
 
 
 # What are misunderstandings of FAIR?
