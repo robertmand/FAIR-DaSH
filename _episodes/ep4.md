@@ -6,7 +6,7 @@ questions:
 - How to make data FAIR?
 - Checklists for making FAIR
 - Tools for making data FAIR
-- FAIR Micropublications
+- Micropublications
 - Further reading
 objectives:
 keypoints:
