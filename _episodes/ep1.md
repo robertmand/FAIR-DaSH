@@ -48,14 +48,13 @@ F is the first letter of FAIR, it indiactes findability. To make your data finda
 > To make your data **Findable**
 > - F1: Metadata and data are assigned globally unique and persistent identifiers**
 > - F2: Data are described with rich metadata
-> - F3: Metadata clearly and explicitly include the identifier of the data they describe
-example 
+> - F3: Metadata clearly and explicitly include the identifier of the data they describe 
 > - F4: Metadata and data are registered or indexed in a searchable resource
 {: .keypoints}
 
 > ## Exercise
 > After watching this videos, answer the following questions:
-> how many of these principles have you applied to your data?
+> How many of these principles have you applied to your data?
 > What is metadata?
 > What are persistant identifiers?
 > Keep this in mind, we will need this for our next section on FAIRness of data
