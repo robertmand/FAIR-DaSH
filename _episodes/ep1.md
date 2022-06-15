@@ -48,7 +48,7 @@ F in FAIR includes 4 principles:
 - F4: Metadata and data are registered or indexed in a searchable resource
 
 > ## Watch this video to know what is F in FAIR through different examples
-> (Youtube link of the RDMbites)
+> https://docs.google.com/presentation/d/1RwEVZC390wtxPQM-zQsBDT7IbNVq0wpZ/edit#slide=id.p2
 > 
 {: .callout}
 
@@ -70,7 +70,7 @@ A1.2: The protocol allows for an authentication and authorization where necessar
 As mentioned in Landi et al. The “A” of FAIR – As Open as Possible, as Closed as Necessary 
 
 > ## Watch this video to know what is A in FAIR through different examples
-> (Youtube link of the RDMbites)
+> https://docs.google.com/presentation/d/1Ac0qF1IKIVH2kjGmXFbyH0WAqI2vXqUB/edit#slide=id.p1
 > 
 {: .callout}
 
@@ -86,7 +86,7 @@ These categories are:
 -	I3: (Meta)data include qualified references to other (meta)data
 
 > ## Watch this video to know what is I in FAIR through different examples
-> (Youtube link of the RDMbites)
+> https://docs.google.com/presentation/d/15jRnCLWnjk-3klwRJBc5cQomfqu8BRdv/edit#slide=id.p2
 > 
 {: .callout}
 
@@ -98,7 +98,7 @@ It included one main category that describes the importance of the use of well-d
 - R1: (Meta)data are richly described with a plurality of accurate and relevant attributes
 
 > ## Watch this video to know what is R in FAIR through different examples
-> (Youtube link of the RDMbites)
+> https://docs.google.com/presentation/d/1uMyUGVH6mm48iDm6jNoBnAuqF3sGiTeO/edit?usp=sharing&ouid=115915105600833888129&rtpof=true&sd=true
 > 
 {: .callout}
 
