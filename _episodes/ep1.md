@@ -54,9 +54,9 @@ F is the first letter of FAIR, it indiactes findability. To make your data finda
 
 > ## Exercise
 > After watching this videos, answer the following questions:
-> How many of these principles have you applied to your data?
-> What is metadata?
-> What are persistant identifiers?
+> - How many of these principles have you applied to your data?
+> - What is metadata?
+> - What are persistant identifiers?
 > Keep this in mind, we will need this for our next section on FAIRness of data
 > 
 {: .discussion}
