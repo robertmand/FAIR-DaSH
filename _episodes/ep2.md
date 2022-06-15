@@ -1,14 +1,26 @@
 ---
 title: Why is FAIR important?
 teaching: 40
-exercises: 20
+exercises: 10
 questions:
 - Why is it important to FAIRify your data?
 - What are the misunderstandings of FAIR (i.e. Open Data)?
 - Examples of where data have been shared according to FAIR and not.  
+objectives:
+- Illustrate the importance of FAIRification of data
+- Change misconception related to FAIRification of data
+keypoints:
+- FAIR principles ensures accessibility and reusability of your data and encourage reproducibility of research results
+- FAIR data do not have to be open
 ---
 
-As we mentioned in the previous lesson, FAIR principles are important for the sustainability and openness of your research data. FAIR ensures that your data is easily retrieved, shared, and reused. 
+
+> 
+> As we mentioned in the previous lesson, FAIR principles are important for the sustainability and openness of your research data. FAIR ensures that your data is 
+> easily retrieved, shared, and reused. 
+> 
+{: .checklist}
+
 
 # Benefits of FAIRness
 
