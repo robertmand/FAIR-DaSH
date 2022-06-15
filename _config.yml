@@ -4,7 +4,7 @@
 
 # Which carpentry is this ("swc", "dc", "lc", or "cp")?
 
-dc: Data Carpentry
+carpentry: "dc"
 
 
 # Overall title for pages.
