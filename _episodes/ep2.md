@@ -52,6 +52,7 @@ Based on a report by the EU, not complying with FAIR principles have a detriment
 
 
 # What are misunderstandings of FAIR?
+
 ![FAIR data do not have to be open](../fig/Openfair.png)
 
 There is a misconception that aligning with FAIR principles means your data has to be open. There are many examples where data can be FAIR but not open like sensitive data and any data subject to intellectual property. These data can still be FAIR and have controlled access. That's why the research community uses the phrase **“open as possible, closed as necessary”**
