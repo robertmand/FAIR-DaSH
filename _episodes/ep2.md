@@ -15,14 +15,14 @@ keypoints:
 ---
 
 
-> 
+> Check-in
 > As we mentioned in the previous lesson, FAIR principles are important for the sustainability and openness of your research data. FAIR ensures that your data is 
 > easily retrieved, shared, and reused. 
 > 
 {: .checklist}
 
 
-### Benefits of FAIRness
+# Benefits of FAIRness
 #### Reusability of data assets
 FAIRification of your data allows short- and long-term use of these data. Furthermore, the availability of these data allowed the implementation and testing of different predictive models. 
 #### Cost savings
