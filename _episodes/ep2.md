@@ -28,8 +28,7 @@ keypoints:
 ##### FAIR data saves not only time but also money spent on finding relevant data. Bear in mind, that it also helps researchers avoid duplicating experiments which will lower the costs and accelerate the research process. 
 #### Time efficiency
 ##### FAIRification of your data will allow machine and human readability of your data. A and I of FAIR create a single point of access that saves time for researchers using and accessing your data. Machine readability ensures that research engines can find your data which will increase the visibility of your data
-
-In addition to forementioned benefits, FAIR data allow reproducibility of research results because data are published with metadata and analysis pipeline. 
+##### In addition to the aforementioned benefits, FAIR data allow reproducibility of research results because data are published with metadata and an analysis pipeline.
 
 > ## To know more about the benefits of FAIRifying your data, Watch our RDMBites on the benefits of data FAIRification
 > (Youtube link of the RDMbites)
