@@ -37,22 +37,30 @@ The FAIR publication of 2016 makes reference to the FAIR principles which are:
 To apply FAIR to your data, each principle has set of specific requirements that guide researchers through the process of FAIRification of their data to make their data Findable, Accessible, Interoperable, Reusable.
 
 ### F in FAIR 
-F in FAIR includes 4 principles:
+F is the first letter of FAIR, it indiactes findability. To make your data findable, the data should fulfil 4 principles:
 
-- F1: Metadata and data are assigned globally unique and persistent identifiers
-
-- F2: Data are described with rich metadata
-
-- F3: Metadata clearly and explicitly include the identifier of the data they describe
-
-- F4: Metadata and data are registered or indexed in a searchable resource
-
-> ## Watch this video to know what is F in FAIR through different examples
+> ## Watch this video to know what are these Fs 
 > https://docs.google.com/presentation/d/1RwEVZC390wtxPQM-zQsBDT7IbNVq0wpZ/edit#slide=id.p2
 > 
 {: .callout}
 
+> ## To recap
+> To make your data **Findable**
+> - F1: Metadata and data are assigned globally unique and persistent identifiers**
+> - F2: Data are described with rich metadata
+> - F3: Metadata clearly and explicitly include the identifier of the data they describe
+example 
+> - F4: Metadata and data are registered or indexed in a searchable resource
+{: .keypoints}
 
+> ## Exercise
+> After watching this videos, answer the following questions:
+> how many of these principles have you applied to your data?
+> What is metadata?
+> What are persistant identifiers?
+> Keep this in mind, we will need this for our next section on FAIRness of data
+> 
+{: .discussion}
 
 ### A in FAIR
 A stands for accessibility to the data
