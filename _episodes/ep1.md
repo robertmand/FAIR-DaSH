@@ -21,6 +21,7 @@ Also bear in mind that FAIR principles are not only applied to data but also to 
 In this lesson, we will explain FAIR principles and how FAIR principles will help you properly manage your data.
 
 ## What is FAIR?
+
 > ## These principles were published in 
 > Wilkinson, M., Dumontier, M., Aalbersberg, I. et al. The FAIR Guiding Principles for scientific data management and stewardship. Sci Data 3, 160018 (2016). 
 > The FAIR publication of 2016 makes reference to the FAIR principles which are:
@@ -28,14 +29,12 @@ In this lesson, we will explain FAIR principles and how FAIR principles will hel
 > - A stands for Accessible 
 > - I stands for Interoperable 
 > - R stands for Reusable 
-
-{: .callout}
-
+>
 ![FAIR principles https://www.scibite.com/solutions/enterprise-fair-data-mdm/](../fig/FAIR.png)
 https://www.scibite.com/solutions/enterprise-fair-data-mdm/
+{: .callout}
 
 To apply FAIR to your data, each principle has set of specific requirements that guide researchers through the process of FAIRification of their data to make their data Findable, Accessible, Interoperable, Reusable.
-
 ### F in FAIR 
 F is the first letter of FAIR, it indiactes findability. To make your data findable, the data should fulfil 4 principles. In this RDMBites, we will explain what are these principles
 
