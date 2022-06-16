@@ -1,7 +1,7 @@
 ---
 title: What is FAIR?
 teaching: 40
-exercise: 10
+exercise: 20
 questions:
 - Explaining the acronym (the F .. the A .. the I .. the R ..)
 - What is FAIRification of data?
@@ -21,19 +21,18 @@ Also bear in mind that FAIR principles are not only applied to data but also to 
 In this lesson, we will explain FAIR principles and how FAIR principles will help you properly manage your data.
 
 ## What is FAIR?
-The FAIR publication of 2016 makes reference to the FAIR principles which are:
-- F stands for Findable 
-- A stands for Accessible 
-- I stands for Interoperable 
-- R stands for Reusable 
+> ## These principles were published in 
+> Wilkinson, M., Dumontier, M., Aalbersberg, I. et al. The FAIR Guiding Principles for scientific data management and stewardship. Sci Data 3, 160018 (2016). 
+> The FAIR publication of 2016 makes reference to the FAIR principles which are:
+> - F stands for Findable 
+> - A stands for Accessible 
+> - I stands for Interoperable 
+> - R stands for Reusable 
+
+{: .callout}
 
 ![FAIR principles https://www.scibite.com/solutions/enterprise-fair-data-mdm/](../fig/FAIR.png)
 https://www.scibite.com/solutions/enterprise-fair-data-mdm/
-
-> ## These principles were published in 
-> Wilkinson, M., Dumontier, M., Aalbersberg, I. et al. The FAIR Guiding Principles for scientific data management and stewardship. Sci Data 3, 160018 (2016). 
-> 
-{: .callout}
 
 To apply FAIR to your data, each principle has set of specific requirements that guide researchers through the process of FAIRification of their data to make their data Findable, Accessible, Interoperable, Reusable.
 
@@ -67,17 +66,8 @@ A stands for accessibility to the data, this principle allows machine and human 
 
 **To make your data comply with A, you need to apply two main principles**
 
-A in FAIR includes 2 main principles:
 
-- A1: (Meta)data are retrievable by their identifier using a standardized communication protocol
-
-A1.1: The protocol is open, free, and universally implementable
-
-A1.2: The protocol allows for an authentication and authorization where necessary
-
-- A2: Metadata should be accessible even when the data is no longer available
-
-> ## Watch this RDMBites to know what is A in FAIR 
+> ## Watch this RDMBites to know what are these principles
 > https://docs.google.com/presentation/d/1Ac0qF1IKIVH2kjGmXFbyH0WAqI2vXqUB/edit#slide=id.p1
 > 
 {: .callout}
