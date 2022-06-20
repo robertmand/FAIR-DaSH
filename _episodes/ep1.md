@@ -155,22 +155,7 @@ When you apply FAIR to your data, you can apply one or more of the principles. F
 {: .callout}
 
 
----
-title: Why is FAIR important?
-teaching: 40
-exercises: 10
-questions:
-- Why is it important to FAIRify your data?
-- What are the misunderstandings of FAIR (i.e. Open Data)?
-- Examples of where data have been shared according to FAIR and not.  
-objectives:
-- Illustrate the importance of FAIRification of data
-- Change misconception related to FAIRification of data
-keypoints:
-- FAIR principles ensures accessibility and reusability of your data and encourage reproducibility of research results
-- FAIR data do not have to be open
----
-## Benefits of FAIRness
+# Benefits of FAIRness
 #### Reusability of data assets
 ##### FAIRification of your data allows short- and long-term use of these data. Furthermore, the availability of these data allowed the implementation and testing of different predictive models. 
 #### Cost savings
@@ -203,8 +188,8 @@ keypoints:
 ![FAIR data do not have to be open](../fig/Openfair.PNG)
 
 > ## Important definitions
-> Open data is data that can be freely used, re-used and redistributed by anyone
-> FAIR data is data that align with FAIR, data is **“open as possible, closed as necessary”**
+> - Open data is data that can be freely used, re-used and redistributed by anyone
+> - FAIR data is data that align with FAIR, data is **“open as possible, closed as necessary”**
 > 
 {: .keypoints}
 ##### There is a misconception that aligning with FAIR principles means your data has to be open. There are many examples where data can be FAIR but not open like sensitive data and any data subject to intellectual property. These data can still be FAIR and have controlled access. That's why the research community uses the phrase **“open as possible, closed as necessary”**
