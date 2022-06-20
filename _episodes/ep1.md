@@ -187,9 +187,9 @@ When you apply FAIR to your data, you can apply one or more of the principles. F
 
 ![FAIR data do not have to be open](../fig/Openfair.PNG)
 
-> ## Important definitions
-> - Open data is data that can be freely used, re-used and redistributed by anyone
-> - FAIR data is data that align with FAIR, data is **“open as possible, closed as necessary”**
+> ## Open data
+> - The Open Data Handbook defined open data as:
+> <br>“Open data is data that can be freely used, reused and redistributed by anyone – subject only, at most, to the requirement to attribute and sharealike.”
 > 
 {: .keypoints}
 ##### There is a misconception that aligning with FAIR principles means your data has to be open. There are many examples where data can be FAIR but not open like sensitive data and any data subject to intellectual property. These data can still be FAIR and have controlled access. That's why the research community uses the phrase **“open as possible, closed as necessary”**
