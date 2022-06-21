@@ -5,7 +5,7 @@ exercise: 20
 questions:
 - Explaining the acronym (the F .. the A .. the I .. the R ..)
 - Where does FAIR come from?
-- Why is FAIR important?
+- What is FAIRification/Fairness of data?
 objectives:
 - Illustrate the main concept of FAIR
 keypoints:
