@@ -1,11 +1,11 @@
 ---
-title: Why is FAIR important?
+title: Examples of data FAIRification
 teaching: 40
 exercises: 10
 questions:
-- Why is it important to FAIRify your data?
-- What are the misunderstandings of FAIR (i.e. Open Data)?
-- Examples of where data have been shared according to FAIR and not.  
+- Worked example one: making an RNAseq dataset FAIR
+- Worked example two: making a “obscure” dataset FAIR (i.e. one without a metadata standard or public repository)
+- Worked example three: making a piece of training material FAIR
 objectives:
 - Illustrate the importance of FAIRification of data
 - Change misconception related to FAIRification of data
