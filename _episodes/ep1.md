@@ -4,8 +4,8 @@ teaching: 40
 exercise: 20
 questions:
 - Explaining the acronym (the F .. the A .. the I .. the R ..)
-- What is FAIRification of data?
-- What is FAIRness of data?
+- Where does FAIR come from?
+- Why is FAIR important?
 objectives:
 - Illustrate the main concept of FAIR
 keypoints:
