@@ -1,10 +1,11 @@
 ---
-title: Where does FAIR come from?
+title: FAIRification of data
 teaching: 40
 exercises: 10
 questions:
-- The history of FAIR
-- What data can be FAIRified?
+- How to make data FAIR?
+- Checklists for making FAIR
+- Tools for making data FAIR
 - Further reading 
 objectives:
 keypoints:
