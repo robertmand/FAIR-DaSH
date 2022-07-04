@@ -39,14 +39,14 @@ communications protocol
 > ## Exercise
 > Given the following publication, are you able to find the globally unique and persistent identifier for the RNAseq data and data descriptions (metadata) (F1)?
 >[Link] (https://doi.org/10.1038/s41591-020-0939-8)
-> {: .challenge}
+{: .challenge}
 
 > ## Answer
 > Under “Data and code availability” I am told quote
 > ![Photo from paper https://www.nature.com/articles/s41591-020-0939-8](../fig/rnaseq2.png)
 > Note, that the dataset unique and persistent (unchanging) identifier is E-MTAB-8316, and could also be expressed as [the full > URL(https://www.ebi.ac.uk/biostudies/ArrayExpress/studies/E-MTAB-8316)
 > Note also that there are 2 other identifiers to 2 single cell RNAseq datasets.
-> {: .solution}
+{: .solution}
 
 
 
