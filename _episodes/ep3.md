@@ -67,7 +67,9 @@ communications protocol
 
 
 > ## Watch this video for more information
-> [https://www.youtube.com/watch?v=w0QbnxKRD0w]
+> <iframe width="560" height="315" src="https://www.youtube.com/embed/w0QbnxKRD0w" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay;
+> clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+> 
 {: .discussion}
 
 > ## Exercise
@@ -78,16 +80,17 @@ communications protocol
 > Use the following link to (access ArrayExpress)[https://www.ebi.ac.uk/biostudies/arrayexpress/studies/] and then use E-MTAB-8316 the search bar to access the 
 > data.  Here data access is gained through searching a dataset 
 > that is indexed in a searchable resource **(F4)**.  
-![](../fig/rnaseq3.png)
+> ![](../fig/rnaseq3.png)
+>
 {: .solution}
 
 
-> # Exercise
+> ## Exercise
 > Alternatively, use the search menu in ArrayExpress to search for the same dataset using the words “macrophage rheumatoid arthritis” and selecting “rna-seq of 
 > coding rna” on the left-hand search bar.
 {: .challenge}
 
-> # Answer:
+> ## Answer:
 > Here, the dataset we want, is not the first in the list, but appears in the search results. Note that data access
 > is gained through searching metadata(data about the experiment), and not the ID.  Here, FAIR is met through indexing metadata in a searchable resource (F4).
 > ![](../fig/rnaseq4.png)
@@ -156,8 +159,8 @@ Metadata using published ontologies permit interoperability since you can match 
 > (taxonomy)[https://www.ncbi.nlm.nih.gov/taxonomy].
 {: .challenge}
 
->## Answer
-> OK …. There are many.  There are more metadata annotations than there are free texts. There are obvious ontologies under Source Characteristics such as “Developmental stage”, Disease, Organism part, cell type... etc. These ontologies requested upon submission and depends on the type of your data and database. 
+> ## Answer
+> There are more metadata annotations than there are free texts. There are obvious ontologies under Source Characteristics such as “Developmental stage”, Disease, Organism part, cell type... etc. These ontologies requested upon submission and depends on the type of your data and database. 
 > ![](../fig/rnaseq8.png)
 > There are also others that are not so obvious.  Under “Protocols”, a protocol ontology is used under the column” type” as well as a hardware ontology under 
 > “Hardware”.  By selecting the blue > node-and-edge icon next to the protocol type, you are taken to the 
