@@ -22,6 +22,6 @@ This lesson provides a learner working in the Life Sciences with the know-how to
 
 > ## For review process
 > If you are not familiar with GitHub, you can directly add your comments to this
->  [Google doc] (https://docs.google.com/document/d/1twW2NOieV-s4UmIgiMSQaD5DdOrg82sLdR1XpwkupHg/edit?usp=sharing)
+>  [Google doc](https://docs.google.com/document/d/1twW2NOieV-s4UmIgiMSQaD5DdOrg82sLdR1XpwkupHg/edit?usp=sharing)
 > 
 {: .discussion}
