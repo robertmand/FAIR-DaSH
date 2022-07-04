@@ -12,3 +12,7 @@ After this lesson you will learn:
 * To give some historical background to FAIR: the publication, current projects (FAIR Cookbook, FAIRsharing) and its use in the Life Sciences.
 * To explain why FAIR is important, giving examples of where not using FAIR has made data unusable by others.
 * Through examples, show how the FAIR principles are used to FAIRify a dataset using useful tools and checklists.
+
+> ## Prerequisites
+> This is an introductory course; no prior knowledge is required.
+{: .prereq}
