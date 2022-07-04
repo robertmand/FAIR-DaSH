@@ -29,7 +29,11 @@ By submitting your data, it is then openly archived, searchable and annotated wi
 #### **The data and metadata for an RNAseq dataset:**
 ![The data and metadata for an RNAseq dataset](../fig/Rna1.jpg)
 
+This is a practical lesson where you will see how the following RNAseq is FAIRified [RNAseq](https://www.ebi.ac.uk/biostudies/ArrayExpress/studies/E-MTAB-8316)
+We will start by identifying the main points followed by exercise to show you how these principles are applied to the data
+
 **Finding and Accessing an RNAseq dataset**
+These principles must be followed in order for your data to be findable and accessible:
 - (F1) (Meta)data are assigned a globally unique and persistent identifier.
 - (F4) (Meta)data are registered or indexed in a searchable resource.
 - (A1) (Meta)data are retrievable by their identifier using a standardised
@@ -90,7 +94,7 @@ communications protocol
 {: .solution}
 
 **Reading the metadata**
-This part is related to your meta-data, how they can alighn with FAIR principles
+This part is related to your meta-data, how they can align with FAIR principles
 - (F2) Data are described with rich metadata 
 - (F3) Metadata clearly and explicitly include the identifier of the data they describe
 
@@ -132,7 +136,7 @@ This part is related to your meta-data, how they can alighn with FAIR principles
 
 
 #### Metadata and community standards
-Also you need to check if your metadata adhere to your community standards
+Also you need to check if your metadata adhere to your community standards, you can check the following principles if they are fulfilled or not:
 - (I1) (Meta)data use a formal, accessible, shared, and broadly applicable language for knowledge representation.
 - (I2) (Meta)data use vocabularies that follow FAIR principles.
 - (R1) (Meta)data are richly described with a plurality of accurate and relevant
@@ -197,6 +201,7 @@ By using published ontologies following FAIR principles you can ensure metadata 
 {. :solution}
 
 #### Downloading raw data for reuse
+One of the benefits of FAIR, it makes your data reusable which will also allows reproducibility of your research. Thus, these principles in FAIR should be fulfilled. These FAIR principles allow you and others to reuse raw data deposited in public database and do different types of secondary analysis.
 - (A1) (Meta)data are retrievable by their identifier using a standardised communications protocol. 
   - (A1.1) The protocol is open, free, and universally implementable.
 - (I3) (Meta)data include qualified references to other (meta)data.
@@ -205,12 +210,12 @@ By using published ontologies following FAIR principles you can ensure metadata 
 * R1.2. (Meta)data are associated with detailed provenance
 * R1.3. (Meta)data meet domain-relevant community standards
 
-These FAIR principles allow you and others to reuse raw data deposited in public database and do different types of secondary analysis.
+
 
 For instance, in this dataset, Metadata can be downloaded from the MAGETAB link. Data can be downloaded from the ENA **(I3)**. The data and metadata are accurately described **(R)**. There is accession number at the top of the page that any person can use to easily retrieve the data **(A1)**
 ![](../fig/rrnaseq.png)
 
-Even when raw data is not available, these data nonetheless adhere to FAIR principles, specifically **A2** metadata is accessible, even when the data is no longer available.
+Even when raw data is not available, these data nonetheless adhere to FAIR principles, specifically **A2** metadata is accessible, even when the data is no longer available. 
 
 > ## Exercise:
 > Identify how this GEO dataset aligned with FAIR principles? [GSE207314](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE207314)
