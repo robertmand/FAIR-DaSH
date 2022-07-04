@@ -221,7 +221,7 @@ For instance, in this dataset, Metadata can be downloaded from the MAGETAB link.
 Even when raw data is not available, these data nonetheless adhere to FAIR principles, specifically **A2** metadata is accessible, even when the data is no longer available. 
 
 > ## Exercise:
-> Identify how this GEO dataset aligned with FAIR principles? [GSE207314](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE207314)
+> Identify how this GEO dataset aligned with FAIR principles? [GSE207314](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE207314).
 > 
 {. :challenge}
 
