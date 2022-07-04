@@ -20,13 +20,13 @@ keypoints:
 
 > ## FAIRification of RNAseq data can be best achieved through submitting your data to one of the 2 international repositories. 
 > - ArrayExpress: [how to submit your data](https://www.youtube.com/watch?v=ANr2PTVy7JA)
-> - (GEO database) [https://www.ncbi.nlm.nih.gov/gds]
+> - (GEO database)[https://www.ncbi.nlm.nih.gov/gds]
 > 
 {: .callout}
 
 By submitting your data, it is then openly archived, searchable and annotated with rich metadata.  Note, both repositories belong to the (FAIRsharing database registry)[https://fairsharing.org/search?fairsharingRegistry=Database] which can help you find public repositories for all types of Life Science data.
 **This lesson will take you through a publicly available RNAseq dataset in ArrayExpress and show you how it meets FAIR principles using the [GO-FAIR checklist](https://www.go-fair.org) 
-#### The data and metadata for an RNAseq dataset:
+#### **The data and metadata for an RNAseq dataset:**
 ![The data and metadata for an RNAseq dataset](../fig/Rna1.jpg)
 
 **Finding and Accessing an RNAseq dataset**
@@ -34,17 +34,18 @@ By submitting your data, it is then openly archived, searchable and annotated wi
 - (F4) (Meta)data are registered or indexed in a searchable resource.
 - (A1) (Meta)data are retrievable by their identifier using a standardised
 communications protocol 
-      - (A1.1) The protocol is open, free, and universally implementable.
+- (A1.1) The protocol is open, free, and universally implementable.
 
 > ## Exercise
-> Given the following publication, are you able to find the globally unique and persistent identifier for the RNAseq data and data descriptions (metadata) (F1)?
->[Link] (https://doi.org/10.1038/s41591-020-0939-8)
+> Given the following publication, are you able to find the globally unique and persistent identifier for the RNAseq data and data descriptions (metadata)(F1)?
+>[Link](https://doi.org/10.1038/s41591-020-0939-8)
 {: .challenge}
 
 > ## Answer
 > Under “Data and code availability” I am told quote
 > ![Photo from paper https://www.nature.com/articles/s41591-020-0939-8](../fig/rnaseq2.png)
-> Note, that the dataset unique and persistent (unchanging) identifier is E-MTAB-8316, and could also be expressed as [the full > URL(https://www.ebi.ac.uk/biostudies/ArrayExpress/studies/E-MTAB-8316)
+> Note, that the dataset unique and persistent (unchanging) identifier is E-MTAB-8316, and could also be expressed as
+> [the fullURL](https://www.ebi.ac.uk/biostudies/ArrayExpress/studies/E-MTAB-8316)
 > Note also that there are 2 other identifiers to 2 single cell RNAseq datasets.
 {: .solution}
 
@@ -53,37 +54,39 @@ communications protocol
 > ## Exercise
 > Use the URL to access the dataset: 
 > [https://www.ebi.ac.uk/biostudies/ArrayExpress/studies/E-MTAB-8316]
-> {: .challenge}
+{: .challenge}
 
 > Answer:
 > You should see the following, nothing you have now accessed the RNAseq data using a weblink employing https.  Https is a standardised communications protocol that is open, free and universally implementable (A1 & A1.1)
-> {: .solution}
+{: .solution}
 
 
 > ## Watch this video for more information
 > https://www.youtube.com/watch?v=w0QbnxKRD0w
-> {: .discussion}
+{: .discussion}
 
 > ## Exercise
 > Alternatively, use the search menu in ArrayExpress to find the same dataset
-> {: .challenge}
+{: .challenge}
 
-> # Answer
-> Use the following link to (access ArrayExpress)[https://www.ebi.ac.uk/biostudies/arrayexpress/studies/] and then use E-MTAB-8316 the search bar to access the data.  Here data access is gained through searching a dataset 
+> ## Answer
+> Use the following link to (access ArrayExpress)[https://www.ebi.ac.uk/biostudies/arrayexpress/studies/] and then use E-MTAB-8316 the search bar to access the 
+> data.  Here data access is gained through searching a dataset 
 > that is indexed in a searchable resource **(F4)**.  
 > ![](../fig/rnaseq3.png)
-> {: .solution}
+{: .solution}
 
 
 > # Exercise
-> Alternatively, use the search menu in ArrayExpress to search for the same dataset using the words “macrophage rheumatoid arthritis” and selecting “rna-seq of coding rna” on the left-hand search bar.
-> {: .challenge}
+> Alternatively, use the search menu in ArrayExpress to search for the same dataset using the words “macrophage rheumatoid arthritis” and selecting “rna-seq of 
+> coding rna” on the left-hand search bar.
+{: .challenge}
 
 > # Answer:
 > Here, the dataset we want, is not the first in the list, but appears in the search results. Note that data access
 > is gained through searching metadata(data about the experiment), and not the ID.  Here, FAIR is met through indexing metadata in a searchable resource (F4).
 > ![](../fig/rnaseq4.png)
-> {: .solution}
+{: .solution}
 
 **Reading the metadata**
 - (F2) Data are described with rich metadata 
@@ -93,32 +96,32 @@ communications protocol
 > ## Exercise:
 > Find the unique, persistent identifier in the record:
 > (https://www.ebi.ac.uk/biostudies/ArrayExpress/studies/E-MTAB-8316)
-> {: .challenge}
+{: .challenge}
 
 > ## Answer:
 > It’s the first thing in the record.  All metadata (descriptions about the data) and the actual raw data files are linked from this page.  Here metadata clearly and > explicitly include the identifier of the data they describe **(F3)**.  
 ![](../fig/rnaseq5.png)
 > Here data are described with rich metadata (F2).  This allows a person to reuse data appropriately by reducing ambiguity relating to what the data mean or how they are derived.  Additionally, rich metadata permits a person to search for dataset of interest, for example other RNAseq dataset featuring “macrophage rheumatoid arthritis”.
 > Metadata is added by the person submitting the data and is further checked by a curator at the ArrayExpress database.  Metadata curation is performed via a web-based submission interface, which aids rich curation through linking to ontologies represented as webpage pulldowns. 
-> {: .solution}
+{: .solution}
 
 > ## Exercise:
 > (https://www.ebi.ac.uk/biostudies/ArrayExpress/studies/E-MTAB-8316)
 > familiarise yourself with the page layout.  Noting there are links to all protocols, data, sample metadata and assay type.
 > How many samples are in this dataset?
-> {: .challenge}
+{: .challenge}
 
 > ## Answer:
 > 12 (assay count)
 > ![](../fig/rnaseq6.png)
-> {: .solution}
+{: .solution}
 
 > ## Exercise
 > What data provenance can you find? i.e. what processes have been performed to create the data linked from this page?
 > Answer:
 > The final 2 protocols detail all data transformations for the raw and transformed data.
 > ![](../fig/rnaseq7.png)
-> {: .solution}
+{: .solution}
 
 
 #### Metadata and community standards
@@ -127,7 +130,7 @@ communications protocol
 - (I2) (Meta)data use vocabularies that follow FAIR principles.
 - (R1) (Meta)data are richly described with a plurality of accurate and relevant
 Attributes. 
-    - (R1.3) (Meta)data meet domain-relevant community standards.
+- (R1.3) (Meta)data meet domain-relevant community standards.
 
 
 We have mentioned ontologies in the previous section.  In its simplest form, an ontology can be seen as a dictionary of terms you can use to annotate a piece of data.  For example, the NCBI taxonomy database is probably something you have used and can be viewed as a collection of organism names you can use to annotate species within a dataset.  An ontology, though, will also define relationships between terms.  So in the taxonomy example, the term “Homo sapiens” will belong to parent terms such as  Primate, Mammal and so on.  Importantly, by using an ontology you can ensure you are using interoperable and searchable terms with your data.
@@ -137,16 +140,19 @@ Published ontologies are linked from the ArrayExpress submission tool, so this w
 Metadata using published ontologies permit interoperability since you can match identical annotations across data and databases **(I1 & I2)**.  Additionally, they can be understood by communities of practice **(R1, R1.3)**.
 
 
->## Exercise
-> Look at the page again. Identify any metadata that belongs to an existing, published ontology.   Note, we have mentioned one already: “Homo sapiens” as part of (taxonomy)[https://www.ncbi.nlm.nih.gov/taxonomy].
-> {: .challenge}
+> ## Exercise
+> Look at the page again. Identify any metadata that belongs to an existing, published ontology.   Note, we have mentioned one already: “Homo sapiens” as part of 
+> (taxonomy)[https://www.ncbi.nlm.nih.gov/taxonomy].
+{: .challenge}
 
 >## Answer
 > OK …. There are many.  There are more metadata annotations than there are free texts. There are obvious ontologies under Source Characteristics such as “Developmental stage”, Disease, Organism part, cell type... etc. These ontologies requested upon submission and depends on the type of your data and database. 
 > ![](../fig/rnaseq8.png)
 > 
 > 
-> There are also others that are not so obvious.  Under “Protocols”, a protocol ontology is used under the column” type” as well as a hardware ontology under “Hardware”.  By selecting the blue > node-and-edge icon next to the protocol type, you are taken to the (Expertimental factor ontology)[https://www.ebi.ac.uk/ols/ontologies/efo] at the EBI.
+> There are also others that are not so obvious.  Under “Protocols”, a protocol ontology is used under the column” type” as well as a hardware ontology under 
+> “Hardware”.  By selecting the blue > node-and-edge icon next to the protocol type, you are taken to the 
+> (Expertimental factor ontology)[https://www.ebi.ac.uk/ols/ontologies/efo] at the EBI.
 > ![](../fig/rnaseq9.png)
 >
 > {: .solution}
@@ -161,22 +167,24 @@ By using published ontologies following FAIR principles you can ensure metadata 
 
 > ## Exercise
 > Look for the licensing options for (arrayexpress)[https://www.ebi.ac.uk/arrayexpress/]
-> {. :challenge}
+{. :challenge}
+
 > ## Answer
-> Go to the bottom of the page, select licensing and it gets you to [here] (https://www.ebi.ac.uk/licencing). You will notice that EBI uses CC license. 
+> Go to the bottom of the page, select licensing and it gets you to [here](https://www.ebi.ac.uk/licencing). You will notice that EBI uses CC license. 
 > In our RDMBites about R in FAIR, we explained what are different types of copyright licences. Creative Commons is the most widely used and widely available free licencing model. There are four components to the licence that are arranged to give six licence options.
 > For more detailed explanation, check (this link)[https://pitt.libguides.com/copyright/licenses]
 > 
-> {. :solution}
+{. :solution}
 
 
 > ## Exercise:
 > What provenance can you find on this page?  i.e. information on where data came from.
-> {: .challenge}
+{: .challenge}
+
 > ## Answer:
 > There are a couple of examples worth mentioning. Submitters name and option to submit ORCID ID, and protocols  describing the data and how it was produces. You will also notice the name of university where the data where produced. 
 > ![](../fig/prov.png)
-> {. :solution}
+{. :solution}
 
 #### Downloading raw data for reuse
 - (A1) (Meta)data are retrievable by their identifier using a standardised communications protocol. 
@@ -196,17 +204,16 @@ For instance, in this dataset, Metadata can be downloaded from the MAGETAB link.
 Even when raw data is not available, these data nonetheless adhere to FAIR principles, specifically **A2** metadata is accessible, even when the data is no longer available.
 
 > ## Exercise:
-> Identify how this GEO dataset aligned with FAIR principles? [GSE207314] (https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE207314)
+> Identify how this GEO dataset aligned with FAIR principles? [GSE207314](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE207314)
 >
-> {. :challenge}
+{. :challenge}
 
 > ## Answer
 > - F: the dataset is assigned a unique ID, the data are described with rich metadata, both data and metadata are indexed in public database (GEO database)
 > - A: The dataset is accessible by a standardized communication protocol (https), you can download the data from different links available
 > - I: The dataset made use of ontologies that were shared and understood by multiple researchers. You can also download the data and work on it using SRA tools
 > - R: There is a clear description of data usage licence, for each sample, there is detailed description of protocols used which adhere to community standards. Each sample has its own unique ID
-
-> {. :solution}
+{. :solution}
 
 ___
 ## Making a “obscure” dataset FAIR (i.e. one without a metadata standard or public repository)
