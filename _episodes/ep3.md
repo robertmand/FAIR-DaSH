@@ -20,9 +20,10 @@ keypoints:
 {: .callout}
 
 By submitting your data, it is then openly archived, searchable and annotated with rich metadata.  Note, both repositories belong to the FAIRsharing database registry which can help you find public repositories for all types of Life Science data.
+
 **This lesson will take you through a publicly available RNAseq dataset in ArrayExpress and show you how it meets FAIR principles using the [GO-FAIR checklist](https://www.go-fair.org) **
 
-## The data and metadata for an RNAseq dataset:
+**The data and metadata for an RNAseq dataset:**
 ![The data and metadata for an RNAseq dataset](../fig/Rna1.jpg)
 
 **Finding and Accessing an RNAseq dataset**
