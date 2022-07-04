@@ -180,27 +180,27 @@ By using published ontologies following FAIR principles you can ensure metadata 
 
 > ## Exercise:
 > Look for the licensing options for (arrayexpress)[https://www.ebi.ac.uk/arrayexpress/]
-> 
+> {: .source}
 {. :challenge}
 
 > ## Answer:
 > Go to the bottom of the page, select licensing and it gets you to [here](https://www.ebi.ac.uk/licencing). You will notice that EBI uses CC license. 
 > In our RDMBites about R in FAIR, we explained what are different types of copyright licences. Creative Commons is the most widely used and widely available free licencing model. There are four components to the licence that are arranged to give six licence options.
 > For more detailed explanation, check (this link)[https://pitt.libguides.com/copyright/licenses]
-> 
+> {: .source}
 {. :solution}
 
 
 > ## Exercise:
 > What provenance can you find on this page?  i.e. information on where data came from.
-> 
+> {: .source}
 {: .challenge}
 
 > ## Answer:
 > There are a couple of examples worth mentioning. Submitters name and option to submit ORCID ID, and protocols  describing the data and how it was produces. You 
 > will also notice the name of university where the data where produced. 
 > ![](../fig/prov.png)
-> 
+> {: .source}
 {. :solution}
 
 #### Downloading raw data for reuse
