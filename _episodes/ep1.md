@@ -111,8 +111,6 @@ I is related to technical interoperability. To understand more what this means, 
 > 
 {: .discussion}
 
-
-
 ### R in FAIR
 R indicates reusability and it is the last principle of FAIR. 
 
@@ -152,8 +150,7 @@ When you apply FAIR to your data, you can apply one or more of the principles. F
 > 
 {: .callout}
 
-
-# Benefits of FAIRness
+### Benefits of FAIRness
 **Reusability of data assets**
 FAIRification of your data allows short- and long-term use of these data. Furthermore, the availability of these data allowed the implementation and testing of different predictive models. 
 **Cost savings**
@@ -203,7 +200,7 @@ However, the research community strives to make the data as open as possible to 
 
 ## Where does FAIR come from?
 
-> **Objectives**
+> ## Objectives
 > - To learn about the past of FAIR 
 > - The role of metadata in FAIRification process
 > {. :callout}
@@ -216,13 +213,13 @@ However, the research community strives to make the data as open as possible to 
 
 ### What data can be FAIRyfied?
 Most data can be FAIRyfied. The ultimate goal of FAIR principles is that humans as well as machines can share and find other’s data by way of safe and quick access, interoperability and reuse. Any data from tools, workflows or algorithms that lead from input, output and objects can be FAIRyfied.
-> Example
+> # Example
 > Metadata is essential in the process of FAIRification because it is the key in finding, managing and reusing the rest of the document or project. 
 > {: .callout}
 
 Metadata will describe the lead researcher and confirm why, when and where the data was collected hence how the study should be referenced and cited. Because the guiding principles of FAIR are based on the use of machine-actionable metadata for finding, accessing, interoperating, combining and reusing data with little or no human effort, the metadata should have a detailed level of FAIRness to allow easy interpretation and association with other research data. Also, depending on specific areas of research, the researchers must keep in mind preparing the data in parallel with future FAIRification. This is because digital technologies and related supporting services for sharing and managing data to include collection software and data repositories are progressing fast. Hence attention must be paid to digital science techniques and methods in individual lines of research to assure key information is captured and ready before FAIRification.
 
-> **Further reading**
+> # Further reading
 > For more info about origins of FAIR see this link: https://zenodo.org/record/1285272#.Yp9oQHbMKUk
 > For further information about selecting your data, services and repositories for FAIRification see this link: [https://zenodo.org/record/6345114#.YqDAsXbMKUk]
 > {: .callout}
