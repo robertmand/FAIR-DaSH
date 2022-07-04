@@ -29,8 +29,8 @@ By submitting your data, it is then openly archived, searchable and annotated wi
 #### **The data and metadata for an RNAseq dataset:**
 ![The data and metadata for an RNAseq dataset](../fig/Rna1.jpg)
 
-This is a practical lesson where you will see how the following RNAseq is FAIRified [RNAseq](https://www.ebi.ac.uk/biostudies/ArrayExpress/studies/E-MTAB-8316)
-We will start by identifying the main points followed by exercise to show you how these principles are applied to the data
+This is a hands-on course in which you will see how the RNAseq below is FAIRified RNAseq. We will begin by identifying the key elements, followed by an experiment to demonstrate how these principles are applied to data. We will use this dataset [E-MTAB-8316](https://www.ebi.ac.uk/biostudies/ArrayExpress/studies/E-MTAB-8316)
+
 
 **Finding and Accessing an RNAseq dataset**
 These principles must be followed in order for your data to be findable and accessible:
