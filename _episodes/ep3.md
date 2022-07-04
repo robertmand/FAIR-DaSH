@@ -14,9 +14,9 @@ keypoints:
 [RNA sequencing](https://en.wikipedia.org/wiki/RNA-Seq) is chosen here as an example of how to FAIRify data for a popular assay in the Life Sciences. RNAseq data can be shared and curated in designated public repositories using established ontologies for describing protocols and biological material.
 
 > ## FAIRification of RNAseq data can be best achieved through submitting your data to one of the 2 international repositories. 
-> ArrayExpress: [how to submit your data](https://www.youtube.com/watch?v=ANr2PTVy7JA)
+> 1- ArrayExpress: [how to submit your data](https://www.youtube.com/watch?v=ANr2PTVy7JA)
 > 
-> GEO database: [https://www.ncbi.nlm.nih.gov/gds]
+> 2- GEO database: [https://www.ncbi.nlm.nih.gov/gds]
 {: .callout}
 
 By submitting your data, it is then openly archived, searchable and annotated with rich metadata.  Note, both repositories belong to the FAIRsharing database registry which can help you find public repositories for all types of Life Science data.
