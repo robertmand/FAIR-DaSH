@@ -138,7 +138,7 @@ It included one main category that describes the importance of the use of well-d
 It is a process of applying FAIR to your data. Your data will be Findable, Accessible, Interoperable, and Reusable.
 
 Each community has its rules for FAIRification of data, here is a summary of the process provided by [GO-FAIR](https://www.go-fair.org/fair-principles/fairification-process/)
-![[FAIRification of data](https://www.go-fair.org/fair-principles/fairification-process/)](../fig/ep1fair.png)
+![[FAIRification of data](../fig/ep1fair.png)
 ## What is FAIRness of data
 When you apply FAIR to your data, you can apply one or more of the principles. FAIRness describes how much your data fulfilled FAIR principles. Usually, you can use one of the assessment tools that will help you know and guide you on how to make your data more FAIR. This will be discussed later in detail.
 
@@ -203,7 +203,7 @@ ___
 > ## Objectives
 > - To learn about the past of FAIR 
 > - The role of metadata in FAIRification process
-> {. :callout}
+{. :callout}
 
 ### The history of FAIR
 - The first paper discussing related context dates only to 2007 (see link 10.5281/ZENODO.1285272). G20 Hangzhou summit in 2016 next approved applying of FAIR principles in research. 
@@ -215,14 +215,14 @@ ___
 Most data can be FAIRyfied. The ultimate goal of FAIR principles is that humans as well as machines can share and find other’s data by way of safe and quick access, interoperability and reuse. Any data from tools, workflows or algorithms that lead from input, output and objects can be FAIRyfied.
 > # Example
 > Metadata is essential in the process of FAIRification because it is the key in finding, managing and reusing the rest of the document or project. 
-> {: .callout}
+{: .callout}
 
 Metadata will describe the lead researcher and confirm why, when and where the data was collected hence how the study should be referenced and cited. Because the guiding principles of FAIR are based on the use of machine-actionable metadata for finding, accessing, interoperating, combining and reusing data with little or no human effort, the metadata should have a detailed level of FAIRness to allow easy interpretation and association with other research data. Also, depending on specific areas of research, the researchers must keep in mind preparing the data in parallel with future FAIRification. This is because digital technologies and related supporting services for sharing and managing data to include collection software and data repositories are progressing fast. Hence attention must be paid to digital science techniques and methods in individual lines of research to assure key information is captured and ready before FAIRification.
 
 > # Further reading
 > For more info about origins of FAIR see this link: https://zenodo.org/record/1285272#.Yp9oQHbMKUk
 > For further information about selecting your data, services and repositories for FAIRification see this link: [https://zenodo.org/record/6345114#.YqDAsXbMKUk]
-> {: .callout}
+{: .callout}
 ___
 
 
