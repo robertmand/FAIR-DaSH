@@ -136,8 +136,10 @@ It included one main category that describes the importance of the use of well-d
 
 ## What is FAIRification of data?
 It is a process of applying FAIR to your data. Your data will be Findable, Accessible, Interoperable, and Reusable.
-This will be discussed later in detail
-## What is FAIRness of data?
+
+Each community has its rules for FAIRification of data, here is a summary of the process provided by [GO-FAIR](https://www.go-fair.org/fair-principles/fairification-process/)
+![[FAIRification of data] (https://www.go-fair.org/fair-principles/fairification-process/)](../fig/ep1fair.png)
+## What is FAIRness of data
 When you apply FAIR to your data, you can apply one or more of the principles. FAIRness describes how much your data fulfilled FAIR principles. Usually, you can use one of the assessment tools that will help you know and guide you on how to make your data more FAIR. This will be discussed later in detail.
 
 > ## For further reading

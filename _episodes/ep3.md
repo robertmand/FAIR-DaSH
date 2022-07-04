@@ -11,16 +11,16 @@ keypoints:
 ---
 # FAIRification of a RNAseq dataset
 
-[RNAseq] (https://en.wikipedia.org/wiki/RNA-Seq) (RNA sequencing) is chosen here as an example of how to FAIRify data for a popular assay in the Life Sciences. RNAseq data can be shared and curated in designated public repositories using established ontologies for describing protocols and biological material.
+[RNA sequencing](https://en.wikipedia.org/wiki/RNA-Seq) is chosen here as an example of how to FAIRify data for a popular assay in the Life Sciences. RNAseq data can be shared and curated in designated public repositories using established ontologies for describing protocols and biological material.
 
 > ## FAIRification of RNAseq data can be best achieved through submitting your data to one of the 2 international repositories. 
-> ArrayExpress: how to submit your data [https://www.youtube.com/watch?v=ANr2PTVy7JA]
+> ArrayExpress: [how to submit your data](https://www.youtube.com/watch?v=ANr2PTVy7JA)
 > GEO database: [https://www.ncbi.nlm.nih.gov/gds]
 > 
 {: .callout}
 
 By submitting your data, it is then openly archived, searchable and annotated with rich metadata.  Note, both repositories belong to the FAIRsharing database registry which can help you find public repositories for all types of Life Science data.
-**This lesson will take you through a publicly available RNAseq dataset in ArrayExpress and show you how it meets FAIR principles using the GOFAIR checklist.**
+**This lesson will take you through a publicly available RNAseq dataset in ArrayExpress and show you how it meets FAIR principles using the [GO-FAIR checklist](https://www.go-fair.org) **
 
 ## The data and metadata for an RNAseq dataset:
 ![The data and metadata for an RNAseq dataset](../fig/Rna1.jpg)
@@ -184,7 +184,7 @@ Which of the FAIR principals have we missed?
 
 GEO examples?
 
----------------------------------------------------------------------------------------------------------------------------------------
+___
 # Worked example three: making a piece of training material FAIR
 
 **Overview**
@@ -287,5 +287,7 @@ https://docs.google.com/presentation/d/1th8aTNPq7ZCDGNGog10iCaVRE24rX9ZZRSz5ccTt
 > https://zenodo.org/record/5820221#.YqBtgnbMKUl
 > 
 > {: .keypoints}
-___________________________________________________________________
+
+___
+## Making a “obscure” dataset FAIR (i.e. one without a metadata standard or public repository)
 
