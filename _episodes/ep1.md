@@ -138,7 +138,7 @@ It included one main category that describes the importance of the use of well-d
 It is a process of applying FAIR to your data. Your data will be Findable, Accessible, Interoperable, and Reusable.
 
 Each community has its rules for FAIRification of data, here is a summary of the process provided by [GO-FAIR](https://www.go-fair.org/fair-principles/fairification-process/)
-![[FAIRification of data] (https://www.go-fair.org/fair-principles/fairification-process/)](../fig/ep1fair.png)
+![[FAIRification of data](https://www.go-fair.org/fair-principles/fairification-process/)](../fig/ep1fair.png)
 ## What is FAIRness of data
 When you apply FAIR to your data, you can apply one or more of the principles. FAIRness describes how much your data fulfilled FAIR principles. Usually, you can use one of the assessment tools that will help you know and guide you on how to make your data more FAIR. This will be discussed later in detail.
 
@@ -150,7 +150,7 @@ When you apply FAIR to your data, you can apply one or more of the principles. F
 > 
 {: .callout}
 ___
-### Benefits of FAIRness
+## Benefits of FAIRness
 **Reusability of data assets**
 FAIRification of your data allows short- and long-term use of these data. Furthermore, the availability of these data allowed the implementation and testing of different predictive models. 
 **Cost savings**
@@ -182,9 +182,9 @@ Based on a report by the EU, not complying with FAIR principles have a detriment
 > - The Open Data Handbook defined open data as:
 > <br>“Open data is data that can be freely used, reused and redistributed by anyone – subject only, at most, to the requirement to attribute and sharealike.”
 > This video explains the concept of open data, open science and FAIR principles
-> <iframe width="420" height="315"
-> src="https://www.youtube.com/watch?v=mVCDkhxxUgg">
-> </iframe>
+> <iframe width="560" height="315" src="https://www.youtube.com/embed/mVCDkhxxUgg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; 
+> clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+> 
 {: .keypoints}
 
 There is a misconception that aligning with FAIR principles means your data has to be open. There are many examples where data can be FAIR but not open like sensitive data and any data subject to intellectual property. These data can still be FAIR and have controlled access. That's why the research community uses the phrase **“open as possible, closed as necessary”**
