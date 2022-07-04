@@ -165,11 +165,11 @@ Attributes.
 
 By using published ontologies following FAIR principles you can ensure metadata are described with appropriately licensed resources. Each database has its own licence, which users must follow while sharing or utilising the data.
 
-> ## Exercise
+> ## Exercise:
 > Look for the licensing options for (arrayexpress)[https://www.ebi.ac.uk/arrayexpress/]
 {. :challenge}
 
-> ## Answer
+> ## Answer:
 > Go to the bottom of the page, select licensing and it gets you to [here](https://www.ebi.ac.uk/licencing). You will notice that EBI uses CC license. 
 > In our RDMBites about R in FAIR, we explained what are different types of copyright licences. Creative Commons is the most widely used and widely available free licencing model. There are four components to the licence that are arranged to give six licence options.
 > For more detailed explanation, check (this link)[https://pitt.libguides.com/copyright/licenses]
