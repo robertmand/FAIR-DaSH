@@ -171,6 +171,7 @@ By using published ontologies following FAIR principles you can ensure metadata 
 
 > ## Exercise:
 > Look for the licensing options for (arrayexpress)[https://www.ebi.ac.uk/arrayexpress/]
+> 
 {. :challenge}
 
 > ## Answer:
@@ -183,12 +184,14 @@ By using published ontologies following FAIR principles you can ensure metadata 
 
 > ## Exercise:
 > What provenance can you find on this page?  i.e. information on where data came from.
+> 
 {: .challenge}
 
 > ## Answer:
 > There are a couple of examples worth mentioning. Submitters name and option to submit ORCID ID, and protocols  describing the data and how it was produces. You 
 > will also notice the name of university where the data where produced. 
 > ![](../fig/prov.png)
+> 
 {. :solution}
 
 #### Downloading raw data for reuse
@@ -209,14 +212,16 @@ Even when raw data is not available, these data nonetheless adhere to FAIR princ
 
 > ## Exercise:
 > Identify how this GEO dataset aligned with FAIR principles? [GSE207314](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE207314)
+> 
 {. :challenge}
 
-> ## Answer
+> ## Answer:
 > - F: the dataset is assigned a unique ID, the data are described with rich metadata, both data and metadata are indexed in public database (GEO database)
 > - A: The dataset is accessible by a standardized communication protocol (https), you can download the data from different links available
 > - I: The dataset made use of ontologies that were shared and understood by multiple researchers. You can also download the data and work on it using SRA tools
 > - R: There is a clear description of data usage licence, for each sample, there is detailed description of protocols used which adhere to community standards. 
 > Each sample has its own unique ID
+> 
 {. :solution}
 
 ___
