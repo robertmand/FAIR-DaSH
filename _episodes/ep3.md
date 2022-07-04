@@ -90,6 +90,7 @@ communications protocol
 {: .solution}
 
 **Reading the metadata**
+This part is related to your meta-data, how they can alighn with FAIR principles
 - (F2) Data are described with rich metadata 
 - (F3) Metadata clearly and explicitly include the identifier of the data they describe
 
@@ -131,7 +132,7 @@ communications protocol
 
 
 #### Metadata and community standards
-
+Also you need to check if your metadata adhere to your community standards
 - (I1) (Meta)data use a formal, accessible, shared, and broadly applicable language for knowledge representation.
 - (I2) (Meta)data use vocabularies that follow FAIR principles.
 - (R1) (Meta)data are richly described with a plurality of accurate and relevant
@@ -161,6 +162,7 @@ Metadata using published ontologies permit interoperability since you can match 
 >
 {: .solution}
 #### Data provenance
+The phrase "data provenance" denotes a record that explains how and why a piece of data (in a database, document, or repository) are produced. Metadata is considered one of these records. To align with FAIR guideline and maintain good practice of data provenance. 
 
 - (R1) (Meta)data are richly described with a plurality of accurate and relevant
 Attributes. 
