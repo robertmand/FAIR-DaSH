@@ -16,12 +16,12 @@ keypoints:
 - Biosciences are useful software tools suitable for tractability of biomedical research.
 - Micropublication platforms can provide findings directly in line with the FAIR principles
 ---
-# How to make data FAIR?
+## How to make data FAIR?
 
 FAIR is a set of principles and not a scientific formula of a standard. Making the data more findable, accessible, interoperable and reusable via the FAIR principles will hence vary between the projects. How to make data FAIR therefore does not prescribe a specific standard as other than the principles there is no established system of platforms and tools to inject FAIRness into human and machine agents. The common key channels leading to visibility of research, knowledge integration and material reuse however are good data management and stewardship. For ten principles for making your training material FAIR please follow this link:
-https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1007854
+[https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1007854]
  
-## Example
+**Example**
 1. Document FAIRification at data-level and project level and write a data management plan.
 2.    Choose your file formats for data saving carefully.  
 3.    Consider three types of metadata for the FAIRification: administrative, descriptive or citation metadata and structural metadata.
@@ -31,11 +31,11 @@ https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1007854
 
 > **Further reading**
 > Wilkinson, M.D. et al. 2016. The FAIR Guiding Principles for scientific data management and stewardship. Scientific Data 3: 160018.
-> Cooper, H. 2018. What is this about Research Data? https://www.howtofair.dk/how-to-fair/documentation/
+> Cooper, H. 2018. What is this about Research Data? [https://www.howtofair.dk/how-to-fair/documentation/]
 > 
 > { .:callout} 
 
-# Checklist for making FAIR
+## Checklist for making FAIR
 How FAIR are your data? Checklist CC-BY by Sarah Jones & Marjan Grootveld EUDAT
 
 **Findable** 
@@ -67,9 +67,9 @@ How FAIR are your data? Checklist CC-BY by Sarah Jones & Marjan Grootveld EUDAT
 - There are several ongoing tool efforts covering the process of making data FAIR to include data management planning, production, evaluation and reusing of data. Some contribute to the development and design of FAIR platforms and infrastructures and some focus on specific FAIR elements. 
 
 > **For a selection of current tools designed to make your data FAIR please see the links below**
-> https://www.f-uji.net/
-> https://www.fairsfair.eu/fair-aware
-> https://www.fairsfair.eu/fairsfair-data-object-assessment-metrics-request-comments
+> [https://www.f-uji.net/]
+> [https://www.fairsfair.eu/fair-aware]
+> [https://www.fairsfair.eu/fairsfair-data-object-assessment-metrics-request-comments]
 > {.: callout}
 
 > **Test your knowledge**
@@ -78,24 +78,25 @@ How FAIR are your data? Checklist CC-BY by Sarah Jones & Marjan Grootveld EUDAT
 > Name software tools used for data FAIRification in your field
 > {.: challenge}
 
-# FAIR Micropublications
+## FAIR Micropublications
 
 Micropublication can refer to a number of terms. Invented by Eugene Power in 1990s, Microforms are reproduction of documents designed to be transmitted and stored.  One expression of micropublication is a book publishing under the expected revenue target. It also can mean a distribution technique aimed at particular micro market. Micropublishing in digital industry refers to publishing a short pieces of work such as reviews, articles on public websites. The purpose is sharing the content via digital content distribution such as email, search engines or social media.    
+
 Before Internet, micropublishing did not have an important role in publishing due to high copying cost of relatively small pieces of work. Digital versions and e-readers such as Amazon or Apple changed this by giving better access to a number of co-authors and new authors debuting in the publishing industry.  
-## Examples of micropublication models in Biosciences
+### Examples of micropublication models in Biosciences
 The smallest form of micropublication is only a statement with acknowledgments. One example is a nanopublication see link [http://npmonitor.inn.ac] with the main aim of being computable. Nanopublications however are not human readable or easily interpretable without programming. The biggest type is a statement that comes with the significance, research questions, results and discussion. They can be a stand off metadata or included in publications and serialised. Please see the following link for an OWL 2 vocabulary for micropublications [http://purl.org/mp]. In Biosciences they are important as simpler, statement-based works compatible with larger studies but being useful software tools they are also suitable in tractability of biomedical research.
 [https://www.youtube.com/watch?v=OhqM0NSF_sY] 
 
-## FAIRification and Micropublications
+### FAIRification and Micropublications
 The use of micropublications in biomedical field is growing but still in the early stages. PLOS for instance [http://currents.plos.org] intends at dissemination of results by ways of shorter articles. Micropublications can be useful when the researchers do not FAIRify their data, hence do not share and deposit the findings in a way that other researcher can benefit from their results. Here Micropublications as a communication platform can capture and deliver data to information resource. It acts as a platform where researchers can publish their unpublished observations that is linked with metadata that is nevertheless peer-reviewed and suitable for citation.
 The lack of sharing and poor findability stems from several reasons, rigorous and lengthy science journals, funding limitations or negative results. The hidden data can be shared therefore through Micropublication platform designed to enable researchers to directly submit their findings and publish as micropublication in line with FAIR principles of being findable, accessible, interoperable and reproducible. 
 
 > **Further reading**
-> file:///C:/Users/bfranic2/Downloads/Micropublication_incentivizing_community_curation_.pdf).
-> file:///C:/Users/bfranic2/Downloads/Micropublication_incentivizing_community_curation_.pdf
-> https://jbiomedsem.biomedcentral.com/articles/10.1186/2041-1480-5-28
-> https://jbiomedsem.biomedcentral.com/articles/10.1186/2041-1480-5-28#Abs1
-> https://www.youtube.com/watch?v=vidE8BIgrSM
+> [file:///C:/Users/bfranic2/Downloads/Micropublication_incentivizing_community_curation_.pdf)]
+> [file:///C:/Users/bfranic2/Downloads/Micropublication_incentivizing_community_curation_.pdf]
+> [https://jbiomedsem.biomedcentral.com/articles/10.1186/2041-1480-5-28]
+> [https://jbiomedsem.biomedcentral.com/articles/10.1186/2041-1480-5-28#Abs1]
+> [https://www.youtube.com/watch?v=vidE8BIgrSM]
 > { .:callout}
 
 
