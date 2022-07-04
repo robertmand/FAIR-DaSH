@@ -56,24 +56,25 @@ communications protocol
 > [https://www.ebi.ac.uk/biostudies/ArrayExpress/studies/E-MTAB-8316]
 {: .challenge}
 
-> Answer:
-> You should see the following, nothing you have now accessed the RNAseq data using a weblink employing https.  Https is a standardised communications protocol that is open, free and universally implementable (A1 & A1.1)
+> ## Answer:
+> You should see the following, nothing you have now accessed the RNAseq data using a weblink employing https.  Https is a standardised communications protocol that 
+> is open, free and universally implementable (A1 & A1.1)
 {: .solution}
 
 
 > ## Watch this video for more information
-> https://www.youtube.com/watch?v=w0QbnxKRD0w
+> [https://www.youtube.com/watch?v=w0QbnxKRD0w]
 {: .discussion}
 
 > ## Exercise
 > Alternatively, use the search menu in ArrayExpress to find the same dataset
 {: .challenge}
 
-> ## Answer
+> ## Answer:
 > Use the following link to (access ArrayExpress)[https://www.ebi.ac.uk/biostudies/arrayexpress/studies/] and then use E-MTAB-8316 the search bar to access the 
 > data.  Here data access is gained through searching a dataset 
 > that is indexed in a searchable resource **(F4)**.  
-> ![](../fig/rnaseq3.png)
+![](../fig/rnaseq3.png)
 {: .solution}
 
 
@@ -99,9 +100,12 @@ communications protocol
 {: .challenge}
 
 > ## Answer:
-> It’s the first thing in the record.  All metadata (descriptions about the data) and the actual raw data files are linked from this page.  Here metadata clearly and > explicitly include the identifier of the data they describe **(F3)**.  
-![](../fig/rnaseq5.png)
-> Here data are described with rich metadata (F2).  This allows a person to reuse data appropriately by reducing ambiguity relating to what the data mean or how they are derived.  Additionally, rich metadata permits a person to search for dataset of interest, for example other RNAseq dataset featuring “macrophage rheumatoid arthritis”.
+> It’s the first thing in the record.  All metadata (descriptions about the data) and the actual raw data files are linked from this page.  Here metadata clearly and 
+> explicitly include the identifier of the data they describe **(F3)**.  
+> ![](../fig/rnaseq5.png)
+> Here data are described with rich metadata (F2).  This allows a person to reuse data appropriately by reducing ambiguity relating to what the data mean or how 
+> they are derived.  Additionally, rich metadata permits a person to search for dataset of interest, for example other RNAseq dataset featuring “macrophage 
+> rheumatoid arthritis”.
 > Metadata is added by the person submitting the data and is further checked by a curator at the ArrayExpress database.  Metadata curation is performed via a web-based submission interface, which aids rich curation through linking to ontologies represented as webpage pulldowns. 
 {: .solution}
 
@@ -118,7 +122,9 @@ communications protocol
 
 > ## Exercise
 > What data provenance can you find? i.e. what processes have been performed to create the data linked from this page?
-> Answer:
+{: .challenge}
+
+> ## Answer:
 > The final 2 protocols detail all data transformations for the raw and transformed data.
 > ![](../fig/rnaseq7.png)
 {: .solution}
@@ -148,14 +154,12 @@ Metadata using published ontologies permit interoperability since you can match 
 >## Answer
 > OK …. There are many.  There are more metadata annotations than there are free texts. There are obvious ontologies under Source Characteristics such as “Developmental stage”, Disease, Organism part, cell type... etc. These ontologies requested upon submission and depends on the type of your data and database. 
 > ![](../fig/rnaseq8.png)
-> 
-> 
 > There are also others that are not so obvious.  Under “Protocols”, a protocol ontology is used under the column” type” as well as a hardware ontology under 
 > “Hardware”.  By selecting the blue > node-and-edge icon next to the protocol type, you are taken to the 
 > (Expertimental factor ontology)[https://www.ebi.ac.uk/ols/ontologies/efo] at the EBI.
 > ![](../fig/rnaseq9.png)
 >
-> {: .solution}
+{: .solution}
 #### Data provenance
 
 - (R1) (Meta)data are richly described with a plurality of accurate and relevant
@@ -199,7 +203,6 @@ By using published ontologies following FAIR principles you can ensure metadata 
 These FAIR principles allow you and others to reuse raw data deposited in public database and do different types of secondary analysis.
 
 For instance, in this dataset, Metadata can be downloaded from the MAGETAB link. Data can be downloaded from the ENA **(I3)**. The data and metadata are accurately described **(R)**. There is accession number at the top of the page that any person can use to easily retrieve the data **(A1)**
-
 ![](../fig/rrnaseq.png)
 
 Even when raw data is not available, these data nonetheless adhere to FAIR principles, specifically **A2** metadata is accessible, even when the data is no longer available.
@@ -212,7 +215,8 @@ Even when raw data is not available, these data nonetheless adhere to FAIR princ
 > - F: the dataset is assigned a unique ID, the data are described with rich metadata, both data and metadata are indexed in public database (GEO database)
 > - A: The dataset is accessible by a standardized communication protocol (https), you can download the data from different links available
 > - I: The dataset made use of ontologies that were shared and understood by multiple researchers. You can also download the data and work on it using SRA tools
-> - R: There is a clear description of data usage licence, for each sample, there is detailed description of protocols used which adhere to community standards. Each sample has its own unique ID
+> - R: There is a clear description of data usage licence, for each sample, there is detailed description of protocols used which adhere to community standards. 
+> Each sample has its own unique ID
 {. :solution}
 
 ___
@@ -252,9 +256,8 @@ Think about what unique identifiers will help others citing your work and give y
 4. Register online    
 Think about a suitable training material repository where you can aggregate your data to be available to others. 
 
->  ## Example:
->  For instance Elixir Tess or YouTube.
-> 
+> ## Example:
+>  For instance Elixir Tess or YouTube. 
 {: .challenge} 
 
 5. Define the access rules
