@@ -33,7 +33,7 @@ FAIR is a set of principles and not a scientific formula of a standard. Making t
 > Cooper, H. 2018. What is this about Research Data? [https://www.howtofair.dk/how-to-fair/documentation/]
 > 
 > {: .callout} 
-
+___
 ## Checklist for making FAIR
 How FAIR are your data? Checklist CC-BY by Sarah Jones & Marjan Grootveld EUDAT
 
@@ -64,7 +64,7 @@ How FAIR are your data? Checklist CC-BY by Sarah Jones & Marjan Grootveld EUDAT
 - The data have clear and accessible data usage licence 
 - It is clear why, how and by whom the data have been created and processed
 - The data and metadata meet relevant domain standards
- 
+
 ## Tools for making data FAIR
 - There are several ongoing tool efforts covering the process of making data FAIR to include data management planning, production, evaluation and reusing of data. Some contribute to the development and design of FAIR platforms and infrastructures and some focus on specific FAIR elements. 
 
@@ -79,7 +79,7 @@ How FAIR are your data? Checklist CC-BY by Sarah Jones & Marjan Grootveld EUDAT
 > Using the checklist, FAIRify your data
 > Name software tools used for data FAIRification in your field
 > {: .challenge}
-
+___
 **FAIR Micropublications**
 
 Micropublication can refer to a number of terms. Invented by Eugene Power in 1990s, Microforms are reproduction of documents designed to be transmitted and stored.  One expression of micropublication is a book publishing under the expected revenue target. It also can mean a distribution technique aimed at particular micro market. Micropublishing in digital industry refers to publishing a short pieces of work such as reviews, articles on public websites. The purpose is sharing the content via digital content distribution such as email, search engines or social media.    
