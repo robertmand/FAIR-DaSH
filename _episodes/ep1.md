@@ -39,7 +39,8 @@ To apply FAIR to your data, each principle has set of specific requirements that
 F is the first letter of FAIR, it indiactes findability. To make your data findable, the data should fulfil 4 principles. In this RDMBites, we will explain what are these principles
 
 > ## Watch this RDMBites to know what are these Fs 
-> [https://docs.google.com/presentation/d/1RwEVZC390wtxPQM-zQsBDT7IbNVq0wpZ/edit#slide=id.p2]
+> The powerpoint will be converted to video, please add your comments directly in the powerpint. Your name will be added as a reviewer
+> (https://docs.google.com/presentation/d/1RwEVZC390wtxPQM-zQsBDT7IbNVq0wpZ/edit#slide=id.p2)
 > 
 {: .callout}
 
@@ -66,7 +67,8 @@ A stands for accessibility to the data, this principle allows machine and human 
 **To make your data comply with A, you need to apply two main principles**
 
 > ## Watch this RDMBites to know what are these principles
-> [https://docs.google.com/presentation/d/1Ac0qF1IKIVH2kjGmXFbyH0WAqI2vXqUB/edit#slide=id.p1]
+>  The powerpoint will be converted to video, please add your comments directly in the powerpint. Your name will be added as a reviewer
+> (https://docs.google.com/presentation/d/1Ac0qF1IKIVH2kjGmXFbyH0WAqI2vXqUB/edit#slide=id.p1)
 > 
 {: .callout}
 
@@ -91,7 +93,8 @@ A stands for accessibility to the data, this principle allows machine and human 
 I is related to technical interoperability. To understand more what this means, watch our RDMBites on I in FAIR
 
 > ## Watch this video to know what is I in FAIR through different examples
-> [https://docs.google.com/presentation/d/15jRnCLWnjk-3klwRJBc5cQomfqu8BRdv/edit#slide=id.p2]
+>  The powerpoint will be converted to video, please add your comments directly in the powerpint. Your name will be added as a reviewer
+> (https://docs.google.com/presentation/d/15jRnCLWnjk-3klwRJBc5cQomfqu8BRdv/edit#slide=id.p2)
 > 
 {: .callout}
 
@@ -118,7 +121,8 @@ It included one main category that describes the importance of the use of well-d
 - R1: (Meta)data are richly described with a plurality of accurate and relevant attributes
 
 > ## Watch this video to know what is R in FAIR through different examples
-> [https://docs.google.com/presentation/d/1uMyUGVH6mm48iDm6jNoBnAuqF3sGiTeO/edit?usp=sharing&ouid=115915105600833888129&rtpof=true&sd=true]
+>  The powerpoint will be converted to video, please add your comments directly in the powerpint. Your name will be added as a reviewer
+> (https://docs.google.com/presentation/d/1uMyUGVH6mm48iDm6jNoBnAuqF3sGiTeO/edit?usp=sharing&ouid=115915105600833888129&rtpof=true&sd=true)
 > 
 > {: .callout}
 
