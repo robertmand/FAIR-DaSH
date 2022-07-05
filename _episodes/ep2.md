@@ -32,7 +32,7 @@ FAIR is a set of principles and not a scientific formula of a standard. Making t
 > Wilkinson, M.D. et al. 2016. The FAIR Guiding Principles for scientific data management and stewardship. Scientific Data 3: 160018.
 > Cooper, H. 2018. What is this about Research Data? [https://www.howtofair.dk/how-to-fair/documentation/]
 > 
-> {: .callout} 
+{: .callout} 
 ___
 ## Checklist for making FAIR
 How FAIR are your data? Checklist CC-BY by Sarah Jones & Marjan Grootveld EUDAT
@@ -72,13 +72,13 @@ How FAIR are your data? Checklist CC-BY by Sarah Jones & Marjan Grootveld EUDAT
 > [https://www.f-uji.net/]
 > [https://www.fairsfair.eu/fair-aware]
 > [https://www.fairsfair.eu/fairsfair-data-object-assessment-metrics-request-comments]
-> {: .callout}
+{: .callout}
 
 > ## Test your knowledge
 > Describe data FAIRification in your own words
 > Using the checklist, FAIRify your data
 > Name software tools used for data FAIRification in your field
-> {: .challenge}
+{: .challenge}
 ___
 **FAIR Micropublications**
 
@@ -99,7 +99,7 @@ The lack of sharing and poor findability stems from several reasons, rigorous an
 > [https://jbiomedsem.biomedcentral.com/articles/10.1186/2041-1480-5-28]
 > [https://jbiomedsem.biomedcentral.com/articles/10.1186/2041-1480-5-28#Abs1]
 > [https://www.youtube.com/watch?v=vidE8BIgrSM]
-> {: .callout}
+{: .callout}
 
 
 
