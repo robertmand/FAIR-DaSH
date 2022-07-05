@@ -3,157 +3,77 @@ title: What is FAIR?
 teaching: 40
 exercise: 20
 questions:
-- Explaining the acronym (the F .. the A .. the I .. the R ..)
+- What is FAIR?
+- What is meant by FAIRness and FAIRification of data?
 - Where does FAIR come from?
 - What is FAIRification/Fairness of data?
 objectives:
-- Illustrate the main concept of FAIR
+- Illustrate FAIR background and main concepts
 keypoints:
-- What is FAIR?
-- What is the difference between FAIRness and FAIRification of data?
+- So what is FAIR?
+- What is meant by FAIRness and FAIRification of data?
 - FAIR principles were gradually formed by different sources
 - Most data can be FAIRified 
 - Metadata is key component in the process of FAIRification
 ---
-@Sara Morsy
-With the current expansion of biomedical research data, there was an urgent need to develop guidelines to ensure proper data management. That's why FAIR principles were published to help researchers properly share, reuse, and manage their data. 
-Also bear in mind that FAIR principles are not only applied to data but also to software, and workflows. They are easily adapted to different data types and more resources are now available on how to apply FAIR principles to different types of data, algorithms, tools, workflows, and software. 
-In this lesson, we will explain FAIR principles and how FAIR principles will help you properly manage your data.
 
-## What is FAIR??
+The FAIR principles were created to help researchers share, reuse, and manage their data.  A common layperson's interpretation of FAIR data is a dataset that can be:
+> - discovered and downloaded by others; and
+> - interpreted correctly through the provision of detailed descriptions about the data.
 
-> ## These principles were published in 
-> Wilkinson, M., Dumontier, M., Aalbersberg, I. et al. The FAIR Guiding Principles for scientific data management and stewardship. Sci Data 3, 160018 (2016). 
-> The FAIR publication of 2016 makes reference to the FAIR principles which are:
-> - F stands for Findable 
-> - A stands for Accessible 
-> - I stands for Interoperable 
-> - R stands for Reusable 
->
+Descriptions of data (metadata) enables appropriate reuse.  This is similar to other aspects of published research, such as figures in papers, where titles and notes are given as well as descriptions of axes where data are plotted.  The provision of metadata is key to FAIR.
+
+Note that FAIR is not limited to the Life Sciences and spans across all research disciplines.  Additionally, applying FAIR principles is not limited to data, but can be applied to the sharing and reuse of software and data workflow. 
+
+## So, what is FAIR?
+
+FAIR is an acronym summarising the 4 priniciples of data being: 
+> - **F**indable
+> - **A**ccessible
+> - **I**nteroperable
+> - **R**esuable
+
+and is described in the Nature 2016 publication:
+
+Wilkinson, M., Dumontier, M., Aalbersberg, I. et al. The FAIR Guiding Principles for scientific data management and stewardship. Sci Data 3, 160018 (2016). https://doi.org/10.1038/sdata.2016.18
+
+<mark>NEEDS NEW DIAGRAM BELOW</mark>
+
 ![FAIR principles https://www.scibite.com/solutions/enterprise-fair-data-mdm/](../fig/FAIR.png)
 https://www.scibite.com/solutions/enterprise-fair-data-mdm/
 {: .callout}
 
-To apply FAIR to your data, each principle has set of specific requirements that guide researchers through the process of FAIRification of their data to make their data Findable, Accessible, Interoperable, Reusable.
-### F in FAIR 
-F is the first letter of FAIR, it indiactes findability. To make your data findable, the data should fulfil 4 principles. In this RDMBites, we will explain what are these principles
+To apply FAIR to your data (and metadata), each principle has a subset of specific requirements that can be used as a checklist.  Note, we put these into context later in this course when we take real datasets through FAIRification.  This checklist and further level of granularity is given in the 2016 publication as:
 
-> ## Watch this RDMBites to know what are these Fs 
-> The powerpoint will be converted to video, please add your comments directly in the powerpint. Your name will be added as a reviewer
+<mark>INSERT BOX2 of the publicatoin here from top of page 4</mark>
+
+> ## For further details on the FAIR Guiding Principles, please see our RDMbites series
 > (https://docs.google.com/presentation/d/1RwEVZC390wtxPQM-zQsBDT7IbNVq0wpZ/edit#slide=id.p2)
+> (https://docs.google.com/presentation/d/1RwEVZC390wtxPQM-zQsBDT7IbNVq0wpZ/edit#slide=id.p2](https://docs.google.com/presentation/d/1Ac0qF1IKIVH2kjGmXFbyH0WAqI2vXqUB/edit#slide=id.p1))
+> > [RDMBites](https://docs.google.com/presentation/d/1uMyUGVH6mm48iDm6jNoBnAuqF3sGiTeO/edit?usp=sharing&ouid=115915105600833888129&rtpof=true&sd=true)
 > 
 {: .callout}
 
-> ## To recap
-> To make your data **Findable**
-> - F1: Metadata and data are assigned globally unique and persistent identifiers**
-> - F2: Data are described with rich metadata
-> - F3: Metadata clearly and explicitly include the identifier of the data they describe 
-> - F4: Metadata and data are registered or indexed in a searchable resource
-{: .keypoints}
 
-> ## Exercise
-> After watching this videos, answer the following questions:
-> - How many of these principles have you applied to your data?
-> - What is metadata?
-> - What are persistant identifiers?
-> **Keep this in mind, we will need this for our next section on FAIRness of data**
-> 
-{: .discussion}
+## What is meant by FAIRness and FAIRification of data?
 
-### A in FAIR
-A stands for accessibility to the data, this principle allows machine and human readability of your data. However, your data is still secure. As mentioned in Landi et al. **The “A” of FAIR – As Open as Possible, as Closed as Necessary** 
+FAIRfication is the process of making your data FAIR.  Since giving a unique identifier to your data is part of the first **Findability** principle, by doing so you are performing part of the FAIRification process.
 
-**To make your data comply with A, you need to apply two main principles**
+FAIRness refers to the extent to which your data follows FAIR principles.  One way to achive this is by using a FAIR checklist, and measuring the extent of FAIRness through simply counting the number principles applied.
 
-> ## Watch this RDMBites to know what are these principles
->  The powerpoint will be converted to video, please add your comments directly in the powerpint. Your name will be added as a reviewer 
->  [RDMBites](https://docs.google.com/presentation/d/1Ac0qF1IKIVH2kjGmXFbyH0WAqI2vXqUB/edit#slide=id.p1)
-> 
-{: .callout}
 
-> ## To recap
-> To make your data **Accessible**
->- A1: (Meta)data are retrievable by their identifier using a standardized communication protocol
->- A1.1: The protocol is open, free, and universally implementable
->- A1.2: The protocol allows for an authentication and authorization where necessary
->- A2: Metadata should be accessible even when the data is no longer available
->
-{: .keypoints}
-
-> ## Exercise
-> After watching this videos, answer the following questions:
-> - How many of these principles have you applied to your data?
-> - What is protocol? Can you give an example?
-> **Keep this in mind, we will need this for our next section on FAIRness of data**
-> 
-{: .discussion}
-
-### I in FAIR
-I is related to technical interoperability. To understand more what this means, watch our RDMBites on I in FAIR
-
-> ## Watch this video to know what is I in FAIR through different examples
->  The powerpoint will be converted to video, please add your comments directly in the powerpint. Your name will be added as a reviewer
-> [RDMBites](https://docs.google.com/presentation/d/15jRnCLWnjk-3klwRJBc5cQomfqu8BRdv/edit#slide=id.p2)
-> 
-{: .callout}
-
-> ## To recap
-> To make your data **Interoperable**
->-	I1: (Meta)data use a formal, accessible, shared, and broadly applicable language for knowledge representation
->-	I2: (Meta)data use vocabularies that follow the FAIR principles
->-	I3: (Meta)data include qualified references to other (meta)data
->
-{: .keypoints}
-
-> ## Exercise
-> After watching this videos, answer the following questions:
-> - How many of these principles have you applied to your data?
-> - What are vocabularies? Can you give an example?
-> **Keep this in mind, we will need this for our next section on FAIRness of data**
-> 
-{: .discussion}
-
-### R in FAIR
-R indicates reusability and it is the last principle of FAIR. 
-
-It included one main category that describes the importance of the use of well-descriptive metadata
-- R1: (Meta)data are richly described with a plurality of accurate and relevant attributes
-
-> ## Watch this video to know what is R in FAIR through different examples
->  The powerpoint will be converted to video, please add your comments directly in the powerpint. Your name will be added as a reviewer
-> [RDMBites](https://docs.google.com/presentation/d/1uMyUGVH6mm48iDm6jNoBnAuqF3sGiTeO/edit?usp=sharing&ouid=115915105600833888129&rtpof=true&sd=true)
-> 
-> {: .callout}
-
-> ## To recap
-> To make your data **Reusable**
->-	R1: (Meta)data are richly described with a plurality of accurate and relevant attributes
->
-{: .keypoints}
-
-> ## Exercise
-> After watching these videos, how many of these principles have you applied to your data?
-> what are attributes in your field?
->
-{: .discussion}
-
-## What is FAIRification of data?
-It is a process of applying FAIR to your data. Your data will be Findable, Accessible, Interoperable, and Reusable.
-
-Each community has its rules for FAIRification of data, here is a summary of the process provided by [GO-FAIR](https://www.go-fair.org/fair-principles/fairification-process/)
+Data communities often have their own rules and interpretations of FAIRification of data.  As an example, here is a summary of the process provided by [GO-FAIR](https://www.go-fair.org/fair-principles/fairification-process/)
 ![[FAIRification of data](../fig/ep1fair.png)
-## What is FAIRness of data
-When you apply FAIR to your data, you can apply one or more of the principles. FAIRness describes how much your data fulfilled FAIR principles. Usually, you can use one of the assessment tools that will help you know and guide you on how to make your data more FAIR. This will be discussed later in detail.
 
-> ## For further reading
+
+> ## Further reading and resources
 >
-> - https://www.go-fair.org/fair-principles/
-> - https://faircookbook.elixir-europe.org/content/home.html
-> - https://www.nature.com/articles/sdata201618
+> - FAIR guiding principles, FAIRification workflow and examples: https://www.go-fair.org/fair-principles/
+> - FAIRification recipes in FAIRcookbook: https://faircookbook.elixir-europe.org/content/home.html
 > 
 {: .callout}
 ___
+
 ## Benefits of FAIRness
 **Reusability of data assets**
 FAIRification of your data allows short- and long-term use of these data. Furthermore, the availability of these data allowed the implementation and testing of different predictive models. 
@@ -202,7 +122,6 @@ However, the research community strives to make the data as open as possible to 
 > 
 {: .callout}
 ___
-@Branka
 ## Where does FAIR come from?
 ### The history of FAIR
 - The first paper discussing related context dates only to 2007 (see link 10.5281/ZENODO.1285272). G20 Hangzhou summit in 2016 next approved applying of FAIR principles in research. 
