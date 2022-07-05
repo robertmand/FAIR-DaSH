@@ -16,6 +16,8 @@ keypoints:
 - Biosciences are useful software tools suitable for tractability of biomedical research.
 - Micropublication platforms can provide findings directly in line with the FAIR principles
 ---
+
+@Branka
 ## How to make data FAIR?
 
 FAIR is a set of principles and not a scientific formula of a standard. Making the data more findable, accessible, interoperable and reusable via the FAIR principles will hence vary between the projects. How to make data FAIR therefore does not prescribe a specific standard as other than the principles there is no established system of platforms and tools to inject FAIRness into human and machine agents. The common key channels leading to visibility of research, knowledge integration and material reuse however are good data management and stewardship. For ten principles for making your training material FAIR, [please follow this link](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1007854)
