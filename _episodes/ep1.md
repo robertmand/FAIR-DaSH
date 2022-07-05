@@ -20,7 +20,7 @@ With the current expansion of biomedical research data, there was an urgent need
 Also bear in mind that FAIR principles are not only applied to data but also to software, and workflows. They are easily adapted to different data types and more resources are now available on how to apply FAIR principles to different types of data, algorithms, tools, workflows, and software. 
 In this lesson, we will explain FAIR principles and how FAIR principles will help you properly manage your data.
 
-## What is FAIR?
+## What is FAIR??
 
 > ## These principles were published in 
 > Wilkinson, M., Dumontier, M., Aalbersberg, I. et al. The FAIR Guiding Principles for scientific data management and stewardship. Sci Data 3, 160018 (2016). 
