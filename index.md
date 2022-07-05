@@ -11,7 +11,7 @@ This short online course caters for learners working with Life Science data and 
 > - The history of FAIR including publications and active FAIR projects in the Life Sciences.
 > - The differences between FAIR and Open data.
 > - Why FAIR is important, giving examples where by not using FAIR, data has been made unusable by others.
-> - Through examples, demonstrate how the FAIR principles are used to make a dataset FAIR.
+> - How to make data FAIR through worked examples.
 > 
 {: .objectives}
 
