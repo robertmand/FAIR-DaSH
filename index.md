@@ -14,17 +14,13 @@ You will learn
 - Why FAIR is important, giving examples where by not using FAIR, data has been made unusable by others.
 - How to make data FAIR through worked examples.
 
-=======
-Through this lesson, you will learn
-- An extensive overview of the FAIR principles and related terms such as FAIRification and FAIRness. You will also understand the difference between FAIR and Open data.
-- An historical background to the FAIR movement: the publications, current projects (FAIR Cookbook, FAIRsharing), and its application in the Life Sciences.
-- Why FAIR is important, with examples of where not using FAIR has made data unusable by others.
-- How the FAIR principles are used to FAIRify datasets using tools and practical checklists.
-
-
-
 > ## Prerequisites
 > This is an introductory course.  No prior knowledge is required.
 >
 {: .prereq}
 
+> ## For review process
+> If you are not familiar with GitHub, you can directly add your comments to this
+>  [Google doc] (https://docs.google.com/document/d/1twW2NOieV-s4UmIgiMSQaD5DdOrg82sLdR1XpwkupHg/edit?usp=sharing)
+> 
+{: .discussion}
