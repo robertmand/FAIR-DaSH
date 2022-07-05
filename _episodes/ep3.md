@@ -14,6 +14,8 @@ objectives:
 keypoints:
 #after all
 ---
+
+@Robert Andrews @Sara Morsy
 # FAIRification of a RNAseq dataset
 
 [RNA sequencing](https://en.wikipedia.org/wiki/RNA-Seq) is chosen here as an example of how to FAIRify data for a popular assay in the Life Sciences. RNAseq data can be shared and curated in designated public repositories using established ontologies for describing protocols and biological material.
@@ -237,6 +239,8 @@ Even when raw data is not available, these data nonetheless adhere to FAIR princ
 ___
 ## Making a “obscure” dataset FAIR (i.e. one without a metadata standard or public repository)
 ___
+
+@Branka Franicevic
 ## Worked example three: making a piece of training material FAIR
 
 **Overview**
