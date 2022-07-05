@@ -67,8 +67,8 @@ A stands for accessibility to the data, this principle allows machine and human 
 **To make your data comply with A, you need to apply two main principles**
 
 > ## Watch this RDMBites to know what are these principles
->  The powerpoint will be converted to video, please add your comments directly in the powerpint. Your name will be added as a reviewer
-> (https://docs.google.com/presentation/d/1Ac0qF1IKIVH2kjGmXFbyH0WAqI2vXqUB/edit#slide=id.p1)
+>  The powerpoint will be converted to video, please add your comments directly in the powerpint. Your name will be added as a reviewer 
+>  [RDMBites](https://docs.google.com/presentation/d/1Ac0qF1IKIVH2kjGmXFbyH0WAqI2vXqUB/edit#slide=id.p1)
 > 
 {: .callout}
 
@@ -94,7 +94,7 @@ I is related to technical interoperability. To understand more what this means, 
 
 > ## Watch this video to know what is I in FAIR through different examples
 >  The powerpoint will be converted to video, please add your comments directly in the powerpint. Your name will be added as a reviewer
-> (https://docs.google.com/presentation/d/15jRnCLWnjk-3klwRJBc5cQomfqu8BRdv/edit#slide=id.p2)
+> [RDMBites](https://docs.google.com/presentation/d/15jRnCLWnjk-3klwRJBc5cQomfqu8BRdv/edit#slide=id.p2)
 > 
 {: .callout}
 
@@ -122,7 +122,7 @@ It included one main category that describes the importance of the use of well-d
 
 > ## Watch this video to know what is R in FAIR through different examples
 >  The powerpoint will be converted to video, please add your comments directly in the powerpint. Your name will be added as a reviewer
-> (https://docs.google.com/presentation/d/1uMyUGVH6mm48iDm6jNoBnAuqF3sGiTeO/edit?usp=sharing&ouid=115915105600833888129&rtpof=true&sd=true)
+> [RDMBites](https://docs.google.com/presentation/d/1uMyUGVH6mm48iDm6jNoBnAuqF3sGiTeO/edit?usp=sharing&ouid=115915105600833888129&rtpof=true&sd=true)
 > 
 > {: .callout}
 
