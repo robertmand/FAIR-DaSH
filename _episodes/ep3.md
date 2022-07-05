@@ -183,14 +183,14 @@ By using published ontologies following FAIR principles you can ensure metadata 
 > ## Exercise:
 > Look for the licensing options for (arrayexpress)[https://www.ebi.ac.uk/arrayexpress/]
 > {: .source}
-{. :challenge}
+{: .challenge}
 
 > ## Answer:
 > Go to the bottom of the page, select licensing and it gets you to [here](https://www.ebi.ac.uk/licencing). You will notice that EBI uses CC license. 
 > In our RDMBites about R in FAIR, we explained what are different types of copyright licences. Creative Commons is the most widely used and widely available free licencing model. There are four components to the licence that are arranged to give six licence options.
 > For more detailed explanation, check (this link)[https://pitt.libguides.com/copyright/licenses]
 > {: .source}
-{. :solution}
+{: .solution}
 
 
 > ## Exercise:
@@ -203,7 +203,7 @@ By using published ontologies following FAIR principles you can ensure metadata 
 > will also notice the name of university where the data where produced. 
 > ![](../fig/prov.png)
 > {: .source}
-{. :solution}
+{: .solution}
 
 #### Downloading raw data for reuse
 One of the benefits of FAIR, it makes your data reusable which will also allows reproducibility of your research. Thus, these principles in FAIR should be fulfilled. These FAIR principles allow you and others to reuse raw data deposited in public database and do different types of secondary analysis.
