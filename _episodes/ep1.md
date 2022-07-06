@@ -77,7 +77,7 @@ Data communities often have their own rules and interpretations of FAIRification
 > 
 {: .callout}
 ___
-<p style="color:blue">Benefits of FAIRness</p>
+<p style="color:darkblue">Benefits of FAIRness</p>
 
 - **Reusability of data assets**
 FAIRification of your data allows short- and long-term use of these data. Furthermore, the availability of these data allowed the implementation and testing of different predictive models. 
