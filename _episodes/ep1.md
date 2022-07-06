@@ -28,10 +28,10 @@ Note that FAIR is not limited to the Life Sciences and spans across all research
 ## So, what is FAIR?
 
 FAIR is an acronym summarising the 4 priniciples of data being: 
-> - **F**indable
-> - **A**ccessible
-> - **I**nteroperable
-> - **R**esuable
+- **F**indable
+- **A**ccessible
+- **I**nteroperable
+- **R**esuable
 
 
 <mark>I will Draw a figure simular to the one I did before on FAIR and open data (Sara)</mark>
@@ -77,17 +77,17 @@ Data communities often have their own rules and interpretations of FAIRification
 > 
 {: .callout}
 ___
+<p style="color:blue">Benefits of FAIRness</p>
 
-Benefits of FAIRness {font-size: 30px}
-**Reusability of data assets**
+- **Reusability of data assets**
 FAIRification of your data allows short- and long-term use of these data. Furthermore, the availability of these data allowed the implementation and testing of different predictive models. 
-**Cost savings**
+- **Cost savings**
 FAIR data saves not only time but also money spent on finding relevant data. Bear in mind, that it also helps researchers avoid duplicating experiments which will lower the costs and accelerate the research process. 
-**Time efficiency**
+- **Time efficiency**
 FAIRification of your data will allow machine and human readability of your data. A and I of FAIR create a single point of access that saves time for researchers using and accessing your data. Machine readability ensures that research engines can find your data which will increase the visibility of your data. 
 *In addition to the aforementioned benefits, FAIR data allow reproducibility of research results because data are published with metadata and an analysis pipeline.*
 
-Costs of not FAIRifying your data {font-size: 30px}
+<p style="color:blue">Costs of not FAIRifying your data</p>
 Based on a report by the EU, not complying with FAIR principles have a detrimental effect at many levels: Research activities, Collaboration, and innovation. At each step of the data life cycle, there is a cost for not FAIRifying your data. 
 
 > ## To know more about costs of not FAIRifying your data, Watch our RDMBites on costs of not FAIRifying your data
