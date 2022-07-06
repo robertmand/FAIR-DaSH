@@ -33,26 +33,26 @@ FAIR is an acronym summarising the 4 priniciples of data being:
 > - **I**nteroperable
 > - **R**esuable
 
-and is described in the Nature 2016 publication:
 
-Wilkinson, M., Dumontier, M., Aalbersberg, I. et al. The FAIR Guiding Principles for scientific data management and stewardship. Sci Data 3, 160018 (2016). https://doi.org/10.1038/sdata.2016.18
-
-<mark>NEEDS NEW DIAGRAM BELOW</mark>
-
+<mark>I will Draw a figure simular to the one I did before on FAIR and open data (Sara)</mark>
 ![FAIR principles https://www.scibite.com/solutions/enterprise-fair-data-mdm/](../fig/FAIR.png)
 https://www.scibite.com/solutions/enterprise-fair-data-mdm/
+
+> ## Keypoint
+> To apply FAIR to your data (and metadata), each principle has a subset of specific requirements that can be used as a checklist.  Note, we put these into context > later in this course when we take real datasets through FAIRification.  This checklist and further level of granularity is given in 
+> [Nature 2016 publication](https://doi.org/10.1038/sdata.2016.18) Wilkinson, M., Dumontier, M., Aalbersberg, I. et al. The FAIR Guiding Principles for scientific 
+> data management and stewardship. Sci Data 3, 160018 (2016),DOI: 10.1038/sdata.2016.18 
 {: .callout}
 
-To apply FAIR to your data (and metadata), each principle has a subset of specific requirements that can be used as a checklist.  Note, we put these into context later in this course when we take real datasets through FAIRification.  This checklist and further level of granularity is given in the 2016 publication as:
-
-<mark>INSERT BOX2 of the publicatoin here from top of page 4</mark>
 
 > ## For further details on the FAIR Guiding Principles, please see our RDMbites series
 > (https://docs.google.com/presentation/d/1RwEVZC390wtxPQM-zQsBDT7IbNVq0wpZ/edit#slide=id.p2)
-> (https://docs.google.com/presentation/d/1RwEVZC390wtxPQM-zQsBDT7IbNVq0wpZ/edit#slide=id.p2](https://docs.google.com/presentation/d/1Ac0qF1IKIVH2kjGmXFbyH0WAqI2vXqUB/edit#slide=id.p1))
-> > [RDMBites](https://docs.google.com/presentation/d/1uMyUGVH6mm48iDm6jNoBnAuqF3sGiTeO/edit?usp=sharing&ouid=115915105600833888129&rtpof=true&sd=true)
+> (https://docs.google.com/presentation/d/1RwEVZC390wtxPQM-zQsBDT7IbNVq0wpZ/edit#slide=id.p2)
+> (https://docs.google.com/presentation/d/1Ac0qF1IKIVH2kjGmXFbyH0WAqI2vXqUB/edit#slide=id.p1)
+> (https://docs.google.com/presentation/d/1uMyUGVH6mm48iDm6jNoBnAuqF3sGiTeO/edit?usp=sharing&ouid=115915105600833888129&rtpof=true&sd=true)
 > 
 {: .callout}
+
 
 
 ## What is meant by FAIRness and FAIRification of data?
