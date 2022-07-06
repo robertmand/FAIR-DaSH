@@ -87,7 +87,7 @@ FAIR data saves not only time but also money spent on finding relevant data. Bea
 FAIRification of your data will allow machine and human readability of your data. A and I of FAIR create a single point of access that saves time for researchers using and accessing your data. Machine readability ensures that research engines can find your data which will increase the visibility of your data. 
 *In addition to the aforementioned benefits, FAIR data allow reproducibility of research results because data are published with metadata and an analysis pipeline.*
 
-<p style="color:blue">Costs of not FAIRifying your data</p>
+<p style="color:darkblue">Costs of not FAIRifying your data</p>
 Based on a report by the EU, not complying with FAIR principles have a detrimental effect at many levels: Research activities, Collaboration, and innovation. At each step of the data life cycle, there is a cost for not FAIRifying your data. 
 
 > ## To know more about costs of not FAIRifying your data, Watch our RDMBites on costs of not FAIRifying your data
