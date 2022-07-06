@@ -45,7 +45,8 @@ https://www.scibite.com/solutions/enterprise-fair-data-mdm/
 {: .callout}
 
 
-> ## For further details on the FAIR Guiding Principles, please see our RDMbites series
+> ## For further details on the FAIR Guiding Principles and learn through different examples, please see our RDMbites series
+> The powerpoint will be converted to video, please add your comments directly in the powerpoint. Your name will be added as a reviewer
 > (https://docs.google.com/presentation/d/1RwEVZC390wtxPQM-zQsBDT7IbNVq0wpZ/edit#slide=id.p2)
 > (https://docs.google.com/presentation/d/1RwEVZC390wtxPQM-zQsBDT7IbNVq0wpZ/edit#slide=id.p2)
 > (https://docs.google.com/presentation/d/1Ac0qF1IKIVH2kjGmXFbyH0WAqI2vXqUB/edit#slide=id.p1)
@@ -53,7 +54,10 @@ https://www.scibite.com/solutions/enterprise-fair-data-mdm/
 > 
 {: .callout}
 
-
+> ## After watching these video, test your knowledge
+> - What is metadata?
+> - What are persistant identifiers?
+{: .challenge}
 
 ## What is meant by FAIRness and FAIRification of data?
 
@@ -68,8 +72,8 @@ Data communities often have their own rules and interpretations of FAIRification
 
 > ## Further reading and resources
 >
-> - FAIR guiding principles, FAIRification workflow and examples: https://www.go-fair.org/fair-principles/
-> - FAIRification recipes in FAIRcookbook: https://faircookbook.elixir-europe.org/content/home.html
+> - FAIR guiding principles, [FAIRification workflow and examples](https://www.go-fair.org/fair-principles)
+> - [FAIRification recipes in FAIRcookbook](https://faircookbook.elixir-europe.org/content/home.html)
 > 
 {: .callout}
 ___
@@ -92,8 +96,8 @@ Based on a report by the EU, not complying with FAIR principles have a detriment
 {: .callout}
 
 
-> ## In this research paper, the authors assessed the cost/benefit relationship of the FAIRification process
-> Ebtisam Alharbi, Rigina Skeva, Nick Juty, Caroline Jay, Carole Goble; Exploring the Current Practices, Costs and Benefits of FAIR Implementation in Pharmaceutical > Research and Development: A Qualitative Interview Study. Data Intelligence 2021; 3 (4): 507–527. doi: https://doi.org/10.1162/dint_a_00109
+> ## In this research paper, the authors assessed the [cost/benefit relationship of the FAIRification process](https://doi.org/10.1162/dint_a_00109)
+> Ebtisam Alharbi, Rigina Skeva, Nick Juty, Caroline Jay, Carole Goble; Exploring the Current Practices, Costs and Benefits of FAIR Implementation in Pharmaceutical > Research and Development: A Qualitative Interview Study. Data Intelligence 2021; 3 (4): 507–527. doi: 10.1162/dint_a_00109
 > 
 {: .keypoints}
 
@@ -122,6 +126,7 @@ However, the research community strives to make the data as open as possible to 
 > 
 {: .callout}
 ___
+@Branka Franicevic
 ## Where does FAIR come from?
 ### The history of FAIR
 - The first paper discussing related context dates only to 2007 (see link 10.5281/ZENODO.1285272). G20 Hangzhou summit in 2016 next approved applying of FAIR principles in research. 
