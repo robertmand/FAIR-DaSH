@@ -4,9 +4,9 @@ teaching: 40
 exercise: 20
 questions:
 - What is FAIR?
-- What is meant by FAIRness and FAIRification of data?
+- What is the difference between FAIRness and FAIRification of data?
+- Importance of FAIR
 - Where does FAIR come from?
-- What is FAIRification/Fairness of data?
 objectives:
 - Illustrate FAIR background and main concepts
 keypoints:
@@ -126,8 +126,9 @@ However, the research community strives to make the data as open as possible to 
 > 
 {: .callout}
 ___
-@Branka Franicevic
+
 ## Where does FAIR come from?
+Written by Branka Franicevic
 ### The history of FAIR
 - The first paper discussing related context dates only to 2007 (see link 10.5281/ZENODO.1285272). G20 Hangzhou summit in 2016 next approved applying of FAIR principles in research. 
 - The following year the Netherlands, France and Germany established GO FAIR International Support and Coordination Office to support the scheme. The same year a study supporting FAIRIfication of data spread the awareness among the researchers but at the same time added to the confusion of applying the concept in differing fields that led to inconsistent interpretations. 
