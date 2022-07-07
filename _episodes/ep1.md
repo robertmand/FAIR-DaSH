@@ -39,8 +39,9 @@ FAIR is an acronym summarising the 4 priniciples of data being:
 https://www.scibite.com/solutions/enterprise-fair-data-mdm/
 
 > ## Keypoint
-> To apply FAIR to your data (and metadata), each principle has a subset of specific requirements that can be used as a checklist.  Note, we put these into context > later in this course when we take real datasets through FAIRification.  This checklist and further level of granularity is given in 
-> [Nature 2016 publication](https://doi.org/10.1038/sdata.2016.18) Wilkinson, M., Dumontier, M., Aalbersberg, I. et al. The FAIR Guiding Principles for scientific 
+> To apply FAIR to your data (and metadata), each principle has a subset of specific requirements that can be used as a checklist.  Note, we put these into context > later in this course when we take real datasets through FAIRification.  This checklist and further level of granularity is given in   
+> Nature 2016 publication[FAIR Guiding Principles for scientific data management and stewardship](https://doi.org/10.1038/sdata.2016.18) Wilkinson, M., Dumontier, 
+> M., Aalbersberg, I. et al. The FAIR Guiding Principles for scientific 
 > data management and stewardship. Sci Data 3, 160018 (2016),DOI: 10.1038/sdata.2016.18 
 {: .callout}
 
