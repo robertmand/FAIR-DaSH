@@ -23,6 +23,8 @@ The FAIR principles were created to help researchers share, reuse, and manage th
 
 Descriptions of data (metadata) enables appropriate reuse.  This is similar to other aspects of published research, such as figures in papers, where titles and notes are given as well as descriptions of axes where data are plotted.  The provision of metadata is key to FAIR.
 
+![metadata](../fig/metadata01.jpeg)
+
 Note that FAIR is not limited to the Life Sciences and spans across all research disciplines.  Additionally, applying FAIR principles is not limited to data, but can be applied to the sharing and reuse of software and data workflow. 
 
 ## So, what is FAIR?
@@ -38,13 +40,8 @@ FAIR is an acronym summarising the 4 priniciples of data being:
 ![FAIR principles https://www.scibite.com/solutions/enterprise-fair-data-mdm/](../fig/FAIR.png)
 https://www.scibite.com/solutions/enterprise-fair-data-mdm/
 
-> ## Keypoint
-> To apply FAIR to your data (and metadata), each principle has a subset of specific requirements that can be used as a checklist.  Note, we put these into context > later in this course when we take real datasets through FAIRification.  This checklist and further level of granularity is given in   
-> Nature 2016 publication[FAIR Guiding Principles for scientific data management and stewardship](https://doi.org/10.1038/sdata.2016.18) Wilkinson, M., Dumontier, 
-> M., Aalbersberg, I. et al. The FAIR Guiding Principles for scientific 
-> data management and stewardship. Sci Data 3, 160018 (2016),DOI: 10.1038/sdata.2016.18 
-{: .callout}
-
+To apply FAIR to your data (and metadata), each principle has a subset of specific requirements that can be used as a checklist.  Note, we put these into context later in this course when we take real datasets through FAIRification.  This checklist and further level of granularity is given in   
+ Nature 2016 publication[FAIR Guiding Principles for scientific data management and stewardship](https://doi.org/10.1038/sdata.2016.18) Wilkinson, M., Dumontier,  M., Aalbersberg, I. et al. The FAIR Guiding Principles for scientific data management and stewardship. Sci Data 3, 160018 (2016),DOI: 10.1038/sdata.2016.18 
 
 > ## For further details on the FAIR Guiding Principles and learn through different examples, please see our RDMbites series
 > The powerpoint will be converted to video, please add your comments directly in the powerpoint. Your name will be added as a reviewer
@@ -55,10 +52,6 @@ https://www.scibite.com/solutions/enterprise-fair-data-mdm/
 > 
 {: .callout}
 
-> ## After watching these video, test your knowledge
-> - What is metadata?
-> - What are persistant identifiers?
-{: .challenge}
 
 ## What is meant by FAIRness and FAIRification of data?
 
@@ -78,24 +71,24 @@ Data communities often have their own rules and interpretations of FAIRification
 > 
 {: .callout}
 ___
-<p style="color:darkblue">Benefits of FAIRness</p>
 
-- **Reusability of data assets**
-FAIRification of your data allows short- and long-term use of these data. Furthermore, the availability of these data allowed the implementation and testing of different predictive models. 
-- **Cost savings**
-FAIR data saves not only time but also money spent on finding relevant data. Bear in mind, that it also helps researchers avoid duplicating experiments which will lower the costs and accelerate the research process. 
-- **Time efficiency**
-FAIRification of your data will allow machine and human readability of your data. A and I of FAIR create a single point of access that saves time for researchers using and accessing your data. Machine readability ensures that research engines can find your data which will increase the visibility of your data. 
-*In addition to the aforementioned benefits, FAIR data allow reproducibility of research results because data are published with metadata and an analysis pipeline.*
+## The benefits of FAIR
 
-<p style="color:darkblue">Costs of not FAIRifying your data</p>
-Based on a report by the EU, not complying with FAIR principles have a detrimental effect at many levels: Research activities, Collaboration, and innovation. At each step of the data life cycle, there is a cost for not FAIRifying your data. 
+FAIRification of your data enables reuse by yourself and others.  When grant writing, funders now commonly require a justificatoin of why new data are being generated as part of a study, in the context of reusing publically available data at no cost.
+
+Additionally, FAIRification of your data will allow something called "machine readability" of you data, enabling time efficient analysis.  Examples of machine readability include downloading public data using a single line of code in a script, instead of the lengthy process downloading via a webpage and moving into the relevant analysis folder.  
+
+NNED AN IMAGE HERE DETAILING THIS.
+
+Machine readability also ensures that search engines can find your data, thereby increasing its visibility.
+
+Based on a report by the EU, not complying with FAIR principles has detrimental effect at many levels including research activities, collaboration, and innovation. A recent report into COVID and data sharing reenforces FAIR blah blah said the same "QUOTE HERE
+
 
 > ## To know more about costs of not FAIRifying your data, Watch our RDMBites on costs of not FAIRifying your data
 > (Youtube link of the RDMbites)
 > []
 {: .callout}
-
 
 > ## In this research paper, the authors assessed the [cost/benefit relationship of the FAIRification process](https://doi.org/10.1162/dint_a_00109)
 > Ebtisam Alharbi, Rigina Skeva, Nick Juty, Caroline Jay, Carole Goble; Exploring the Current Practices, Costs and Benefits of FAIR Implementation in Pharmaceutical > Research and Development: A Qualitative Interview Study. Data Intelligence 2021; 3 (4): 507–527. doi: 10.1162/dint_a_00109
@@ -103,21 +96,21 @@ Based on a report by the EU, not complying with FAIR principles have a detriment
 {: .keypoints}
 
 
-## What are misunderstandings of FAIR?
+## The misunderstandings of FAIR
 
 ![FAIR data do not have to be open](../fig/Openfair.PNG)
 
-> ## Open data
-> - The Open Data Handbook defined open data as:
-> <br>“Open data is data that can be freely used, reused and redistributed by anyone – subject only, at most, to the requirement to attribute and sharealike.”
-> This video explains the concept of open data, open science and FAIR principles
+**FAIR** data and **Open** data are different.  Open data is "data that can be freely used, reused and redistributed by anyone".  (PUT IN REFERENCE), which is often rejected by researchers where they have sensitive data or data subject to intellectual property.  In most cases, people following FAIR principles will be also be making their data open.  Sensitive data can be release through anonymisation.  
+
+In many cases, sharing of sensitive data is subject to controlled access.  The FAIR Principles permit this by asking the owner of the data to define the methods by which controlled access operates and processes whereby data access could be requested.  The FAIR community use the phrase **“open as possible, closed as necessary”**
+
+
+> ## Video
 > <iframe width="560" height="315" src="https://www.youtube.com/embed/mVCDkhxxUgg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; 
 > clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 > 
 {: .keypoints}
 
-There is a misconception that aligning with FAIR principles means your data has to be open. There are many examples where data can be FAIR but not open like sensitive data and any data subject to intellectual property. These data can still be FAIR and have controlled access. That's why the research community uses the phrase **“open as possible, closed as necessary”**
-However, the research community strives to make the data as open as possible to allow the reproducibility of research results. There are a lot of methods that can be used to make your data FAIR and open. Different anonymization and controlled access techniques can be used to ensure the FAIRness of your data and yet your data is secure. These will be discussed in more detail in another lesson
 
 > ## References For further reading
 >
@@ -129,20 +122,18 @@ However, the research community strives to make the data as open as possible to 
 ___
 
 ## Where does FAIR come from?
-Written by Branka Franicevic
+
+
 ### The history of FAIR
-- The first paper discussing related context dates only to 2007 (see link 10.5281/ZENODO.1285272). G20 Hangzhou summit in 2016 next approved applying of FAIR principles in research. 
-- The following year the Netherlands, France and Germany established GO FAIR International Support and Coordination Office to support the scheme. The same year a study supporting FAIRIfication of data spread the awareness among the researchers but at the same time added to the confusion of applying the concept in differing fields that led to inconsistent interpretations. 
-- In 2019 CARE Principles for Indigenous Data Governance was released by the Global Indigenous Data Alliance aiming to complement and expand the guidelines with historical and structural contexts. The CARE principles for Indigenous Data Governance derived from the International Data Week and Research Data Alliance Plenary event in November 2018 Gaborone, Botswana. The related principles included Collective benefit, Authority to control, Responsibility and Ethics. 
-- This resulted in nine universities endorsing Sorbonne declaration on research data rights in January 2020 that advocated for FAIR data commitment and pressing the global governments for support in advising its use. In April this year Nature journal published an article asking for implementation of FAIR principles in material sciences.
 
-### What data can be FAIRyfied?
+A good overview of the origins of FAIR are given on page 11 of the 2018 "Turning FAIR data into reality: interim report" from the European Commission Expert Group on FAIR data (https://zenodo.org/record/1285272#.YshNncHMIqs).  The term FAIR originates from a 2014 FORCE11 Working Group, and in 2016 a Nature aricle was published with a specific focus on scientific data mangement and steweardship.  https://doi.org/10.1038/sdata.2016.18
+
+The mention of FAIR data now appears routinely in the Life Sciences, including funder and gouverment literature .https://www.gov.uk/government/publications/open-research-data-task-force-final-report
+
+
+### What data can be FAIRified?
+
 Most data can be FAIRyfied. The ultimate goal of FAIR principles is that humans as well as machines can share and find other’s data by way of safe and quick access, interoperability and reuse. Any data from tools, workflows or algorithms that lead from input, output and objects can be FAIRyfied.
-> # Example
-> Metadata is essential in the process of FAIRification because it is the key in finding, managing and reusing the rest of the document or project. 
-{: .callout}
-
-Metadata will describe the lead researcher and confirm why, when and where the data was collected hence how the study should be referenced and cited. Because the guiding principles of FAIR are based on the use of machine-actionable metadata for finding, accessing, interoperating, combining and reusing data with little or no human effort, the metadata should have a detailed level of FAIRness to allow easy interpretation and association with other research data. Also, depending on specific areas of research, the researchers must keep in mind preparing the data in parallel with future FAIRification. This is because digital technologies and related supporting services for sharing and managing data to include collection software and data repositories are progressing fast. Hence attention must be paid to digital science techniques and methods in individual lines of research to assure key information is captured and ready before FAIRification.
 
 > # Further reading
 > For more info about origins of FAIR see this link: https://zenodo.org/record/1285272#.Yp9oQHbMKUk
