@@ -86,8 +86,7 @@ Based on a report by the EU, not complying with FAIR principles has detrimental 
 
 
 > ## To know more about costs of not FAIRifying your data, Watch our RDMBites on costs of not FAIRifying your data
-> (Youtube link of the RDMbites)
-> []
+> [Powerpoint link of the RDMbites](https://docs.google.com/presentation/d/1xywEzC84RMor46moZVC-H-o3rJqEYYk1/edit#slide=id.p1)
 {: .callout}
 
 > ## In this research paper, the authors assessed the [cost/benefit relationship of the FAIRification process](https://doi.org/10.1162/dint_a_00109)
