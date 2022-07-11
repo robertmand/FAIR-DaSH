@@ -27,7 +27,7 @@ Descriptions of data (metadata) enables appropriate reuse.  This is similar to o
 
 Note that FAIR is not limited to the Life Sciences and spans across all research disciplines.  Additionally, applying FAIR principles is not limited to data, but can be applied to the sharing and reuse of software and data workflow. 
 
-## <p style="color:navyblue", "font-size:30px"> So, what is FAIR?</p>
+## <p style="color:navyblue;font-size:30px"> So, what is FAIR?</p>
 
 FAIR is an acronym summarising the 4 priniciples of data being: 
 - **F**indable
