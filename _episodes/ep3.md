@@ -5,7 +5,6 @@ exercises: 10
 questions:
 - Making an RNAseq dataset FAIR 
 objectives:
-#(read this)
 - Show a real example of data FAIRification through submitting data to a public repository
 - Show how community standards are used to curate metadata
 keypoints:
