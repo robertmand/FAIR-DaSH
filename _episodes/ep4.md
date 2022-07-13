@@ -1,9 +1,9 @@
 ---
-title: Making a “obscure” dataset FAIR (i.e. one without a metadata standard or public repository)
+title: Making a “obscure” dataset FAIR 
 teaching: 40
 exercises: 10
 questions:
-- Making an RNAseq dataset FAIR
+- Making data without a metadata standard or public repository FAIR
 objectives:
 #(read this)
 - Explain the key steps in the FAIRification of an RNAseq dataset.
