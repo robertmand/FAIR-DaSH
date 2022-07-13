@@ -11,7 +11,7 @@ keypoints:
 #after all
 ---
 
-# FAIRification of a RNAseq dataset
+## FAIRification of a RNAseq dataset
 
 [RNA sequencing](https://en.wikipedia.org/wiki/RNA-Seq) is chosen here as an example of how to FAIRify data for a popular assay in the Life Sciences. RNAseq data can be shared and curated in designated public repositories using established ontologies for describing protocols and biological material.
 
