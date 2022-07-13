@@ -8,7 +8,6 @@ objectives:
 - Show a real example of data FAIRification through submitting data to a public repository
 - Show how community standards are used to curate metadata
 keypoints:
-
 ---
 
 ## FAIRification of a RNAseq dataset
