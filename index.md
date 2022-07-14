@@ -16,8 +16,8 @@ This short online course caters for learners working with Life Science data and 
 {: .objectives}
 
 > ## Prerequisites
-> This is an introductory course.  No prior knowledge is required.
->
+> This is a basic course. There is no prior knowledge necessary. Our course contains RDMBites, which are 3-5 minute videos that assist you grasp the basic concept of 
+> the lesson.
 {: .prereq}
 
 > ## For Reviewers
