@@ -3,14 +3,13 @@ title: What is FAIR?
 teaching: 40
 exercise: 20
 questions:
-- What is FAIR?
+- What is FAIR? Why is it important?
+- What is the origin of the FAIR movement?
 - What is the difference between FAIRness and FAIRification of data?
-- Importance of FAIR
-- Where does FAIR come from?
 objectives:
-- Illustrate FAIR background and main concepts
+- Understand FAIR background and main concepts
 keypoints:
-- So what is FAIR?
+- FAIR stands for Findable, Accessible, Interoperable and Reusable
 - What is meant by FAIRness and FAIRification of data?
 - FAIR principles were gradually formed by different sources
 - Most data can be FAIRified 
@@ -29,7 +28,7 @@ Note that FAIR is not limited to the Life Sciences and spans across all research
 
 <h2 style="color: darkblue;"> So, what is FAIR?</h2>
 
-FAIR is an acronym summarising the 4 priniciples of data being: 
+FAIR is an acronym summarising the 4 principles of data being: 
 - **F**indable
 - **A**ccessible
 - **I**nteroperable
