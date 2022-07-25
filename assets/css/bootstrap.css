@@ -1185,7 +1185,7 @@ h6,
 .h5,
 .h6 {
   font-family: inherit;
-  font-weight: 500;
+  font-weight: 700;
   line-height: 1.1;
   color: #023452;
 }
@@ -1265,29 +1265,30 @@ h6 .small,
 }
 h1,
 .h1 {
-  font-size: 36px;
+  font-size: 58px;
 }
 h2,
 .h2 {
-  font-size: 30px;
+  font-size: 44px;
 }
 h3,
 .h3 {
-  font-size: 24px;
+  font-size: 32px;
 }
 h4,
 .h4 {
-  font-size: 18px;
+  font-size: 24px;
 }
 h5,
 .h5 {
-  font-size: 14px;
+  font-size: 22px;
 }
 h6,
 .h6 {
-  font-size: 12px;
+  font-size: 20px;
 }
 p {
+    font-size:20px;
   margin: 0 0 10px;
 }
 .lead {
