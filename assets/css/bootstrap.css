@@ -5,7 +5,7 @@
  */
 /*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
 html {
-  font-family: sans-serif;
+  font-family: "Lato", sans-serif;
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
 }
@@ -64,8 +64,9 @@ dfn {
   font-style: italic;
 }
 h1 {
-  font-size: 2em;
+  font-size: 50px;
   margin: 0.67em 0;
+  padding: 20px 10px;
 }
 mark {
   background: #ff0;
@@ -1222,7 +1223,7 @@ h2,
 .h2,
 h3,
 .h3 {
-  margin-top: 20px;
+  margin-top: 50px;
   margin-bottom: 10px;
 }
 h1 small,
