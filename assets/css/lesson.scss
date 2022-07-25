@@ -157,6 +157,8 @@ $codeblock-padding: 5px !default;
   h1 {
     font-size: 50px;
     }
+    
+
   h2 {
     padding-top: $codeblock-padding;
     background-color: #047EAA;
@@ -225,6 +227,14 @@ blockquote :not(h2) + p {
 // Override Bootstrap settings.
 //----------------------------------------
 
+ h1.maintitle a {
+    color: #023452;
+    font-size: 58px;
+    font-weight: 900;
+  }
+ .maintitle a {
+    color: #023452;
+  }
 blockquote { font-size: inherit; }
 
 a code {
