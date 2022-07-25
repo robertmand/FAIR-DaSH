@@ -159,9 +159,10 @@ $codeblock-padding: 5px !default;
     }
   h2 {
     padding-top: $codeblock-padding;
-    color: #023452;
+    background-color: #047EAA;
+      color: white;
     padding-bottom: $codeblock-padding;
-    font-size: 32px;
+    font-size: 24px;
     border-color: $color;
     margin-top: 0px;
     margin-left: -$codeblock-padding; // to move back to the left margin of the enclosing blockquote
@@ -169,6 +170,7 @@ $codeblock-padding: 5px !default;
   h2:before {
     font-family: 'Glyphicons Halflings';
     content: $glyph;
+    color: white;
     float: left;
     padding-left: $codeblock-padding;
     padding-right: $codeblock-padding;
@@ -268,7 +270,6 @@ article img.inline {
 
 article h2 {
   margin: 48px 0 16px;
-  color: white;
   padding-bottom: 0.3em;
   line-height: 1.25;
 }
