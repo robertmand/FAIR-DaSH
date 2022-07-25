@@ -154,11 +154,14 @@ $codeblock-padding: 5px !default;
 
   margin: 15px 5px 10px 0;
 
+  h1 {
+    font-size: 50px;
+    }
   h2 {
     padding-top: $codeblock-padding;
+    color: #023452;
     padding-bottom: $codeblock-padding;
-    font-size: 20px;
-    background: linear-gradient(to bottom, $gradientcolor1, $gradientcolor2);
+    font-size: 32px;
     border-color: $color;
     margin-top: 0px;
     margin-left: -$codeblock-padding; // to move back to the left margin of the enclosing blockquote
@@ -195,7 +198,7 @@ $codeblock-padding: 5px !default;
 .prereq h3,
 .solution h3,
 .testimonial h3 {
-font-size: 18px;
+font-size: 25px;
 }
 
 .challenge    { background-color: #fef8f3; }
@@ -237,7 +240,7 @@ a:hover {
 }
 
 a:visited {
-  color: #C2631B;
+  color: #F47D21;
 }
 
 code {
@@ -265,7 +268,7 @@ article img.inline {
 
 article h2 {
   margin: 48px 0 16px;
-  border-bottom: solid 1px #eaecef;
+  color: white;
   padding-bottom: 0.3em;
   line-height: 1.25;
 }
