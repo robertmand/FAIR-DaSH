@@ -21,10 +21,8 @@ This short online course caters for learners working with Life Science data and 
 {: .prereq}
 
 > ## For Reviewers
-> If you have any comments, suggestions for our course, you can open a pull request or add your comments directly to this [google doc]
-> (https://docs.google.com/document/d/1twW2NOieV-s4UmIgiMSQaD5DdOrg82sLdR1XpwkupHg/edit). This Google doc will be constantly monitored in case there are any future 
-> comments. For any enquiries, contact Sara Morsy 
-> (skhalil7@bradford.ac.uk)
-> , please follow our guidelines 
+> If you have any comments, suggestions for our course, you can open a pull request or add your comments directly to this 
+> [google doc](https://docs.google.com/document/d/1twW2NOieV-s4UmIgiMSQaD5DdOrg82sLdR1XpwkupHg/edit). This Google doc will be constantly monitored in case there are 
+> any future, please follow our guidelines 
 > 
 {: .discussion}
