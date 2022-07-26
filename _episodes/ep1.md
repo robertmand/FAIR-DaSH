@@ -22,7 +22,7 @@ The FAIR principles were created to help researchers share, reuse, and manage th
 - interpreted correctly through the provision of detailed descriptions about the data.
 Descriptions of data (metadata) enables appropriate reuse.  This is similar to other aspects of published research, such as figures in papers, where titles and notes are given as well as descriptions of axes where data are plotted.  The provision of metadata is key to FAIR.
 
-![metadata](../fig/metadata01.jpeg)
+![metadata](../fig/metadata01.jpg)
 
 Note that FAIR is not limited to the Life Sciences and spans across all research disciplines. Additionally, applying FAIR principles is not limited to data, but can be applied to the sharing and reuse of software and data workflow. 
 ## So, what is FAIR?
