@@ -27,7 +27,7 @@ By submitting data to public repository, it is becomes openly accessible, search
 
 We will use the following human RNAseq dataset for this practical: [E-MTAB-8316](https://www.ebi.ac.uk/biostudies/ArrayExpress/studies/E-MTAB-8316).  THis hosts all metadata and links to downloadable raw and transformed data.
 
-![The data and metadata for an RNAseq dataset](../fig/rnaseq1.jpg)
+![The data and metadata for an RNAseq dataset](../fig/rnaseq1.png)
 
 
 ## Finding and accessing an RNAseq dataset
