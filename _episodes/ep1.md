@@ -76,7 +76,7 @@ Machine readability also ensures that search engines can find your data, thereby
 
 ## The misunderstandings of FAIR
 
-![FAIR data do not have to be open](../fig/Openfair.PNG)
+![FAIR data do not have to be open](../fig/fairifying4.png)
 
 **FAIR** data and **Open** data are different. As mentioned in [Open data handbook](http://opendatahandbook.org/guide/en/what-is-open-data/), open data is "data that can be freely used, reused and redistributed by anyone", which is often rejected by researchers where they have sensitive data or data subject to intellectual property.  In most cases, people following FAIR principles will be also be making their data open.  Sensitive data can be release through anonymisation.  
 In many cases, sharing of sensitive data is subject to controlled access.  The FAIR Principles permit this by asking the owner of the data to define the methods by which controlled access operates and processes whereby data access could be requested.  The FAIR community use the phrase **“open as possible, closed as necessary”**
