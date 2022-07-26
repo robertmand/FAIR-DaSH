@@ -17,7 +17,6 @@ keypoints:
 - Micropublication platforms can provide findings directly in line with the FAIR principles
 ---
 
-@Branka Franicevic
 ## How to make data FAIR
 
 FAIR defines a set of principles to enable FAIRification of data, but does not prescribe an absolute standard.  Different communities will take FAIR and interpret through providing checklists, suggestions and framework descibing the FAIRification of specific data types and files.  We show examples of how these can be used later in this course, but 2 communities of FAIR practice include GOFAIR (https://www.go-fair.org/fair-principles/fairification-process/) which covers a broad community of Life Science data, and FAIR in training materials (https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1007854).
