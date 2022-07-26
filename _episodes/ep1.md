@@ -15,7 +15,7 @@ keypoints:
 - Most data can be FAIRified 
 - Metadata is key component in the process of FAIRification
 ---
-Contributers to this episodes are (Sara Morsy)[https://www.bradford.ac.uk/staff/skhalil7], (Robert Andrews)[https://www.cardiff.ac.uk/people/view/122749-andrews-robert]
+Contributers to this episodes are [Sara Morsy](https://www.bradford.ac.uk/staff/skhalil7), [Robert Andrews](https://www.cardiff.ac.uk/people/view/122749-andrews-robert)
 The FAIR principles were created to help researchers share, reuse, and manage their data.  A common layperson's interpretation of FAIR data is a dataset that can be:
 - discovered and downloaded by others; and
 - interpreted correctly through the provision of detailed descriptions about the data.
