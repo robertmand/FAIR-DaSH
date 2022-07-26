@@ -52,7 +52,7 @@ FAIRness refers to the extent to which your data follows FAIR principles.  One w
 Data communities often have their own rules and interpretations of FAIRification of data.  As an example, here is a summary of the process provided by 
 [GO-FAIR](https://www.go-fair.org/fair-principles/fairification-process/)
 
-![FAIRification of data](../fig/fep1fair.PNG)
+![FAIRification of data](../fig/ep1fair.PNG)
 
 > ## Further reading and resources
 > - FAIR guiding principles, [FAIRification workflow and examples](https://www.go-fair.org/fair-principles)
