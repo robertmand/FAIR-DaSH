@@ -66,9 +66,8 @@ Data communities often have their own rules and interpretations of FAIRification
 >
 > - FAIR guiding principles, [FAIRification workflow and examples](https://www.go-fair.org/fair-principles)
 > - [FAIRification recipes in FAIRcookbook](https://faircookbook.elixir-europe.org/content/home.html)
-> 
 {: .callout}
-___
+
 
 ## The benefits of FAIR
 
