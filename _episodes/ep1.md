@@ -60,7 +60,7 @@ Data communities often have their own rules and interpretations of FAIRification
 [GO-FAIR](https://www.go-fair.org/fair-principles/fairification-process/)
 
 
-![FAIRification of data](../fig/ep1fair.png)
+![FAIRification of data](../fig/ep1fair.PNG)
 
 
 > ## Further reading and resources
