@@ -26,7 +26,7 @@ Descriptions of data (metadata) enables appropriate reuse.  This is similar to o
 
 Note that FAIR is not limited to the Life Sciences and spans across all research disciplines.  Additionally, applying FAIR principles is not limited to data, but can be applied to the sharing and reuse of software and data workflow. 
 
-<h2 style="color: darkblue;"> So, what is FAIR?</h2>
+## So, what is FAIR?
 
 FAIR is an acronym summarising the 4 principles of data being: 
 - **F**indable
@@ -35,7 +35,6 @@ FAIR is an acronym summarising the 4 principles of data being:
 - **R**esuable
 
 
-<mark>I will Draw a figure simular to the one I did before on FAIR and open data (Sara)</mark>
 ![FAIR principles https://www.scibite.com/solutions/enterprise-fair-data-mdm/](../fig/FAIR.png)
 https://www.scibite.com/solutions/enterprise-fair-data-mdm/
 
@@ -75,9 +74,9 @@ ___
 
 FAIRification of your data enables reuse by yourself and others.  When grant writing, funders now commonly require a justificatoin of why new data are being generated as part of a study, in the context of reusing publically available data at no cost.
 
-Additionally, FAIRification of your data will allow something called "machine readability" of you data, enabling time efficient analysis.  Examples of machine readability include downloading public data using a single line of code in a script, instead of the lengthy process downloading via a webpage and moving into the relevant analysis folder.  
+Additionally, FAIRification of your data will allow something called "machine readability" of you data, enabling time efficient analysis. Examples of machine readability include downloading public data using a single line of code in a script, instead of the lengthy process downloading via a webpage and moving into the relevant analysis folder.  
 
-NNED AN IMAGE HERE DETAILING THIS.
+## NNED AN IMAGE HERE DETAILING THIS.
 
 Machine readability also ensures that search engines can find your data, thereby increasing its visibility.
 
@@ -98,7 +97,7 @@ Based on a report by the EU, not complying with FAIR principles has detrimental 
 
 ![FAIR data do not have to be open](../fig/Openfair.PNG)
 
-**FAIR** data and **Open** data are different.  Open data is "data that can be freely used, reused and redistributed by anyone".  (PUT IN REFERENCE), which is often rejected by researchers where they have sensitive data or data subject to intellectual property.  In most cases, people following FAIR principles will be also be making their data open.  Sensitive data can be release through anonymisation.  
+**FAIR** data and **Open** data are different. As mentioned in [Open data handbook](http://opendatahandbook.org/guide/en/what-is-open-data/), open data is "data that can be freely used, reused and redistributed by anyone", which is often rejected by researchers where they have sensitive data or data subject to intellectual property.  In most cases, people following FAIR principles will be also be making their data open.  Sensitive data can be release through anonymisation.  
 
 In many cases, sharing of sensitive data is subject to controlled access.  The FAIR Principles permit this by asking the owner of the data to define the methods by which controlled access operates and processes whereby data access could be requested.  The FAIR community use the phrase **“open as possible, closed as necessary”**
 
@@ -120,8 +119,6 @@ In many cases, sharing of sensitive data is subject to controlled access.  The F
 ___
 
 ## Where does FAIR come from?
-
-
 ### The history of FAIR
 
 A good overview of the origins of FAIR are given on page 11 of the 2018 "Turning FAIR data into reality: interim report" from the European Commission Expert Group on FAIR data (https://zenodo.org/record/1285272#.YshNncHMIqs).  The term FAIR originates from a 2014 FORCE11 Working Group, and in 2016 a Nature aricle was published with a specific focus on scientific data mangement and steweardship.  https://doi.org/10.1038/sdata.2016.18
