@@ -195,16 +195,7 @@ th {
 
 element.style {
 }
-footer {
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    background-color: #023452;
-    color: white;
-    padding: 30px 80px 20px 80px;
-    font-size: smaller;
-    font-weight: 400;
+
 }
 /*! Source: https://github.com/h5bp/html5-boilerplate/blob/master/src/css/main.css */
 @media print {
@@ -4589,12 +4580,6 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   }
 }
 .navbar-default {
-    background-color: #023452;
-    position: fixed;
-    top: 0;
-    padding: 10px 80px 10px 80px;
-    width: 100%;
-    text-align: center;
     margin-bottom: 50px;
 }
 .navbar-default .navbar-brand {
