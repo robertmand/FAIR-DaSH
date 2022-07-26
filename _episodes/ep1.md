@@ -24,7 +24,7 @@ Descriptions of data (metadata) enables appropriate reuse.  This is similar to o
 
 ![metadata](../fig/metadata01.jpeg)
 
-Note that FAIR is not limited to the Life Sciences and spans across all research disciplines.  Additionally, applying FAIR principles is not limited to data, but can be applied to the sharing and reuse of software and data workflow. 
+Note that FAIR is not limited to the Life Sciences and spans across all research disciplines. Additionally, applying FAIR principles is not limited to data, but can be applied to the sharing and reuse of software and data workflow. 
 
 ## So, what is FAIR?
 
@@ -38,10 +38,9 @@ FAIR is an acronym summarising the 4 principles of data being:
 ![FAIR principles https://www.scibite.com/solutions/enterprise-fair-data-mdm/](../fig/FAIR.png)
 https://www.scibite.com/solutions/enterprise-fair-data-mdm/
 
-To apply FAIR to your data (and metadata), each principle has a subset of specific requirements that can be used as a checklist.  Note, we put these into context later in this course when we take real datasets through FAIRification.  This checklist and further level of granularity is given in   
- Nature 2016 publication[FAIR Guiding Principles for scientific data management and stewardship](https://doi.org/10.1038/sdata.2016.18) Wilkinson, M., Dumontier,  M., Aalbersberg, I. et al. The FAIR Guiding Principles for scientific data management and stewardship. Sci Data 3, 160018 (2016),DOI: 10.1038/sdata.2016.18 
+To apply FAIR to your data (and metadata), each principle has a subset of specific requirements that can be used as a checklist.  Note, we put these into context later in this course when we take real datasets through FAIRification.  This checklist and further level of granularity is given in Nature 2016 publication [FAIR Guiding Principles for scientific data management and stewardship](https://doi.org/10.1038/sdata.2016.18)
 
-> ## For further details on the FAIR Guiding Principles and learn through different examples, please see our RDMbites series
+> ## For further details on the FAIR Guiding Principles and learn through different examples, please see our RDMbites series:
 > The powerpoint will be converted to video, please add your comments directly in the powerpoint. Your name will be added as a reviewer
 > - [F in FAIR](https://docs.google.com/presentation/d/1RwEVZC390wtxPQM-zQsBDT7IbNVq0wpZ/edit#slide=id.p2)
 > - [A in FAIR](https://docs.google.com/presentation/d/1RwEVZC390wtxPQM-zQsBDT7IbNVq0wpZ/edit#slide=id.p2)
@@ -57,13 +56,13 @@ FAIRfication is the process of making your data FAIR.  Since giving a unique ide
 
 FAIRness refers to the extent to which your data follows FAIR principles.  One way to achive this is by using a FAIR checklist, and measuring the extent of FAIRness through simply counting the number principles applied.
 
+Data communities often have their own rules and interpretations of FAIRification of data.  As an example, here is a summary of the process provided by 
+[GO-FAIR](https://www.go-fair.org/fair-principles/fairification-process/)
 
-Data communities often have their own rules and interpretations of FAIRification of data.  As an example, here is a summary of the process provided by [GO-FAIR](https://www.go-fair.org/fair-principles/fairification-process/)
-![[FAIRification of data](../fig/ep1fair.png)
+![FAIRification of data](../fig/ep1fair.png)
 
 
 > ## Further reading and resources
->
 > - FAIR guiding principles, [FAIRification workflow and examples](https://www.go-fair.org/fair-principles)
 > - [FAIRification recipes in FAIRcookbook](https://faircookbook.elixir-europe.org/content/home.html)
 {: .callout}
