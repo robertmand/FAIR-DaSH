@@ -1,20 +1,16 @@
 ---
-title:  Example of FAIRification: Using a public repository
+title: Example of FAIRification, Using a public repository
 teaching: 40
 exercises: 10
 questions:
-- How to make data FAIR?
-- Checklists and tools for making FAIR
-- FAIR micropublication
+- Making an RNAseq dataset FAIR
 
 objectives:
-- To learn guiding principles of FAIR
-- To understand how to apply FAIR to your data
-- To understand the principles of micropublications
-- To learn the benefits and challenges of FAIRification of micropublication platform 
+- Show a real example of data FAIRification through submitting data to a public repository
+- Show how community standards are used to curate metadata
 keypoints:
-- Biosciences are useful software tools suitable for tractability of biomedical research.
-- Micropublication platforms can provide findings directly in line with the FAIR principles
+- Ten FAIR principles are applicable to a broad types of data, software and most training material.
+- Applying FAIR to the training material will optimise the reuse of data, increase visibility of research and add to > saving of time and money
 ---
 
 ## FAIRification of a RNAseq dataset
