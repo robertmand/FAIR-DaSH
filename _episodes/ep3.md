@@ -1,5 +1,5 @@
 ---
-title: FAIRification of data
+title:  Example of FAIRification: Using a public repository
 teaching: 40
 exercises: 10
 questions:
