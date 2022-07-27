@@ -4,9 +4,13 @@ teaching: 40
 exercises: 10
 questions:
 - Making an RNAseq dataset FAIR 
+
 objectives:
 - Show a real example of data FAIRification through submitting data to a public repository
 - Show how community standards are used to curate metadata
+keypoints:
+- Ten FAIR principles are applicable to a broad types of data, software and most training material. 
+- Applying FAIR to the training material will optimise the reuse of data, increase visibility of research and add to > saving of time and money
 ---
 
 ## FAIRification of a RNAseq dataset
