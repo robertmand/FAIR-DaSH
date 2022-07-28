@@ -232,9 +232,9 @@ ___
 ## Making a “obscure” dataset FAIR (i.e. one without a metadata standard or public repository)
 ___
 
-@Branka Franicevic
-## Worked example three: making a piece of training material FAIR
 
+## Worked example three: making a piece of training material FAIR
+@Branka Franicevic
 **Overview**
 Implementing FAIR principles in the context of Bioinformatics training is useful if not necessary to assure your material meet the cornerstone of open science practices. Ten guiding steps set up around the principles are wide ranging and apply to data, software and all aspects of training material, from slide presentations to exercises. It is therefore advisable to plan your training material with FAIR principles in mind from the outset.Full set of guidelines listed below (FAIRification process) are designed to get you thinking about what you need to do although the degree and context of individual application will vary from project to project.
 
