@@ -31,7 +31,7 @@ Note that FAIR is not limited to the Life Sciences and spans across all research
 FAIR is an acronym summarising the 4 principles of data being: **F**indable, **A**ccessible, **I**nteroperable and **R**esuable.
 
 ![FAIR principles https://www.scibite.com/solutions/enterprise-fair-data-mdm/](../fig/fairifying2.png)
-https://www.scibite.com/solutions/enterprise-fair-data-mdm/
+
 
 To apply FAIR to your data (and metadata), each principle has a subset of specific requirements that can be used as a checklist.  Note, we put these into context later in this course when we take real datasets through FAIRification.  This checklist and further level of granularity is given in **BOX 2** of  Nature 2016 publication [FAIR Guiding Principles for scientific data management and stewardship](https://doi.org/10.1038/sdata.2016.18)
 
