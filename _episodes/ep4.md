@@ -23,7 +23,7 @@ You can watch this 2-minute RDMbite to learn more about the procedure and get 
 </center>
 --- 
 ### How does uploading your data to Zenodo will align with FAIR?
-I will explain this to you through an example of this twitter dataset, you can access the link from [here](https://zenodo.org/record/6815967#.YuPHE3bMKUl). In this dataset, the authors collected tweets about COVID-19. They used NLP models to get these data. For more information, you can check this 
+We will explain this to you through an example of this twitter dataset, you can access the link from [here](https://zenodo.org/record/6815967#.YuPHE3bMKUl). In this dataset, the authors collected tweets about COVID-19. They used NLP models to get these data. For more information, you can check this 
 [link](https://www.mdpi.com/2673-3986/2/3/24)
 #### Finding and accessing the dataset:
 These FAIR principles will help make your dataset **findable** and **accessible**
