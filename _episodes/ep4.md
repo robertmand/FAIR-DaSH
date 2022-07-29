@@ -18,8 +18,9 @@ Zenodo is one of these public repositories. Zenodo is a data platform that allow
 
 Zenodo's procedure is straightforward, with only three more steps. **Publish**, **Describe**, **Upload**
 You can watch this 2-minute RDMbite to learn more about the procedure and get more specific information on how to create an account.
-
+<center>
 <iframe width="560" height="315" src="https://www.youtube.com/embed/Wrtfd8QPYOc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</center>
 --- 
 ### How does uploading your data to Zenodo will align with FAIR?
 I will explain this to you through an example of this twitter dataset, you can access the link from [here](https://zenodo.org/record/6815967#.YuPHE3bMKUl). 
