@@ -10,6 +10,7 @@ objectives:
 keypoints:
 - Ten FAIR principles are applicable to a broad types of data, software and most training material. 
 - Applying FAIR to the training material will optimise the reuse of data, increase visibility of research and add to > saving of time and money. 
+---
 
 @Branka Franicevic
 
