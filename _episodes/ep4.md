@@ -14,7 +14,8 @@ keypoints:
 ---
 
 In this lesson, You will learn how to FAIRify your data in the absence of a public repository or when the data lacks a FAIRification protocol. You can accomplish this by uploading data to a public repository, which will assist you with the FAIRification process. 
-Zenodo is one of these public repositories. Zenodo is a data platform that allows you to upload any type of data. When you upload your data to Zenodo, it becomes FAIR, and you can choose different access options (Remember the different access options with FAIR that we mentioned in "What is FAIR?" RDMbite. 
+Zenodo is one of these public repositories. Zenodo is a data platform that allows you to upload any type of data. When you upload your data to Zenodo, it becomes FAIR, and you can choose different access options (Remember the different access options with FAIR that we mentioned in "What is FAIR?" RDMbite) 
+
 Zenodo's procedure is straightforward, with only three more steps. **Publish**, **Describe**, **Upload**
 You can watch this 2-minute RDMbite to learn more about the procedure and get more specific information on how to create an account.
 
