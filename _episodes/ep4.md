@@ -31,12 +31,12 @@ These FAIR principles will help make your dataset **findable** and **accessible*
 - (F4) (Meta)data are registered or indexed in a searchable resource
 - (A1) (Meta)data are retrievable by their identifier using a standardised communications protocol
 - (A1.1) The protocol is open, free, and universally implementable
+
 In Zenodo, any dataset has unique identifier (DOI), it is indexed in Zenodo so using DOI you can find it easily or instead you can use the search engines provided in any database or Zenodo itself. Please bear in mind that Zenodo is connected to other databases, that's why, data on Zenodo can be retrieved from other databases. 
 Zenodo uses open API protocol and as we explained in the A in FAIR RDMbites, the access to data is not mediated through specialized proprietary tools or communication methods. Through this protocol, you and other researchers can easily access this data without any restriction
 
 > ## Exercise
-> From the dataset we described earlier, can you identify how it comply with the forementioned FAIR principles
-> [link](https://zenodo.org/record/6815967#.YuPHE3bMKUl)
+> Can you identify how the [dataset](https://zenodo.org/record/6815967#.YuPHE3bMKUl) we described previously aligns with the aforementioned FAIR principles?
 {: .challenge}
 
 > ## Solution
@@ -52,11 +52,11 @@ Zenodo uses open API protocol and as we explained in the A in FAIR RDMbites, the
 - (F1) (Meta)data are assigned a globally unique and persistent identifier
 - (F2) Data are described with rich metadata
 - (F3) Metadata clearly and explicitly include the identifier of the data they describe
+
 Zenodo will always assign DOI for your data **F1**. The good thing about Zenodo metadata, it comes from DataCite Metadata Schema which iclude a list of core curated metadata for resource identification **F2**. In addition, the metadata of each record is linked to other DataCite servers allowing retrieval of your data. For datasets that do not have protocols, as you will see in our example, For **F3**, the authors are instructed to describe their data with rich metadata provided from DataCite Metadata Schema and enriched Zenodo metadata
 
 > ## Exercise
-> From the dataset we described earlier, can you identify how it comply with the forementioned FAIR principles
-> [link](https://zenodo.org/record/6815967#.YuPHE3bMKUl)
+> Can you identify how the [dataset](https://zenodo.org/record/6815967#.YuPHE3bMKUl) we described previously aligns with the aforementioned FAIR principles?
 {: .challenge}
 
 > ## Solution
@@ -72,10 +72,13 @@ Zenodo will always assign DOI for your data **F1**. The good thing about Zenodo 
 #### Metadata and community standards
 - **(A1) (Meta)data are retrievable by their identifier using a standardised communications protocol.**
 - (A1.1) The protocol is open, free, and universally implementable.
+
 As we explained before Zenodo uses open protocols that allow easy retrieval of the data. For instance, it uses REST API and OAI-PMH which are not restrictive protocols. The details of how these protocols works is outside the scope of our course but if you want to know more, please follow this (link)[https://developers.zenodo.org/]
 - **(I3) (Meta)data include qualified references to other (meta)data.**
+
 This is described easily on Zenodo (Please have a look on the next exercise to fully understand it)
 - **R1. (Meta)data are richly described with a plurality of accurate and relevant attributes**
+
 It is mandatory on Zenodo that you choose a specific number of Datacite terms to make sure that you have described your data adequately. It also provides you with a list of enriched terms
 - R1.1. (Meta)data are released with a clear and accessible data usage license
 Zenodo provides the uploader the ability to choose the licence they need for their data. You have the option to make your data fully open or restricted. 
@@ -92,8 +95,8 @@ As we mentioned in RNAseq, data provenance explains how the data is generated. U
 - (R1.2) (Meta)data are associated with detailed provenance.
 
 > ## Exercise
-> From the dataset we described earlier, can you identify how it comply with the forementioned FAIR principles
-> [link](https://zenodo.org/record/6815967#.YuPHE3bMKUl)
+> Can you identify how the [dataset](https://zenodo.org/record/6815967#.YuPHE3bMKUl) we described previously aligns with the aforementioned FAIR principles?
+> 
 {: .challenge}
 
 > ## Solution
