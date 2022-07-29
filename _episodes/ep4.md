@@ -29,10 +29,7 @@ These FAIR principles will help make your dataset **findable** and **accessible*
 - (F4) (Meta)data are registered or indexed in a searchable resource
 - (A1) (Meta)data are retrievable by their identifier using a standardised communications protocol
 - (A1.1) The protocol is open, free, and universally implementable
-
-As you see in this picture the dataset have unique identifier (DOI), it is indexed in Zenodo so using DOI you can find it easily or instead you can use the search engines provided in any database or Zenodo itself. Please bear in mind that Zenodo is connected to other databases, that's why, data on Zenodo can be retrieved from other databases. 
-
-
+In Zenodo, any dataset has unique identifier (DOI), it is indexed in Zenodo so using DOI you can find it easily or instead you can use the search engines provided in any database or Zenodo itself. Please bear in mind that Zenodo is connected to other databases, that's why, data on Zenodo can be retrieved from other databases. 
 Zenodo uses open API protocol and as we explained in the A in FAIR RDMbites, the access to data is not mediated through specialized proprietary tools or communication methods. Through this protocol, you and other researchers can easily access this data without any restriction
 
 > ## Exercise
@@ -67,7 +64,7 @@ Zenodo will always assign DOI for your data **F1**. The good thing about Zenodo 
 > publication and description of how the data were generated
 > 
 > - **F3** you can see they cited the DOI of Zenodo in these links
-> ![Photo from Zenodo dataset https://zenodo.org/record/6815967#.YuPHE3bMKUl](../fig/Zenodo2.JPG)
+> ![Photo from Zenodo dataset https://zenodo.org/record/6815967#.YuPHE3bMKUl](../fig/Zenodo2.jpg)
 {: .solution}
 ---
 #### Metadata and community standards
@@ -102,6 +99,6 @@ As we mentioned in RNAseq, data provenance explains how the data is generated. U
 > As you see here, the metadata here is described in the details (Pink arrow), it describes the authors, how the data were generated, updated, links to the 
 > publications and other collections (Pink arrow) **I3**
 > For the licence, you can see the licence that authors choose for their data **R** (Red arrows)
-> ![Photo from Zenodo dataset https://zenodo.org/record/6815967#.YuPHE3bMKUl](../fig/Zenodo3.JPG)
+> ![Photo from Zenodo dataset https://zenodo.org/record/6815967#.YuPHE3bMKUl](../fig/Zenodo3.jpg)
 >
 {: .solution}
