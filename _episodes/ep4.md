@@ -19,7 +19,7 @@ You can watch this 2-minute RDMbite to learn more about the procedure and get 
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/Wrtfd8QPYOc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-## How does uploading your data to Zenodo will align with FAIR?
+### How does uploading your data to Zenodo will align with FAIR?
 
 I will explain this to you through an example of this twitter dataset, you can access the link from [here](https://zenodo.org/record/6815967#.YuPHE3bMKUl)
 
