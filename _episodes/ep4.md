@@ -4,8 +4,8 @@ teaching: 40
 exercises: 10
 questions:
 - What is Zenodo?
-- How to publish data on Zenodo?
-- How publishing on Zenodo will align with FAIR?
+- How to publish your data on Zenodo?
+- How does publishing your data on Zenodo align with FAIR?
 objectives:
 - Illustrate how to FAIRify dataset in the absence of a FAIRification protocol
 keypoints:
@@ -110,8 +110,8 @@ As we mentioned in RNAseq, data provenance explains how the data is generated. U
 
 
 > ## Resources
-> [Zenodo and FAIR principles](https://about.zenodo.org/principles/)
-> [Uploading data to Zenodo](https://ict.ipbes.net/ipbes-ict-guide/data-management/technical-guidelines/Zenodo)
+> - [Zenodo and FAIR principles](https://about.zenodo.org/principles/)
+> - [Uploading data to Zenodo](https://ict.ipbes.net/ipbes-ict-guide/data-management/technical-guidelines/Zenodo)
 > 
 {: .challenge}
 
