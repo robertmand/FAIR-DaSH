@@ -106,3 +106,13 @@ As we mentioned in RNAseq, data provenance explains how the data is generated. U
 > ![Photo from Zenodo dataset https://zenodo.org/record/6815967#.YuPHE3bMKUl](../fig/Zenodo3.jpg)
 >
 {: .solution}
+
+
+
+> ## Resources
+> [Zenodo and FAIR principles](https://about.zenodo.org/principles/)
+> [Uploading data to Zenodo](https://ict.ipbes.net/ipbes-ict-guide/data-management/technical-guidelines/Zenodo)
+> 
+{: .challenge}
+
+
