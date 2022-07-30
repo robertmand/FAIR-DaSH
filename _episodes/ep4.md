@@ -10,7 +10,7 @@ objectives:
 - Illustrate how to FAIRify dataset in the absence of a FAIRification protocol
 keypoints:
 - If you have a data with no FAIRification protocol, you can still make your data FAIR
-- Uploading your data to Zenodo helps FAIRify your data in abscence of community standard
+- Uploading your data to Zenodo helps FAIRify your data even in the abscence of community standards
 ---
 
 In this lesson, You will learn how to FAIRify your data in the absence of a public repository or when the data lacks a FAIRification protocol. You can accomplish this by uploading data to a public repository, which will assist you with the FAIRification process. 
