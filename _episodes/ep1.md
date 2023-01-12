@@ -1,115 +1,104 @@
+# Episode 2 (reviewed)
+
 ---
-title: What is FAIR?
-teaching: 40
-exercise: 20
-questions:
-- What is FAIR? What is the origin of the FAIR movement?
-- Why is FAIR important?
-- What is the difference between FAIRness and FAIRification of data?
-objectives:
-- Understand FAIR background and main concepts
-keypoints:
-- FAIR stands for Findable, Accessible, Interoperable and Reusable
-- What is meant by FAIRness and FAIRification of data?
-- FAIR principles were gradually formed by different sources
-- Most data can be FAIRified 
-- Metadata is key component in the process of FAIRification
+title: 'Metadata'
+teaching: 
+exercises: 1
 ---
 
+::: callout
+## Outcomes
+1. Define metadata and its various types
+1. Recall the community standards and how to apply them to data and metadata
 
-The FAIR principles were created to help researchers share, reuse, and manage their data.  A common layperson's interpretation of FAIR data is a dataset that can be:
-- discovered and downloaded by others; and
-- interpreted correctly through the provision of detailed descriptions about the data.
+:::
 
-Descriptions of data (metadata) enables appropriate reuse.  This is similar to other aspects of data handling published research, such as figures in papers, where titles and notes are given as well as descriptions of axes where data are plotted.  The provision of metadata is key to FAIR.
-![metadata](../fig/fairifying1.png)
+## What is metadata?
+Metadata refers to the information that describes your data.
 
-Note that FAIR is not limited to the Life Sciences and spans across all research disciplines. The FAIR principles are also not limited to data, but can be applied to the sharing and reuse of software and data workflow. 
+In other words, imagine you have an Excel spreadsheet containing data values for an assay. You would use column headings to assign meaning and context. These column headings are your metadata, explaining the data values in each cell. In addition, any documentation or explanation of the accompanying excel file is also considered metadata.
 
-## So, what is FAIR?
+Let's look at Figure 1, showcasing a spreadsheet containing data for a clinical assay. In this example, the data are the patient ID, disease type, and heart rate values. The metadata, the column headings, describe that those values correspond to the patient ID, disease type, and heart rate, as well as the name of the cohort and the contact e-mail.
 
-FAIR is an acronym summarising the 4 principles of data being: **F**indable, **A**ccessible, **I**nteroperable and **R**esuable.
-
-![FAIR principles https://www.scibite.com/solutions/enterprise-fair-data-mdm/](../fig/fairifying2.png)
-
-
-To apply FAIR to your data (and metadata), each principle has a subset of specific requirements that can be used as a checklist.  Note, we put these into context later in this course when we take real datasets through FAIRification.  This checklist and further level of granularity is given in **BOX 2** of  Nature 2016 publication [FAIR Guiding Principles for scientific data management and stewardship](https://doi.org/10.1038/sdata.2016.18)
+![Figure 1: A fabricated example of a clinical assay that includes patient ID, disease type and heart rate. The image showcases which part of this assay represents the metadata](https://i.imgur.com/ldWrS5L.png)
 
 
-![metadata](../fig/FAIRchecklist01.png)
+**What information could we add to better understand the data contained in the dataset?**
+We could add additional metadata to indicate data provenance, i.e. data origin, what happens to it or where it moves over time.
 
-> ## For further details on the FAIR Guiding Principles, please see our RDMbites series:
-> The powerpoint will be converted to video, please add your comments directly in the powerpoint. Your name will be added as a reviewer
-> - [F in FAIR](https://docs.google.com/presentation/d/1RwEVZC390wtxPQM-zQsBDT7IbNVq0wpZ/edit#slide=id.p2)
-> - [A in FAIR](https://docs.google.com/presentation/d/1RwEVZC390wtxPQM-zQsBDT7IbNVq0wpZ/edit#slide=id.p2)
-> - [I in FAIR](https://docs.google.com/presentation/d/1Ac0qF1IKIVH2kjGmXFbyH0WAqI2vXqUB/edit#slide=id.p1)
-> - [R in FAIR](https://docs.google.com/presentation/d/1uMyUGVH6mm48iDm6jNoBnAuqF3sGiTeO/edit?usp=sharing&ouid=115915105600833888129&rtpof=true&sd=true)
-> 
-{: .callout}
+In this case, we should add more information about the cohort name. "Human Welsh Cohort" does not tell us much about the data if compared to other Welsh cohorts. Instead, we could include the following:
+- A unique ID or detailed title for the cohort
+- A project URL describing its origin and composition
 
-## What is meant by FAIRness and FAIRification of data?
+At first glance, the column headings seem descriptive. However, taking a closer look, we can see that the "disease type" column captures both the disease type and stage, which can cause ambiguity:
+- In row 3, it is unclear whether the disease is diabetes mellitus or insipidus
+- In row 4, it is unclear whether the type of diabetes mellitus is 1 or 2
+- There is an empty space in the final row. It is unclear whether this is due to a lack of information or that the patient does not have diabetes
 
-FAIRfication is the process of making your data FAIR.  Since giving a unique identifier to your data is part of the first **Findability** principle, by doing so you are performing part of the FAIRification process.
+Instead, we can create two separate columns: one for disease type and one for the stage (see Figure 2).
 
-FAIRness refers to the extent to which your data follows FAIR principles.  One way to achive this is by using a FAIR checklist, and measuring the extent of FAIRness through simply counting the number principles applied.  Data communities often have their own guidelines and interpretations of FAIRification of data,  One example of this is [GO-FAIR](https://www.go-fair.org/fair-principles/fairification-process/) where the initiative provides a fairification workflow.
+![Figure 2: An reviewed version of the fabricated example in Figure 1. Metadata has been updated to reduce ambiguity and offer further details.](https://i.imgur.com/d94Xckq.png)
 
-> ## Further reading and resources
-> - FAIR guiding principles, [FAIRification workflow and examples](https://www.go-fair.org/fair-principles)
-> - [FAIRification recipes in FAIRcookbook](https://faircookbook.elixir-europe.org/content/home.html)
-{: .callout}
 
-## The benefits of FAIR
+## The importance of metadata
+Metadata is small and can be easily maintained not only in the database but in personal computers. The maintenance of datasets in a public database comes at a cost. It can be minimised when maintaining the metadata instead.
 
-FAIRification of your data enables reuse by yourself and others.  When grant writing, funders now commonly require a justification of why new data are being generated as part of a study, compared to reusing publically available data at no cost.
+In addition, metadata is also highly efficient for sharing sensitive data. The details available are those provided in the metadata, such contact details of the researchers, how to get the data and how it was generated.
 
-Additionally, FAIRification allows **machine readability** of you data, enabling time efficient analysis. Machine readability often refers to how data can be discovered and downloaded within a script.  A script **one-liner** can be used to download a public dataset ready for analysis, compared to a lengthier process of downloading a dataset via a webpage and moving this into the relevant analysis folder.  Machine readability also ensures that web search engines can find your data, thereby increasing its visibility. 
+## Types of metadata
+We've seen that metadata can describe various aspects of your dataset. It can be classified into three types:
+- **Descriptive Metadata**: defines the characteristics of the dataset
+- **Structural Metadata**: explains how the dataset is generated and structured internally, known as **data provenance**.
+- **Administrative metadata**: describes data owner(s), data contributors and funding sources.
 
-Based on a report by the EU, not complying with FAIR principles has detrimental effect at many levels including research activities, collaboration, and innovation (NEED LINK).  Additionall a report from EBI-EMBL has showed how proper data sharing improved the quality of COVID-19 research. (NEED LINK)
+Let's look at an example using microarray data from the ArrayExpress database (Figure 3) to locate the different types of metadata that we have defined.
 
-> ## Video
-> To know more about costs of not FAIRifying your data, Watch our RDMBites on costs of not FAIRifying your data
-> [Powerpoint link of the RDMbites](https://docs.google.com/presentation/d/1xywEzC84RMor46moZVC-H-o3rJqEYYk1/edit#slide=id.p1)
-{: .callout}
+[![Figure 3: A snapshot of a real microarray dataset on the ArrayExpress database](https://i.imgur.com/igdEmOu.png)](https://www.ebi.ac.uk/biostudies/arrayexpress/studies/E-MTAB-7933)
 
-> ## Further reading
-> In this research paper, the authors assessed the [cost/benefit relationship of the FAIRification process](https://doi.org/10.1162/dint_a_00109)
-> Ebtisam Alharbi, Rigina Skeva, Nick Juty, Caroline Jay, Carole Goble; Exploring the Current Practices, Costs and Benefits of FAIR Implementation in Pharmaceutical > Research and Development: A Qualitative Interview Study. Data Intelligence 2021; 3 (4): 507–527. doi: 10.1162/dint_a_00109
-{: .keypoints}
-
-## The misunderstandings of FAIR
-
-![FAIR data do not have to be open](../fig/fairifying4.png)
-
- 
-The FAIR community use the phrase **“open as possible, closed as necessary”**, though **FAIR** data and **Open** data are different. As mentioned in [Open data handbook](http://opendatahandbook.org/guide/en/what-is-open-data/), open data is "data that can be freely used, reused and redistributed by anyone", which is often rejected by researchers where they have sensitive data or data subject to intellectual property.  Note though that in most cases, people following FAIR principles will be looking to share their data openly.  Sensitive data can be released through anonymisation and in many cases, sharing of sensitive data is subject to controlled access.  The FAIR Principles permit this by asking the owner of the data to define the methods by which controlled access operates and processes whereby data access could be requested.  
-> ## Video
-> <iframe width="560" height="315" src="https://www.youtube.com/embed/mVCDkhxxUgg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; 
-> clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-> 
-{: .keypoints}
-
-> ## Further reading
->
-> - https://www.go-fair.org/fair-principles/
-> - https://faircookbook.elixir-europe.org/content/home.html
-> - https://www.nature.com/articles/sdata201618
-> 
-{: .callout}
-___
-## Where does FAIR come from?
-### The history of FAIR
-A good overview of the origins of FAIR are given on page 11 of the 2018 "Turning FAIR data into reality: interim report" from the European Commission Expert Group on FAIR data (https://zenodo.org/record/1285272#.YshNncHMIqs).  The term FAIR originates from a 2014 FORCE11 Working Group, and in 2016 a Nature aricle was published with a specific focus on scientific data mangement and steweardship.  https://doi.org/10.1038/sdata.2016.18
-The mention of FAIR data now appears routinely in the Life Sciences, including funder and gouverment literature .https://www.gov.uk/government/publications/open-research-data-task-force-final-report
-### What data can be FAIRified?
-Most data can be FAIRyfied. The ultimate goal of FAIR principles is that humans as well as machines can share and find other’s data by way of safe and quick access, interoperability and reuse. Any data from tools, workflows or algorithms that lead from input, output and objects can be FAIRyfied.
-
-> ## Further reading
-> For more info about origins of FAIR see this (link)[https://zenodo.org/record/1285272#.Yp9oQHbMKUk]
-> For further information about selecting your data, services and repositories for FAIRification see this (link)[https://zenodo.org/record/6345114#.YqDAsXbMKUk]
-{: .callout}
-___
+We can observe:
+- **Administrative metadata**: authors and organisations underneath the dataset title, and the information in "Publication"
+- **Descriptive metadata**: "Description" section that sumarises the information contained in the dataset
+- **Structural Metadata**: "Protocols", "Samples" and "Assay and Data" sections describing the structure of the dataset and how it was generated
 
 
 
+## Following community standards
+Each data type has its own community that develops guidelines to describe data appropriately and consistently. Make sure to follow the community standards when describing your data.
+
+Following standards will also make your data more reliable for other researchers, allowing it to be reused across multiple platforms. If you decide to use other guidelines outside your community, document them. 
 
 
+:::::::::: challenge
+## Exercise 1. Where to find your community standards
+RDMkit is an open-source, community-driven site that guides life scientists to manage their research data better. This resource can be your perfect starting point for finding other tools, training materials and any recommended resources related to RDM in the life sciences.
+
+Can you find the bioimage community standards in the RDMkit?
+[Start here>>](https://rdmkit.elixir-europe.org/)
+
+:::: solution
+RDMkit covers various research data management topics and life sciences fields. You can find the community standards under the "Your domain" tab.
+
+Inside the domain tab, you can navigate the multiple available domains with the side navigation pane. At the top, you will find "Bioimage data" tab. This page includes the following information on the bioimage community standards:
+1. What is bioimage data and metadata?
+1. Standards of bioimage research data management
+1. Bioimage data collection
+1. Data publication and archiving
+
+![A demonstration of how to navigate the RDMkit to find Bioimage metadata information](https://i.imgur.com/kXl80Rm.gif)
+
+::::
+:::::::::
+
+## Recommended reading
+If you want to learn more about how to describe your data with metadata visit the [RDMkit page on how to manage metadata](https://rdmkit.elixir-europe.org/metadata_management.html).
+
+
+:::
+
+::: checklist
+## FAIR principles covered in this episode
+- **I1**  (meta)data use a formal, accessible, shared, and broadly applicable language for knowledge representation 
+- **I3**  (meta)data include qualified references to other (meta)data 
+- **A2** Metadata are accessible, even when the data are no longer available
+
+:::
