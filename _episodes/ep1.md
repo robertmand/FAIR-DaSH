@@ -1,17 +1,27 @@
-# Episode 2 (reviewed)
-
 ---
-title: 'Metadata'
-teaching: 
-exercises: 1
+title: What is FAIR?
+teaching: 40
+exercise: 20
+questions:
+- What is FAIR? What is the origin of the FAIR movement?
+- Why is FAIR important?
+- What is the difference between FAIRness and FAIRification of data?
+objectives:
+- Understand FAIR background and main concepts
+keypoints:
+- FAIR stands for Findable, Accessible, Interoperable and Reusable
+- What is meant by FAIRness and FAIRification of data?
+- FAIR principles were gradually formed by different sources
+- Most data can be FAIRified 
+- Metadata is key component in the process of FAIRification
 ---
 
-::: callout
+
 ## Outcomes
 1. Define metadata and its various types
 1. Recall the community standards and how to apply them to data and metadata
 
-:::
+
 
 ## What is metadata?
 Metadata refers to the information that describes your data.
@@ -101,4 +111,4 @@ If you want to learn more about how to describe your data with metadata visit th
 - **I3**  (meta)data include qualified references to other (meta)data 
 - **A2** Metadata are accessible, even when the data are no longer available
 
-:::
+
