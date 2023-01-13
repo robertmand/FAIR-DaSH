@@ -18,8 +18,8 @@ keypoints:
 Metadata refers to the information that describes your data.
 In other words, imagine you have an Excel spreadsheet containing data values for an assay. You would use column headings to assign meaning and context. These column headings are your metadata, explaining the data values in each cell. In addition, any documentation or explanation of the accompanying excel file is also considered metadata.
 Let's look at Figure 1, showcasing a spreadsheet containing data for a clinical assay. In this example, the data are the patient ID, disease type, and heart rate values. The metadata, the column headings, describe that those values correspond to the patient ID, disease type, and heart rate, as well as the name of the cohort and the contact e-mail.
-![Figure 1: A fabricated example of a clinical assay that includes patient ID, disease type and heart rate. The image showcases which part of this assay represents the metadata](https://i.imgur.com/ldWrS5L.png)
-**What information could we add to better understand the data contained in the dataset?**
+![Figure 1: A fabricated example of a clinical assay that includes patient ID, disease type and heart rate. The image showcases which part of this assay represents the metadata](https://i.imgur.com/ArqBsRG.png)
+### What information could we add to better understand the data contained in the dataset?
 We could add additional metadata to indicate data provenance, i.e. data origin, what happens to it or where it moves over time.
 In this case, we should add more information about the cohort name. "Human Welsh Cohort" does not tell us much about the data if compared to other Welsh cohorts. Instead, we could include the following:
 - A unique ID or detailed title for the cohort
@@ -29,7 +29,7 @@ At first glance, the column headings seem descriptive. However, taking a closer 
 - In row 4, it is unclear whether the type of diabetes mellitus is 1 or 2
 - There is an empty space in the final row. It is unclear whether this is due to a lack of information or that the patient does not have diabetes
 Instead, we can create two separate columns: one for disease type and one for the stage (see Figure 2).
-![Figure 2: An reviewed version of the fabricated example in Figure 1. Metadata has been updated to reduce ambiguity and offer further details.](https://i.imgur.com/d94Xckq.png)
+![Figure 2: An reviewed version of the fabricated example in Figure 1. Metadata has been updated to reduce ambiguity and offer further details.](https://i.imgur.com/hujGaWw.png)
 ### The importance of metadata
 Metadata is small and can be easily maintained not only in the database but in personal computers. The maintenance of datasets in a public database comes at a cost. It can be minimised when maintaining the metadata instead.
 In addition, metadata is also highly efficient for sharing sensitive data. The details available are those provided in the metadata, such contact details of the researchers, how to get the data and how it was generated.
