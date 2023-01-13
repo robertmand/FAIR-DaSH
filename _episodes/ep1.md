@@ -17,7 +17,7 @@ keypoints:
 - Metadata is key component in the process of FAIRification
 ---
  
-## What is metadata?
+### What is metadata?
 Metadata refers to the information that describes your data.
 
 In other words, imagine you have an Excel spreadsheet containing data values for an assay. You would use column headings to assign meaning and context. These column headings are your metadata, explaining the data values in each cell. In addition, any documentation or explanation of the accompanying excel file is also considered metadata.
@@ -43,12 +43,12 @@ Instead, we can create two separate columns: one for disease type and one for th
 
 ![Figure 2: An reviewed version of the fabricated example in Figure 1. Metadata has been updated to reduce ambiguity and offer further details.](https://i.imgur.com/d94Xckq.png)
 
-## The importance of metadata
+### The importance of metadata
 Metadata is small and can be easily maintained not only in the database but in personal computers. The maintenance of datasets in a public database comes at a cost. It can be minimised when maintaining the metadata instead.
 
 In addition, metadata is also highly efficient for sharing sensitive data. The details available are those provided in the metadata, such contact details of the researchers, how to get the data and how it was generated.
 
-## Types of metadata
+### Types of metadata
 We've seen that metadata can describe various aspects of your dataset. It can be classified into three types:
 - **Descriptive Metadata**: defines the characteristics of the dataset
 - **Structural Metadata**: explains how the dataset is generated and structured internally, known as **data provenance**.
@@ -63,12 +63,10 @@ We can observe:
 - **Descriptive metadata**: "Description" section that sumarises the information contained in the dataset
 - **Structural Metadata**: "Protocols", "Samples" and "Assay and Data" sections describing the structure of the dataset and how it was generated
 
-## Following community standards
+### Following community standards
 Each data type has its own community that develops guidelines to describe data appropriately and consistently. Make sure to follow the community standards when describing your data.
 
 Following standards will also make your data more reliable for other researchers, allowing it to be reused across multiple platforms. If you decide to use other guidelines outside your community, document them. 
-
-
  
 > ## Exercise 1. Where to find your community standards
 > RDMkit is an open-source, community-driven site that guides life scientists to manage their research data better. This resource can be your perfect starting point for finding other tools, training materials and any recommended resources related to RDM in the life sciences.
@@ -90,7 +88,7 @@ Following standards will also make your data more reliable for other researchers
 >
 {: .challenge}
 
-## Recommended reading
+### Recommended reading
 If you want to learn more about how to describe your data with metadata visit the [RDMkit page on how to manage metadata](https://rdmkit.elixir-europe.org/metadata_management.html).
 
 
