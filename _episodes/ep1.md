@@ -75,7 +75,7 @@ Following standards will also make your data more reliable for other researchers
 >
 > Can you find the bioimage community standards in the RDMkit?
 > [Start here>>](https://rdmkit.elixir-europe.org/)
-
+>
 > > ## Solution
 > >
 > > ~~~
