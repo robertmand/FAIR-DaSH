@@ -79,17 +79,15 @@ Following standards will also make your data more reliable for other researchers
 > > ## Solution
 > >
 > > ~~~
-> > ...
 > > RDMkit covers various research data management topics and life sciences fields. You can find the community standards under the "Your domain" tab.
 > >
 > > Inside the domain tab, you can navigate the multiple available domains with the side navigation pane. At the top, you will find "Bioimage data" tab. This page includes the following information on the bioimage community standards:
 > > 1. What is bioimage data and metadata?
-> > 1. Standards of bioimage research data management
-> > 1. Bioimage data collection
-> > 1. Data publication and archiving
+> > 2. Standards of bioimage research data management
+> > 3. Bioimage data collection
+> > 4. Data publication and archiving
 
-![A demonstration of how to navigate the RDMkit to find Bioimage metadata information](https://i.imgur.com/kXl80Rm.gif)
-> > ...
+> > ![A demonstration of how to navigate the RDMkit to find Bioimage metadata information](https://i.imgur.com/kXl80Rm.gif)
 > > ~~~
 > {: .solution}
 >
