@@ -86,7 +86,6 @@ Following standards will also make your data more reliable for other researchers
 > > 2. Standards of bioimage research data management
 > > 3. Bioimage data collection
 > > 4. Data publication and archiving
-
 > > ![A demonstration of how to navigate the RDMkit to find Bioimage metadata information](https://i.imgur.com/kXl80Rm.gif)
 > > ~~~
 > {: .solution}
@@ -97,9 +96,7 @@ Following standards will also make your data more reliable for other researchers
 If you want to learn more about how to describe your data with metadata visit the [RDMkit page on how to manage metadata](https://rdmkit.elixir-europe.org/metadata_management.html).
 
 
-:::
 
-::: checklist
 ## FAIR principles covered in this episode
 - **I1**  (meta)data use a formal, accessible, shared, and broadly applicable language for knowledge representation 
 - **I3**  (meta)data include qualified references to other (meta)data 
