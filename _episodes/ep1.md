@@ -7,7 +7,8 @@ questions:
 - Why is FAIR important?
 - What is the difference between FAIRness and FAIRification of data?
 objectives:
-- Understand FAIR background and main concepts
+- Define metadata and its various types
+- Recall the community standards and how to apply them to data and metadata
 keypoints:
 - FAIR stands for Findable, Accessible, Interoperable and Reusable
 - What is meant by FAIRness and FAIRification of data?
@@ -15,14 +16,7 @@ keypoints:
 - Most data can be FAIRified 
 - Metadata is key component in the process of FAIRification
 ---
-
-
-## Outcomes
-1. Define metadata and its various types
-1. Recall the community standards and how to apply them to data and metadata
-
-
-
+ 
 ## What is metadata?
 Metadata refers to the information that describes your data.
 
@@ -49,7 +43,6 @@ Instead, we can create two separate columns: one for disease type and one for th
 
 ![Figure 2: An reviewed version of the fabricated example in Figure 1. Metadata has been updated to reduce ambiguity and offer further details.](https://i.imgur.com/d94Xckq.png)
 
-
 ## The importance of metadata
 Metadata is small and can be easily maintained not only in the database but in personal computers. The maintenance of datasets in a public database comes at a cost. It can be minimised when maintaining the metadata instead.
 
@@ -70,34 +63,33 @@ We can observe:
 - **Descriptive metadata**: "Description" section that sumarises the information contained in the dataset
 - **Structural Metadata**: "Protocols", "Samples" and "Assay and Data" sections describing the structure of the dataset and how it was generated
 
-
-
 ## Following community standards
 Each data type has its own community that develops guidelines to describe data appropriately and consistently. Make sure to follow the community standards when describing your data.
 
 Following standards will also make your data more reliable for other researchers, allowing it to be reused across multiple platforms. If you decide to use other guidelines outside your community, document them. 
 
 
-:::::::::: challenge
-## Exercise 1. Where to find your community standards
-RDMkit is an open-source, community-driven site that guides life scientists to manage their research data better. This resource can be your perfect starting point for finding other tools, training materials and any recommended resources related to RDM in the life sciences.
+ 
+> ## Exercise 1. Where to find your community standards
+> RDMkit is an open-source, community-driven site that guides life scientists to manage their research data better. This resource can be your perfect starting point for finding other tools, training materials and any recommended resources related to RDM in the life sciences.
+>
+> Can you find the bioimage community standards in the RDMkit?
+> [Start here>>](https://rdmkit.elixir-europe.org/)
 
-Can you find the bioimage community standards in the RDMkit?
-[Start here>>](https://rdmkit.elixir-europe.org/)
-
-:::: solution
-RDMkit covers various research data management topics and life sciences fields. You can find the community standards under the "Your domain" tab.
-
-Inside the domain tab, you can navigate the multiple available domains with the side navigation pane. At the top, you will find "Bioimage data" tab. This page includes the following information on the bioimage community standards:
-1. What is bioimage data and metadata?
-1. Standards of bioimage research data management
-1. Bioimage data collection
-1. Data publication and archiving
+> > ## Solution
+> >RDMkit covers various research data management topics and life sciences fields. You can find the community standards under the "Your domain" tab.
+> >
+> >Inside the domain tab, you can navigate the multiple available domains with the side navigation pane. At the top, you will find "Bioimage data" tab. This page includes the following information on the bioimage community standards:
+> > 1. What is bioimage data and metadata?
+> > 1. Standards of bioimage research data management
+> > 1. Bioimage data collection
+> > 1. Data publication and archiving
 
 ![A demonstration of how to navigate the RDMkit to find Bioimage metadata information](https://i.imgur.com/kXl80Rm.gif)
 
-::::
-:::::::::
+> {: .solution}
+>
+{: .challenge}
 
 ## Recommended reading
 If you want to learn more about how to describe your data with metadata visit the [RDMkit page on how to manage metadata](https://rdmkit.elixir-europe.org/metadata_management.html).
