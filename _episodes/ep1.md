@@ -1,7 +1,7 @@
 ---
 title: What is FAIR?
 teaching: 40
-exercise: 20
+exercises: 20
 questions:
 - What is FAIR? What is the origin of the FAIR movement?
 - Why is FAIR important?
@@ -11,7 +11,7 @@ objectives:
 - Recall the community standards and how to apply them to data and metadata
 keypoints:
 - FAIR stands for Findable, Accessible, Interoperable and Reusable
-  -sss 
+- -sss 
 - What is meant by FAIRness and FAIRification of data?
 - FAIR principles were gradually formed by different sources
 - Most data can be FAIRified 
@@ -81,7 +81,7 @@ Following standards will also make your data more reliable for other researchers
 ### Recommended reading
 If you want to learn more about how to describe your data with metadata visit the [RDMkit page on how to manage metadata](https://rdmkit.elixir-europe.org/metadata_management.html).
 
-## FAIR principles covered in this episode
+### FAIR principles covered in this episode
 - **I1**  (meta)data use a formal, accessible, shared, and broadly applicable language for knowledge representation 
 - **I3**  (meta)data include qualified references to other (meta)data 
 - **A2** Metadata are accessible, even when the data are no longer available
