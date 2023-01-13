@@ -1,7 +1,7 @@
 ---
 title: What is FAIR?
 teaching: 40
-exercises: 20
+exercises: 10
 questions:
 - What is FAIR? What is the origin of the FAIR movement?
 - Why is FAIR important?
