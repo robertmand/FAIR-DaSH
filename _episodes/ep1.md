@@ -9,6 +9,10 @@ questions:
 objectives:
 - Define metadata and its various types
 - Recall the community standards and how to apply them to data and metadata
+keypoints:
+- (Meta)data use a formal, accessible, shared, and broadly applicable language for knowledge representation (I1)
+- (Meta)data include qualified references to other (meta)data (A3)
+- Metadata are accessible, even when the data are no longer available (A2)
 --- 
 ### What is metadata?
 Metadata refers to the information that describes your data.
