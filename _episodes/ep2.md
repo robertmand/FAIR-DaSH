@@ -5,7 +5,7 @@ exercises: 10
 questions:
 - What is Meta-data?
 - What else would metadata reveal?
-- How to make metadata FAIR?
+- How to use metadata for your dataset?
 objectives:
 - Define metadata and its various types
 - Recall the community standards and how to apply them to data and metadata
