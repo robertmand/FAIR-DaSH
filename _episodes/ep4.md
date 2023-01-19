@@ -38,7 +38,6 @@ This describes the legal rights on how others use your data. As you publish your
 
 ![Creative commons licences (photo credit: foter)](../fig/cc.jpg)
 
-
 > ## Exercise
 > - From the this RDMkit guideline on types of [licence](https://rdmkit.elixir-europe.org/licensing), what is the licence used by the following datasets:
 > - [A large-scale COVID-19 Twitter chatter dataset for open scientific research - an international > collaboration](https://zenodo.org/record/7368547#.Y4TjT3bP02w)
@@ -58,9 +57,8 @@ Sensitive data are data that, if made publicly available, could cause consequenc
 If your data is following this definition, you have to de-identify your data. **Data deidentification** is a process through which data cannot be identified through the study team nor the users of the data.
 
 - It includes two processes:
-1- Data anonymization
-
-2- Data Pseudonymization
+- Data anonymization
+- Data Pseudonymization
 
 > ## Exercise
 > - From the this RDMkit guideline on [Sensitive data](https://rdmkit.elixir-europe.org/sensitive_data), can you out find what is the data anonymization and data pseudonymization?
