@@ -1,5 +1,5 @@
 ---
-title: What is FAIR?
+title: FAIR guiding principles
 teaching: 40
 exercises: 10
 questions:
