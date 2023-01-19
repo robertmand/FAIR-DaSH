@@ -61,8 +61,7 @@ Take a look at the **ArrayExpress** database where all datasets are indexed, and
 ![By indexing your dataset, you can retrieve it using its PID](../fig/img55.png)
 
 > ## Exercise 1. How to index your dataset?
-> One of the things you can do to index your dataset, is to upload it to Zenodo, can you use one of the 
->  resources we recommended before to know how to do this?
+> One of the things you can do to index your dataset, is to upload it to Zenodo, can you use one of the resources we recommended before to know how to do this?
 > - [RDMkit](https://rdmkit.elixir-europe.org/)
 > - [FAIRcookbook](https://faircookbook.elixir-europe.org/)
 > - [FAIRsharing](https://fairsharing.org/)
