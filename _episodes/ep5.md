@@ -98,6 +98,7 @@ Take a look at the **ArrayExpress** database where all datasets are indexed, and
 >> 
 >> In our specialized courses, we will give you examples on how to upload your data to specialized repository
 > {: .solution}
+>
 {: .challenge}
 
 ### Why should you upload your data to a database?
