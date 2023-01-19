@@ -60,47 +60,47 @@ Take a look at the **ArrayExpress** database where all datasets are indexed, and
 
 ![By indexing your dataset, you can retrieve it using its PID](../fig/img55.png)
 
-> ## Exercise
+> ## Exercise 1. How to index your dataset?
 > One of the things you can do to index your dataset, is to upload it to Zenodo, can you use one of the 
 >  resources we recommended before to know how to do this?
 > - [RDMkit](https://rdmkit.elixir-europe.org/)
 > - [FAIRcookbook](https://faircookbook.elixir-europe.org/)
 > - [FAIRsharing](https://fairsharing.org/)
+
+
+>> ## Solution
+>> Since you want a technical guideline, FAIRcookbook and RDMkit are the best to start with. We will start with  [FAIRcookbook](https://faircookbook.elixir-europe.org/)
+>> As we explained before the structure of the recipe so let's look for the suitable recipe in the FAIRcookbook
+>> So as you navigate the homepage of FAIRcookbook, you will find different tabs that covers each of FAIR 
+>> principles, so for instance, if you want recipes on **Accessibility** of FAIR, you will find all recipes 
+>> that can help you make your data accessible. 
+>> 
+>> - **Follow the following steps to find the recipe:**
+>> 
+>> 1- In this exercise, we are looking for a recipe on **indexing or registering dataset in a searchable 
+>> resource** which you can find it in the findability tab, **Can you find it in this picture?**
+>> ![Recipes of FAIRcookbook where you will find different recipes for FAIR, infrastructure, assessment and 
+>> maturity models](../fig/img51.png)
+>> 
+>> 2- Click on the findability tab
+>> 
+>> 3- on the left side, you will find a navigation bar which will help you find different recipes that make 
+>> your data **findable**. 
+>> ![You can find on the left side the list of recipes to make your data findable](../fig/img52.png)
+>> 
+>> 4- As you can see here, you will find a recipe on registering datasets with Wikidata and another one on 
+>> depositing to generic repositories-Zenodo use case
+>> **Once you click on one of these resources, you will find the following:**
+>> 
+>> A) Requirements that you need to apply the recipe to your dataset
+>> B) The instructions 
+>> C) References and further readings
+>> B) Authors and licence
+>> ![Zenodo use case where you will get step by step guideline on how to deposit your data to Zenodo](../fig/img53.png)
+>> 
+>> In our specialized courses, we will give you examples on how to upload your data to specialized repository
+> {: .solution}
 {: .challenge}
-
-> ## Solution
-> Since you want a technical guideline, FAIRcookbook and RDMkit are the best to start with. We will start with  [FAIRcookbook](https://faircookbook.elixir-europe.org/)
-> As we explained before the structure of the recipe so let's look for the suitable recipe in the FAIRcookbook
-> So as you navigate the homepage of FAIRcookbook, you will find different tabs that covers each of FAIR 
-> principles, so for instance, if you want recipes on **Accessibility** of FAIR, you will find all recipes 
-> that can help you make your data accessible. 
-> 
-> - **Follow the following steps to find the recipe:**
-> 
-> 1- In this exercise, we are looking for a recipe on **indexing or registering dataset in a searchable 
-> resource** which you can find it in the findability tab, **Can you find it in this picture?**
-> ![Recipes of FAIRcookbook where you will find different recipes for FAIR, infrastructure, assessment and 
-> maturity models](../fig/img51.png)
-> 
-> 2- Click on the findability tab
-> 
-> 3- on the left side, you will find a navigation bar which will help you find different recipes that make 
-> your data **findable**. 
-> ![You can find on the left side the list of recipes to make your data findable](../fig/img52.png)
-> 
-> 4- As you can see here, you will find a recipe on registering datasets with Wikidata and another one on 
-> depositing to generic repositories-Zenodo use case
-
-> **Once you click on one of these resources, you will find the following:**
-> 
-> A) Requirements that you need to apply the recipe to your dataset
-> B) The instructions 
-> C) References and further readings
-> B) Authors and licence
-> ![Zenodo use case where you will get step by step guideline on how to deposit your data to Zenodo](../fig/img53.png)
-> 
-> In our specialized courses, we will give you examples on how to upload your data to specialized repository
-{: .solution}
 
 ### Why should you upload your data to a database?
 1- Databases assign your data a unique persistent identifier.
