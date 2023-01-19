@@ -12,7 +12,7 @@ objectives:
 - Illustrate the importance of indexed data repository
 - Summarize the steps of data indexing in a searchable repository
 keypoints:
-This episode covers the following FAIR principles:
+- This episode covers the following FAIR principles:
 - (Meta)data are registered or indexed in a searchable resource (F4) 
 - (Meta)data are released with a clear and accessible data usage license (R1.1)
 --- 
@@ -77,13 +77,15 @@ Take a look at the **ArrayExpress** database where all datasets are indexed, and
 > 
 > - **Follow the following steps to find the recipe:**
 > 
-> 1- In this exercise, we are looking for a recipe on **indexing or registering dataset in a searchable > resource** which you can find it in the findability tab, **Can you find it in this picture?**
-> ![Recipes of FAIRcookbook where you will find different recipes for FAIR, infrastructure, assessment and > maturity models](../fig/img51.png)
+> 1- In this exercise, we are looking for a recipe on **indexing or registering dataset in a searchable 
+> resource** which you can find it in the findability tab, **Can you find it in this picture?**
+> ![Recipes of FAIRcookbook where you will find different recipes for FAIR, infrastructure, assessment and 
+> maturity models](../fig/img51.png)
 > 
 > 2- Click on the findability tab
 > 
-> 3- on the left side, you will find a navigation bar which will help you find different recipes that make your 
-> data **findable**. 
+> 3- on the left side, you will find a navigation bar which will help you find different recipes that make 
+> your data **findable**. 
 > ![You can find on the left side the list of recipes to make your data findable](../fig/img52.png)
 > 
 > 4- As you can see here, you will find a recipe on registering datasets with Wikidata and another one on 
@@ -95,7 +97,7 @@ Take a look at the **ArrayExpress** database where all datasets are indexed, and
 > B) The instructions 
 > C) References and further readings
 > B) Authors and licence
-> ![Zenodo use case where you will get step by step guideline on how to deposit your data to Zenodo](fig/img53.png)
+> ![Zenodo use case where you will get step by step guideline on how to deposit your data to Zenodo](../fig/img53.png)
 > 
 > In our specialized courses, we will give you examples on how to upload your data to specialized repository
 {: .solution}
