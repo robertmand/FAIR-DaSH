@@ -67,5 +67,19 @@ Following standards will also make your data more reliable for other researchers
 > {: .solution}
 >
 {: .challenge}
+
+
+
+
+
+
+
+
+
+Controlled vocabularies:
+A controlled vocabulary is a dictionary of terms you use when producing metadata and data.  Controlled vocabularies are often shared between databases and communities of practice, so by using them you can allow data from different sources to be merged.  In the figure below data from 2 different sources can be merged since they use the same ID from the taxonomy database.  THe taxonID in this example is the controlled vocabulary uniting the 2 datasets.  Note also, that organismName is also a control vocabulary.
+
+To give another example where using controlled vocabularies is useful: if you are collecting clinic data and want to include a field “sex at birth”, you would assign a controlled vocabulary to this field:  [“male”, “female”, “unknown”].  By doing this, you are limiting data entry to these 3 terms.
+ The use of controlled vocabularies prevents confusion and duplication caused by free text data entry, for example [“male”, “Male”, “man”, “m”, “female”, “FEMALE”, “woman”, “unknown”, “blank”, “n/a”], noting that free-text requires curation (correction) before analysis can occur.
 ### Recommended reading
 If you want to learn more about how to describe your data with metadata visit the [RDMkit page on how to manage metadata](https://rdmkit.elixir-europe.org/metadata_management.html).
