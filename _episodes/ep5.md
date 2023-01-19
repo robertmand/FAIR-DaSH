@@ -66,7 +66,8 @@ Take a look at the **ArrayExpress** database where all datasets are indexed, and
 > - [FAIRcookbook](https://faircookbook.elixir-europe.org/)
 > - [FAIRsharing](https://fairsharing.org/)
 >> ## Solution
->> Since you want a technical guideline, FAIRcookbook and RDMkit are the best to start with. We will start with  [FAIRcookbook](https://faircookbook.elixir-europe.org/)
+>> Since you want a technical guideline, FAIRcookbook and RDMkit are the best to start with. We will start 
+>> with [FAIRcookbook](https://faircookbook.elixir-europe.org/)
 >> As we explained before the structure of the recipe so let's look for the suitable recipe in the FAIRcookbook
 >> So as you navigate the homepage of FAIRcookbook, you will find different tabs that covers each of FAIR 
 >> principles, so for instance, if you want recipes on **Accessibility** of FAIR, you will find all recipes 
