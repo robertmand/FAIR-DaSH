@@ -124,11 +124,12 @@ It will also allow your data to be more accessible as the standardized communica
 #### How to choose the right database for your dataset?
 - Check the community standards for your data, you can find more information [RDMkit guidelines](https://rdmkit.elixir-europe.org/your_domain)
 - Look for resources that describe the databases and check if it fits your data, you might consider the following:
+
 A) Accessibility options 
 
 B) Licence
 
-- One of these resources is **FAIRsharing**, it provides a registry for different databases and repositories. Here is an example where the FAIR sharing provides you with information regarding protein database [here](https://fairsharing.org/FAIRsharing.rtndct). It has the following information
+- One of these resources is **FAIRsharing**, it provides a registry for different databases and repositories. Here is an example where the FAIR sharing provides you with information regarding [protein database](https://fairsharing.org/FAIRsharing.rtndct). It has the following information
 - General information
 - Which policies use this database?
 - Related community standards
