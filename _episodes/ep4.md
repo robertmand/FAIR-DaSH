@@ -42,14 +42,15 @@ This describes the legal rights on how others use your data. As you publish your
 > - From the this RDMkit guideline on types of [licence](https://rdmkit.elixir-europe.org/licensing), what is the licence used by the following datasets:
 > - [A large-scale COVID-19 Twitter chatter dataset for open scientific research - an international > collaboration](https://zenodo.org/record/7368547#.Y4TjT3bP02w)
 > - [RNA-seq of circadian timeseries sampling (LL2-3) of 13-14 day old Arabidopsis thaliana Col-0 (24 h to 68 > h, sampled every 4 h)](https://www.ebi.ac.uk/biostudies/arrayexpress/studies/E-MTAB-7933)
->> ## Solution
->> The link we provided, provided a nice explanation on types of licence and as you read the following section > from RDMKit, you will find the following:
->> ![(RDMkit on types of licence)](fig/img41.png){alt='alt text'}
->> From this section, you can clearly understand the type of licence used for:
->> - [A large-scale COVID-19 Twitter chatter dataset for open scientific research - an international  collaboration](https://zenodo.org/record/7368547#.Y4TjT3bP02w) is CC-BY-4
-> - [RNA-seq of circadian timeseries sampling (LL2-3) of 13-14 day old Arabidopsis thaliana Col-0 (24 h to 68 > h, sampled every 4 h)(https://www.ebi.ac.uk/biostudies/arrayexpress/studies/E-MTAB-7933) is CC-BY-4
-> {: .solution}
 {: .challenge}
+> ## Solution
+> The link we provided, provided a nice explanation on types of licence and as you read the following section > from RDMKit, you will find the following:
+> ![(RDMkit on types of licence)](fig/img41.png){alt='alt text'}
+> From this section, you can clearly understand the type of licence used for:
+> - [A large-scale COVID-19 Twitter chatter dataset for open scientific research - an international  collaboration](https://zenodo.org/record/7368547#.Y4TjT3bP02w) is CC-BY-4
+> - [RNA-seq of circadian timeseries sampling (LL2-3) of 13-14 day old Arabidopsis thaliana Col-0 (24 h to 68 > h, sampled every 4 h)(https://www.ebi.ac.uk/biostudies/arrayexpress/studies/E-MTAB-7933) is CC-BY-4
+{: .solution}
+
 
 ##### Sensitive data 
 Sensitive data are data that, if made publicly available, could cause consequences for individuals, groups, nations, or ecosystems and need to be secured from unauthorised access. To determine whether your data is sensitive, you should consult national laws, which vary by country.
