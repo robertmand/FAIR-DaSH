@@ -16,11 +16,10 @@ keypoints:
 - Metadata, identifiers , registration, access are key components in the process of FAIRification
 - The FAIR Principles differ from Open data because they permit the owner of the data to control access, although as part of this they are required to define methods and instances where data could be accessed
 --- 
-
-## What is FAIR?
+### What is FAIR?
 The FAIR Principles were created to help researchers share, reuse, and manage their data. These Principles will be discussed and contextualised later, but for now, you should know that FAIR data can be defined as any dataset that can be discovered and downloaded by others; and interpreted correctly through detailed descriptions of the provision of detailed descriptions about the data.
 
-FAIR refers makes reference to the term metadata, data that provides a description of other data, which is commonly curation enabling a person, or computer, to understand, access and use the data appropriately. 
+FAIR refers to the term metadata, data that provides a description of other data, which is commonly curation enabling a person, or computer, to understand, access and use the data appropriately. 
  
 FAIR is not limited to the Life Sciences and spans all research disciplines. The FAIR principles are also not limited to data and can be applied to the sharing and reuse of services, software, training and data workflows. 
 
@@ -33,25 +32,25 @@ FAIR itself was then formalised and published in 2016 in FAIR Guiding Principles
 > ## Exercise
 > Read page 11 of the European Commission report, under the heading “Origins and definitions of FAIR”.  What 
 > benefit did the FORCE11 Working Group see to coining the word FAIR? 
-{:. challenge}
+{: .challenge}
 
 > ## Solution
 > The report states: “a FORCE11 Working Group coined the FAIR data definition, latching onto an arresting and
 > rhetorically useful acronym. The wordplay with fairness, in the sense of equity and justice, has also been 
 > eloquent in communicating the idea that FAIR data serves the best interests of the research community and 
 > the advancement of science as a public enterprise that benefits society. ”
-{:. solution}
+{: .solution}
 
 > ## Exercise
 > FAIR isn’t limited to data. From the same report, what other examples of “objects” can be made FAIR? https://zenodo.org/record/1285272#.Yuk8O_HMIqt
-{:. challenge}
+{: .challenge}
 
 > ## Solution:
 > On page 15, the report states: “FAIR should be applied broadly to all objects (including metadata, > identifiers, software and
 > DMPs) that are essential to the practice of research, and should inform metrics relating directly to these > objects.”  Noting that DMPs are “data management plans”.
 > Also, on page 34 "FAIR data, code, workflows, models, and other digital research objects"”
 > The benefits of FAIR data in research are evidenced in two publications given below as further reading.  In > addition to these, familiarise yourself with two online FAIR resources: RDMkit and FAIR cookbook, that > signpost and position FAIR concepts and its application.
-{:. solution}
+{: .solution}
 
 ## Exercise:
 > Read the page in RDMkit explaining why the FAIR principles are needed. 
@@ -67,7 +66,7 @@ FAIR itself was then formalised and published in 2016 in FAIR Guiding Principles
 The term **FAIRness** refers to the extent to which your data follows FAIR principles.
 A common misconception is to think that for data to be FAIR it needs to be open. FAIR data and oOpen data are different
 
-The Open Data handbook (referenced below) states: 
+**The Open Data handbook (referenced below) states**
 Open data is …. “data that can be freely used, reused and redistributed by anyone.”
 Hence, “Open data” refers to access without restriction.  While The term “open as possible, closed as necessary” is used commonly when describing FAIR data.
 However, it is important to note, noting that most FAIR data is open without restriction, though FAIR data doesn’t require to be open and its access can be restricted.but access can be restricted in some cases.  So long as the conditions of access are given, the data remain FAIR even though not open.  The key is in thething is that there should be enough metadata – for a human or computer should be able to find the condition of access expressed in an explicit manner.
@@ -75,12 +74,12 @@ However, it is important to note, noting that most FAIR data is open without res
 > ## Exercise: 
 > Why would Open data be sometimes rejected by a clinician?
 > 
-{:. challenge}
+{: .challenge}
 > ## Solution:
 > Although not limited to clinicians, researchers reject Open data where they produce and work with sensitive > data or data subject to intellectual property.  Protecting sensitive data overrules mandating all research 
 > data should be open access.
 > Note though that in most cases, people following FAIR principles will be looking to share their data openly. > Also, that sensitive data can be released through anonymisation and in many cases, sharing of sensitive data > is subject to controlled access.  
-{:. solution}
+{: .solution}
 
 ## Pillars of FAIR
 The FAIR Principles refer to the terms: machine readability, metadata, persistent identifiers, access, and registration.  Before we start looking at real data examples that use the FAIR principles, we will define these first.
