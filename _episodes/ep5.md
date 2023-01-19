@@ -63,7 +63,7 @@ Take a look at the **ArrayExpress** database where all datasets are indexed, and
 > ## Exercise 1. How to index your dataset?
 > One of the things you can do to index your dataset, is to upload it to Zenodo, can you use one of the 
 > resources we recommended before to know how to do this?
-> [RDMkit](https://rdmkit.elixir-europe.org/), [FAIRcookbook](https://faircookbook.elixir-europe.org/, [FAIRsharing](https://fairsharing.org/)
+> [RDMkit](https://rdmkit.elixir-europe.org/), [FAIRcookbook](https://faircookbook.elixir-europe.org/), [FAIRsharing](https://fairsharing.org/)
 >> ## Solution
 >> Since you want a technical guideline, FAIRcookbook and RDMkit are the best to start with. We will start 
 >> with [FAIRcookbook](https://faircookbook.elixir-europe.org/)
