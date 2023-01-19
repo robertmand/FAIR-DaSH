@@ -26,29 +26,27 @@ Watch our RDMbBites on the persistent identifiers to understand more.
 Identifiers are very important concept of the FAIR principle. They are considered one of the pillars for the FAIR principles. It makes your data more **Findable (F)** 
 
 
-> ## Find the PID
-> Remember our example on metadata types from arrayexpress, you can find it [in the first lesson](https://
-> saramorsy.github.io/FAIR/02-ep.html), can you tell what is the persistent identifier of this dataset?
-> {: .challenge}
-
-> ## Solution
-> The PID in this case or as it called in array express "Accession" is **E-MTAB-7933**. If you use this 
-> accession number, you will find the dataset. 
-> **In addition, have you noticed that also the data files are named using this PID** .
-> ![The PID highlighted in yellow](../fig/img17.PNG){alt='alt text'}
+> ## Exercise 1. Find the PID
+> Remember our example on metadata types from arrayexpress, you can find it [in the first lesson]https://elixir-uk-dash.github.io/FAIR-DaSH/ep2/index.html, can you tell what is the persistent identifier of this dataset?
+> 
+>> ## Solution
+>> The PID in this case or as it called in array express "Accession" is **E-MTAB-7933**. If you use this 
+>> accession number, you will find the dataset. 
+>> **In addition, have you noticed that also the data files are named using this PID** .
+>> ![The PID highlighted in yellow](../fig/img17.PNG){alt='alt text'}
 > {: .solution}
-
+{: .challenge}
 
 **It is important to note that when you upload your data to a public repository, the repository will create this ID for you automatically.**
 
-## the Structure of persistent identifiers
+## The Structure of persistent identifiers
 
 As you can see in this picture, the structure of any identifiers consist of 
-1- The initial resolver service: domain which is unique and specific to each community e.g. ORCID for researchers and DOI for publications
-2- **Prefix**: Unique number that represent category e.g. for DOI specific numbers refer to the publisher and directory
-3- **Suffix**: The unique dataset number and it is unique under its prefix
+- The initial resolver service: domain which is unique and specific to each community e.g. ORCID for researchers and DOI for publications
+- **Prefix**: Unique number that represent category e.g. for DOI specific numbers refer to the publisher and directory
+- **Suffix**: The unique dataset number and it is unique under its prefix
 
-![(I have created this image so please let me know if you want to change it) The structure of persistent identifiers as in DOI, In the prefix, you can see that first part of prefix represent DOI directory and the following number is publisher. Suffix is unique under its unique prefix](fig/img18.jpg)
+![(I have created this image so please let me know if you want to change it) The structure of persistent identifiers as in DOI, In the prefix, you can see that first part of prefix represent DOI directory and the following number is publisher. Suffix is unique under its unique prefix](../fig/img18.jpg)
 
 
 > ## Resources

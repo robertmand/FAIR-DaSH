@@ -16,33 +16,27 @@ keypoints:
 - (A1) (meta)data are retrievable by their identifier using a standardised communications protocol
 - (R1.1) meta(data) are released with a clear and accessible data usage licence
 --- 
-
-## Standard communication protocol
+#### Standard communication protocol
 Simply put, **a protocol** is a method that connects two computers, the protocol ensure security, and authenticity of your data. Once the safety and authenticity of the data is verified, the transfer of data to another computer happens.
 
 Having a protocol does not guarantee that your data are accessible. However, you can choose a protocol that is free, open and allow easy and exchange of information. One of the steps you can do is to choose the right database, so when you upload your data into database, the database executes a protocol that allows the user to  load data in the user’s web browser. This protocol allows the easy access of the data but still secures the data. 
-
-## Authentication process
+#### Authentication process
 It is the process that a protocol uses for verification. To know what authentication is, suppose we have three people named John Smith. We do not know which one submitted the data. This is through assigning a unique ID for each one that is interpreted by machines and humans so you would know who is the actual person that submitted the data. Doing so is a form of authentication. This is used by many databases like Zenodo, where you can sign-up using ORCID-ID allowing the database to identify you.
-
 
 > ## Exercise
 > After reading this guide on different [protocol types](https://rdmkit.elixir-europe.org/data_transfer.
 > html#how-do-you-transfer-large-data-files), do you know what is the protocol used in [arrayexpress](https://> www.ebi.ac.uk/biostudies/arrayexpress)?
+>> ## Solution
+>> As we explained before on how to use the RDMkit, going through the [Protocols and safety of data transfer]> (https://rdmkit.elixir-europe.org/data_transfer.html), you will find different types of licence explained
+>> 
+>> From this part, you can understand that the protocol used for the arrayexpress is **HTTP (HyperText Transfer Protocol)** (highlighted in purple)
+> {: .solution}
 {: .challenge}
-
-> ## Solution
-> As we explained before on how to use the RDMkit, going through the [Protocols and safety of data transfer]> (https://rdmkit.elixir-europe.org/data_transfer.html), you will find different types of licence explained
-> 
-> From this part, you can understand that the protocol used for the arrayexpress is **HTTP (HyperText Transfer > Protocol)** (highlighted in purple)
-{: .solution}
-
-## What are the types of transfer protocol?
 
 ### Data usage licence
 This describes the legal rights on how others use your data. As you publish your data, you should describe clearly in what capacity your data can be used. Bear in mind that description of licence is important to allow machine and human reusability of your data. There are many licence that can be used e.g. MIT licence or Common creative licence. These licences provide accurate description of the rights of data reuse, Please have a look at resources in the description box to know more about these licences. 
 
-![Creative commons licences (photo credit: foter)](fig/cc.jpg){alt='alt text'}
+![Creative commons licences (photo credit: foter)](../fig/cc.jpg){alt='alt text'}
 
 
 > ## Exercise
