@@ -16,7 +16,7 @@ keypoints:
 - Metadata, identifiers , registration, access are key components in the process of FAIRification
 - The FAIR Principles differ from Open data because they permit the owner of the data to control access, although as part of this they are required to define methods and instances where data could be accessed
 --- 
-##### What is FAIR?
+**What is FAIR?**
 The FAIR Principles were created to help researchers share, reuse, and manage their data. These Principles will be discussed and contextualised later, but for now, you should know that FAIR data can be defined as any dataset that can be discovered and downloaded by others; and interpreted correctly through detailed descriptions of the provision of detailed descriptions about the data.
 
 ![FAIR principles](../fig/fairifying2.png)
@@ -51,15 +51,14 @@ FAIR itself was then formalised and published in 2016 in FAIR Guiding Principles
 - Further reading demonstrating the benefits of FAIR:
 [A European Commission report in 2018](https://op.europa.eu/en/publication-detail/-/publicationd375368c-1a0a-11e9-8d04-01aa75ed71a1/language-en), considers the detrimental effects of not complying with FAIR principles and details the negative impact on research activities, collaboration, and innovation 
 - [EMBL-EBI report in 2020](https://op.europa.eu/en/publication-detail/-/publicationd375368c-1a0a-11e9-8d04-01aa75ed71a1/language-en) shows how data sharing enabled the acceleration of COVID-19 > research to meet the challenges of the pandemic.
-## What is meant by FAIRification and FAIRness of data?
+**What is meant by FAIRification and FAIRness of data?**
 **FAIRification** is the process of making your data FAIR.  In other words, if you add metadata along with your data and share it, you are FAIRifying your data. We will take you through data FAIRification, in detail, later in this course but to put this into context now: by providing metadata along with your data when it is shared, you are FAIRifying your data.
 The term **FAIRness** refers to the extent to which your data follows FAIR principles.
 A common misconception is to think that for data to be FAIR it needs to be open. FAIR data and oOpen data are different
 
-## Open science and FAIR
-
-**The Open Data handbook states**
-Open data is …. “data that can be freely used, reused and redistributed by anyone.”
+**Open science and FAIR**
+The Open Data handbook states
+Open data is “data that can be freely used, reused and redistributed by anyone.”
 Hence, “Open data” refers to access without restriction.  While The term “open as possible, closed as necessary” is used commonly when describing FAIR data.
 However, it is important to note, noting that most FAIR data is open without restriction, though FAIR data doesn’t require to be open and its access can be restricted.but access can be restricted in some cases.  So long as the conditions of access are given, the data remain FAIR even though not open.  The key is in thething is that there should be enough metadata – for a human or computer should be able to find the condition of access expressed in an explicit manner.
 
@@ -73,9 +72,11 @@ However, it is important to note, noting that most FAIR data is open without res
 > {: .solution}
 {: .challenge}
 
-## Pillars of FAIR
+**Pillars of FAIR**
+
 The FAIR Principles refer to the terms: machine readability, metadata, persistent identifiers, access, and registration.  Before we start looking at real data examples that use the FAIR principles, we will define these first.
-### Machine readability 
+
+**Machine readability**
 Machine readability refers to how data can be structured or formatted so that they can be processed or read by a computer.  A spreadsheet is a good example of machine-readable data, where each piece of data (number, word(s)) can be assigned a cell-address in the spreadsheet.  If a programmer knows that all data of a certain type (e.g. patient ID) are in the third column of a datasheet, a script can be written to easily retrieve all patient IDs.  Machine readability in FAIR is encountered later in this course when we consider how data can be discovered by computers.
 
 >## Exercise:
