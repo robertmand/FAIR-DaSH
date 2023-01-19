@@ -12,7 +12,7 @@ objectives:
 - To give examples of  databases that uses a protocol with  different  authentication process 
 - To interpret the usage licence associated with different data sets
 keypoints:
-This episode covers the following FAIR principles:
+- This episode covers the following FAIR principles:
 - (A1) (meta)data are retrievable by their identifier using a standardised communications protocol
 - (R1.1) meta(data) are released with a clear and accessible data usage licence
 --- 

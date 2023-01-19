@@ -7,19 +7,17 @@ questions:
 - What are types of data repositories?
 - Why should you upload your data to a data repository?
 - How to choose the right database for your dataset?
-
 objectives:
 - Define what is data repository
 - Illustrate the importance of indexed data repository
 - Summarize the steps of data indexing in a searchable repository
-
 keypoints:
 This episode covers the following FAIR principles:
 - (Meta)data are registered or indexed in a searchable resource (F4) 
 - (Meta)data are released with a clear and accessible data usage license (R1.1)
 --- 
 
-### what is a data repository?
+### What is a data repository?
 It is a general term used to describe any storage space you use to deposit data, metadata and any associated research. Kindly note that database is more specific and it is mainly for the storage of your data. 
 
 #### Types of data repository
@@ -30,10 +28,10 @@ There are many types of data repsoitory classified based on:
 The following table summarize these differences
 
 
-Data repository            Data warehouse     Data mart                     Data lake 
----------------            --------------     ----------                    ------- 
-Supported data types       Structured                 Highly Structured                Structured, semi-structured, unstructured, binary
-Data quality                curated                   Highly curated                   Raw data 
+Data repository                       Data warehouse                Data mart                     Data lake 
+---------------                        --------------                ----------                    ------- 
+Supported data types                   Structured                 Highly Structured                Structured, Semi-structured, unstructured, binary
+Data quality                            curated                   Highly curated                   Raw data 
 
 **2- The purpose of data repository into:** 
 
