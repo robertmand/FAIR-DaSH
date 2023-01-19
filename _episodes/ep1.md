@@ -16,7 +16,7 @@ keypoints:
 - Metadata, identifiers , registration, access are key components in the process of FAIRification
 - The FAIR Principles differ from Open data because they permit the owner of the data to control access, although as part of this they are required to define methods and instances where data could be accessed
 --- 
-**What is FAIR?**
+##### What is FAIR?
 The FAIR Principles were created to help researchers share, reuse, and manage their data. These Principles will be discussed and contextualised later, but for now, you should know that FAIR data can be defined as any dataset that can be discovered and downloaded by others; and interpreted correctly through detailed descriptions of the provision of detailed descriptions about the data.
 
 ![FAIR principles](../fig/fairifying2.png)
@@ -56,7 +56,7 @@ FAIR itself was then formalised and published in 2016 in FAIR Guiding Principles
 The term **FAIRness** refers to the extent to which your data follows FAIR principles.
 A common misconception is to think that for data to be FAIR it needs to be open. FAIR data and oOpen data are different
 
-**Open science and FAIR**
+##### Open science and FAIR
 The Open Data handbook states
 Open data is “data that can be freely used, reused and redistributed by anyone.”
 Hence, “Open data” refers to access without restriction.  While The term “open as possible, closed as necessary” is used commonly when describing FAIR data.
@@ -72,8 +72,7 @@ However, it is important to note, noting that most FAIR data is open without res
 > {: .solution}
 {: .challenge}
 
-**Pillars of FAIR**
-
+##### Pillars of FAIR
 The FAIR Principles refer to the terms: machine readability, metadata, persistent identifiers, access, and registration.  Before we start looking at real data examples that use the FAIR principles, we will define these first.
 
 **Machine readability**
