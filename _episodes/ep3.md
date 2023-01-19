@@ -1,5 +1,5 @@
 ---
-title: What is an identifier?
+title: Persistent identifiers
 teaching: 40
 exercises: 10
 questions:
