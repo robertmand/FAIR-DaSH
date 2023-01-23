@@ -3,7 +3,7 @@ title: Registration
 teaching: 40
 exercises: 10
 questions:
-- What is a data repository?
+- What is a data repository??
 - What are types of data repositories?
 - Why should you upload your data to a data repository?
 - How to choose the right database for your dataset?
