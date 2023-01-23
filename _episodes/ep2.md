@@ -1,76 +1,156 @@
 ---
-title: Metadata
+title: Registration
 teaching: 40
 exercises: 10
 questions:
-- What is FAIR? What is the origin of the FAIR movement?
-- Why is FAIR important?
-- What is the difference between FAIRness and FAIRification of data?
+- What is a data repository?
+- What are types of data repositories?
+- Why should you upload your data to a data repository?
+- How to choose the right database for your dataset?
 objectives:
-- Define metadata and its various types
-- Recall the community standards and how to apply them to data and metadata
+- Define what is data repository
+- Illustrate the importance of indexed data repository
+- Summarize the steps of data indexing in a searchable repository
 keypoints:
-- (Meta)data use a formal, accessible, shared, and broadly applicable language for knowledge representation (I1)
-- (Meta)data include qualified references to other (meta)data (A3)
-- Metadata are accessible, even when the data are no longer available (A2)
+- This episode covers the following FAIR principles:
+- (Meta)data are registered or indexed in a searchable resource (F4) 
+- (Meta)data are released with a clear and accessible data usage license (R1.1)
 --- 
-### What is metadata?
-Metadata refers to the information that describes your data.
-In other words, imagine you have an Excel spreadsheet containing data values for an assay. You would use column headings to assign meaning and context. These column headings are your metadata, explaining the data values in each cell. In addition, any documentation or explanation of the accompanying excel file is also considered metadata.
-Let's look at Figure 1, showcasing a spreadsheet containing data for a clinical assay. In this example, the data are the patient ID, disease type, and heart rate values. The metadata, the column headings, describe that those values correspond to the patient ID, disease type, and heart rate, as well as the name of the cohort and the contact e-mail.
-![Figure 1: A fabricated example of a clinical assay that includes patient ID, disease type and heart rate. The image showcases which part of this assay represents the metadata](https://i.imgur.com/ArqBsRG.png)
-### What information could we add to better understand the data contained in the dataset?
-We could add additional metadata to indicate data provenance, i.e. data origin, what happens to it or where it moves over time.
-In this case, we should add more information about the cohort name. "Human Welsh Cohort" does not tell us much about the data if compared to other Welsh cohorts. Instead, we could include the following:
-- A unique ID or detailed title for the cohort
-- A project URL describing its origin and composition
-At first glance, the column headings seem descriptive. However, taking a closer look, we can see that the "disease type" column captures both the disease type and stage, which can cause ambiguity:
-- In row 3, it is unclear whether the disease is diabetes mellitus or insipidus
-- In row 4, it is unclear whether the type of diabetes mellitus is 1 or 2
-- There is an empty space in the final row. It is unclear whether this is due to a lack of information or that the patient does not have diabetes
-Instead, we can create two separate columns: one for disease type and one for the stage (see Figure 2).
-![Figure 2: An reviewed version of the fabricated example in Figure 1. Metadata has been updated to reduce ambiguity and offer further details.](https://i.imgur.com/hujGaWw.png)
-### The importance of metadata
-Metadata is small and can be easily maintained not only in the database but in personal computers. The maintenance of datasets in a public database comes at a cost. It can be minimised when maintaining the metadata instead.
-In addition, metadata is also highly efficient for sharing sensitive data. The details available are those provided in the metadata, such contact details of the researchers, how to get the data and how it was generated.
-### Types of metadata
-We've seen that metadata can describe various aspects of your dataset. It can be classified into three types:
-- **Descriptive Metadata**: defines the characteristics of the dataset
-- **Structural Metadata**: explains how the dataset is generated and structured internally, known as **data provenance**.
-- **Administrative metadata**: describes data owner(s), data contributors and funding sources.
-Let's look at an example using microarray data from the ArrayExpress database (Figure 3) to locate the different types of metadata that we have defined.
-[![Figure 3: A snapshot of a real microarray dataset on the ArrayExpress database](https://i.imgur.com/igdEmOu.png)](https://www.ebi.ac.uk/biostudies/arrayexpress/studies/E-MTAB-7933)
-We can observe:
-- **Administrative metadata**: authors and organisations underneath the dataset title, and the information in "Publication"
-- **Descriptive metadata**: "Description" section that sumarises the information contained in the dataset
-- **Structural Metadata**: "Protocols", "Samples" and "Assay and Data" sections describing the structure of the dataset and how it was generated
-### Following community standards
-Each data type has its own community that develops guidelines to describe data appropriately and consistently. Make sure to follow the community standards when describing your data.
-Following standards will also make your data more reliable for other researchers, allowing it to be reused across multiple platforms. If you decide to use other guidelines outside your community, document them. 
- 
-> ## Exercise 1. Where to find your community standards
-> RDMkit is an open-source, community-driven site that guides life scientists to manage their research data better. This resource can be your perfect starting point for finding other tools, training materials and any recommended resources related to RDM in the life sciences.
->
-> Can you find the bioimage community standards in the RDMkit?
-> [Start here>>](https://rdmkit.elixir-europe.org/)
->
-> > ## Solution
-> >
-> > RDMkit covers various research data management topics and life sciences fields. You can find the community standards under the "Your domain" tab.
-> >
-> > Inside the domain tab, you can navigate the multiple available domains with the side navigation pane. At the top, you will find "Bioimage data" tab. This page includes the following information on the bioimage community standards:
-> > 1. What is bioimage data and metadata?
-> > 2. Standards of bioimage research data management
-> > 3. Bioimage data collection
-> > 4. Data publication and archiving
-> > ![A demonstration of how to navigate the RDMkit to find Bioimage metadata information](https://i.imgur.com/kXl80Rm.gif)
+#### What is a data repository?
+It is a general term used to describe any storage space you use to deposit data, metadata and any associated research. Kindly note that database is more specific and it is mainly for the storage of your data. 
+#### Types of data repository
+There are many types of data repsoitory that are classified based on:
+
+**1- The structure of the data:** Data warehouse, Data lake and Data mart
+
+The following table summarize these differences
+
+
+Data repository                       Data warehouse                Data mart                     Data lake 
+---------------                        --------------                ----------                    ------- 
+Supported data types                   Structured                 Highly Structured                Structured, Semi-structured, unstructured, binary
+Data quality                            curated                   Highly curated                   Raw data 
+
+**2- The purpose of data repository into:** 
+
+A) Controlled access repository
+
+B) Discipline specific repository
+
+C) Institutional repository
+
+D) General data repository
+
+**Figure 1 summarizes these types with different examples**
+
+![Figure 1. Types of data repository with different examples, CC.BY from re3data.org](../fig/img56.jpg)
+
+### Why should you upload your data to a data repository?
+
+To ensure data findability, your data should be uploaded to a public repository where your data can be searched and found, It will make your data comply with the fourth principle of findability (F4) which states that **(Meta)data are registered or indexed in a searchable resource**. There are numerous databases where you can upload your data, which are typically data-driven. 
+Examples of these databases are **ArrayExpress** for microarray data and RNAseq data. These databases have a set of rules in place to make sure that your data will be FAIR.
+
+After you upload your data into this database, they are assigned an ID and are indexed in the database. So whenever you look for the ID, or even use a keyword for your data, you will find your data.
+
+Take a look at the **ArrayExpress** database where all datasets are indexed, and you can simply find any dataset using the search tools. By indexing data, you can get the dataset using any keyword other than the PID. For example, if you want to locate human NSCL cell lines, you can just type this into the search toolbox and find the dataset. Indexing and registering datasets, also means they are curated in such a way that you may discover them using different keywords.
+
+##### For example, you can find the same dataset by using its identifiers or by using keywords chosen by the dataset's authors to describe it.
+
+![When you upload your dataset to a database, it can be curated and easily found using different keywords](../fig/img54.png)
+
+![By indexing your dataset, you can retrieve it using its PID](../fig/img55.png)
+
+> ## Exercise 1. How to index your dataset?
+> One of the things you can do to index your dataset, is to upload it to Zenodo, can you use one of the 
+> resources we recommended before to know how to do this?
+> [RDMkit](https://rdmkit.elixir-europe.org/), [FAIRcookbook](https://faircookbook.elixir-europe.org/), [FAIRsharing](https://fairsharing.org/)
+>> ## Solution
+>> Since you want a technical guideline, FAIRcookbook and RDMkit are the best to start with. We will start 
+>> with [FAIRcookbook](https://faircookbook.elixir-europe.org/)
+>> As we explained before the structure of the recipe so let's look for the suitable recipe in the FAIRcookbook
+>> So as you navigate the homepage of FAIRcookbook, you will find different tabs that covers each of FAIR 
+>> principles, so for instance, if you want recipes on **Accessibility** of FAIR, you will find all recipes 
+>> that can help you make your data accessible. 
+>> 
+>> - **Follow the following steps to find the recipe:**
+>> 
+>> 1- In this exercise, we are looking for a recipe on **indexing or registering dataset in a searchable 
+>> resource** which you can find it in the findability tab, **Can you find it in this picture?**
+>> ![Recipes of FAIRcookbook where you will find different recipes for FAIR, infrastructure, assessment and 
+>> maturity models](../fig/img51.png)
+>> 
+>> 2- Click on the findability tab
+>> 
+>> 3- on the left side, you will find a navigation bar which will help you find different recipes that make 
+>> your data **findable**. 
+>> ![You can find on the left side the list of recipes to make your data findable](../fig/img52.png)
+>> 
+>> 4- As you can see here, you will find a recipe on registering datasets with Wikidata and another one on 
+>> depositing to generic repositories-Zenodo use case
+>> **Once you click on one of these resources, you will find the following:**
+>> 
+>> A) Requirements that you need to apply the recipe to your dataset
+>> B) The instructions 
+>> C) References and further readings
+>> B) Authors and licence
+>> ![Zenodo use case where you will get step by step guideline on how to deposit your data to Zenodo](../fig/img53.png)
+>> 
+>> In our specialized courses, we will give you examples on how to upload your data to specialized repository
 > {: .solution}
 >
 {: .challenge}
 
+### Why should you upload your data to a database?
+1- Databases assign your data a unique persistent identifier.
+
+2- Your data will be indexed, making it easier to find.
+
+3- Some databases will let you easily connect your dataset to other datasets.
+
+4- Dataset licencing, with some databases offering controlled or limited access to protect your data.
+
+**By uploading data to a database, you comply with the following FAIR principles**
+- **F1** (Meta)data is assigned a globally unique and persistent identifier
+- **F3** Metadata clearly and explicitly include the identifier of the data they describe
+- **F4** (Meta)data is registered or indexed in a searchable resource
+It will also allow your data to be more accessible as the standardized communications protocol and authentication are automatically set for your data
+- **A1** (Meta)data is retrievable by their identifier using a standardised communications protocol
+- A1.1 The protocol is open, free, and universally implementable
+- A1.2 The protocol allows for an authentication and authorisation procedure, where necessary
+- **A2** Metadata is accessible, even when the data is no longer available
+- **I3** (Meta)data include qualified references to other (meta)data
+- **R1.1** (Meta)data is released with a clear and accessible data usage license
+
+#### How to choose the right database for your dataset?
+- Check the community standards for your data, you can find more information [RDMkit guidelines](https://rdmkit.elixir-europe.org/your_domain)
+- Look for resources that describe the databases and check if it fits your data, you might consider the following:
+A) Accessibility options 
+
+B) Licence
+
+- One of these resources is **FAIRsharing**, it provides a registry for different databases and repositories. Here is an example where the FAIR sharing provides you with information regarding protein database [here](https://fairsharing.org/FAIRsharing.rtndct). It has the following information
+- General information
+- Which policies use this database?
+- Related community standards
+- Organization maintaining this database
+- Documentation and support
+- Licence
 
 
 
-
+> ## Resources
+> **Our resources provide an overview of data repositories and examples**
+> 
+> The FAIR cookbook and RDMkit both provide excellent instructions for uploading your data into databases:
+> 
+> - FAIRcookbook recipe on [Depositing to generic repositories- Zenodo use](https://faircookbook.elixir-europe.> org/content/recipes/findability/zenodo-deposition.html)
+> - FAIRcookbook recipe on [Registering Datasets in Wikidata](https://faircookbook.elixir-europe.org/content/
+> recipes/findability/registeringDatasets.html)
+> - RDMkit guidelines on [Data publications and depostion](https://rdmkit.elixir-europe.org/data_publication)
+> - RDMkit guidelines on [Finding and reusing existing data](https://rdmkit.elixir-europe.org/existing_data)
+> - FAIRcookbook recipe on [Search engine optimization](https://faircookbook.elixir-europe.org/content/recipes/> findability/seo.html)
+> - FAIRsharing offers a nice portal to different [examples of databases](https://fairsharing.org/search?> 
+> fairsharingRegistry=Database&subjects=life%2520science&page=1)
+{: .callout}
 
 
