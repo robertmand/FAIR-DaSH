@@ -27,7 +27,7 @@ The following table summarize these differences
 
 
 Data repository                       Data warehouse                Data mart                     Data lake 
----------------                        --------------                ----------                    ------- 
+----------------------------------------------------------------------------------------------------------
 Supported data types                   Structured                 Highly Structured                Structured, Semi-structured, unstructured, binary
 Data quality                            curated                   Highly curated                   Raw data 
 
