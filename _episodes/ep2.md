@@ -3,7 +3,7 @@ title: Registration
 teaching: 40
 exercises: 10
 questions:
-- What is a data repository??
+- What is a data repository?
 - What are types of data repositories?
 - Why should you upload your data to a data repository?
 - How to choose the right database for your dataset?
@@ -26,10 +26,10 @@ There are many types of data repsoitory that are classified based on:
 The following table summarize these differences
 
 
-Data repository                       Data warehouse                Data mart                     Data lake 
-----------------------------------------------------------------------------------------------------------
-Supported data types                   Structured                 Highly Structured                Structured, Semi-structured, unstructured, binary
-Data quality                            curated                   Highly curated                   Raw data 
+Data repository            |            Data warehouse      |          Data mart            |         Data lake 
+-----------                |            ---------------     |        -------------------    |      -----------------
+Supported data types       |           Structured           |      Highly Structured        |        Structured, Semi-structured, unstructured, binary
+Data quality               |            curated             |      Highly curated           |        Raw data 
 
 **2- The purpose of data repository into:** 
 
@@ -67,6 +67,15 @@ Take a look at the **ArrayExpress** database where all datasets are indexed, and
 >> ## Solution
 >> Since you want a technical guideline, FAIRcookbook and RDMkit are the best to start with. We will start 
 >> with [FAIRcookbook](https://faircookbook.elixir-europe.org/)
+>> First of all, let's understand the structure of the FAIRCookbook. For a quick overview, you can watch our >> RDMBites on FAIRcookbook [FAIRcookbook RDMBites](https://drive.google.com/drive/folders/>> 16XZtCWBR-F3cvDHkB7A8jkjj6wvQ7sOr)
+>> 
+>> The building unit of FAIR cookbook is called a recipe, The recipe is the term used to describe instructions >> for how to FAIRify your data. As you see in the image, the structure of each recipe includes these main items:
+>> 1- Graphical overview which is the mindmap for the recipe
+>> 2- Ingredients which gives you an idea for the skills needed and tools you can use to apply the recipes
+>> 3- The steps and the process
+>> 4- Recommendations of what to read next and references to your reading
+>> ![FAIRcookbook recipes structure](fig/img4.png){alt='alt text'}
+>> 
 >> As we explained before the structure of the recipe so let's look for the suitable recipe in the FAIRcookbook
 >> So as you navigate the homepage of FAIRcookbook, you will find different tabs that covers each of FAIR 
 >> principles, so for instance, if you want recipes on **Accessibility** of FAIR, you will find all recipes 
@@ -136,7 +145,15 @@ B) Licence
 - Documentation and support
 - Licence
 
-
+> ## Exercise 1. How to choose the right dataset?
+> You are a researcher in plant sciences and want to know what are the available databases for plant genomes?  
+>> ## Solution
+>> It is the time to introduce you to [FAIRsharing](https://fairsharing.org/), an important resource for metadata standards, databases and policies. The FAIRsharing is an important resource for researchers to help them identify the suitable repositories, standards and databases for their data. It also contains the latest policies from from governments, funders and publishers for FAIRer data.
+>> in the following short video, you can find that plant ensembl is the one you can use for the plant genes
+![](../fig/Media1.mp4)
+> {: .solution}
+>
+{: .challenge}
 
 > ## Resources
 > **Our resources provide an overview of data repositories and examples**
