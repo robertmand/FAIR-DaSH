@@ -68,14 +68,14 @@ Take a look at the **ArrayExpress** database where all datasets are indexed, and
 >> ## Solution
 >> Since you want a technical guideline, FAIRcookbook and RDMkit are the best to start with. We will start 
 >> with [FAIRcookbook](https://faircookbook.elixir-europe.org/)
->> First of all, let's understand the structure of the FAIRCookbook. For a quick overview, you can watch our >> RDMBites on FAIRcookbook [FAIRcookbook RDMBites](https://drive.google.com/drive/folders/16XZtCWBR-F3cvDHkB7A8jkjj6wvQ7sOr)
+>> First of all, let's understand the structure of the FAIRCookbook. For a quick overview, you can watch our RDMBites on FAIRcookbook [FAIRcookbook RDMBites](https://drive.google.com/drive/folders/16XZtCWBR-F3cvDHkB7A8jkjj6wvQ7sOr)
 >> 
->> The building unit of FAIR cookbook is called a recipe, The recipe is the term used to describe instructions >> for how to FAIRify your data. As you see in the image, the structure of each recipe includes these main items:
+>> The building unit of FAIR cookbook is called a recipe, The recipe is the term used to describe instructions for how to FAIRify your data. As you see in the image, the structure of each recipe includes these main items **Figure 2**:
 >> 1- Graphical overview which is the mindmap for the recipe
 >> 2- Ingredients which gives you an idea for the skills needed and tools you can use to apply the recipes
 >> 3- The steps and the process
 >> 4- Recommendations of what to read next and references to your reading
->> ![FAIRcookbook recipes structure](../fig/img4.png)
+>> ![Figure 2. FAIRcookbook recipes structure](../fig/img4.png)
 >> 
 >> As we explained before the structure of the recipe so let's look for the suitable recipe in the FAIRcookbook
 >> So as you navigate the homepage of FAIRcookbook, you will find different tabs that covers each of FAIR 
@@ -86,7 +86,7 @@ Take a look at the **ArrayExpress** database where all datasets are indexed, and
 >> 
 >> 1- In this exercise, we are looking for a recipe on **indexing or registering dataset in a searchable 
 >> resource** which you can find it in the findability tab, **Can you find it in this picture?**
->> ![Recipes of FAIRcookbook where you will find different recipes for FAIR, infrastructure, assessment and 
+>> ![Figure 3. Recipes of FAIRcookbook where you will find different recipes for FAIR, infrastructure, assessment and 
 >> maturity models](../fig/img51.png)
 >> 
 >> 2- Click on the findability tab
@@ -99,11 +99,11 @@ Take a look at the **ArrayExpress** database where all datasets are indexed, and
 >> depositing to generic repositories-Zenodo use case
 >> **Once you click on one of these resources, you will find the following:**
 >> 
->> A) Requirements that you need to apply the recipe to your dataset
+>> A) Requirements to apply the recipe to your dataset
 >> B) The instructions 
 >> C) References and further readings
 >> B) Authors and licence
->> ![Zenodo use case where you will get step by step guideline on how to deposit your data to Zenodo](../fig/img53.png)
+>> ![Figure 4. Zenodo use case where you will get step by step guideline on how to deposit your data to Zenodo](../fig/img53.png)
 >> 
 >> In our specialized courses, we will give you examples on how to upload your data to specialized repository
 > {: .solution}
@@ -153,7 +153,7 @@ B) Licence
 >> It is the time to introduce you to [FAIRsharing](https://fairsharing.org/), an important resource for metadata standards, databases and policies. The FAIRsharing is an important resource for researchers to help them identify the suitable repositories, standards and databases for their data. It also contains the latest 
 >> policies from from governments, funders and publishers for FAIRer data.
 >> In the following short video, you can find that plant ensembl is the one you can use for the plant genes
->> ![](../fig/m1.gif)
+>> ![Screen recording showing the search process in FAIRsharing](../fig/m1.gif)
 > {: .solution}
 >
 {: .challenge}
