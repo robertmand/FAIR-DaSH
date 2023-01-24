@@ -33,7 +33,7 @@ Data quality               |            curated             |      Highly curate
 
 **2- The purpose of data repository into:** 
 
-A) Controlled access repository
+A) Controlled access repository for sensitive data
 
 B) Discipline specific repository
 
@@ -53,7 +53,7 @@ Examples of these databases are **ArrayExpress** for microarray data and RNAseq 
 
 After you upload your data into this database, they are assigned an ID and are indexed in the database. So whenever you look for the ID, or even use a keyword for your data, you will find your data.
 
-Take a look at the **ArrayExpress** database where all datasets are indexed, and you can simply find any dataset using the search tools. By indexing data, you can get the dataset using any keyword other than the PID. For example, if you want to locate human NSCL cell lines, you can just type this into the search toolbox, use different keywords like cartilage, stem cells and oesteoarthritis and find the dataset. Indexing and registering datasets, also means they are curated in such a way that you may discover them using different keywords.
+Take a look at the **ArrayExpress** database where all datasets are indexed, and you can simply find any dataset using the search tools. By indexing data, you can get the dataset using any keyword other than the PID. For example, if you want to locate human NSCL cell lines, you can just type this into the search toolbox, use different keywords like cartilage, stem cells and oesteoarthritis, and you will find the same dataset. Indexing and registering datasets, also means they are curated in such a way that you may discover them using different keywords.
 
 ##### For example, you can find the same dataset by using its identifiers or by using keywords chosen by the dataset's authors to describe it.
 
@@ -77,7 +77,7 @@ Take a look at the **ArrayExpress** database where all datasets are indexed, and
 >> 4- Recommendations of what to read next and references to your reading
 >> ![Figure 2. FAIRcookbook recipes structure](../fig/img4.png)
 >> 
->> As we explained before the structure of the recipe so let's look for the suitable recipe in the FAIRcookbook
+>> As we explained the structure of the recipe so let's look for the suitable recipe in the FAIRcookbook
 >> So as you navigate the homepage of FAIRcookbook, you will find different tabs that covers each of FAIR 
 >> principles, so for instance, if you want recipes on **Accessibility** of FAIR, you will find all recipes 
 >> that can help you make your data accessible. 
@@ -111,11 +111,11 @@ Take a look at the **ArrayExpress** database where all datasets are indexed, and
 {: .challenge}
 
 ### Why should you upload your data to a database?
-1- Databases assign your data a unique persistent identifier.
+1- Databases assign a unique persistent identifier to your data.
 
-2- Your data will be indexed, making it easier to find.
+2- Your data will be indexed and curated, making it easier to find.
 
-3- Some databases will let you easily connect your dataset to other datasets.
+3- Some databases make it simple to connect your dataset to other datasets and link metadata to other dataset  **linked metadata**
 
 4- Dataset licencing, with some databases offering controlled or limited access to protect your data.
 
@@ -139,7 +139,7 @@ A) Accessibility options
 
 B) Licence
 
-- One of these resources is **FAIRsharing**, it provides a registry for different databases and repositories. Here is an example where the FAIR sharing provides you with information regarding protein database [here](https://fairsharing.org/FAIRsharing.rtndct). It has the following information
+- One of resources that can help you is **FAIRsharing**, it provides a registry for different databases and repositories. Here is an example where the FAIR sharing provides you with information regarding protein database [here](https://fairsharing.org/FAIRsharing.rtndct). It has the following information
 - General information
 - Which policies use this database?
 - Related community standards
