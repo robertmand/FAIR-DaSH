@@ -150,7 +150,7 @@ B) Licence
 >> ## Solution
 >> It is the time to introduce you to [FAIRsharing](https://fairsharing.org/), an important resource for metadata standards, databases and policies. The FAIRsharing is an important resource for researchers to help them identify the suitable repositories, standards and databases for their data. It also contains the latest policies from from governments, funders and publishers for FAIRer data.
 >> in the following short video, you can find that plant ensembl is the one you can use for the plant genes
-![](../fig/Media1.mp4)
+![](../fig/M1.gif)
 > {: .solution}
 >
 {: .challenge}
