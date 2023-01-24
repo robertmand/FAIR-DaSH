@@ -43,7 +43,8 @@ D) General data repository
 
 **Figure 1 summarizes these types with different examples**
 
-![Figure 1. Types of data repository with different examples, CC.BY from re3data.org](../fig/img56.jpg)
+![Figure 1 Types of data repository with different examples, CC.BY from re3data.org](../fig/img56.jpg)
+
 
 ### Why should you upload your data to a data repository?
 
