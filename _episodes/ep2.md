@@ -105,7 +105,7 @@ Take a look at the **ArrayExpress** database where all datasets are indexed, and
 >> B) Authors and licence
 >> ![Figure 4. Zenodo use case where you will get step by step guideline on how to deposit your data to Zenodo](../fig/img53.png)
 >> 
->> In our specialized courses, we will give you examples on how to upload your data to specialized repository
+>> In our specialized courses, we will give you examples on how to upload your data to discipline specific repository
 > {: .solution}
 >
 {: .challenge}
