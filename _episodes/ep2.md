@@ -23,7 +23,7 @@ There are many types of data repsoitory that are classified based on:
 
 **1- The structure of the data:** Data warehouse, Data lake and Data mart
 
-The following table summarize these differences
+The following table summarize these differences:
 
 
 Data repository            |            Data warehouse      |          Data mart            |         Data lake 
@@ -149,7 +149,7 @@ B) Licence
 > ## Exercise 1. How to choose the right dataset?
 > You are a researcher in plant sciences and want to know what are the available databases for plant genomes?  
 >> ## Solution
->> It is the time to introduce you to [FAIRsharing](https://fairsharing.org/), an important resource for metadata standards, databases and policies. The FAIRsharing >> is an important resource for researchers to help them identify the suitable repositories, standards and databases for their data. It also contains the latest 
+>> It is the time to introduce you to [FAIRsharing](https://fairsharing.org/), an important resource for metadata standards, databases and policies. The FAIRsharing is an important resource for researchers to help them identify the suitable repositories, standards and databases for their data. It also contains the latest 
 >> policies from from governments, funders and publishers for FAIRer data.
 >> In the following short video, you can find that plant ensembl is the one you can use for the plant genes
 >> ![](../fig/M1.gif)
