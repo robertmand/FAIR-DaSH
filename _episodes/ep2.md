@@ -139,7 +139,7 @@ A) Accessibility options
 
 B) Licence
 
-- One of resources that can help you is **FAIRsharing**, it provides a registry for different databases and repositories. Here is an example where the FAIR sharing provides you with information regarding protein database [here](https://fairsharing.org/FAIRsharing.rtndct). It has the following information
+- One of resources that can help you is **FAIRsharing**, it provides a registry for different databases and repositories. Here is an example where the FAIR sharing provides you with information regarding [protein database](https://fairsharing.org/FAIRsharing.rtndct). It has the following information
 - General information
 - Which policies use this database?
 - Related community standards
