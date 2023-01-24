@@ -14,7 +14,7 @@ objectives:
 keypoints:
 - This episode covers the following FAIR principles:
 - (Meta)data are registered or indexed in a searchable resource (F4) 
-- (Meta)data are released with a clear and accessible data usage license (R1.1)
+- (Meta)data are released with a clear and accessible data usage licence (R1.1)
 --- 
 #### What is a data repository?
 It is a general term used to describe any storage space you use to deposit data, metadata and any associated research. Kindly note that database is more specific and it is mainly for the storage of your data. 
@@ -23,7 +23,7 @@ There are many types of data repsoitory that are classified based on:
 
 **1- The structure of the data:** Data warehouse, Data lake and Data mart
 
-The following table summarize these differences:
+The following table summarizes these differences:
 
 
 Data repository            |            Data warehouse      |          Data mart            |         Data lake 
