@@ -134,6 +134,7 @@ It will also allow your data to be more accessible as the standardized communica
 #### How to choose the right database for your dataset?
 - Check the community standards for your data, you can find more information [RDMkit guidelines](https://rdmkit.elixir-europe.org/your_domain)
 - Look for resources that describe the databases and check if it fits your data, you might consider the following:
+
 A) Accessibility options 
 
 B) Licence
@@ -152,7 +153,7 @@ B) Licence
 >> It is the time to introduce you to [FAIRsharing](https://fairsharing.org/), an important resource for metadata standards, databases and policies. The FAIRsharing is an important resource for researchers to help them identify the suitable repositories, standards and databases for their data. It also contains the latest 
 >> policies from from governments, funders and publishers for FAIRer data.
 >> In the following short video, you can find that plant ensembl is the one you can use for the plant genes
->> ![](../fig/M1.gif)
+>> ![](../fig/m1.gif)
 > {: .solution}
 >
 {: .challenge}
