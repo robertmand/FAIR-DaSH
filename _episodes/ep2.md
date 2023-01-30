@@ -19,16 +19,15 @@ keypoints:
 #### What is a data repository?
 It is a general term used to describe any storage space you use to deposit data, metadata and any associated research. Kindly note that database is more specific and it is mainly for the storage of your data. 
 ###### Types of data repository
-There are many types of data repsoitory that are classified based on **The purpose of data repository into:** 
+There are many types of data repositories that are classified based on **The purpose of data repository** 
 
-A) Controlled access repository for sensitive data: explained in details in [data sharing lesson of RDMkit](https://rdmkit.elixir-europe.org/sharing) and we will explain this type of repository in access episode
+A) Controlled access repository for sensitive data: explained in details in [data sharing lesson of RDMkit](https://rdmkit.elixir-europe.org/sharing) and we will explain this type of repository in the next episode
 
 B) Discipline specific repository: there are known repository for different data types e.g arrayexpress for high-throughput functional genomics experiments
 
-C) Institutional repository: some universities have their own repositories 
+C) Institutional repository: In case you can not find suitable repository for your data set, some universities have their own general purpose repositories. For instance, **University of Reading Research Data Archive** is a general purpose repository that have similar features e.g. controlled access ... etc to other databases. It can be used for students and researchers.
 
 D) General data repository: these are usually for data that have no public repositories e.g. Zenodo
-
 
 **Figure 1 summarizes these types with different examples**
 
@@ -37,10 +36,8 @@ D) General data repository: these are usually for data that have no public repos
 
 ### Why should you upload your data to a data repository?
 
-To ensure data findability, your data should be uploaded to a public repository where your data can be searched and found, It will make your data comply with the fourth principle of findability (F4) which states that **(Meta)data are registered or indexed in a searchable resource**. There are numerous databases where you can upload your data, which are typically data-driven. 
-Examples of these databases are **ArrayExpress** for high-throughput functional genomics experiments. These databases have a set of rules in place to make sure that your data will be FAIR.
-
-After you upload your data into this database, they are assigned an ID and are indexed in the database. So whenever you look for the ID, or even use a keyword for your data, you will find your data.
+To ensure data findability, your data should be uploaded to a public repository where it can be searched and found, This will make it comply with the fourth principle of findability (F4) which states that **(Meta)data are registered or indexed in a searchable resource**. 
+Examples of these databases are **ArrayExpress** for high-throughput functional genomics experiments. These databases have a set of rules in place to make sure that your data will be FAIR. After you upload your data into this database, they are assigned an ID and are indexed. Indexing helps researchers find your data by using persistent identifiers, keyword or even the name of researcher.
 
 Take a look at the **ArrayExpress** database where all datasets are indexed, and you can simply find any dataset using the search tools. By indexing data, you can get the dataset using any keyword other than the PID. For example, if you want to locate human NSCL cell lines, you can just type this into the search toolbox, use different keywords like cartilage, stem cells and oesteoarthritis, and you will find the same dataset. Indexing and registering datasets, also means they are curated in such a way that you may discover them using different keywords.
 
@@ -121,11 +118,12 @@ It will also allow your data to be more accessible as the standardized communica
 - **R1.1** (Meta)data is released with a clear and accessible data usage license
 
 #### How to choose the right database for your dataset?
-University of Reading provides an overview of the necessary criteria to [choose a data repository](https://www.reading.ac.uk/research-services/research-data-management/preserving-and-sharing-data/choosing-a-data-repository)
+University of Reading provides an overview of the necessary criteria to [choose a data repository](https://www.reading.ac.uk/research-services/research-data-management/preserving-and-sharing-data/choosing-a-data-repository). We can summarize it in the following bullet points:
+
 - **Check funders recommendations**
 It is always better to upload your data to funders recommendied data repositories. For instance, Biotechnology and Biological Sciences Research Council (BBSRC) funds and recommend many databases including [European Bioinformatics Institute](https://www.ebi.ac.uk/submission/)
 - **Publishers**
-Publishers prefers discipline specific repository, 
+Publishers prefers discipline specific repository, check guidelines before you submit your manuscript.
 - **Community standards**
 Check the community standards for your data, you can find more information [RDMkit guidelines](https://rdmkit.elixir-europe.org/your_domain)
 - If you still cannot find the right one for you, look for resources that describe the databases and check if it fits your data, you might consider the following:
