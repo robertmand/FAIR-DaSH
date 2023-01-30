@@ -45,7 +45,7 @@ As you can see in this picture, the structure of any identifiers consist of
 >> <video src="../fig/vid1.mp4" controls="controls" style="max-width: 730px;">
 >> </video>
 >> The DOI is a persisitent identifiers that follows the structure we explained before
->> ![DOI is assigned to plant gene datasets](../fig/img18.PNG){alt='alt text'}
+>> ![DOI is assigned to plant gene datasets](../fig/img18.jpg)
 > {: .solution}
 {: .challenge}
 
