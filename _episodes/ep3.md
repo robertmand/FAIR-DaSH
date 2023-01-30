@@ -27,8 +27,7 @@ As a researcher, as you plan your research project, you have to determine who ca
 To get more detailed explanation, check RDMkit explanation of [data sharing](https://rdmkit.elixir-europe.org/sharing#what-should-be-considered-for-data-sharing)
 
 > ## Exercise
-> Imagine you are a principle investigator writing data access plan, what are the factors you need to consider to determine the type of access you 
-> need for your data?
+> Imagine you are a principle investigator writing data access plan, what are the factors you need to consider to determine the type of access for your data?
 >> ## Solution
 >> To know what to write for data access plan, you can use a tool called "Data stewardship wizard" that provides guidelines on the process of writing DMP for your research project. It has a full chapter on writing access plan. Let's first explain what is **data stewardship wizard**
 >> ### What is Data stewardship wizard (DSW)?
