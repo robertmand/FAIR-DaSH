@@ -8,7 +8,7 @@ questions:
 - Why should you upload your data to a data repository?
 - How to choose the right database for your dataset?
 objectives:
-- Define what is data repository
+- Define what is data repository.
 - Illustrate the importance of indexed data repository
 - Summarize the steps of data indexing in a searchable repository
 keypoints:
