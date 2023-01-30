@@ -19,7 +19,7 @@ keypoints:
 #### What is a data repository?
 It is a general term used to describe any storage space you use to deposit data, metadata and any associated research. Kindly note that database is more specific and it is mainly for the storage of your data. 
 ###### Types of data repository
-There are many types of data repositories that are classified based on **The purpose of data repository** 
+Data repositories are classified based on **the purpose of data repository** into:
 
 A) Controlled access repository for sensitive data: explained in details in [data sharing lesson of RDMkit](https://rdmkit.elixir-europe.org/sharing) and we will explain this type of repository in the next episode
 
