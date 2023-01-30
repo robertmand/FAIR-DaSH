@@ -18,7 +18,9 @@ keypoints:
 --- 
 ### Access to the data
 As a researcher, when you plan your research project, you have to determine who can have access to your data, how you will provide the access and under what condition. You do not need to wait after data collection to start thinking about the access to your data.
-To start writing your acces plan, first we will explain to you what are different types of data access:
+To start writing your acces plan, first we will explain to you what are different types of data access, what is the best for you and how to write your data access plan
+
+###### Types of access
 **there are four types of data access as explained by [RDMkit](https://rdmkit.elixir-europe.org/sharing#what-should-be-considered-for-data-sharing):**
 - Open access: Any one can access the data
 - Registered access or authentication procedure: researchers have to register and go through process of authentication to have the right to access the data
