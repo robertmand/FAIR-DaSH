@@ -84,7 +84,7 @@ Simply put, **a protocol** is a method that connects two computers, the protocol
 Having a protocol does not guarantee that your data are accessible. However, you can choose a protocol that is free, open and allow easy and exchange of information. One of the steps you can do is to choose the right database, so when you upload your data into database, the database executes a protocol that allows the user to  load data in the user’s web browser. This protocol allows the easy access of the data but still secures the data. 
 
 #### Authentication process
-It is the process that a protocol uses for verification. To know what authentication is, suppose we have three people named John Smith. We do not know which one submitted the data. This is through assigning a unique ID for each one that is interpreted by machines and humans so you would know who is the actual person that submitted the data. Doing so is a form of authentication. This is used by many databases like Zenodo, where you can sign-up using ORCID-ID allowing the database to identify you.
+It is the process that a protocol uses for verification. To know what authentication is, suppose we have three people named John Smith. We do not know which one submitted the data. This is through assigning a unique ID for each one that is interpreted by machines and humans so you would know who is the actual person that submitted the data. Doing so is a form of authentication and this is used by many databases like Zenodo, where you can sign-up using ORCID-ID allowing the database to identify you.
 
 ![Figure 3. Authentication process and its importance](../fig/Pic2.png)
 
@@ -129,8 +129,6 @@ If you are working with sensitive data, you have to declare the data permitted u
 - How is Data annonymization and pseudonymization handled?
 
 To know what are the other steps you need to do and write, you can check DSW For sensitive data, the DSW have questions dedicated to describing the collection and processing of sensitive data
-
-
 
 > ## Resources
 > - A nice recipe from FAIRcookbook on [SSH protocols](https://faircookbook.elixir-europe.org/content/recipes/> accessibility/sftp.html)
