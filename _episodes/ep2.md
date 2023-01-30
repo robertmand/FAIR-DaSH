@@ -21,7 +21,7 @@ It is a general term used to describe any storage space you use to deposit data,
 ###### Types of data repository
 There are many types of data repsoitory that are classified based on **The purpose of data repository into:** 
 
-A) Controlled access repository for sensitive data: we will explain this type of repository in access episode
+A) Controlled access repository for sensitive data: explained in details in [data sharing lesson of RDMkit](https://rdmkit.elixir-europe.org/sharing) and we will explain this type of repository in access episode
 
 B) Discipline specific repository: there are known repository for different data types e.g arrayexpress for high-throughput functional genomics experiments
 
