@@ -99,7 +99,7 @@ Take a look at the **ArrayExpress** database where all datasets are indexed, and
 >
 {: .challenge}
 
-### Why should you upload your data to a database?
+### Upload your data to a database will make your data visible through the following:
 1- Databases assign a unique persistent identifier to your data.
 
 2- Your data will be indexed and curated, making it easier to find.
