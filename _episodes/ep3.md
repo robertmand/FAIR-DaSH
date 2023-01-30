@@ -17,7 +17,8 @@ keypoints:
 - (R1.1) meta(data) are released with a clear and accessible data usage licence
 --- 
 ### Access to the data
-As a researcher, as you plan your research project, you have to determine who can have access to your data, how you will provide the access and under what condition. You do not need to wait after data collection to start thinking about the access to your data.
+As a researcher, when you plan your research project, you have to determine who can have access to your data, how you will provide the access and under what condition. You do not need to wait after data collection to start thinking about the access to your data.
+To start writing your acces plan, first we will explain to you what are different types of data access:
 **there are four types of data access as explained by [RDMkit](https://rdmkit.elixir-europe.org/sharing#what-should-be-considered-for-data-sharing):**
 - Open access: Any one can access the data
 - Registered access or authentication procedure: researchers have to register and go through process of authentication to have the right to access the data
@@ -46,7 +47,7 @@ To get more detailed explanation, check RDMkit explanation of [data sharing](htt
 >> For each of these **topics**, we have a set of questions that helps you write your DMP. For each question, there are tags that help you know funding bodies questions (Figure 2)
 >> 
 ![Figure 2. knowledge model for the DSW that covers 7 chapters, in this picture, you can see tags and topics covered by each chapter](../fig/pic4.jpg)
->> After introducing the DSW, let's answer the question, what are the questions you need to answer to determine data access?
+>> After introducing the DSW, let's answer the following question, **How to choose the right data access plan for you?**
 >> Based on DSW, there are main four questions
 >> - Will you be working with the philosophy 'as open as possible' for your data?
 >> - Can all of your data become completely open over time?
@@ -75,7 +76,7 @@ This describes the legal rights on how others use your data. As you publish your
 > {: .solution}
 {: .challenge}
 
-As you are uploading your data to a data repository, the following definitions are important for you to understand the type of access. Communication protocol and authentication are used by different databases to protect your data and control access to your data
+**As you are uploading your data to a data repository, the following definitions are important for you to understand the type of access. Communication protocol and authentication are used by different databases to protect your data and control access to your data**
 
 #### Standard communication protocol
 Simply put, **a protocol** is a method that connects two computers, the protocol ensure security, and authenticity of your data. Once the safety and authenticity of the data is verified, the transfer of data to another computer happens.
