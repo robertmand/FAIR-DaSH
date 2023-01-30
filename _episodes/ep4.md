@@ -18,21 +18,21 @@ keypoints:
 
 ## Persistent identifiers
 
-Identifiers are a long-lasting references to a digital resources such as datasets and provides the information required to reliably identify, verify and locate your research data. Commonly, a persistent identifier is a unique record ID in a database, or unique URL that takes a researcher to the data in question, in a database.
+Identifiers are a long-lasting references to a digital resources such as datasets, metadata .. etc. They provide the information required to reliably identify, verify and locate your research data. Commonly, a persistent identifier is a unique record ID in a database, or a unique URL that takes a researcher to the data in question, in a database.
 
-That resource might be a publication, dataset, or person.   Persistent The identifiers have to be unique, globally only your data are identified by this ID that is never used by anyone in the whole world. In addition, these IDs and must not do not become invalid over time.
+That resource might be a publication, dataset, or person. Persistent identifiers have to be unique, globally only your data are identified by this ID that is never used by anyone in the whole world. In addition, these IDs and must not do not become invalid over time.
 Watch our RDMbBites on the persistent identifiers to understand more.   
 
 Identifiers are very important concept of the FAIR principle. They are considered one of the pillars for the FAIR principles. It makes your data more **Findable (F)** 
 
 **It is important to note that when you upload your data to a public repository, the repository will create this ID for you automatically.**
 
-Based on [how to FAIR](https://howtofair.dk/how-to-fair/persistent-identifiers/), there are many resources that can help you knew which databases will assign PID to your data. One of these resources is FAIR sharing as it provides you with list of databases grouped by domains, groups and organizations.
+Based on [how to FAIR](https://howtofair.dk/how-to-fair/persistent-identifiers/), there are many resources that can help you know which databases will assign PID to your data. One of these resources is FAIR sharing, it provides you with a list of databases grouped by domains and organizations.
 
 ## The Structure of persistent identifiers
 
 As you can see in this picture, the structure of any identifiers consist of 
-- The initial resolver service: domain which is unique and specific to each community e.g. ORCID for researchers and DOI for publications
+- The initial resolver service: domain which is unique and specific to each community e.g. ORCID for researchers
 - **Prefix**: Unique number that represent category e.g. for DOI specific numbers refer to the publisher and directory
 - **Suffix**: The unique dataset number and it is unique under its prefix
 
@@ -41,7 +41,7 @@ As you can see in this picture, the structure of any identifiers consist of
 > ## Exercise 1. Find the PID 
 > From FAIRsharing, can you find the right database for protein dataset and explore its PID structure?
 >> ## Solution
->> If you follow the steps in the following screen recording, you will find plant genomics and phenotypes. In >> this database, all datasets are assigned digital obiect identifier (DOI)
+>> If you follow the steps in the following screen recording, you will find plant genomics and phenotypes. In this database, all datasets are assigned digital object identifier (DOI)
 >> <video src="../fig/vid1.mp4" controls="controls" style="max-width: 730px;">
 >> </video>
 >> The DOI is a persisitent identifiers that follows the structure we explained before
