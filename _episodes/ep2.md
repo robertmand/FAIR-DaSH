@@ -17,17 +17,17 @@ keypoints:
 - (Meta)data are released with a clear and accessible data usage licence (R1.1)
 --- 
 #### What is a data repository?
-It is a general term used to describe any storage space you use to deposit data, metadata and any associated research. Kindly note that database is more specific and it is mainly for the storage of your data. 
+It is a general term used to describe any storage space you use to deposit data, metadata and any associated research. Please note that database is more specific and it is mainly for the storage of your data. 
 ###### Types of data repository
 Data repositories are classified based on **the purpose of data repository** into:
 
 A) Controlled access repository for sensitive data: explained in details in [data sharing lesson of RDMkit](https://rdmkit.elixir-europe.org/sharing) and we will explain this type of repository in the next episode
 
-B) Discipline specific repository: there are known repository for different data types e.g arrayexpress for high-throughput functional genomics experiments
+B) Discipline specific repository: there are known repository for different data types e.g [ArrayExpress](https://www.ebi.ac.uk/biostudies/arrayexpress) for high-throughput functional genomics experiments
 
-C) Institutional repository: In case you can not find suitable repository for your data set, some universities have their own general purpose repositories. For instance, **University of Reading Research Data Archive** is a general purpose repository that have similar features e.g. controlled access ... etc to other databases. It can be used for students and researchers.
+C) Institutional repository: In case you can not find suitable repository for your data set, some universities have their own general purpose repositories. For instance, [University of Reading Research Data Archive](https://researchdata.reading.ac.uk) is a general purpose repository that have similar features e.g. controlled access ... etc to other databases. It can be used for students and researchers.
 
-D) General data repository: these are usually for data that have no public repositories e.g. Zenodo
+D) General data repository: multidisciplinary or/and general-purpose open data repository, open for all scholars  e.g. Zenodo
 
 **Figure 1 summarizes these types with different examples**
 
@@ -37,11 +37,9 @@ D) General data repository: these are usually for data that have no public repos
 ### Why should you upload your data to a data repository?
 
 To ensure data findability, your data should be uploaded to a public repository where it can be searched and found, This will make it comply with the fourth principle of findability (F4) which states that **(Meta)data are registered or indexed in a searchable resource**. 
-Examples of these databases are **ArrayExpress** for high-throughput functional genomics experiments. These databases have a set of rules in place to make sure that your data will be FAIR. After you upload your data into this database, they are assigned an ID and are indexed. Indexing helps researchers find your data by using persistent identifiers, keyword or even the name of researcher.
+Examples of these databases are  [ArrayExpress](https://www.ebi.ac.uk/biostudies/arrayexpress) for high-throughput functional genomics experiments. These databases have a set of rules in place to make sure that your data will be FAIR. After you upload your data into this database, they are assigned an ID and are indexed. Indexing helps researchers find your data by using persistent identifiers, keyword or even the name of researcher.
 
-Take a look at the **ArrayExpress** database where all datasets are indexed, and you can simply find any dataset using the search tools. By indexing data, you can get the dataset using any keyword other than the PID. For example, if you want to locate human NSCL cell lines, you can just type this into the search toolbox, use different keywords like cartilage, stem cells and oesteoarthritis, and you will find the same dataset. Indexing and registering datasets, also means they are curated in such a way that you may discover them using different keywords.
-
-##### For example, you can find the same dataset by using its identifiers or by using keywords chosen by the dataset's authors to describe it.
+Take a look at the [ArrayExpress](https://www.ebi.ac.uk/biostudies/arrayexpress database where all datasets are indexed, and you can simply find any dataset using the search tools. By indexing data, you can get the dataset using any keyword other than the PID. For example, if you want to locate **human NSCL cell** lines, you can just type this into the search toolbox. Use different keywords like **cartilage, stem cells and oesteoarthritis** and you will find the same dataset. Indexing and registering datasets, also means they are curated in such a way that you may discover them using different keywords. You can find the same dataset by using its identifiers or by using keywords chosen by the dataset's authors to describe it.
 
 ![When you upload your dataset to a database, it can be curated and easily found using different keywords](../fig/img54.png)
 
@@ -132,7 +130,7 @@ A) Accessibility options
 
 B) Licence
 
-- One of resources that can help you is **FAIRsharing**, it provides a registry for different databases and repositories. Here is an example where the FAIR sharing provides you with information regarding [protein database](https://fairsharing.org/FAIRsharing.rtndct). It has the following information
+- One of resources that can help you is  [FAIRsharing](https://fairsharing.org/), it provides a registry for different databases and repositories. Here is an example where the FAIR sharing provides you with information regarding [protein database](https://fairsharing.org/FAIRsharing.rtndct). It has the following information
 - General information
 - Which policies use this database?
 - Related community standards
