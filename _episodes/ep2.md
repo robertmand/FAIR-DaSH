@@ -115,12 +115,11 @@ It will also allow your data to be more accessible as the standardized communica
 - **R1.1** (Meta)data is released with a clear and accessible data usage license
 
 #### How to choose the right database for your dataset?
-- University of Reading provides an overview of the necessary criteria to [choose a data repository](https://www.reading.ac.uk/research-services/research-data-management/preserving-and-sharing-data/choosing-a-data-repository). We can summarize it in the following bullet points:
 
 - **Funders recommendations**
- UKRI provides guidance about [making your research data open] (https://www.ukri.org/manage-your-award/publishing-your-research-findings/making-your-research-data-open/) 
+ BBSRC provides information about [data sharing resources](https://www.ukri.org/councils/bbsrc/facilities-and-resources/find-a-bbsrc-facility-or-resource/#datasharing) funded by them.
 - **Publishers**
-Publishers prefers discipline specific repository, check guidelines before you submit your manuscript.
+Publishers like PLOS provides a list of recommended [data repositories](https://journals.plos.org/plosone/s/recommended-repositoriescheck)  
 - **Community standards**
 Check the community standards for your data, you can find more information [RDMkit guidelines](https://rdmkit.elixir-europe.org/your_domain)
 - If you still cannot find the right one for you, look for resources that describe the databases and check if it fits your data, you might consider the following:
