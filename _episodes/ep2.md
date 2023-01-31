@@ -46,11 +46,10 @@ Take a look at the [ArrayExpress](https://www.ebi.ac.uk/biostudies/arrayexpress)
 ![By indexing your dataset, you can retrieve it using its PID](../fig/img55.png)
 
 > ## Exercise 1. Indexing dataset in the data repository?
-> [Zenodo](https://zenodo.org) provides index for all deposited data. Use 
-> [RDMkit](https://rdmkit.elixir-europe.org/), [FAIRcookbook](https://faircookbook.elixir-europe.org/), [FAIRsharing](https://fairsharing.org/)
-> to find information how to index dataset in **zenodo**. Discuss required steps
+> If you would like to index your dataset, a general data repository like  [Zenodo](https://zenodo.org) provides it as a part of an uploading process. Find out and discuss required steps on how to obtain index for your dataset? 
+>  **Hint: Use [FAIRcookbook](https://faircookbook.elixir-europe.org/) to find information how to index dataset in zenodo**. 
 >> ## Solution
->> Since you want a technical guideline, FAIRcookbook and RDMkit are the best to start with. We will start 
+>> Since you want a technical guideline on how to do  FAIRcookbook is the best to start with. We will start 
 >> with [FAIRcookbook](https://faircookbook.elixir-europe.org/)
 >> First of all, let's understand the structure of the FAIRCookbook. For a quick overview, you can watch our RDMBites on FAIRcookbook [FAIRcookbook RDMBites](https://drive.google.com/drive/folders/16XZtCWBR-F3cvDHkB7A8jkjj6wvQ7sOr)
 >> 
@@ -138,7 +137,7 @@ B) Licence
 - Documentation and support
 - Licence
 
-> ## Exercise 1. How to choose the right dataset?
+> ## Exercise 2. How to choose the right dataset?
 > You are a researcher in plant sciences and want to know what are the available databases for plant genomes?  
 >> ## Solution
 >> It is the time to introduce you to [FAIRsharing](https://fairsharing.org/), an important resource for metadata standards, databases and policies. The FAIRsharing is an important resource for researchers to help them identify the suitable repositories, standards and databases for their data. It also contains the latest 
