@@ -115,10 +115,10 @@ It will also allow your data to be more accessible as the standardized communica
 - **R1.1** (Meta)data is released with a clear and accessible data usage license
 
 #### How to choose the right database for your dataset?
-University of Reading provides an overview of the necessary criteria to [choose a data repository](https://www.reading.ac.uk/research-services/research-data-management/preserving-and-sharing-data/choosing-a-data-repository). We can summarize it in the following bullet points:
+- University of Reading provides an overview of the necessary criteria to [choose a data repository](https://www.reading.ac.uk/research-services/research-data-management/preserving-and-sharing-data/choosing-a-data-repository). We can summarize it in the following bullet points:
 
-- **Check funders recommendations**
-It is always better to upload your data to funders recommendied data repositories. For instance, Biotechnology and Biological Sciences Research Council (BBSRC) funds and recommend many databases including [European Bioinformatics Institute](https://www.ebi.ac.uk/submission/)
+- **Funders recommendations**
+ UKRI provides guidance about [making your research data open] (https://www.ukri.org/manage-your-award/publishing-your-research-findings/making-your-research-data-open/) 
 - **Publishers**
 Publishers prefers discipline specific repository, check guidelines before you submit your manuscript.
 - **Community standards**
