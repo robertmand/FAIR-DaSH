@@ -27,7 +27,7 @@ B) Discipline specific repository: there are known repository for different data
 
 C) Institutional repository: In case you can not find suitable repository for your data set, some universities have their own general purpose repositories. For instance, [University of Reading Research Data Archive](https://researchdata.reading.ac.uk) is a general purpose repository that have similar features e.g. controlled access ... etc to other databases. It can be used for students and researchers.
 
-D) General data repository: multidisciplinary or/and general-purpose open data repository, open for all scholars  e.g. Zenodo
+D) General data repository: multidisciplinary or/and general-purpose open data repository, open for all scholars  e.g. [zenodo](https://zenodo.org)
 
 **Figure 1 summarizes these types with different examples**
 
