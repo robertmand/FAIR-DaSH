@@ -12,7 +12,7 @@ objectives:
 - Give examples of the structure of persistent identifiers
 keypoints:
 - (Meta)data use a formal, accessible, shared, and broadly applicable language for knowledge representation (I1)
-- (Meta)data include qualified references to other (meta)data (A3)
+- (Meta)data include qualified references to other (meta)data (I3)
 - Metadata are accessible, even when the data are no longer available (A2)
 --- 
 
