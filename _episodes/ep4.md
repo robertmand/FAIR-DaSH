@@ -27,7 +27,7 @@ When you plan your research project, you have to determine who can have access t
 
 To get more detailed explanation, check RDMkit explanation of [data sharing](https://rdmkit.elixir-europe.org/sharing#what-should-be-considered-for-data-sharing)
 
-> ## Exercise
+> ## Exercise 1: Data access types factors
 > "Data stewardship wizard" is an online tool that provides guidelines on the process of writing DMP for your research project. It uses a knowledge model, which includes information about what questions to ask  and how to ask them based on the needs of the research field or organisation.
 > The knowledge model covers seven chapters:
 > - Administrative information
@@ -38,7 +38,7 @@ To get more detailed explanation, check RDMkit explanation of [data sharing](htt
 > - Preserving data
 > - Giving access to the data
 > 
-> ![Figure 1. knowledge model for the DSW that covers 7 chapters, in this picture, you can see an example of topics covered in administrative >> >> information  of DMP](../fig/pic3.jpg)
+> ![Figure 1. knowledge model for the DSW that covers 7 chapters, in this picture, you can see an example of topics covered in administrative information  of DMP](../fig/pic3.jpg)
 > 
 > For each of these **topics**, we have a set of questions that helps you write your DMP. For each question, there are tags that help you know funding bodies questions (Figure 2)
 > ![Figure 2. knowledge model for the DSW that covers 7 chapters, in this picture, you can see tags and topics covered by each chapter](../fig/pic4.jpg)
@@ -61,7 +61,7 @@ One of things you have to consider in addition to the above criteria, is to dete
 This describes the legal rights on how others use your data. As you publish your data, you should describe clearly in what capacity your data can be used. Bear in mind that description of licence is important to allow machine and human reusability of your data. There are many licence that can be used e.g. MIT licence or Common creative licence. These licences provide accurate description of the rights of data reuse, Please have a look at resources in the description box to know more about these licences. 
 
 ![Creative commons licences (photo credit: foter)](../fig/cc.jpg){alt='alt text'}
-> ## Exercise
+> ## Exercise2: Data usage licence
 > - From the this RDMkit guideline on types of [licence](https://rdmkit.elixir-europe.org/licensing), what is the licence used by the following datasets:
 > 1- [A large-scale COVID-19 Twitter chatter dataset for open scientific research - an international > collaboration](https://zenodo.org/record/7368547#.Y4TjT3bP02w)
 > 2- [RNA-seq of circadian timeseries sampling (LL2-3) of 13-14 day old Arabidopsis thaliana Col-0 (24 h to 68 > h, sampled every 4 h)](https://www.ebi.ac.uk/biostudies/arrayexpress/studies/E-MTAB-7933)
@@ -87,7 +87,7 @@ It is the process that a protocol uses for verification. To know what authentica
 
 ![Figure 3. Authentication process and its importance](../fig/Pic2.png)
 
-> ## Exercise
+> ## Exercise3:  Authentication protocol
 > After reading RDMkit guidelines on different [protocol types](https://rdmkit.elixir-europe.org/data_transfer.
 > html#how-do-you-transfer-large-data-files), do you know what is the protocol used in [arrayexpress](https://www.ebi.ac.uk/biostudies/arrayexpress)?
 >> ## Solution
@@ -108,9 +108,9 @@ If your data is following this definition, you have to de-identify your data. **
 
 1- Data anonymization
 
-2- Data Pseudonymization
+2- Data pseudonymization
 
-> ## Exercise
+> ## Exercise 4: Data anonymization and pseudonymization
 > - From the this RDMkit guideline on [Sensitive data](https://rdmkit.elixir-europe.org/sensitive_data), can you out find what is the data anonymization and data pseudonymization?
 >> ## Solution
 >> The link we provided, provided a nice explanation on sensitive data and as you read the following section 
