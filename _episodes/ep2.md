@@ -47,7 +47,6 @@ Take a look at the [ArrayExpress](https://www.ebi.ac.uk/biostudies/arrayexpress)
 
 > ## Exercise 1. Indexing dataset in the data repository
 [FAIRcookbook](https://faircookbook.elixir-europe.org/) is an online open resource wth quick know-how (recipes) that help you to make and keep your data FAIR. Among others it includes information about how to index dataset general data-repositories. 
->> ## Solution
 > The building unit of FAIR cookbook is called a recipe, The recipe is the term used to describe instructions for how to FAIRify your data. As you see in the image, the structure of each recipe includes these main items **Figure 2**:
 > 1- Graphical overview which is the mindmap for the recipe
 > 2- Ingredients which gives you an idea for the skills needed and tools you can use to apply the recipes
