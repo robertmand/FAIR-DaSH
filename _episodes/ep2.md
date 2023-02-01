@@ -1,7 +1,7 @@
 ---
 title: Metadata
-teaching: 40
-exercises: 10
+teaching: 20
+exercises: 20
 questions:
 - What is metadata?
 - What information could we add to better understand the data contained in the dataset?
@@ -10,11 +10,12 @@ objectives:
 - Define metadata and its various types
 - Recall the community/domain standards and how to apply them to data and metadata
 keypoints:
-- FAIR principle adressed (I1) - (Meta)data use a formal, accessible, shared, and broadly applicable language for knowledge representation
-- FAIR principle adressed (I3) - (Meta)data include qualified references to other (meta)data
-- FAIR principle adressed (F2) - Data are described with rich metadata
-- FAIR principle adressed (A2) - Metadata are accessible, even when the data are no longer available
-- FAIR principle adressed (R1.3) -  (Meta)data meet domain-relevant community standards
+- FAIR guiding principle adressed (I1) - (Meta)data use a formal, accessible, shared, and broadly applicable language for knowledge representation
+- FAIR guiding principle adressed (I3) - (Meta)data include qualified references to other (meta)data
+- FAIR guiding principle adressed (F2) - Data are described with rich metadata
+- FAIR guiding principle adressed (A2) - Metadata are accessible, even when the data are no longer available
+- FAIR guiding principle adressed (R1.3) -  (Meta)data meet domain-relevant community standards
+- FAIR guiding principle adressed (R1.2) - (Meta)data are associated with detailed provenance
 --- 
 ### What is metadata?
 Metadata refers to the information that describes your data.
