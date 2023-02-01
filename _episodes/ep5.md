@@ -39,7 +39,7 @@ As you can see in this picture, the structure of any identifiers consist of
 ![(I have created this image so please let me know if you want to change it) The structure of persistent identifiers as in DOI, In the prefix, you can see that first part of prefix represent DOI directory and the following number is publisher. Suffix is unique under its unique prefix](../fig/img18.jpg)
 
 > ## Exercise 1. Find the PID 
-> From FAIRsharing, can you find the right database for protein dataset and explore its PID structure?
+> Use [FAIRsharing](https://fairsharing.org) to find the right database for protein dataset and explore its PID structure?
 >> ## Solution
 >> If you follow the steps in the following screen recording, you will find plant genomics and phenotypes. In this database, all datasets are assigned digital object identifier (DOI)
 >> <video src="../fig/vid1.mp4" controls="controls" style="max-width: 730px;">
