@@ -1,7 +1,7 @@
 ---
 title: Registration
-teaching: 40
-exercises: 10
+teaching: 20
+exercises: 20
 questions:
 - What is a data repository?
 - What are types of data repositories?
