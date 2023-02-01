@@ -12,8 +12,8 @@ objectives:
 - Illustrate the importance of indexed data repository
 - Summarize the steps of data indexing in a searchable repository
 keypoints:
-- This episode covers the following FAIR principles:
-- (Meta)data are registered or indexed in a searchable resource (F4) 
+- **This episode covers the following FAIR principles**
+- (Meta)data are registered or indexed in a searchable resource F4 
 - (Meta)data are released with a clear and accessible data usage licence (R1.1)
 --- 
 #### What is a data repository?
@@ -110,43 +110,20 @@ It will also allow your data to be more accessible as the standardized communica
 - **I3** (Meta)data include qualified references to other (meta)data
 - **R1.1** (Meta)data is released with a clear and accessible data usage license
 
-#### How to choose the right database for your dataset?
 
-- **Funders recommendations**
- BBSRC provides information about [data sharing resources](https://www.ukri.org/councils/bbsrc/facilities-and-resources/find-a-bbsrc-facility-or-resource/#datasharing) funded by them.
-- **Publishers**
-Publishers like PLOS provides a list of recommended [data repositories](https://journals.plos.org/plosone/s/recommended-repositoriescheck)  
-- **Community standards**
-Check the community standards for your data, you can find more information [RDMkit guidelines](https://rdmkit.elixir-europe.org/your_domain)
-- If you still cannot find the right one for you, look for resources that describe the databases and check if it fits your data, you might consider the following:
+> ## Exercise 2. How to choose the right database for your  dataset?
 
-A) Accessibility options 
-
-B) Licence
-
-- One of resources that can help you is  [FAIRsharing](https://fairsharing.org/), it provides a registry for different databases and repositories. Here is an example where the FAIR sharing provides you with information regarding [protein database](https://fairsharing.org/FAIRsharing.rtndct). It has the following information
-- General information
-- Which policies use this database?
-- Related community standards
-- Organization maintaining this database
-- Documentation and support
-- Licence
-
-> ## Exercise 2. How to choose the right dataset?
-> You are a researcher in plant sciences and want to know what are the available databases for plant genomes?  
->> ## Solution
->> It is the time to introduce you to [FAIRsharing](https://fairsharing.org/), an important resource for metadata standards, databases and policies. The FAIRsharing is an important resource for researchers to help them identify the suitable repositories, standards and databases for their data. It also contains the latest 
->> policies from from governments, funders and publishers for FAIRer data.
->> In the following short video, you can find that plant ensembl is the one you can use for the plant genes
+> [FAIRsharing](https://fairsharing.org/) hels researchers identify the suitable data repositories, standards and policies for their data. It also contains > > the latest policies from from governments, funders and publishers for FAIRer data.
+> Please use **FAIRsharing** to identify data-repositories for plant genomes? Think about one other example of domain-specific dataset, Identify and discuss data-reposity for it?
+>
+>> ###Solution
+>>The following short video shows process of identifing sutitable data repository for plant genomes using FAIRsharing**
 >> ![Screen recording showing the search process in FAIRsharing](../fig/m1.gif)
 > {: .solution}
 >
 {: .challenge}
 
 > ## Resources
-> **Our resources provide an overview of data repositories and examples**
-> 
-> The FAIR cookbook and RDMkit both provide excellent instructions for uploading your data into databases:
 > 
 > - FAIRcookbook recipe on [Depositing to generic repositories- Zenodo use](https://faircookbook.elixir-europe.> org/content/recipes/findability/zenodo-deposition.html)
 > - FAIRcookbook recipe on [Registering Datasets in Wikidata](https://faircookbook.elixir-europe.org/content/
