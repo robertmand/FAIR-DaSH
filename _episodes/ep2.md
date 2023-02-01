@@ -45,7 +45,7 @@ Take a look at the [ArrayExpress](https://www.ebi.ac.uk/biostudies/arrayexpress)
 
 ![By indexing your dataset, you can retrieve it using its PID](../fig/img55.png)
 
-> ## Exercise 1. Indexing dataset in the data repository
+> ## Exercise1: Indexing dataset in the data repository
 > [FAIRcookbook](https://faircookbook.elixir-europe.org/) is an online open resource wth quick know-how (recipes) that help you to make and keep your data > > FAIR. Among others it includes information about how to index dataset general data-repositories. 
 > The building unit of FAIR cookbook is called a recipe, The recipe is the term used to describe instructions for how to FAIRify your data. As you see in the > image, the structure of each recipe includes these main items **Figure 2**:
 > 1- Graphical overview which is the mindmap for the recipe
@@ -53,7 +53,6 @@ Take a look at the [ArrayExpress](https://www.ebi.ac.uk/biostudies/arrayexpress)
 > 3- The steps and the process
 > 4- Recommendations of what to read next and references to your reading
 > ![Figure 2. FAIRcookbook recipes structure](../fig/img4.png)
-> 
 > Please use **FAIRcookbook** to find out and discuss required steps on how to obtain index for your dataset?
 > When navigate the homepage of FAIRcookbook, you will find different tabs that covers each of FAIR 
 > principles, so for instance, if you want recipes on **Accessibility** of FAIR, you will find all recipes 
@@ -111,7 +110,6 @@ It will also allow your data to be more accessible as the standardized communica
 
 
 > ## Exercise 2. How to choose the right database for your  dataset?
-
 > [FAIRsharing](https://fairsharing.org/) hels researchers identify the suitable data repositories, standards and policies for their data. It also contains > > the latest policies from from governments, funders and publishers for FAIRer data.
 > Please use **FAIRsharing** to identify data-repositories for plant genomes? Think about one other example of domain-specific dataset, Identify and discuss data-reposity for it?
 >
