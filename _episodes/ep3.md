@@ -43,7 +43,8 @@ To get more detailed explanation, check RDMkit explanation of [data sharing](htt
 > 
 > For each of these **topics**, we have a set of questions that helps you write your DMP. For each question, there are tags that help you know funding bodies questions (Figure 2)
 > ![Figure 2. knowledge model for the DSW that covers 7 chapters, in this picture, you can see tags and topics covered by each chapter](../fig/pic4.jpg)
-> **DSW Wizard** has a full chapter on writing access plan
+> **DSW Wizard** has a full chapter on writing access plan.
+> 
 > Imagine you are a principle investigator writing data access plan, what are the factors you need to consider to determine the type of access for your data?
 >> ## Solution
 >Use  **How to choose the right data access plan for you?** of **DSW Wizard**
