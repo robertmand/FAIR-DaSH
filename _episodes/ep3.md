@@ -139,10 +139,10 @@ To know what are the other steps you need to do and write, you can check DSW For
 > 
 > - Why should you assign licence to your protocol from RDMkit [Licencing](https://rdmkit.elixir-europe.org/> licensing)
 > - A recipe from FAIRcookbook with step-by-step instructions for 
-> - - [licence](https://faircookbook.elixir-europe.org/content/recipes/reusability/ATI-licensing.html)
-> - - [software licence](https://faircookbook.elixir-europe.org/content/recipes/reusability/ATI_licensing_software.> html)
-> - - [Data licence](https://faircookbook.elixir-europe.org/content/recipes/reusability/ATI_licensing_data.html)
-> - - [Declaring data permitted uses](https://faircookbook.elixir-europe.org/content/recipes/reusability/
+>   - [licence](https://faircookbook.elixir-europe.org/content/recipes/reusability/ATI-licensing.html)
+>   - [software licence](https://faircookbook.elixir-europe.org/content/recipes/reusability/ATI_licensing_software.> html)
+>   - [Data licence](https://faircookbook.elixir-europe.org/content/recipes/reusability/ATI_licensing_data.html)
+>   - [Declaring data permitted uses](https://faircookbook.elixir-europe.org/content/recipes/reusability/
 > expressing-data-use.html)
 > - To know more about creative common licence, check this link [Creative commons licence](https://
 > creativecommons.org/choose/)
