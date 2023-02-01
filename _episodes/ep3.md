@@ -12,8 +12,8 @@ objectives:
 - To give examples of  databases that uses a protocol with  different  authentication process 
 - To interpret the usage licence associated with different data sets
 keypoints:
-- FAIR principle adressed - (Meta)data are retrievable by their identifier using a standardised communications protocol (A1)
-- FAIR principle adressed - (Meta)data are released with a clear and accessible data usage licence (R1.1)
+- This episode adresses (A1) FAIR principle - (Meta)data are retrievable by their identifier using a standardised communications protocol
+- This episode adresses (R1.1) FAIR principle - (Meta)data are released with a clear and accessible data usage licence
 --- 
 ### Access to the data
 When you plan your research project, you have to determine who can have access to your data, how you will provide the access and under what condition?  You should not wait after data collection to start thinking about the access to your data.  A good staring point is to consider what are different types of data access?
