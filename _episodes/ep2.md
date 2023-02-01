@@ -10,11 +10,11 @@ objectives:
 - Define metadata and its various types
 - Recall the community/domain standards and how to apply them to data and metadata
 keypoints:
-- This episode adresses (I1) FAIR principle - (Meta)data use a formal, accessible, shared, and broadly applicable language for knowledge representation
-- This episode adresses (I3) FAIR principle - (Meta)data include qualified references to other (meta)data
-- This episode adresses (F2) FAIR principle - Data are described with rich metadata
-- This episode adresses (A2) FAIR principle - Metadata are accessible, even when the data are no longer available
-- This episode adresses (R1) FAIR principle - (Meta)data are richly described with a plurality of accurate and relevant attributes
+- FAIR principle adressed (I1) - (Meta)data use a formal, accessible, shared, and broadly applicable language for knowledge representation
+- FAIR principle adressed (I3) - (Meta)data include qualified references to other (meta)data
+- FAIR principle adressed (F2) - Data are described with rich metadata
+- FAIR principle adressed (A2) - Metadata are accessible, even when the data are no longer available
+- FAIR principle adressed (R1) - (Meta)data are richly described with a plurality of accurate and relevant attributes
 --- 
 ### What is metadata?
 Metadata refers to the information that describes your data.
