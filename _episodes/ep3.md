@@ -12,8 +12,8 @@ objectives:
 - Illustrate the importance of indexed data repository
 - Summarize the steps of data indexing in a searchable repository
 keypoints: 
-- This episode adresses (F4) FAIR principle - (Meta)data are registered or indexed in a searchable resource
-- This episode adresses (R1.1) FAIR principle - (Meta)data are released with a clear and accessible data usage licence
+- FAIR guiding principle adressed (F4) - (Meta)data are registered or indexed in a searchable resource
+- FAIR guiding principle adressed (R1.1) - (Meta)data are released with a clear and accessible data usage licence
 --- 
 #### What is a data repository?
 It is a general term used to describe any storage space you use to deposit data, metadata and any associated research. Please note that database is more specific and it is mainly for the storage of your data. 
@@ -38,7 +38,7 @@ D) General data repository: multidisciplinary or/and general-purpose open data r
 To ensure data findability, your data should be uploaded to a public repository where it can be searched and found, This will make it complied with the fourth principle of findability (F4) which states that **(Meta)data are registered or indexed in a searchable resource**. 
 Examples of these databases are  [ArrayExpress](https://www.ebi.ac.uk/biostudies/arrayexpress) for high-throughput functional genomics experiments. These databases have a set of rules in place to make sure that your data will be FAIR. After you upload your data into this database, they are assigned an ID and are indexed. Indexing helps researchers find your data by using persistent identifiers, keyword or even the name of researcher.
 
-Take a look at the [ArrayExpress](https://www.ebi.ac.uk/biostudies/arrayexpress) database where all datasets are indexed, and you can simply find any dataset using the search tools. By indexing data, you can get the dataset using any keyword other than the PID. For example, if you want to locate **human NSCL cell** lines, you can just type this into the search toolbox. Use different keywords like **cartilage, stem cells and oesteoarthritis** and you will find the same dataset. Indexing and registering datasets, also means they are curated in such a way that you may discover them using different keywords. You can find the same dataset by using its identifiers or by using keywords chosen by the dataset's authors to describe it.
+Take a look at the [ArrayExpress](https://www.ebi.ac.uk/biostudies/arrayexpress) database where all datasets are indexed, and you can simply find any dataset using the search tools. By indexing data, you can get the dataset using any keyword other than ID. For example, if you want to locate **human NSCL cell** lines, you can just type this into the search toolbox. Use different keywords like **cartilage, stem cells and oesteoarthritis** and you will find the same dataset. Indexing and registering datasets, also means they are curated in such a way that you may discover them using different keywords. You can find the same dataset by using its identifiers or by using keywords chosen by the dataset's authors to describe it.
 
 ![When you upload your dataset to a database, it can be curated and easily found using different keywords](../fig/img54.png)
 
