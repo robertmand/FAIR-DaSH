@@ -12,9 +12,9 @@ objectives:
 - Illustrate the importance of indexed data repository
 - Summarize the steps of data indexing in a searchable repository
 keypoints:
-- This episode covers the following FAIR principles
-- (Meta)data are registered or indexed in a searchable resource (F4) 
-- (Meta)data are released with a clear and accessible data usage licence (R1.1)
+- 
+- FAIR principle adressed: (Meta)data are registered or indexed in a searchable resource (F4) 
+- FAIR principle adressed: (Meta)data are released with a clear and accessible data usage licence (R1.1)
 --- 
 #### What is a data repository?
 It is a general term used to describe any storage space you use to deposit data, metadata and any associated research. Please note that database is more specific and it is mainly for the storage of your data. 
