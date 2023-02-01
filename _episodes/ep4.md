@@ -87,7 +87,7 @@ It is the process that a protocol uses for verification. To know what authentica
 
 ![Figure 3. Authentication process and its importance](../fig/Pic2.png)
 
-> ## Exercise3:  Authentication protocol
+> ## Exercise 3:  Authentication protocol
 > After reading RDMkit guidelines on different [protocol types](https://rdmkit.elixir-europe.org/data_transfer.
 > html#how-do-you-transfer-large-data-files), do you know what is the protocol used in [arrayexpress](https://www.ebi.ac.uk/biostudies/arrayexpress)?
 >> ## Solution
@@ -111,7 +111,7 @@ If your data is following this definition, you have to de-identify your data. **
 2- Data pseudonymization
 
 > ## Exercise 4: Data anonymization and pseudonymization
-> - From the this RDMkit guideline on [Sensitive data](https://rdmkit.elixir-europe.org/sensitive_data), can you out find what is the data anonymization and data pseudonymization?
+> Use RDMkit guideline on [Sensitive data](https://rdmkit.elixir-europe.org/sensitive_data) to find out what is the data anonymization and data  pseudonymization?
 >> ## Solution
 >> The link we provided, provided a nice explanation on sensitive data and as you read the following section 
 >> from RDMKit, definitions are the following:
