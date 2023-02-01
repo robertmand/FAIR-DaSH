@@ -95,19 +95,6 @@ Take a look at the [ArrayExpress](https://www.ebi.ac.uk/biostudies/arrayexpress)
 
 4- Dataset licencing, with some databases offering controlled or limited access to protect your data.
 
-**By uploading data to a database, you comply with the following FAIR principles**
-- **F1** (Meta)data is assigned a globally unique and persistent identifier
-- **F3** Metadata clearly and explicitly include the identifier of the data they describe
-- **F4** (Meta)data is registered or indexed in a searchable resource
-It will also allow your data to be more accessible as the standardized communications protocol and authentication are automatically set for your data
-- **A1** (Meta)data is retrievable by their identifier using a standardised communications protocol
-- A1.1 The protocol is open, free, and universally implementable
-- A1.2 The protocol allows for an authentication and authorisation procedure, where necessary
-- **A2** Metadata is accessible, even when the data is no longer available
-- **I3** (Meta)data include qualified references to other (meta)data
-- **R1.1** (Meta)data is released with a clear and accessible data usage license
-
-
 > ## Exercise 2: Choosing the right database for your  dataset
 > [FAIRsharing](https://fairsharing.org/) hels researchers identify the suitable data repositories, standards and policies for their data. It also contains > > the latest policies from from governments, funders and publishers for FAIRer data.
 > Please use **FAIRsharing** to identify data-repositories for plant genomes? Think about one other example of domain-specific dataset, Identify and discuss data-reposity for it?
