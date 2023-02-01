@@ -61,7 +61,7 @@ Following standards will also make your data more reliable for other researchers
 >   
 >  Please use RDMkit to find information and discuss, what should be considered and what solutions are avaliable for storing and sharing sturctural predictions? Think about one other example of RDM domain/community standards, try to find information about it in **RDMkit**?
 >> ## Solution
->> Extract this information from RDMkit >> Your domain >> [Structural Bioinformatics] (https://rdmkit.elixir-europe.org/structural_bioinformatics)
+>> Extract this information from RDMkit >> Your domain >> [Structural Bioinformatics](https://rdmkit.elixir-europe.org/structural_bioinformatics)
 >>
 >   {: .solution}
 >
