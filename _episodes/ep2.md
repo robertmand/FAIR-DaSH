@@ -3,9 +3,9 @@ title: Metadata
 teaching: 40
 exercises: 10
 questions:
-- What is FAIR? What is the origin of the FAIR movement?
-- Why is FAIR important?
-- What is the difference between FAIRness and FAIRification of data?
+- What is metadata?
+- What information could we add to better understand the data contained in the dataset?
+- Where to find information about metadata community standards?
 objectives:
 - Define metadata and its various types
 - Recall the community/domain standards and how to apply them to data and metadata
