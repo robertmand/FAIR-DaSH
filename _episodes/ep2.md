@@ -8,7 +8,7 @@ questions:
 - What is the difference between FAIRness and FAIRification of data?
 objectives:
 - Define metadata and its various types
-- Recall the community standards and how to apply them to data and metadata
+- Recall the community/domain standards and how to apply them to data and metadata
 keypoints:
 - (Meta)data use a formal, accessible, shared, and broadly applicable language for knowledge representation (I1)
 - (Meta)data include qualified references to other (meta)data (A3)
@@ -48,29 +48,23 @@ We can observe:
 Each data type has its own community that develops guidelines to describe data appropriately and consistently. Make sure to follow the community standards when describing your data.
 Following standards will also make your data more reliable for other researchers, allowing it to be reused across multiple platforms. If you decide to use other guidelines outside your community, document them. 
  
-> ## Exercise 1. Where to find your community standards
-> RDMkit is an open-source, community-driven site that guides life scientists to manage their research data better. This resource can be your perfect starting point for finding other tools, training materials and any recommended resources related to RDM in the life sciences.
->
-> Can you find the bioimage community standards in the RDMkit?
-> [Start here>>](https://rdmkit.elixir-europe.org/)
->
-> > ## Solution
-> >
-> > RDMkit covers various research data management topics and life sciences fields. You can find the community standards under the "Your domain" tab.
-> >
-> > Inside the domain tab, you can navigate the multiple available domains with the side navigation pane. At the top, you will find "Bioimage data" tab. This page includes the following information on the bioimage community standards:
-> > 1. What is bioimage data and metadata?
-> > 2. Standards of bioimage research data management
-> > 3. Bioimage data collection
-> > 4. Data publication and archiving
-> > ![A demonstration of how to navigate the RDMkit to find Bioimage metadata information](https://i.imgur.com/kXl80Rm.gif)
-> {: .solution}
+> ## Exercise 1: Finidng community standards for your data
+> [RDMkit](https://rdmkit.elixir-europe.org/) is an open-source, community-driven site that guides life scientists to manage their research data better. RDMKit provides comprehensive information about [RDM life cycle](https://rdmkit.elixir-europe.org/data_life_cycle), [resources relevant to RDM roles](https://rdmkit.elixir-europe.org/your_role), [guidlines and solutions for common data managment tasks](), [RDM tools ecosystem],  [national]() and [training resoures](). 
+> 
+>  In addition information about research domain or community can be found inside the domain tab where you can navigate though multiple available sudomains with the side navigation panel. For example you can extract the following information for [Bioimaging data](https://rdmkit.elixir-europe.org/bioimaging_data) community standards. Think about one other example of RDM domain/community standards, try to find information about it in **RDMkit**?
+ 
+>  1. What is bioimage data and metadata?
+>  2. Standards of bioimage research data management
+>  3. Bioimage data collection
+>  4. Data publication and archiving
+> ![A demonstration of how to navigate the RDMkit to find Bioimage metadata information](https://i.imgur.com/kXl80Rm.gif)
+>   
+>  Please use RDMkit to find information and discuss, what should be considered and what solutions are avaliable for storing and sharing sturctural predictions? 
+>> ## Solution
+>> Extract this information from RDMkit >> Your domain >> [Structural Bioinformatics] (https://rdmkit.elixir-europe.org/structural_bioinformatics)
+>>
+>   {: .solution}
 >
 {: .challenge}
-
-
-
-
-
 
 
