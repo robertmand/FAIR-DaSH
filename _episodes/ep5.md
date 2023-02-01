@@ -11,9 +11,9 @@ objectives:
 - Illustrate what are the persistent identifiers
 - Give examples of the structure of persistent identifiers
 keypoints:
-- FAIR principle adressed (I1) - (Meta)data use a formal, accessible, shared, and broadly applicable language for knowledge representation
-- FAIR principle adressed (I3) - (Meta)data include qualified references to other (meta)data
-- FAIR principle adressed (A2) - Metadata are accessible, even when the data are no longer available
+- FAIR guiding principle adressed (I1) - (Meta)data use a formal, accessible, shared, and broadly applicable language for knowledge representation
+- FAIR guiding principle adressed (I3) - (Meta)data include qualified references to other (meta)data
+- FAIR guiding principle adressed (A2) - Metadata are accessible, even when the data are no longer available
 --- 
 
 ## Persistent identifiers
