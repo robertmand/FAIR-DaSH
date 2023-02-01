@@ -4,16 +4,14 @@ root: .  # Is the only page that doesn't follow the pattern /:path/index.html
 permalink: index.html  # Is the only page that doesn't follow the pattern /:path/index.html
 ---
 
-This short online course caters for learners working with Life Science data and provides the necessary know-how to make data FAIR.
-The course provides concise, didactic FAIR background and signposting to useful resources and literature. Learners will be able to familiarise themselves with basic content and follow links to additional reading and training resources, if they wish to pursue a concept in more depth. The aim here is to give enough overview required for the second part of this course where real data examples are used to demonstrate FAIR in practice and engage in active learning.
- 
-**This work is funded by a UKRI Innovation Scholars award (MR/C038966/1)**
+This short online course is suitable for learners working with the Life Science data who would like to apply FAIR principles to their research domain.
+The course use simple examples of how to make research data FAIR, guide through and signpost to comprehensive FAIR data resources such [RDMkit](https://rdmkit.elixir-europe.org), [FAIRcookbook](https://faircookbook.elixir-europe.org/content/home.html), [FAIRsharing](https://fairsharing.org), [DSW Wizard]( https://ds-wizard.org).  Learners will be able to familiarise themselves with basic content and know where to find additional guidance and training, if they wish to pursue a concept in more depth.
+**This work is funded by the ELIXIR-UK: FAIR Data Stewardship training UKRI (MR/C038966/1)**
 
 > ## You will learn
 > - The FAIR principles and related terms including FAIRification and FAIRness of data.  
-> - The history of FAIR including publications and active FAIR projects in the Life Sciences.
 > - The differences between FAIR and Open data.
-> - Why FAIR is important, giving examples where by not using FAIR, data has been made unusable by others.
+> - How to extract information from  the comprehensive FAIR data resources
 > - How to make data FAIR through worked examples.
 {: .objectives}
 
