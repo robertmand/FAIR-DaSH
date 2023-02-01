@@ -14,7 +14,7 @@ keypoints:
 - FAIR principle adressed (I3) - (Meta)data include qualified references to other (meta)data
 - FAIR principle adressed (F2) - Data are described with rich metadata
 - FAIR principle adressed (A2) - Metadata are accessible, even when the data are no longer available
-- FAIR principle adressed (R1) - (Meta)data are richly described with a plurality of accurate and relevant attributes
+- FAIR principle adressed (R1.3) -  (Meta)data meet domain-relevant community standards
 --- 
 ### What is metadata?
 Metadata refers to the information that describes your data.
