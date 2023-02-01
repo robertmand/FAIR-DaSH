@@ -49,17 +49,17 @@ Each data type has its own community that develops guidelines to describe data a
 Following standards will also make your data more reliable for other researchers, allowing it to be reused across multiple platforms. If you decide to use other guidelines outside your community, document them. 
  
 > ## Exercise 1: Finidng community standards for your data
-> [RDMkit](https://rdmkit.elixir-europe.org/) is an open-source, community-driven site that guides life scientists to manage their research data better. RDMKit provides comprehensive information about [RDM life cycle](https://rdmkit.elixir-europe.org/data_life_cycle), [resources relevant to RDM roles](https://rdmkit.elixir-europe.org/your_role), [guidlines and solutions for common data managment tasks](), [RDM tools ecosystem],  [national]() and [training resoures](). 
+> [RDMkit](https://rdmkit.elixir-europe.org/) is an open-source, community-driven site that guides life scientists to manage their research data better. >RDMKit provides comprehensive information about [RDM life cycle](https://rdmkit.elixir-europe.org/data_life_cycle), [resources relevant to RDM specific roles]>(https://rdmkit.elixir-europe.org/your_role), [guidlines and solutions for common data managment tasks](https://rdmkit.elixir-europe.org/your_tasks), [RDM tools ecosystem](https://rdmkit.elixir-europe.org/tool_assembly), [national](https://rdmkit.elixir-europe.org/national_resources) and [RDM training resoures](https://rdmkit.elixir-europe.org/all_training_resources). 
 > 
->  In addition information about research domain or community can be found inside the domain tab where you can navigate though multiple available sudomains with the side navigation panel. For example you can extract the following information for [Bioimaging data](https://rdmkit.elixir-europe.org/bioimaging_data) community standards. Think about one other example of RDM domain/community standards, try to find information about it in **RDMkit**?
- 
+>  In addition information about research domain or community can be found inside the domain tab where you can navigate though multiple available sudomains with the side navigation panel. For example you can extract the following information for [Bioimaging data](https://rdmkit.elixir-europe.org/bioimaging_data) community standards.
+>  
 >  1. What is bioimage data and metadata?
 >  2. Standards of bioimage research data management
 >  3. Bioimage data collection
 >  4. Data publication and archiving
 > ![A demonstration of how to navigate the RDMkit to find Bioimage metadata information](https://i.imgur.com/kXl80Rm.gif)
 >   
->  Please use RDMkit to find information and discuss, what should be considered and what solutions are avaliable for storing and sharing sturctural predictions? 
+>  Please use RDMkit to find information and discuss, what should be considered and what solutions are avaliable for storing and sharing sturctural predictions? Think about one other example of RDM domain/community standards, try to find information about it in **RDMkit**?
 >> ## Solution
 >> Extract this information from RDMkit >> Your domain >> [Structural Bioinformatics] (https://rdmkit.elixir-europe.org/structural_bioinformatics)
 >>
