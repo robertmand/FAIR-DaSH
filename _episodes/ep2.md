@@ -45,26 +45,23 @@ Take a look at the [ArrayExpress](https://www.ebi.ac.uk/biostudies/arrayexpress)
 
 ![By indexing your dataset, you can retrieve it using its PID](../fig/img55.png)
 
-> ## Exercise 1. Indexing dataset in the data repository?
-> If you would like to index your dataset, a general data repository like  [Zenodo](https://zenodo.org) provides it as a part of an uploading process. Find out and discuss required steps on how to obtain index for your dataset? 
->  **Hint: Use [FAIRcookbook](https://faircookbook.elixir-europe.org/) to find information how to index dataset in zenodo**. 
+> ## Exercise 1. Indexing dataset in the data repository
+[FAIRcookbook](https://faircookbook.elixir-europe.org/) is an online open resource wth quick know-how (recipes) that help you to make and keep your data FAIR. Among others it includes information about how to index dataset general data-repositories. 
 >> ## Solution
->> Since you want a technical guideline on how to do  FAIRcookbook is the best to start with. We will start 
->> with [FAIRcookbook](https://faircookbook.elixir-europe.org/)
->> First of all, let's understand the structure of the FAIRCookbook. For a quick overview, you can watch our RDMBites on FAIRcookbook [FAIRcookbook RDMBites](https://drive.google.com/drive/folders/16XZtCWBR-F3cvDHkB7A8jkjj6wvQ7sOr)
->> 
->> The building unit of FAIR cookbook is called a recipe, The recipe is the term used to describe instructions for how to FAIRify your data. As you see in the image, the structure of each recipe includes these main items **Figure 2**:
->> 1- Graphical overview which is the mindmap for the recipe
->> 2- Ingredients which gives you an idea for the skills needed and tools you can use to apply the recipes
->> 3- The steps and the process
->> 4- Recommendations of what to read next and references to your reading
->> ![Figure 2. FAIRcookbook recipes structure](../fig/img4.png)
->> 
->> As we explained the structure of the recipe so let's look for the suitable recipe in the FAIRcookbook
->> So as you navigate the homepage of FAIRcookbook, you will find different tabs that covers each of FAIR 
->> principles, so for instance, if you want recipes on **Accessibility** of FAIR, you will find all recipes 
->> that can help you make your data accessible. 
->> 
+> The building unit of FAIR cookbook is called a recipe, The recipe is the term used to describe instructions for how to FAIRify your data. As you see in the image, the structure of each recipe includes these main items **Figure 2**:
+> 1- Graphical overview which is the mindmap for the recipe
+> 2- Ingredients which gives you an idea for the skills needed and tools you can use to apply the recipes
+> 3- The steps and the process
+> 4- Recommendations of what to read next and references to your reading
+> ![Figure 2. FAIRcookbook recipes structure](../fig/img4.png)
+> 
+> Please use **FAIRcookbook** to find out and discuss required steps on how to obtain index for your dataset?
+> When navigate the homepage of FAIRcookbook, you will find different tabs that covers each of FAIR 
+> principles, so for instance, if you want recipes on **Accessibility** of FAIR, you will find all recipes 
+> that can help you make your data accessible. 
+> For a quick overview, you can also watch our RDMBites on FAIRcookbook [FAIRcookbook RDMBites](https://drive.google.com/drive/folders/16XZtCWBR-F3cvDHkB7A8jkjj6wvQ7sOr) 
+
+>> ## Solution
 >> - **Follow the following steps to find the recipe:**
 >> 
 >> 1- In this exercise, we are looking for a recipe on **indexing or registering dataset in a searchable 
