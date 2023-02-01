@@ -23,7 +23,8 @@ FAIR is an acronym summarising four foundational principles: Findability, Access
 
 Each foundationa principle is divided into guiding principles that act as a guideline for those wishing to enhance the reusability of their data.
 
-In this course, we will contexualize these guidaning principle by going through data life cycle which will help you  understand **WHY and HOW to FAIR?** rather than going through each principles. You can find information about guiding principles covered in each episode in  the bottom **Key Points** section 
+In this course, we will contexualize these guidaning principle by going through data life cycle which will help you  understand **WHY and HOW to FAIR?** rather than going through each principles. You can find information about guiding principles covered in each episode in  the bottom **Key Points** section.
+
 A comprehensive information for each guiding principle is provided through [GO FAIR](https://www.go-fair.org/fair-principles/)
 
 
