@@ -1,7 +1,7 @@
 ---
 title: FAIR guiding principles
-teaching: 40
-exercises: 10
+teaching: 20
+exercises: 20
 questions:
 - What is FAIR? 
 - Why is FAIR important?
@@ -17,38 +17,15 @@ keypoints:
 - The FAIR Principles differ from Open data because they permit the owner of the data to control access, although as part of this they are required to define methods and instances where data could be accessed
 --- 
 ##### What is FAIR?
-The FAIR Principles were created to help researchers share, reuse, and manage their data. These Principles will be discussed and contextualised later, but for now, you should know that FAIR data can be defined as any dataset that can be discovered and downloaded by others; and interpreted correctly through detailed descriptions of the provision of detailed descriptions about the data.
-
-FAIR is an acronym summarising four principles to help share, reuse, and manage data (Figure 1). FAIR is not limited to the Life Sciences and spans all research disciplines. The FAIR principles are also not limited to data and can be applied to the sharing and reuse of services, software, training and data workflows. 
+FAIR is an acronym summarising four foundational principles: Findability, Accessibility, Interoperability, and Reusability. The FAIR Principles aim to help researchers share, reuse, and manage their data. (Figure 1). FAIR is not limited to the Life Sciences and spans all research disciplines. The FAIR principles are ot limited to data and can be applied to services, software, training and data workflows. 
 
 ![Figure 1. Summary of FAIR principles](../fig/fairifying2.png)
 
-Each principle is divided into sub-elements or characteristics.
-**Findable**
-F1:  (meta)data are assigned a globally unique and persistent identifier
-F2: data are described with rich metadata (defined by R1 below)
-F3: metadata clearly and explicitly includes the identifier of the data it describes
-F4: (meta)data are registered or indexed in a searchable resource
-**Accessible**
-A1: (meta)data are retrievable by their identifier using a standardised communications protocol
-A1.1: the protocol is open, free, and universally implementable
-A1.2: the protocol allows for an authentication and authorisation procedure, where necessary
-A2: metadata are accessible, even when the data are no longer available
-**Interoperable**
-I1: (meta)data use a formal, accessible, shared and broadly applicable language for knowledge representation
-I2: (meta)data use vocabularies that follow FAIR principles
-I3: (meta)data include qualified references to other (meta)data
-**Reusable**
-R1: meta(data) are richly described with a plurality of accurate and relevant attributes
-R1.1: meta(data) are released with a clear and accessible data usage licence
-R1.2: meta(data) are associated with detailed provenance
-R1.3: meta(data) meet domain-relevant community standards
+Each foundationa principle is divided into guiding principles that act as a guideline for those wishing to enhance the reusability of their data.
 
-> ## Important note
-> In this course, we will contexualize these principle by going through data life cycle which will help you 
-> understand **WHY and HOW to FAIR?** rather than going through each principles. However, in our RDMBites, we
-> provided quick overview on each of these principles, you can have a look at [FAIR playlist]()
-{: .callout}
+In this course, we will contexualize these guidaning principle by going through data life cycle which will help you  understand **WHY and HOW to FAIR?** rather than going through each principles. You can find information about guiding principles covered in each episode in  the bottom **Key Points** section 
+A comprehensive information for each guiding principle is provided through [GO FAIR](https://www.go-fair.org/fair-principles/)
+
 
 ##### The history of FAIR and its use today
 A report from the European Commission Expert Group on FAIR data describes the origins of FAIR and its development in 2014-2015 by a FORCE11 Working Group.  
@@ -124,6 +101,7 @@ Now, after we discussed machine readability, one of the pillars of FAIR, let's d
 
 In the next lessons, we will explain to you:
 - Metadata
-- Persistent identifiers
-- Access
 - Registration
+- Access
+- Persistent identifiers
+
