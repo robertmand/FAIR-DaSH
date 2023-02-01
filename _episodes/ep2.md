@@ -45,7 +45,7 @@ Take a look at the [ArrayExpress](https://www.ebi.ac.uk/biostudies/arrayexpress)
 
 ![By indexing your dataset, you can retrieve it using its PID](../fig/img55.png)
 
-> ## Exercise1: Indexing dataset in the data repository
+> ## Exercise 1: Indexing dataset in the data repository
 > [FAIRcookbook](https://faircookbook.elixir-europe.org/) is an online open resource wth quick know-how (recipes) that help you to make and keep your data > > FAIR. Among others it includes information about how to index dataset general data-repositories. 
 > The building unit of FAIR cookbook is called a recipe, The recipe is the term used to describe instructions for how to FAIRify your data. As you see in the > image, the structure of each recipe includes these main items **Figure 2**:
 > 1- Graphical overview which is the mindmap for the recipe
@@ -109,7 +109,7 @@ It will also allow your data to be more accessible as the standardized communica
 - **R1.1** (Meta)data is released with a clear and accessible data usage license
 
 
-> ## Exercise 2. How to choose the right database for your  dataset?
+> ## Exercise 2: Choosing the right database for your  dataset
 > [FAIRsharing](https://fairsharing.org/) hels researchers identify the suitable data repositories, standards and policies for their data. It also contains > > the latest policies from from governments, funders and publishers for FAIRer data.
 > Please use **FAIRsharing** to identify data-repositories for plant genomes? Think about one other example of domain-specific dataset, Identify and discuss data-reposity for it?
 >
