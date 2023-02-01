@@ -17,8 +17,7 @@ keypoints:
 - (R1.1) meta(data) are released with a clear and accessible data usage licence
 --- 
 ### Access to the data
-As a researcher, when you plan your research project, you have to determine who can have access to your data, how you will provide the access and under what condition. You do not need to wait after data collection to start thinking about the access to your data.
-To start writing your acces plan, first we will explain to you what are different types of data access, what is the best for you and how to write your data access plan
+When you plan your research project, you have to determine who can have access to your data, how you will provide the access and under what condition?  You should not wait after data collection to start thinking about the access to your data.  A good staring point is to consider what are different types of data access?
 
 ###### Types of access
 **there are four types of data access as explained by [RDMkit](https://rdmkit.elixir-europe.org/sharing#what-should-be-considered-for-data-sharing):**
@@ -30,26 +29,24 @@ To start writing your acces plan, first we will explain to you what are differen
 To get more detailed explanation, check RDMkit explanation of [data sharing](https://rdmkit.elixir-europe.org/sharing#what-should-be-considered-for-data-sharing)
 
 > ## Exercise
+> "Data stewardship wizard" is an online tool that provides guidelines on the process of writing DMP for your research project. It uses a knowledge model, which includes information about what questions to ask  and how to ask them based on the needs of the research field or organisation.
+> The knowledge model covers seven chapters:
+> - Administrative information
+> - Re-using data
+> - Creating and collecting data
+> - Processing data
+> - Interpreting data
+> - Preserving data
+> - Giving access to the data
+> 
+> ![Figure 1. knowledge model for the DSW that covers 7 chapters, in this picture, you can see an example of topics covered in administrative >> >> information  of DMP](../fig/pic3.jpg)
+> 
+> For each of these **topics**, we have a set of questions that helps you write your DMP. For each question, there are tags that help you know funding bodies questions (Figure 2)
+> ![Figure 2. knowledge model for the DSW that covers 7 chapters, in this picture, you can see tags and topics covered by each chapter](../fig/pic4.jpg)
+> **DSW Wizard** has a full chapter on writing access plan
 > Imagine you are a principle investigator writing data access plan, what are the factors you need to consider to determine the type of access for your data?
 >> ## Solution
->> To know what to write for data access plan, you can use a tool called "Data stewardship wizard" that provides guidelines on the process of writing DMP for your research project. It has a full chapter on writing access plan. Let's first explain what is **data stewardship wizard**
->> ### What is Data stewardship wizard (DSW)?
->> It is one of ELIXIR resources which helps you create your DMP. It uses a knowledge model, which includes information about what questions to ask >> and how to ask them based on the needs of the research field or organisation.
->> The knowledge model covers seven chapters:
->> - Administrative information
->> - Re-using data
->> - Creating and collecting data
->> - Processing data
->> - Interpreting data
->> - Preserving data
->> - Giving access to the data
->> 
->> ![Figure 1. knowledge model for the DSW that covers 7 chapters, in this picture, you can see an example of topics covered in administrative >> >> information  of DMP](../fig/pic3.jpg)
->> 
->> For each of these **topics**, we have a set of questions that helps you write your DMP. For each question, there are tags that help you know funding bodies questions (Figure 2)
->> 
-![Figure 2. knowledge model for the DSW that covers 7 chapters, in this picture, you can see tags and topics covered by each chapter](../fig/pic4.jpg)
->> After introducing the DSW, let's answer the following question, **How to choose the right data access plan for you?**
+>Use  **How to choose the right data access plan for you?** of **DSW Wizard**
 >> Based on DSW, there are main four questions
 >> - Will you be working with the philosophy 'as open as possible' for your data?
 >> - Can all of your data become completely open over time?
