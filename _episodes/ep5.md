@@ -3,7 +3,7 @@ title: Persistent identifiers
 teaching: 40
 exercises: 10
 questions:
-- What is a persistant identifiers?
+- What is a persistant identifier?
 - What is the structure of identifiers?
 - Why it is important for your dataset to have an identifiers?
 objectives:
@@ -18,12 +18,12 @@ keypoints:
 
 ## Persistent identifiers
 
-Identifiers are a long-lasting references to a digital resources such as datasets, metadata .. etc. They provide the information required to reliably identify, verify and locate your research data. Commonly, a persistent identifier is a unique record ID in a database, or a unique URL that takes a researcher to the data in question, in a database.
+Identifiers are an eternal reference to a digital resources such as datasets, metadata .. etc. They provide the information required to reliably identify, verify and locate your research data. Commonly, a persistent identifier is a unique record ID in a database, or a unique URL that takes a researcher to the data in question, in a database.
 
-That resource might be a publication, dataset, or person. Persistent identifiers have to be unique, globally only your data are identified by this ID that is never used by anyone in the whole world. In addition, these IDs and must not do not become invalid over time.
+Persistent identifiers locate resources that may be a publication, dataset, or a person. Persistent identifiers have to be unique, globally, such that only one resource (dataset, person, etc) is identified by this identifier. Additional considerations may also be associated with specific types of identifier, such as the longevity of this presistence, as well as specific database policies that may affect turnover or link rot. 
 Watch our RDMbBites on the persistent identifiers to understand more.   
 
-Identifiers are very important concept of the FAIR principle. They are considered one of the pillars for the FAIR principles. It makes your data more **Findable (F)** 
+Identifiers are a very important theme within the FAIR principles, arguably being foundational; they are considered one of the pillars for the FAIR principles, since they are crucial from the **Findable (F)** aspect.
 
 **It is important to note that when you upload your data to a public repository, the repository will create this ID for you automatically.**
 
@@ -39,7 +39,7 @@ As you can see in this picture, the structure of any identifiers consist of
 ![(I have created this image so please let me know if you want to change it) The structure of persistent identifiers as in DOI, In the prefix, you can see that first part of prefix represent DOI directory and the following number is publisher. Suffix is unique under its unique prefix](../fig/img18.jpg)
 
 > ## Exercise 1. Domain specific persistent identifiers
-> Use [FAIRsharing](https://fairsharing.org) to find domain specif repository for  plant genomics and phenotypes and explore structure of its persistand identifiers?
+> Use [FAIRsharing](https://fairsharing.org) to find domain specific repository for plant genomics and phenotypes and explore the structure of its persistand identifiers?
 >> ## Solution
 >> If you follow the steps in the following screen recording, you will find plant genomics and phenotypes. In this database, all datasets are assigned digital object identifier (DOI)
 >> <video src="../fig/vid1.mp4" controls="controls" style="max-width: 730px;">
