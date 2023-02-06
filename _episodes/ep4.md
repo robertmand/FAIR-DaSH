@@ -3,32 +3,32 @@ title: Access
 teaching: 40
 exercises: 10
 questions:
-- What is protocol and authentication?
+- What is a protocol and authentication?
 - What are the types of transfer protocols?
 - What is data usage licence?
 - What is sensitive data?
 objectives:
-- To illustrate what is the communications protocol and the criteria for open and free protocol
-- To give examples of  databases that uses a protocol with  different  authentication process 
+- To illustrate what a communications protocol is, and the criteria for an open and free protocol
+- To give examples of databases that uses a protocol with  different authentication process 
 - To interpret the usage licence associated with different data sets
 keypoints:
 - FAIR guiding principle adressed (A1) - (Meta)data are retrievable by their identifier using a standardised communications protocol
 - FAIR guiding principle adressed (R1.1) - (Meta)data are released with a clear and accessible data usage licence
 --- 
 ### Access to the data
-When you plan your research project, you have to determine who can have access to your data, how you will provide the access and under what condition?  You should not wait after data collection to start thinking about the access to your data.  A good staring point is to consider what are different types of data access?
+When you plan your research project, you have to determine who can have access to your data, how you will provide the access and under what conditions? You should not wait after data collection to start thinking about subsequent access to your data.  A good staring point is to consider what are the different types of data access?
 
 ###### Types of access
 **there are four types of data access as explained by [RDMkit](https://rdmkit.elixir-europe.org/sharing#what-should-be-considered-for-data-sharing):**
-- Open access: Any one can access the data
-- Registered access or authentication procedure: researchers have to register and go through process of authentication to have the right to access the data
-- Controlled access or Data Access Committees (DACs): researchers who wants access to your data will apply and their application will be reviewed by a data access committee who will assess the application and make sure that resaerchers will abide by the criteria you have specified
-- Access upon request (not recommended): you provide your contact details for any researcher who can contact you to get access to your data. Contact details should be provided in the metadata which is made publicly available.
+- Open access: Anyone can access the data, and use it for any purpose
+- Registered access or authentication procedure: researchers have to register and go through a process of authentication to have the right to access the data
+- Controlled access or Data Access Committees (DACs): researchers who wants access to your data will apply, and their application will be reviewed by a data access committee who will assess the application and make sure that resaerchers will abide by the criteria they have specified
+- Access upon request (not recommended): you provide your contact details for any researcher, who may then contact you to get access to your data. Contact details should be provided in the metadata which is made publicly available.
 
-To get more detailed explanation, check RDMkit explanation of [data sharing](https://rdmkit.elixir-europe.org/sharing#what-should-be-considered-for-data-sharing)
+For a more detailed explanation, check RDMkit [data sharing](https://rdmkit.elixir-europe.org/sharing#what-should-be-considered-for-data-sharing)
 
 > ## Exercise 1: Data access types factors
-> "Data stewardship wizard" is an online tool that provides guidelines on the process of writing DMP for your research project. It uses a knowledge model, which includes information about what questions to ask  and how to ask them based on the needs of the research field or organisation.
+> "Data stewardship wizard" is an online tool that provides guidelines on the process of writing a Data Management Plan (DMP) for your research project. It uses a knowledge model, which includes information about what questions to ask and how to ask them based on the needs of the research field or organisation.
 > The knowledge model covers seven chapters:
 > - Administrative information
 > - Re-using data
@@ -58,7 +58,7 @@ To get more detailed explanation, check RDMkit explanation of [data sharing](htt
 
 One of things you have to consider in addition to the above criteria, is to determine **the data usage licence** for your data
 ### Data usage licence
-This describes the legal rights on how others use your data. As you publish your data, you should describe clearly in what capacity your data can be used. Bear in mind that description of licence is important to allow machine and human reusability of your data. There are many licence that can be used e.g. MIT licence or Common creative licence. These licences provide accurate description of the rights of data reuse, Please have a look at resources in the description box to know more about these licences. 
+This describes the legal rights on how others use your data. As you publish your data, you should describe clearly in what capacity your data can be used. Bear in mind that description of licence is important to allow machine and human reusability of your data. There are many licence that can be used e.g. MIT licence or Creative Commons licences. These licences provide precise descriptions of the rights of data reuse. Please have a look at resources in the description box to find out more about these licences. 
 
 ![Creative commons licences (photo credit: foter)](../fig/cc.jpg){alt='alt text'}
 > ## Exercise2: Data usage licence
@@ -66,7 +66,7 @@ This describes the legal rights on how others use your data. As you publish your
 > 1- [A large-scale COVID-19 Twitter chatter dataset for open scientific research - an international > collaboration](https://zenodo.org/record/7368547#.Y4TjT3bP02w)
 > 2- [RNA-seq of circadian timeseries sampling (LL2-3) of 13-14 day old Arabidopsis thaliana Col-0 (24 h to 68 > h, sampled every 4 h)](https://www.ebi.ac.uk/biostudies/arrayexpress/studies/E-MTAB-7933)
 >> ## Solution
->> The link we provided, provided a nice explanation on types of licence and as you read the following section, you will find the following part:
+>> The link we provided, gave a nice explanation of types of licence and as you read the following section, you will find the following:
 >> ![Figure 3. From this section, you can clearly understand the type of licence used for each datasets](fig/img41.png){alt='alt text'}
 >> From this section, you can clearly understand the type of licence used for:
 >> 1- [A large-scale COVID-19 Twitter chatter dataset for open scientific research - an international 
@@ -78,18 +78,18 @@ This describes the legal rights on how others use your data. As you publish your
 **As you are uploading your data to a data repository, the following definitions are important for you to understand the type of access. Communication protocol and authentication are used by different databases to protect your data and control access to your data**
 
 #### Standard communication protocol
-Simply put, **a protocol** is a method that connects two computers, the protocol ensure security, and authenticity of your data. Once the safety and authenticity of the data is verified, the transfer of data to another computer happens.
+Simply put, **a protocol** is a method that connects two computers, the protocol ensures security and authenticity of your data. Once the safety and authenticity of the data is verified, transfer of data to another computer takes place.
 
-Having a protocol does not guarantee that your data are accessible. However, you can choose a protocol that is free, open and allow easy and exchange of information. One of the steps you can do is to choose the right database, so when you upload your data into database, the database executes a protocol that allows the user to  load data in the user’s web browser. This protocol allows the easy access of the data but still secures the data. 
+Having a protocol does not guarantee that your data are accessible. However, you can choose a protocol that is free, open and that allows easy exchange of information. One of the steps you can do is to choose the right database, so when you upload your data into database, the database executes a protocol that allows the user to load data in the user’s web browser. This protocol allows simple access for the data, in a secure way. 
 
 #### Authentication process
-It is the process that a protocol uses for verification. To know what authentication is, suppose we have three people named John Smith. We do not know which one submitted the data. This is through assigning a unique ID for each one that is interpreted by machines and humans so you would know who is the actual person that submitted the data. Doing so is a form of authentication and this is used by many databases like Zenodo, where you can sign-up using ORCID-ID allowing the database to identify you.
+This is the process that a protocol uses for verification. To know what authentication is, suppose we have three people named John Smith. We do not know which one submitted the data. This is through assigning a unique ID for each one that is interpreted by machines and humans so you would know who is the actual person that submitted the data. Doing so is a form of authentication and this is used by many databases like Zenodo, where you can sign-up using an ORCID-ID, allowing the database to identify precisely the submiter.
 
 ![Figure 3. Authentication process and its importance](../fig/Pic2.png)
 
 > ## Exercise 3:  Authentication protocol
 > After reading RDMkit guidelines on different [protocol types](https://rdmkit.elixir-europe.org/data_transfer.
-> html#how-do-you-transfer-large-data-files), do you know what is the protocol used in [arrayexpress](https://www.ebi.ac.uk/biostudies/arrayexpress)?
+> html#how-do-you-transfer-large-data-files), do you know which protocol is used in [arrayexpress](https://www.ebi.ac.uk/biostudies/arrayexpress)?
 >> ## Solution
 >> As we explained before on how to use the RDMkit, going through the [Protocols and safety of data transfer](https://rdmkit.elixir-europe.org/data_transfer.html), you will find different types of protocols explained
 >> 
@@ -100,9 +100,9 @@ It is the process that a protocol uses for verification. To know what authentica
 
 
 ### Sensitive data 
-Sensitive data are type of data that, if made publicly available, could cause consequences for individuals, groups, nations, or ecosystems and need to be secured from unauthorised access. To determine whether your data is sensitive, you should consult national laws, which vary by country.
+Sensitive data are a type of data that, if made publicly available, may cause repurcussions for individuals, groups, nations, or ecosystems and need to be secured from unauthorised access. To determine whether your data is sensitive, you should consult national laws, which vary by country. Generally speaking, the first step would be to considr GDPR guidelines.
 
-If your data is following this definition, you have to de-identify your data. **Data deidentification** is a process through which data cannot be identified through the study team nor the users of the data.
+If your data is sensitive but you still wish to publish it, there are some strategies you may employ. For instance, you may have to de-identify your data. **Data deidentification** is a process through which data is processed in such a way as to remove sensitive information, but retain the analytics-appropriate component. This means nothing sensitive can be identified by the study team nor the users of the data.
 
 - It includes two processes:
 
@@ -127,7 +127,7 @@ If you are working with sensitive data, you have to declare the data permitted u
 - How will you collect the data?
 - How is Data annonymization and pseudonymization handled?
 
-To know what are the other steps you need to do and write, you can check DSW For sensitive data, the DSW have questions dedicated to describing the collection and processing of sensitive data
+For others stages that may be relevant in handling sensitive data, you can check DSW For sensitive data, where questions dedicated to describing the collection and processing of sensitive data are captured.
 
 > ## Resources
 > - A nice recipe from FAIRcookbook on [SSH protocols](https://faircookbook.elixir-europe.org/content/recipes/> accessibility/sftp.html)
