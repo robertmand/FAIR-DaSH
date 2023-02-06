@@ -51,16 +51,14 @@ As you can see in this picture, the structure of any identifiers consist of
 
 > ## Resources
 > The resources listed below provide an overview of the information you need to know about identifiers.
-> - [Unique and persistent identifiers](https://faircookbook.elixir-europe.org/content/recipes/findability/
-> identifiers.html): this link provide a nice and practical explanation of the unique and persistent identifiers > from FAIRCookbook 
+> - [Unique and persistent identifiers](https://faircookbook.elixir-europe.org/content/recipes/findability/identifiers.html): this link provide a nice and practical explanation of the unique and persistent identifiers > from FAIRCookbook 
 > 
 > - [Identifiers](https://rdmkit.elixir-europe.org/identifiers.html): another nice explanation from RDMkit
 > 
 > - [Machine actionability](https://rdmkit.elixir-europe.org/machine_actionability): identifiers are also 
 > important for machine readability, a nice explanation from RDMkit that describes machine readability
 > 
-> - Examples and explanation of different identifiers from FAIRsharing.org https://fairsharing.org/search?
-> recordType=identifier_schema
+> - Examples and explanation of different identifiers from [FAIRsharing.org](https://fairsharing.org/search?recordType=identifier_schema)
 
 {: .callout}
 
