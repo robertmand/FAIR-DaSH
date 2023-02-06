@@ -4,7 +4,7 @@ teaching: 20
 exercises: 20
 questions:
 - What is a data repository?
-- What are types of data repositories?
+- What types of data repositories are there?
 - Why should you upload your data to a data repository?
 - How to choose the right database for your dataset?
 objectives:
@@ -16,7 +16,7 @@ keypoints:
 - FAIR guiding principle adressed (R1.1) - (Meta)data are released with a clear and accessible data usage licence
 --- 
 #### What is a data repository?
-It is a general term used to describe any storage space you use to deposit data, metadata and any associated research. Please note that database is more specific and it is mainly for the storage of your data. 
+A data repository is a general term used to describe any storage space you use to deposit data, metadata and any sometimes associated research. Please note that a database is more specific and it is mainly for the storage of your data. 
 ###### Types of data repository
 Data repositories are classified based on **the purpose of data repository** into:
 
@@ -24,7 +24,7 @@ A) Controlled access repository for sensitive data: explained in details in [dat
 
 B) Discipline specific repository: there are known repository for different data types e.g [ArrayExpress](https://www.ebi.ac.uk/biostudies/arrayexpress) for high-throughput functional genomics experiments
 
-C) Institutional repository: In case you can not find suitable repository for your data set, some universities have their own general purpose repositories. For instance, [University of Reading Research Data Archive](https://researchdata.reading.ac.uk) is a general purpose repository that have similar features e.g. controlled access ... etc to other databases. It can be used for students and researchers.
+C) Institutional repository: In case you can not find a suitable repository for your data set, some universities have their own general purpose repositories. For instance, [University of Reading Research Data Archive](https://researchdata.reading.ac.uk) has a general purpose repository that has similar features e.g. controlled access to other databases. It can be used by both students and researchers.
 
 D) General data repository: multidisciplinary or/and general-purpose open data repository, open for all scholars  e.g. [zenodo](https://zenodo.org)
 
@@ -35,8 +35,8 @@ D) General data repository: multidisciplinary or/and general-purpose open data r
 
 ### Why should you upload your data to a data repository?
 
-To ensure data findability, your data should be uploaded to a public repository where it can be searched and found, This will make it complied with the fourth principle of findability (F4) which states that **(Meta)data are registered or indexed in a searchable resource**. 
-Examples of these databases are  [ArrayExpress](https://www.ebi.ac.uk/biostudies/arrayexpress) for high-throughput functional genomics experiments. These databases have a set of rules in place to make sure that your data will be FAIR. After you upload your data into this database, they are assigned an ID and are indexed. Indexing helps researchers find your data by using persistent identifiers, keyword or even the name of researcher.
+To improve data findability, your data should be uploaded to a public indexed repository, preferably with accompanying metadata,  where it can be searched and found. This will make it compliant with the fourth extended principle of findability (F4) which states that **(Meta)data are registered or indexed in a searchable resource**. 
+Examples of these databases are  [ArrayExpress](https://www.ebi.ac.uk/biostudies/arrayexpress) for high-throughput functional genomics experiments. These databases have a set of rules in place to make sure that your data will be FAIR. After you upload your data into this database, they are assigned an ID and are indexed. Indexing helps researchers find your data by using persistent identifiers, keywords or even the name of researcher who produced the data.
 
 Take a look at the [ArrayExpress](https://www.ebi.ac.uk/biostudies/arrayexpress) database where all datasets are indexed, and you can simply find any dataset using the search tools. By indexing data, you can get the dataset using any keyword other than ID. For example, if you want to locate **human NSCL cell** lines, you can just type this into the search toolbox. Use different keywords like **cartilage, stem cells and oesteoarthritis** and you will find the same dataset. Indexing and registering datasets, also means they are curated in such a way that you may discover them using different keywords. You can find the same dataset by using its identifiers or by using keywords chosen by the dataset's authors to describe it.
 
@@ -45,17 +45,17 @@ Take a look at the [ArrayExpress](https://www.ebi.ac.uk/biostudies/arrayexpress)
 ![By indexing your dataset, you can retrieve it using its PID](../fig/img55.png)
 
 > ## Exercise 1: Indexing dataset in the data repository
-> [FAIRcookbook](https://faircookbook.elixir-europe.org/) is an online open resource wth quick know-how (recipes) that help you to make and keep your data > > FAIR. Among others it includes information about how to index dataset general data-repositories. 
-> The building unit of FAIR cookbook is called a recipe, The recipe is the term used to describe instructions for how to FAIRify your data. As you see in the > image, the structure of each recipe includes these main items **Figure 2**:
+> [FAIRcookbook](https://faircookbook.elixir-europe.org/) is an online open resource containing general guidance and specific 'how to' guides (recipes) that help you to make and keep your data > > FAIR. It also includes information about how general data-repositories can be indexed. 
+> The basic unit of the FAIR cookbook is called a recipe, The recipe is a term used to describe instructions for how to FAIRify your data, and is written by practitioners, targeting very specific and common tasks. As you see in the > image, the structure of each recipe includes these main items **Figure 2**:
 >   1- Graphical overview which is the mindmap for the recipe
->   2- Ingredients which gives you an idea for the skills needed and tools you can use to apply the recipes
+>   2- Ingredients which gives you an idea of the skills needed and tools you can use to apply the recipes
 >   3- The steps and the process
 >   4- Recommendations of what to read next and references to your reading
 > ![Figure 2. FAIRcookbook recipes structure](../fig/img4.png)
 > Please use **FAIRcookbook** to find out and discuss required steps on how to obtain index for your dataset?
-> When navigate the homepage of FAIRcookbook, you will find different tabs that covers each of FAIR 
-> principles, so for instance, if you want recipes on **Accessibility** of FAIR, you will find all recipes 
-> that can help you make your data accessible. 
+> When navigating the homepage of the FAIRcookbook, you will find different tabs that covers each of the FAIR 
+> principles, so for instance, if you want recipes on **Accessibility** for FAIR, you will find recipes 
+> that can help you make your data more accessible. 
 > For a quick overview, you can also watch our RDMBites on FAIRcookbook [FAIRcookbook RDMBites](https://drive.google.com/drive/folders/16XZtCWBR-F3cvDHkB7A8jkjj6wvQ7sOr) 
 >> ## Solution
 >> - **Follow the following steps to find the recipe:**
@@ -91,12 +91,12 @@ Take a look at the [ArrayExpress](https://www.ebi.ac.uk/biostudies/arrayexpress)
 
 2- Your data will be indexed and curated, making it easier to find.
 
-3- Some databases make it simple to connect your dataset to other datasets and link metadata to other dataset  **linked metadata**
+3- Some databases make it simple to connect your dataset to other datasets and link metadata to other datasets  **linked metadata**
 
-4- Dataset licencing, with some databases offering controlled or limited access to protect your data.
+4- Dataset licencing: some databases offer controlled or limited access to protect your data.
 
 > ## Exercise 2: Choosing the right database for your  dataset
-> [FAIRsharing](https://fairsharing.org/) hels researchers identify the suitable data repositories, standards and policies for their data. It also contains > > the latest policies from from governments, funders and publishers for FAIRer data.
+> [FAIRsharing](https://fairsharing.org/) helps researchers identify suitable data repositories, standards and policies relating to their data. It also contains > > the latest policies from governments, funders and publishers of data.
 > Please use **FAIRsharing** to identify data-repositories for plant genomes? Think about one other example of domain-specific dataset, Identify and discuss data-reposity for it?
 >
 >> ###Solution
