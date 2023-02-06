@@ -13,25 +13,25 @@ objectives:
 keypoints:
 - FAIR stands for Findable, Accessible, Interoperable and Reusable
 - What is meant by FAIRness and FAIRification of data?
-- Metadata, identifiers , registration, access are key components in the process of FAIRification
+- Metadata, identifiers, registration and access are key components in the process of FAIRification
 - The FAIR Principles differ from Open data because they permit the owner of the data to control access, although as part of this they are required to define methods and instances where data could be accessed
 --- 
 ##### What is FAIR?
-FAIR is an acronym summarising four foundational principles: Findability, Accessibility, Interoperability, and Reusability. The FAIR Principles aim to help researchers share, reuse, and manage their data. (Figure 1). FAIR is not limited to the Life Sciences and spans all research disciplines. The FAIR principles are ot limited to data and can be applied to services, software, training and data workflows. 
+FAIR is an acronym encompassing four foundational principles: Findability, Accessibility, Interoperability, and Reusability. The FAIR Principles aim to help researchers to share, reuse and manage their data. (Figure 1). FAIR is not limited to the Life Sciences and spans all research disciplines. The FAIR principles are not limited to data and can be applied to services, software, training and data workflows. 
 
 ![Figure 1. Summary of FAIR principles](../fig/fairifying2.png)
 
-Each foundationa principle is divided into guiding principles that act as a guideline for those wishing to enhance the reusability of their data.
+Each foundational principle is can be further divided into subcomponents, thereby specifying much more defined targets that can be actioned, towards improving compliance towards the 'F', 'A', 'I' or 'R' principles.  
 
-In this course, we will contexualize these guidaning principle by going through data life cycle which will help you  understand **WHY and HOW to FAIR?** rather than going through each principles. You can find information about guiding principles covered in each episode in  the bottom **Key Points** section.
+In this course, we will contexualize these guiding principles by going through the data life cycle, helping participants to understand **WHY and HOW to FAIR?** rather than going through each principles. You can find information about guiding principles covered in each episode, below **Key Points** section.
 
-A comprehensive information for each guiding principle is provided through [GO FAIR](https://www.go-fair.org/fair-principles/)
+More comprehensive information for each guiding principle is available elsewhere, for example through [GO FAIR](https://www.go-fair.org/fair-principles/)
 
 
 ##### The history of FAIR and its use today
-A report from the European Commission Expert Group on FAIR data describes the origins of FAIR and its development in 2014-2015 by a FORCE11 Working Group.  
-FAIR is an acronym relating to **any digital object** that is made Findable, Accessible, Interoperable and Reusable. For FAIR data, the **digital object** we refer to is the data.  For a script or analysis workflow, the **digital object** would be “software”.
-FAIR itself was then formalised and published in 2016 in FAIR Guiding Principles for scientific data management and stewardship.
+A report from the European Commission Expert Group on FAIR data describes the origins of FAIR and its development in 2014-2015, by a FORCE11 Working Group.  
+FAIR is an acronym applicable to **any digital object**, and refers to its properties through the axes of Findability, Accessibility, Interoperability and Reusability. For FAIR data, the **digital object** we refer to is the data.  For a script or analysis workflow, the **digital object** would be “software”.
+FAIR itself was then formalised and published in 2016 in 'FAIR Guiding Principles for scientific data management and stewardship'.
 
 > ## Exercise1: Importance of FAIR
 > Read page 11 of [the European Commission report](https://zenodo.org/record/1285272#.Yuk8O_HMIqt), under the 
@@ -40,7 +40,7 @@ FAIR itself was then formalised and published in 2016 in FAIR Guiding Principles
 >> The report states: “a FORCE11 Working Group coined the FAIR data definition, latching onto an arresting and
 >> rhetorically useful acronym. The wordplay with fairness, in the sense of equity and justice, has also been 
 >> eloquent in communicating the idea that FAIR data serves the best interests of the research community and 
->> the advancement of science as a public enterprise that benefits society. ”
+>> the advancement of science as a public enterprise that benefits society.”
 > {: .solution}
 {: .challenge}
 
@@ -52,39 +52,38 @@ FAIR itself was then formalised and published in 2016 in FAIR Guiding Principles
 >> identifiers, software and data management plans (DMPs)) that are essential to the practice of research, and >> should inform metrics relating directly to these objects.” 
 >> Also, on page 34 "FAIR data, code, workflows, models, and other digital research objects"”
 >> The benefits of FAIR data in research are evidenced in two publications given below as further reading. 
->> Also, you can have a look at our RDMBites on [benefits of FAIR](https://docs.google.com/presentation/d/1xywEzC84RMor46moZVC-H-o3rJqEYYk1/edit#slide=id.p1)
+>> See also RDMBites on [benefits of FAIR](https://docs.google.com/presentation/d/1xywEzC84RMor46moZVC-H-o3rJqEYYk1/edit#slide=id.p1)
 > {: .solution}
 {: .challenge}
 
 **What is meant by FAIRification and FAIRness of data?**
-**FAIRification** is the process of making your data FAIR.  In other words, if you add metadata along with your data and share it, you are FAIRifying your data. We will take you through data FAIRification, in detail, later in this course but to put this into context now: by providing metadata along with your data when it is shared, you are FAIRifying your data.
-The term **FAIRness** refers to the extent to which your data follows FAIR principles.
-A common misconception is to think that for data to be FAIR it needs to be open. FAIR data and oOpen data are different
+**FAIRification** is the process of making your data more FAIR.  For example, adding specific metadata to your data and facilitating its sharing would improve its 'FAIRness'. We will take you through data FAIRification, in detail, later in this course.
+The term **FAIRness** refers to the extent to which your data follows FAIR principles, and implies some implicit means of measuring this compliance.
+A common misconception is to think that for data to be FAIR it needs to be open. FAIR data and Open data are different
 
 ##### Open science and FAIR
 
 ![Figure 2. FAIR data is not open data](../fig/Openfair.PNG)
 
 The Open Data handbook defines Open data as **“data that can be freely used, reused and redistributed by anyone.”**
-Hence, “Open data” refers to accessing the data without restriction.  While The term **“open as possible, closed as necessary”** is used commonly when describing FAIR data. However, it is important to note, noting that most FAIR data is open without restriction, though FAIR data doesn’t require to be open and its access can be restricted.but access can be restricted in some cases.  So long as the conditions of access are given, the data remain FAIR even though not open.  The key is in thething is that there should be enough metadata – for a human or computer should be able to find the condition of access expressed in an explicit manner.
+Hence, “Open data” refers to accessing the data without restriction.  Meanwhile, the phrase **“as open as possible, and as closed as necessary”** is used commonly when describing FAIR data. However, it is important to note that, while much FAIR data is open without restriction, FAIR compliance doesn’t require it to be open, but only specific if and what restrictions may exist on access. Hence, as long as the conditions of access are given, the data may be FAIR **and** not open.  The key is that there should be enough metadata to find the explicit conditions of access, either by human user or by machine.
 
 > ## Exercise2: Open vs Fair
-> Why open data are not applicable to all communities/domain?
+> Why would open data not be appropriate universally, across all communities and domains?
 >> ## Solution:
->> Researches can produce and work with sensitive
->> data or data subject to intellectual property.  Protecting sensitive data overrules mandating all research 
+>> Researches may produce and or work with sensitive 
+>> data, or data itself may be subject to intellectual property.  Protecting sensitive data overrules mandating all research 
 >> data should be open access.
->> Note though that in most cases, people following FAIR principles will be looking to share their data 
->> openly. Also, that sensitive data can be released through anonymisation and in many cases, sharing of 
->> sensitive data is subject to controlled access.  
+>> Note though that in most cases, people following FAIR principles will likely be looking to share their data 
+>> openly. It is also possible to handle some sensitive data release through anonymisation, or by putting in place controlled access measures for example through authentication.  
 > {: .solution}
 {: .challenge}
 
 ##### Pillars of FAIR
-The FAIR Principles refer to the terms: machine readability, metadata, persistent identifiers, access, and registration. Before we start looking at real data examples that use the FAIR principles, we will start by explaining these first.
+The description of the FAIR Principles refer to terms such as: machine readability, metadata, persistent identifiers, access, and registration. Before we start looking at real data examples that use the FAIR principles, we will start by explaining these first.
 
 **Machine readability**
-Machine readability refers to how data can be structured or formatted so that they can be processed or read by a computer.  A spreadsheet is a good example of machine readable data, where each piece of data (number, word(s)) can be assigned a cell-address in the spreadsheet.  If a programmer knows that all data of a certain type (e.g. patient ID) are in the third column of a datasheet, a script can be written to easily retrieve all patient IDs.  
+Machine readability refers to how data can be structured or formatted so that they can be processed or read computationally. Typically, this is accomplished through the use of strictly defined formats where the embedded data follows a known 'pattern', allowing the identification and processing of individual data items or values, in accordance with their context within the file format. For example, headings and rows in a spreadsheet define the context of the individual values within.  
 
 > ## Exercise3: Machne readable digital objects
 > Based on this definition, does it mean that any digital object is a machine readable?
@@ -96,11 +95,11 @@ Machine readability refers to how data can be structured or formatted so that th
 > {: .solution}
 {: .challenge}
 
-Machine readability is considered one of the main goals of FAIR. Having your data machine readable, will help the reuse of your data and make it findable.
+Machine readability is considered one of the main goals of FAIR. Having your data machine readable, may facilitate its reuse and interoperability. 
 
-Now, after we discussed machine readability, one of the pillars of FAIR, let's dive in the remainig pillars which will help you understand **WHY AND HOW TO FAIR**
+Now, we will focus on some other key terms that play into the FAIR principles, and which will help you understand **WHY AND HOW TO FAIR**
 
-In the next lessons, we will explain to you:
+In the next lessons, we explain the terms:
 - Metadata
 - Registration
 - Access
