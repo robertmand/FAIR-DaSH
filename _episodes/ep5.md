@@ -36,13 +36,14 @@ To ensure that a PID is globally unique, commonly it is supplied as a unique URL
 Commonly, for things like publications, a DOI is used for the PID, where DOI stands for Digital Object Identifier.  An example is shown below where the PID is constructed from 3 pieces of information: the resolver service, the prefix (namespace) and the suffix (dataset ID).
 
 - **Resolver service**: the domain/service/institution hosting the PID e.g. [https://www.doi.org] (doi.org)
-- **Prefix**:  a unique number referring to the publisher.  This is also known as the namespace.
+- **Prefix**:  a unique number referring to the publisher.  This is also known as **the namespace**.
 - **Suffix**: the unique dataset number
 
 ![(I have created this image so please let me know if you want to change it) The structure of persistent identifiers as in DOI, In the prefix, you can see that first part of prefix represent DOI directory and the following number is publisher. Suffix is unique under its unique prefix](../fig/img18.jpg)
 
-For biological data, commonly PIDs use a different resolver service called identifiers.org.  Examples are given below for 2 different databases, [Ensembl](https://www.ensembl.org/Mus_musculus/Gene/Summary?g=ENSMUSG00000031887;r=8:105984918-105991241) and [WikiPathways](https://www.wikipathways.org/instance/WP1243_r89985), respectively.  The namespace is given as the database name in these example.
+For biological data, commonly PIDs use a different resolver service called identifiers.org.  Examples are given below for 2 different databases, [Ensembl](https://www.ensembl.org/Mus_musculus/Gene/Summary?g=ENSMUSG00000031887;r=8:105984918-105991241) and [WikiPathways](https://www.wikipathways.org/instance/WP1243_r89985), respectively.  **The namespace** is given as the database name in these example.
 
+![Ensembl and WikiPathways](../fig/PID_fig2.jpg)
 
 > ## Exercise 1. Domain specific persistent identifiers
 > Use [FAIRsharing](https://fairsharing.org) to find domain specific repository for plant genomics and phenotypes and explore the structure of its persistand identifiers?
