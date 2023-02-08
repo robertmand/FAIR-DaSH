@@ -21,9 +21,9 @@ FAIR is an acronym encompassing four foundational principles: Findability, Acces
 
 ![Figure 1. Summary of FAIR principles](../fig/fairifying2.png)
 
-Each foundational principle is can be further divided into subcomponents, thereby specifying much more defined targets that can be actioned, towards improving compliance towards the 'F', 'A', 'I' or 'R' principles.  
+Each foundational principle can be further divided into subcomponents, specifying much more defined tasks that can be actioned, towards improving compliance with 'F', 'A', 'I' or 'R' principles.  
 
-In this course, we will contexualize these guiding principles by going through the data life cycle, helping participants to understand **WHY and HOW to FAIR?** rather than going through each principles. You can find information about guiding principles covered in each episode, below **Key Points** section.
+In this course, we will contexualize these guiding principles by going through the data life cycle, helping participants to understand **WHY and HOW to FAIR?** rather than going through each principle. You can find information about guiding principles covered in each episode, below **Key Points** section.
 
 More comprehensive information for each guiding principle is available elsewhere, for example through [GO FAIR](https://www.go-fair.org/fair-principles/)
 
