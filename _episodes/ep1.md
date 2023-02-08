@@ -80,7 +80,7 @@ Hence, “Open data” refers to accessing the data without restriction.  Meanwh
 {: .challenge}
 
 ##### Pillars of FAIR
-The description of the FAIR Principles refer to terms such as: machine readability, metadata, persistent identifiers, access, and registration. Before we start looking at real data examples that use the FAIR principles, we will start by explaining these first.
+The description of the FAIR Principles refer to terms such as: machine readability, metadata, persistent identifiers, access, and data deposition. Before we start looking at real data examples that use the FAIR principles, we will start by explaining these first.
 
 **Machine readability**
 Machine readability refers to how data can be structured or formatted so that they can be processed or read computationally. Typically, this is accomplished through the use of strictly defined formats where the embedded data follows a known 'pattern', allowing the identification and processing of individual data items or values, in accordance with their context within the file format. For example, headings and rows in a spreadsheet define the context of the individual values within.  
