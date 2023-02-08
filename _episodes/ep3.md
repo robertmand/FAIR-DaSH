@@ -1,5 +1,5 @@
 ---
-title: Registration
+title: Data deposition
 teaching: 20
 exercises: 20
 questions:
