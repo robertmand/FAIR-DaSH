@@ -31,7 +31,7 @@ Based on [how to FAIR](https://howtofair.dk/how-to-fair/persistent-identifiers/)
 
 ## The structure of persistent identifiers
 
-To ensure that a PID is globally unique, commonly it is supplied as a unique URL.  For the case of a record in a biological database, the use of a URL ensures that the database record ID is united with the database name.  This protects the uniqueness of the PID from any future scenario where a different database uses the same database record ID for a different dataset.  Since the database name is used as part of the PID (commonly known as the namespace), both this and the record identifier need to be persistent.  If a database changes its name, it must keep the original namespace operational.
+To ensure that a PID is globally unique, commonly it is supplied as a unique URL.  For the case of a record in a biological database, the use of a URL ensures that the database record ID is associated with the database name or often some derivation thereof.  This is often enough to ensure the uniqueness of the PID for any future scenario. Metaresolvers, such as Identifiers.org, will often maintain a list of such database namespace assignments.Since the namespace is used as part of the PID (within a URI), both namespace and record id need to be persistent.  If a database changes its name, it must keep the original namespace operational, or alternatively arrange for redirection from the original.
 
 Commonly, for things like publications, a DOI is used for the PID, where DOI stands for Digital Object Identifier.  An example is shown below where the PID is constructed from 3 pieces of information: the resolver service, the prefix (namespace) and the suffix (dataset ID).
 
@@ -42,7 +42,7 @@ Commonly, for things like publications, a DOI is used for the PID, where DOI sta
 ![(I have created this image so please let me know if you want to change it) The structure of persistent identifiers as in DOI, In the prefix, you can see that first part of prefix represent DOI directory and the following number is publisher. Suffix is unique under its unique prefix](../fig/img18.jpg)
 
 
-For biological data, commonly PIDs use a different resolver service called identifiers.org.  Examples are given below for 2 different databases, [Ensembl](https://www.ensembl.org/Mus_musculus/Gene/Summary?g=ENSMUSG00000031887;r=8:105984918-105991241) and [WikiPathways](https://www.wikipathways.org/instance/WP1243_r89985), respectively.  **The namespace** is given as the database name in these example.
+For biological data, commonly PIDs usually require a metaresolver that can deal with multiple resolving locations. One commonly used metaresolver is called identifiers.org.  Examples are given below for 2 different databases, [Ensembl](https://www.ensembl.org/Mus_musculus/Gene/Summary?g=ENSMUSG00000031887;r=8:105984918-105991241) and [WikiPathways](https://www.wikipathways.org/instance/WP1243_r89985), respectively.  **The namespace** is given as the database name in these example.
 
 
 ![Ensembl and WikiPathways](../fig/PID_figure2.jpg)
