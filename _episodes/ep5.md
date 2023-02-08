@@ -29,7 +29,7 @@ Identifiers are an important theme within the FAIR principles, arguably being fo
 
 Based on [how to FAIR](https://howtofair.dk/how-to-fair/persistent-identifiers/), there are many resources that can help you find databases to assign PIDs to your data. One of these resources is [FAIR sharing](https://fairsharing.org), providing a list of databases grouped by domains and organisations.
 
-## The Structure of persistent identifiers
+## The structure of persistent identifiers
 
 To ensure that a PID is globally unique, commonly it is supplied as a unique URL.  For the case of a record in a biological database, the use of a URL ensures that the database record ID is united with the database name.  This protects the uniqueness of the PID from any future scenario where a different database uses the same database record ID for a different dataset.  Since the database name is used as part of the PID (commonly known as the namespace), both this and the record identifier need to be persistent.  If a database changes its name, it must keep the original namespace operational.
 
