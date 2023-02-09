@@ -59,7 +59,7 @@ FAIR itself was then formalised and published in 2016 in 'FAIR Guiding Principle
 **What is meant by FAIRification and FAIRness of data?**
 **FAIRification** is the process of making your data more FAIR.  For example, adding specific metadata to your data and facilitating its sharing would improve its 'FAIRness'. We will take you through data FAIRification, in detail, later in this course.
 The term **FAIRness** refers to the extent to which your data follows FAIR principles, and implies some implicit means of measuring this compliance.
-A common misconception is to think that for data to be FAIR it needs to be open. FAIR data and Open data are different
+A common misconception is to think that for data to be FAIR it needs to be open. FAIR data and Open data are different.
 
 ##### Open science and FAIR
 
