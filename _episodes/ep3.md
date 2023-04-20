@@ -1,119 +1,70 @@
 ---
-title: Data deposition
+title: Data registration
 teaching: 20
 exercises: 20
 questions:
-- What is a data repository?
-- What types of data repositories are there?
+- What is data registration?
 - Why should you upload your data to a data repository?
-- How to choose the right database for your dataset?
+- What types of data repositories are there?
+- How to choose the right repository for your dataset?
 objectives:
-- Define what is data repository.
-- Illustrate the importance of indexed data repository
-- Summarize the steps of data indexing in a searchable repository
+- Describe why indexed data repositories are important
+- Summarise resources enabling you to choose a searchable repository
 keypoints: 
-- FAIR guiding principle adressed (F4) - (Meta)data are registered or indexed in a searchable resource
-- FAIR guiding principle adressed (R1.1) - (Meta)data are released with a clear and accessible data usage licence
+- A good way to FAIRify your (meta)data is through submission to a public repository, if it indexes and exposes the appropriate level of metadata to serve your specific use case or serve your envisaged users 
+- Use Repositories that  support controlled access to data if necessary
+- FAIRsharing is a useful resource to locate relevant public repositories
+
 --- 
-#### What is a data repository?
-A data repository is a general term used to describe any storage space you use to deposit data, metadata and any sometimes associated research. Please note that a database is more specific and it is mainly for the storage of your data. 
-###### Types of data repository
-Data repositories are classified based on **the purpose of data repository** into:
+## Data registration and the FAIR Principles
+Data registration relates to the following 3 FAIR Principles (Table 3.1).  
+We will discuss and signpost these in this Episode.
 
-A) Controlled access repository for sensitive data: explained in details in [data sharing lesson of RDMkit](https://rdmkit.elixir-europe.org/sharing) and we will explain this type of repository in the next episode
+Table 3.1: The 15 FAIR Guiding Principles.  Principles relating to data registration in black.
 
-B) Discipline specific repository: there are known repository for different data types e.g [ArrayExpress](https://www.ebi.ac.uk/biostudies/arrayexpress) for high-throughput functional genomics experiments
+## What is data deposition and registration?
+Data deposition and registration refer to the process of uploading data to a searchable resource, and providing appropriate metadata to facilitate its discoverability.  For example, a data repository, where data and metadata can be uploaded, may enable it to be discovered, preserved and accessed.  Here we use the general term data repository to describe any online storage location that can host deposited (meta)data.
+In the context of FAIR, data deposition relates to a number of the Guiding Principles. Firstly,  _“(meta)data are registered or indexed in a searchable resource”_ (FAIR Principle F4).  Searchable (indexed) metadata enables humans and computers to query and discover data of interest, though this depends on what is indexed.  Here, indexing refers to a process that occurs within the architecture of the data repository (local indexing) where metadata are organised so that they can be queried based on a defined field.  It is worth noting that community resources, focused on a particular domain (for example, the human database in [Ensembl](https://www.ensembl.org/Homo_sapiens/Info/Index)) are better indexed for a particular community, rather than generic repositories (for example, [Zenodo](https://zenodo.org/)) which may not index the community specific components, and may focus on higher level metadata.  Indexing by an internet search engine is another example of this.  Google (and other search engines, such as yahoo and yandex) have an agreed vocabulary ([schema.org](https://schema.org/)), within web pages, that are ‘scraped’ and indexed.  While the focus of this vocabulary was originally intended for commercial products, community specific efforts to facilitate discipline-specific indexing are under way (for example, [Bioschemas](https://faircookbook.elixir-europe.org/content/recipes/findability/seo/bioschemas-data-page.html)). 
 
-C) Institutional repository: In case you can not find a suitable repository for your data set, some universities have their own general purpose repositories. For instance, [University of Reading Research Data Archive](https://researchdata.reading.ac.uk) has a general purpose repository that has similar features e.g. controlled access to other databases. It can be used by both students and researchers.
+## Why should I upload my data to a data repository?
+Data repositories are generally preferred to file storage systems (such as Dropbox) or sharing data on an ad hoc basis, since they often better support FAIR best practice.  Repositories will assign citable, _“globally unique and persistent identifiers”_ (FAIR Principle F1) to data, and in some cases enable a data submitter to apply a data usage licence through association with the resource (FAIR Principle R1.1).  
+Although not exclusively, data repositories support the creation of metadata through curation interfaces providing drop-downs and text fields for metadata entry and validation.  Often in the case of a domain or data-specific data repository, such as BioStudies shown in the previous Episode, drop-downs for metadata curation will link community-endorsed vocabularies (FAIR Principle R1.3).
 
-D) General data repository: multidisciplinary or/and general-purpose open data repository, open for all scholars  e.g. [zenodo](https://zenodo.org)
+## Types of data repository
+General public data repositories, such as [Zenodo](https://zenodo.org/), are multidisciplinary and permit registration and upload of open and closed access (meta)data.  Metadata curation is relatively high level and made searchable via indexing.  Relating to data in the Life Sciences, Zenodo is often used to publish and provide citable URLs to supplementary data within articles, usually in instances where a domain repository does not exist.
 
-**Figure 1 summarizes these types with different examples**
+Institutional repositories work similarly and provide an online archive for hosting, indexing and preserving research output specific to an institution.  Typically these house more than data, providing a repository often for documents and articles.  Institutions will have their own systems supported locally or buy into company solutions. 
 
-![Figure 1 Types of data repository with different examples, CC.BY from re3data.org](../fig/img56.jpg)
+Discipline-specific repositories cater for communities and datatypes, and typically provide web interfaces to annotate rich metadata at the point when data are submitted.  Examples of these belong to the suite of data repositories at the [European Bioinformatics Institute (EBI)](https://www.ebi.ac.uk/submission/) where rich metadata creation is supported by teams of curators.
 
-
-### Why should you upload your data to a data repository?
-
-To improve data findability, your data should be uploaded to a public indexed repository, preferably with accompanying metadata,  where it can be searched and found. This will make it compliant with the fourth extended principle of findability (F4) which states that **(Meta)data are registered or indexed in a searchable resource**. 
-Examples of these databases are  [ArrayExpress](https://www.ebi.ac.uk/biostudies/arrayexpress) for high-throughput functional genomics experiments. These databases have a set of rules in place to make sure that your data will be FAIR. After you upload your data into this database, they are assigned an ID and are indexed. Indexing helps researchers find your data by using persistent identifiers, keywords or even the name of researcher who produced the data.
-
-Take a look at the [ArrayExpress](https://www.ebi.ac.uk/biostudies/arrayexpress) database where all datasets are indexed, and you can simply find any dataset using the search tools. By indexing data, you can get the dataset using any keyword other than ID. For example, if you want to locate **human NSCL cell** lines, you can just type this into the search toolbox. Use different keywords like **cartilage, stem cells and oesteoarthritis** and you will find the same dataset. Indexing and registering datasets, also means they are curated in such a way that you may discover them using different keywords. You can find the same dataset by using its identifiers or by using keywords chosen by the dataset's authors to describe it.
-
-![When you upload your dataset to a database, it can be curated and easily found using different keywords](../fig/img54.png)
-
-![By indexing your dataset, you can retrieve it using its PID](../fig/img55.png)
-
-> ## Exercise 1: Indexing dataset in the data repository
-> [FAIRcookbook](https://faircookbook.elixir-europe.org/) is an online open resource containing general guidance and specific 'how to' guides (recipes) that help you to make and keep your data > > FAIR. It also includes information about how general data-repositories can be indexed. 
-> The basic unit of the FAIR cookbook is called a recipe, The recipe is a term used to describe instructions for how to FAIRify your data, and is written by practitioners, targeting very specific and common tasks. As you see in the > image, the structure of each recipe includes these main items **Figure 2**:
->   1- Graphical overview which is the mindmap for the recipe
->   2- Ingredients which gives you an idea of the skills needed and tools you can use to apply the recipes
->   3- The steps and the process
->   4- Recommendations of what to read next and references to your reading
-> ![Figure 2. FAIRcookbook recipes structure](../fig/img4.png)
-> Please use **FAIRcookbook** to find out and discuss required steps on how to obtain index for your dataset?
-> When navigating the homepage of the FAIRcookbook, you will find different tabs that covers each of the FAIR 
-> principles, so for instance, if you want recipes on **Accessibility** for FAIR, you will find recipes 
-> that can help you make your data more accessible. 
-> For a quick overview, you can also watch our RDMBites on FAIRcookbook [FAIRcookbook RDMBites](https://drive.google.com/drive/folders/16XZtCWBR-F3cvDHkB7A8jkjj6wvQ7sOr) 
+> ## Exercise: An example of a discipline specific repository is [ArrayExpress](https://www.ebi.ac.uk/biostudies/arrayexpress) database.  ArrayExpress stores data from high-through functional genomics assays, such as RNAseq, ChIPseq and expression microarrays.
+The data submission interface of ArrayExpress is called [Annotare](https://www.ebi.ac.uk/fg/annotare/login/).  Without creating a login, what help is given to a person looking to submit a dataset for the first time?
 >> ## Solution
->> - **Follow the following steps to find the recipe:**
->> 
->> 1- In this exercise, we are looking for a recipe on **indexing or registering dataset in a searchable 
->> resource** which you can find it in the findability tab, **Can you find it in this picture?**
->> ![Figure 3. Recipes of FAIRcookbook where you will find different recipes for FAIR, infrastructure, assessment and 
->> maturity models](../fig/img51.png)
->> 
->> 2- Click on the findability tab
->> 
->> 3- on the left side, you will find a navigation bar which will help you find different recipes that make 
->> your data **findable**. 
->> ![You can find on the left side the list of recipes to make your data findable](../fig/img52.png)
->> 
->> 4- As you can see here, you will find a recipe on registering datasets with Wikidata and another one on 
->> depositing to generic repositories-Zenodo use case
->> **Once you click on one of these resources, you will find the following:**
->> 
->> A) Requirements to apply the recipe to your dataset
->> B) The instructions 
->> C) References and further readings
->> B) Authors and licence
->> ![Figure 4. Zenodo use case where you will get step by step guideline on how to deposit your data to Zenodo](../fig/img53.png)
->> 
->> In our specialized courses, we will give you examples on how to upload your data to discipline specific repository
+>>Both a [submission guide](https://www.ebi.ac.uk/fg/annotare/help/index.html) and [YouTube video](https://www.youtube.com/watch?v=ANr2PTVy7JA) is provided.
 > {: .solution}
 >
 {: .challenge}
 
-### Uploading your data to a database will make your data visible through the following:
-1- Databases assign a unique persistent identifier to your data.
+> ## Exercise: Finding more help on how to upload data to specific repositories
+> The [FAIR Cookbook](https://faircookbook.elixir-europe.org/content/home.html) is an online open resource housing specific ‘how to’ guides or recipes.  Use the FAIR Cookbook to find two recipes for “depositing data to Zenodo” and “registering datasets with Wikidata”, respectively.
 
-2- Your data will be indexed and curated, making it easier to find.
+>> ## Solution
+>>Open the **Findability** pulldown on the left hand banner to find recipes for the following:
+[Depositing to generic repositories - Zenodo use case](https://faircookbook.elixir-europe.org/content/recipes/findability/zenodo-deposition.html) and [Registering Datasets in Wikidata](https://faircookbook.elixir-europe.org/content/recipes/findability/registeringDatasets.html).
 
-3- Some databases make it simple to connect your dataset to other datasets and link metadata to other datasets  **linked metadata**
-
-4- Dataset licencing: some databases offer controlled or limited access to protect your data.
-
-> ## Exercise 2: Choosing the right database for your  dataset
-> [FAIRsharing](https://fairsharing.org/) helps researchers identify suitable data repositories, standards and policies relating to their data. It also contains > > the latest policies from governments, funders and publishers of data.
-> Please use **FAIRsharing** to identify data-repositories for plant genomes? Think about one other example of domain-specific dataset, Identify and discuss data-reposity for it?
->
->> ###Solution
->>The following short video shows process of identifing sutitable data repository for plant genomes using FAIRsharing**
->> ![Screen recording showing the search process in FAIRsharing](../fig/m1.gif)
 > {: .solution}
 >
 {: .challenge}
 
-> ## Resources
-> 
-> - FAIRcookbook recipe on [Depositing to generic repositories- Zenodo use](https://faircookbook.elixir-europe.> org/content/recipes/findability/zenodo-deposition.html)
-> - FAIRcookbook recipe on [Registering Datasets in Wikidata](https://faircookbook.elixir-europe.org/content/
-> recipes/findability/registeringDatasets.html)
-> - RDMkit guidelines on [Data publications and depostion](https://rdmkit.elixir-europe.org/data_publication)
-> - RDMkit guidelines on [Finding and reusing existing data](https://rdmkit.elixir-europe.org/existing_data)
-> - FAIRcookbook recipe on [Search engine optimization](https://faircookbook.elixir-europe.org/content/recipes/> findability/seo.html)
-> - FAIRsharing offers a nice portal to different [examples of databases](https://fairsharing.org/search?> 
-> fairsharingRegistry=Database&subjects=life%2520science&page=1)
-{: .callout}
+> ## Exercise: Choosing the right data repository for your data
+> [FAIRsharing](https://fairsharing.org/) helps researchers identify suitable data repositories, standards and policies relating to their data.  Use this resource to identify data repositories for proteomic data.
+
+>> ## Solution
+>>Access the search bar for the [FAIRsharing database registry](https://fairsharing.org/search?fairsharingRegistry=Database).  Search for proteomics and select “repository” under “Record Type”.
+
+
+![Figure 3.1: A screenshot of FAIRsharing showing the results for a search for all proteomics repositories.](../fig/figure3-1-fairsharing.png)
+
+> {: .solution}
+>
+{: .challenge}
