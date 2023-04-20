@@ -3,155 +3,69 @@ title: Access
 teaching: 40
 exercises: 10
 questions:
-- What is a protocol and authentication?
-- What are the types of transfer protocols?
-- What is data usage licence?
-- What is sensitive data?
+- What is data access in the context of FAIR
+- What are the different types of data access?
+- What is a data usage licence?
+- How can you share sensitive data?
 objectives:
-- To illustrate what a communications protocol is, and the criteria for an open and free protocol
-- To give examples of databases that uses a protocol with  different authentication process 
-- To interpret the usage licence associated with different data sets
+- To illustrate data access in terms of the FAIR Principles using companion terms including communications protocol and authentication
+- To interpret the data usage licence associated with different data sets
 keypoints:
-- FAIR guiding principle adressed (A1) - (Meta)data are retrievable by their identifier using a standardised communications protocol
-- FAIR guiding principle adressed (R1.1) - (Meta)data are released with a clear and accessible data usage licence
 --- 
-### Access to the data
-When you plan your research project, you have to determine who can have access to your data, how you will provide the access and under what conditions? You should not wait after data collection to start thinking about subsequent access to your data.  A good staring point is to consider what are the different types of data access?
+## Data access and the FAIR Principles
+Data access relates to the following 5 FAIR Principles (Table 4.1).  
+We will discuss and signpost these in this Episode.
 
-###### Types of access
-**there are four types of data access as explained by [RDMkit](https://rdmkit.elixir-europe.org/sharing#what-should-be-considered-for-data-sharing):**
-- Open access: Anyone can access the data, and use it for any purpose
-- Registered access or authentication procedure: researchers have to register and go through a process of authentication to have the right to access the data
-- Controlled access or Data Access Committees (DACs): researchers who wants access to your data will apply, and their application will be reviewed by a data access committee who will assess the application and make sure that resaerchers will abide by the criteria they have specified
-- Access upon request (not recommended): you provide your contact details for any researcher, who may then contact you to get access to your data. Contact details should be provided in the metadata which is made publicly available.
+Table 4.1: The 15 FAIR Guiding Principles.  Principles relating to data access are highlighted in black.
 
-For a more detailed explanation, check RDMkit [data sharing](https://rdmkit.elixir-europe.org/sharing#what-should-be-considered-for-data-sharing)
+## What is data access?
+Making data accessible means it can be made available to use by both humans and computers, though FAIR data does not necessarily mandate that all data is openly accessible and we discuss this in a minute.
+As outlined in the Accessibility Principles (meta)data must be retrievable by their identifier using a standardised communication protocol (FAIR Principle A1) which is open, free and universally implementable (FAIR Principle A1.1).
+A standardised communication protocol is something like http(s) or ftp that allows data to be requested and downloaded, for example, by clicking on a link on a webpage.  Simply put, **a protocol** is a method that connects two computers and ensures secure data transfer.  Web browsers such as Firefox and Chrome are able to use the http(s) communication protocol since it is universally implementable, open and free.  
+It is important to note that (meta)data access is not limited to humans clicking links on webpages. For a machine ‘user’, examples of accessing data include the use of an ‘application programming interface’ (API), and Unix command line, using  wget and [curl](https://curl.se/docs/manpage.html).
+We mentioned above that FAIR data does not necessarily mandate open data.  Commonly, this relates to controlled access, which is discussed later in this Episode, but in the exercise below we investigate a dataset that has been deleted where it has been previously accessible.  FAIR states: _“metadata are accessible even when the data are no longer available”_ (FAIR Principle A2) which is one of the few principles that relates solely to metadata (and not data).  This means data can be deleted at any time from its original online location, but its original metadata must remain accessible.  PIDs (usually connected through URLs) to the original data must remain live, though the record may, for example, change to display metadata only. This is useful where originally referenced data changes over time, or becomes obsolete or deprecated; a record of the original metadata, and where appropriate reasons for its removal, or redirection to updated records, provide a provenance trail from the original data, which may have been referenced, for example, in publications, where it is not possible to update the PID.  
 
-> ## Exercise 1: Data access types factors
-> "Data stewardship wizard" is an online tool that provides guidelines on the process of writing a Data Management Plan (DMP) for your research project. It uses a knowledge model, which includes information about what questions to ask and how to ask them based on the needs of the research field or organisation.
-> The knowledge model covers seven chapters:
-> - Administrative information
-> - Re-using data
-> - Creating and collecting data
-> - Processing data
-> - Interpreting data
-> - Preserving data
-> - Giving access to the data
-> 
-> ![Figure 1. knowledge model for the DSW that covers 7 chapters, in this picture, you can see an example of topics covered in administrative information  of DMP](../fig/pic3.jpg)
-> 
-> For each of these **topics**, we have a set of questions that helps you write your DMP. For each question, there are tags that help you know funding bodies questions (Figure 2)
-> ![Figure 2. knowledge model for the DSW that covers 7 chapters, in this picture, you can see tags and topics covered by each chapter](../fig/pic4.jpg)
-> **DSW Wizard** has a full chapter on writing access plan.
-> 
-> Imagine you are a principle investigator writing data access plan, what are the factors you need to consider to determine the type of access for your data?
+
+> ## Exercise: The [Protein Data Bank in Europe](https://www.ebi.ac.uk/pdbe/) (PDBe) is a searchable repository of biological macromolecular structures.  Look at the following record that has been retired: [1ins](https://www.ebi.ac.uk/pdbe/entry/pdb/1ins).  You will see that the crystal structure is no longer available, but what metadata is available?
 >> ## Solution
->Use  **How to choose the right data access plan for you?** of **DSW Wizard**
->> Based on DSW, there are main four questions
->> - Will you be working with the philosophy 'as open as possible' for your data?
->> - Can all of your data become completely open over time?
->> - Will you use temporary restrictions on the reuse of the data (embargo)?
->> - Will metadata be available openly?
->> For each of these questions, there is a follow-up questions based on your answer to the main question
+>Metadata includes the original citation, an explanation of why the record is no longer available and a redirection to the replacement  entry.
 > {: .solution}
 {: .challenge}
 
-One of things you have to consider in addition to the above criteria, is to determine **the data usage licence** for your data
-### Data usage licence
-This describes the legal rights on how others use your data. As you publish your data, you should describe clearly in what capacity your data can be used. Bear in mind that description of licence is important to allow machine and human reusability of your data. There are many licence that can be used e.g. MIT licence or Creative Commons licences. These licences provide precise descriptions of the rights of data reuse. Please have a look at resources in the description box to find out more about these licences. 
+## Types of data access
 
-![Creative commons licences (photo credit: foter)](../fig/cc.jpg){alt='alt text'}
-> ## Exercise2: Data usage licence
-> - From the this RDMkit guideline on types of [licence](https://rdmkit.elixir-europe.org/licensing), what is the licence used by the following datasets:
-> 1- [A large-scale COVID-19 Twitter chatter dataset for open scientific research - an international > collaboration](https://zenodo.org/record/7368547#.Y4TjT3bP02w)
-> 2- [RNA-seq of circadian timeseries sampling (LL2-3) of 13-14 day old Arabidopsis thaliana Col-0 (24 h to 68 > h, sampled every 4 h)](https://www.ebi.ac.uk/biostudies/arrayexpress/studies/E-MTAB-7933)
+Where restricted access is required (for example, sensitive data or data subject to intellectual property) generally only the recommended parts are restricted, whereas associated metadata and non-sensitive data are openly accessible.  As part of the FAIR Principles, terms of access need to be stated, usually as part of a data licence (FAIR Principle R1.1).  Remember, FAIR data is **as open as possible, and as closed as necessary**.
+Resources for working with sensitive data are given at the end of this Episode.
+There are four types of data access as described in [RDMkit](https://rdmkit.elixir-europe.org/sharing#what-should-be-considered-for-data-sharing):
+**Open access**: Anyone can access the data, and use it for any purpose.
+**Registered access or authentication procedure**: researchers are required to register and authenticate to have the right to access the data (login and password)
+**Controlled access or Data Access Committees (DACs)**: researchers will apply for access, and their application reviewed by a data access committee
+**Access upon request (not recommended**): a researcher provides their contact details for access. Contact details should be provided in the metadata which will be publicly available.
+Any access requiring login and password, makes use of _“[a protocol] allowing for an authentication and authorisation procedure, where necessary”_ (FAIR Principle A1.2).  Commonly for authentication, a researcher will be assigned a unique ID, or the system may support sign-in with an ORCID ID, which is the case of many data repositories including [Zenodo](https://zenodo.org/).  In some cases there may be an option to use a google account or institutional email to sign in, and many infrastructures also support ‘single sign in’.
+
+## Data usage licence
+A data usage licence describes the legal rights on how others use your data.  When you publish your data, you should describe clearly in what capacity your data can be used. 
+There are many types of licences that can be used, including the  [MIT licence](https://opensource.org/license/mit/) (for software?) or the commonly used [Creative Commons licences](https://creativecommons.org/licenses/) (a selectable collection of licences). These licences provide precise descriptions of the rights to data use, where the latter defines rights for sharing, adapting and commercialisation. Open access data usually carries the [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) or [CC0](https://creativecommons.org/share-your-work/public-domain/cc0/) licence permitting open sharing and adaptation, even for commercial purposes.  The licence is applied by adding the licence declaration to the data similarly to this training page.  Take a look at the banner at the bottom of this page.  It states: Licensed under [CC-BY 4.0](https://creativecommons.org/licenses/by/4.0/) 2018–2023 by [The Carpentries](https://carpentries.org/). 
+
+## Making sensitive data accessible
+Controlled access is often afforded to sensitive data or commonly any data that could potentially do harm, see [RDMkit](https://rdmkit.elixir-europe.org/sensitive_data#is-your-data-sensitive) for a full definition.
+Where access is granted, sensitive data is often de-identified, meaning that identifying (meta) data is removed or reassigned, leaving the analytics-appropriate component.
+For example, a participant’s name can be removed from a questionnaire, and their home address can be substituted for the name of the town they live in.  This anonymises the data, since the participant can no longer be located.  Note though that other information in the questionnaire could compromise this.  If other data reveal that the participant won the town’s 10K road race in 2023, we could potentially identify the individual using the name of the town and an online search.  If more information in the questionnaire states that the participant has a rare disease, we are broaching disclosure of sensitive, personal data.
+Though people refer to anonymisation when de-identifying (meta)data, often they mean pseudonymisation.  Data anonymisation and pseudonymisation are slightly different.
+**Data anonymisation** is the process of irreversibly de-identifying personal data such that an individual cannot be identified by anyone, including the study team and the individual themselves.  If data are anonymised, no one can link data back to the subject. 
+**Pseudonymisation** is more commonly used.  It is a process where identifying-fields are replaced by artificial identifiers called pseudonyms or pseudonymised IDs.  Commonly, a person’s name or medical ID, will be replaced with a unique participant ID within the study.
+Pseudonymisation ensures no one can link data back to the individual, apart from nominated members of the study team who will be able to link pseudonyms to identifying information, such medical records.
+
+> ## Exercise: Use RDMkit guideline on [Sensitive data](https://rdmkit.elixir-europe.org/sensitive_data) to families yourself further on deidentification of data.  What further training can you identify?
 >> ## Solution
->> The link we provided, gave a nice explanation of types of licence and as you read the following section, you will find the following:
->> ![Figure 3. From this section, you can clearly understand the type of licence used for each datasets](fig/img41.png){alt='alt text'}
->> From this section, you can clearly understand the type of licence used for:
->> 1- [A large-scale COVID-19 Twitter chatter dataset for open scientific research - an international 
->> collaboration](https://zenodo.org/record/7368547#.Y4TjT3bP02w) is CC-BY-4
->> 2- [RNA-seq of circadian timeseries sampling (LL2-3) of 13-14 day old Arabidopsis thaliana Col-0 (24 h to 68 > h, sampled every 4 h)](https://www.ebi.ac.uk/biostudies/arrayexpress/studies/E-MTAB-7933) is CC-BY-4
+>At the bottom of the page, under “Training”, useful resources are given.  The [TeSS training portal](https://tess.elixir-europe.org/) permits users to search for courses, events, videos and other learning material for data in the life sciences.
 > {: .solution}
 {: .challenge}
 
-**As you are uploading your data to a data repository, the following definitions are important for you to understand the type of access. Communication protocol and authentication are used by different databases to protect your data and control access to your data**
+Useful resources
 
-#### Standard communication protocol
-Simply put, **a protocol** is a method that connects two computers, the protocol ensures security and authenticity of your data. Once the safety and authenticity of the data is verified, transfer of data to another computer takes place.
-
-Having a protocol does not guarantee that your data are accessible. However, you can choose a protocol that is free, open and that allows easy exchange of information. One of the steps you can do is to choose the right database, so when you upload your data into database, the database executes a protocol that allows the user to load data in the user’s web browser. This protocol allows simple access for the data, in a secure way. 
-
-#### Authentication process
-This is the process that a protocol uses for verification. To know what authentication is, suppose we have three people named John Smith. We do not know which one submitted the data. This is through assigning a unique ID for each one that is interpreted by machines and humans so you would know who is the actual person that submitted the data. Doing so is a form of authentication and this is used by many databases like Zenodo, where you can sign-up using an ORCID-ID, allowing the database to identify precisely the submiter.
-
-![Figure 3. Authentication process and its importance](../fig/Pic2.png)
-
-> ## Exercise 3:  Authentication protocol
-> After reading RDMkit guidelines on different [protocol types](https://rdmkit.elixir-europe.org/data_transfer.
-> html#how-do-you-transfer-large-data-files), do you know which protocol is used in [arrayexpress](https://www.ebi.ac.uk/biostudies/arrayexpress)?
->> ## Solution
->> As we explained before on how to use the RDMkit, going through the [Protocols and safety of data transfer](https://rdmkit.elixir-europe.org/data_transfer.html), you will find different types of protocols explained
->> 
->> From this part, you can understand that the protocol used for the arrayexpress is **HTTP (HyperText Transfer Protocol)** (highlighted in yellow) >> in the following figure
->> ![Figure 4. RDMkit explnation of different types of protocol](../fig/pic1.jpg)
-> {: .solution}
-{: .challenge}
-
-
-### Sensitive data 
-Sensitive data are a type of data that, if made publicly available, may cause repurcussions for individuals, groups, nations, or ecosystems and need to be secured from unauthorised access. To determine whether your data is sensitive, you should consult national laws, which vary by country. Generally speaking, the first step would be to considr GDPR guidelines.
-
-If your data is sensitive but you still wish to publish it, there are some strategies you may employ. For instance, you may have to de-identify your data. **Data deidentification** is a process through which data is processed in such a way as to remove sensitive information, but retain the analytics-appropriate component. This means nothing sensitive can be identified by the study team nor the users of the data.
-
-- It includes two processes:
-
-1- Data anonymization
-
-2- Data pseudonymization
-
-> ## Exercise 4: Data anonymization and pseudonymization
-> Use RDMkit guideline on [Sensitive data](https://rdmkit.elixir-europe.org/sensitive_data) to find out what is the data anonymization and data  pseudonymization?
->> ## Solution
->> The link we provided, provided a nice explanation on sensitive data and as you read the following section 
->> from RDMKit, definitions are the following:
->> **Data anonymization** is the process of irreversibly modifying personal data in such a way that subjects 
->> cannot be identified directly or indirectly by anyone, including the study team. If data are anonymized, no > one can link data back to the subject.
->> 
->> **Pseudonymization** is a process where identifying-fields within data records are replaced by artificial 
->> identifiers called pseudonyms or pseudonymized IDs. Pseudonymization ensures no one can link data back to the subject, apart from nominated members of the study team who will be able to link pseudonyms to identifying > records, such as name and address.
-> {: .solution}
-{: .challenge}
-
-If you are working with sensitive data, you have to declare the data permitted uses before using the data. In addition, if you are writing data management plan (DMP), you will have to mention the following:
-- How will you collect the data?
-- How is Data annonymization and pseudonymization handled?
-
-For others stages that may be relevant in handling sensitive data, you can check DSW For sensitive data, where questions dedicated to describing the collection and processing of sensitive data are captured.
-
-> ## Resources
-> - A nice recipe from FAIRcookbook on [SSH protocols](https://faircookbook.elixir-europe.org/content/recipes/> accessibility/sftp.html)
-> - A nice explanation from RDMkit on protocols and how they will help you protect your data[Protocols and 
-> safety of data transfer](https://rdmkit.elixir-europe.org/data_transfer.html)
-> 
-> **Having your work licenced does not sound simple as it seems; here are some resources to help you find the > correct licence for you:**
-> 
-> - Why should you assign licence to your protocol from RDMkit [Licencing](https://rdmkit.elixir-europe.org/> licensing)
-> - A recipe from FAIRcookbook with step-by-step instructions for 
->   - [licence](https://faircookbook.elixir-europe.org/content/recipes/reusability/ATI-licensing.html)
->   - [software licence](https://faircookbook.elixir-europe.org/content/recipes/reusability/ATI_licensing_software.> html)
->   - [Data licence](https://faircookbook.elixir-europe.org/content/recipes/reusability/ATI_licensing_data.html)
->   - [Declaring data permitted uses](https://faircookbook.elixir-europe.org/content/recipes/reusability/
-> expressing-data-use.html)
-> - To know more about creative common licence, check this link [Creative commons licence](https://
-> creativecommons.org/choose/)
-> 
-> **To get more information on sensitive data, you can have a look on these reources:**
-> 
-> - [What is sensitive data?](https://rdmkit.elixir-europe.org/sensitive_data)
-> - [How to describe the permitted use of data](https://faircookbook.elixir-europe.org/content/recipes/
-> reusability/expressing-data-use.html#)
-> - [ELSI and GDPR](https://scilifelab-data-guidelines.readthedocs.io/en/latest/docs/general/sensitive_data.
-> html)
-> 
-{: .callout}
+More about Data Access and Sharing: [RDMkit](https://rdmkit.elixir-europe.org/sharing), [FAIR Cookbook](https://faircookbook.elixir-europe.org/content/recipes/accessibility.html)
+Definition and examples of Standardised Communication protocol using authentication: [Australian Research Data Commons](https://ardc.edu.au/resource/standardised-communications-protocols/)
+More about Data licensing: [RDMkit](https://rdmkit.elixir-europe.org/licensing), [FAIR Cookbook](https://faircookbook.elixir-europe.org/content/recipes/reusability/ATI-licensing.html)
+The [Creative commons licences](https://creativecommons.org/choose/)
+Working with sensitive data: [EBI training](https://www.ebi.ac.uk/training/events/working-sensitive-data/)
