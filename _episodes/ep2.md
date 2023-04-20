@@ -12,7 +12,7 @@ objectives:
 keypoints:
 - Metadata is data about data
 - Metadata is used to help you find and interpret data
-
+- Domain-relevant community standards helps researchers write better, interoperable metadata 
 --- 
 ## Metadata and the FAIR Principles
 Metadata relates most directly to the following 10 FAIR Principles highlighted in Table 2.1.  We will discuss and signpost these in this episode.
