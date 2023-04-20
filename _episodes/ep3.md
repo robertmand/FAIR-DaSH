@@ -68,3 +68,8 @@ The data submission interface of ArrayExpress is called [Annotare](https://www.e
 > {: .solution}
 >
 {: .challenge}
+
+Resources
+Registries and lists of public repositories: [FAIR Cookbook](https://fairsharing.org/search?page=1&recordType=repository) and [nature](https://www.nature.com/sdata/policies/repositories)
+Publishing your data: [RDMkit](https://rdmkit.elixir-europe.org/data_publication)
+Using Bioschemas to embed metadata into webpages: [FAIR Cookbook Bioschemas](https://faircookbook.elixir-europe.org/content/recipes/findability/seo/bioschemas-datacatalog.html)
