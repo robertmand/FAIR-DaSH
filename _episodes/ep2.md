@@ -4,71 +4,94 @@ teaching: 20
 exercises: 20
 questions:
 - What is metadata?
-- What information could we add to better understand the data contained in the dataset?
-- Where to find information about metadata community standards?
+- What is good metadata?
+- Using community standards to write (meta)data
 objectives:
-- Define metadata and its various types
-- Recall the community/domain standards and how to apply them to data and metadata
+- Define the term ‘metadata’
+- Recall examples of community/domain standards that apply to data and metadata
 keypoints:
-- FAIR guiding principle adressed (I1) - (Meta)data use a formal, accessible, shared, and broadly applicable language for knowledge representation
-- FAIR guiding principle adressed (I3) - (Meta)data include qualified references to other (meta)data
-- FAIR guiding principle adressed (F2) - Data are described with rich metadata
-- FAIR guiding principle adressed (A2) - Metadata are accessible, even when the data are no longer available
-- FAIR guiding principle adressed (R1.3) -  (Meta)data meet domain-relevant community standards
-- FAIR guiding principle adressed (R1.2) - (Meta)data are associated with detailed provenance
+- Metadata is data about data
+- Metadata is used to help you find and interpret data
+
 --- 
-### What is metadata?
-Metadata refers to the information that describes your data.
-For example, given an Excel spreadsheet containing data values for an assay, the column headings provide additional and essential meaning and context. These column headings are your metadata, providing context for the data values in each cell. In addition, any documentation or explanation of the accompanying excel file is also considered metadata, providing authorship or experiment details, as well as dates and equipment used to conduct the assay.
-Let's look at Figure 1, showcasing a spreadsheet containing data for a clinical assay. In this example, the data are the patient ID, disease type, and heart rate values. The metadata, the column headings, describe that those values correspond to the patient ID, disease type, and heart rate, as well as the name of the cohort and the contact e-mail.
-![Figure 1: A fabricated example of a clinical assay that includes patient ID, disease type and heart rate. The image showcases which part of this assay represents the metadata](https://i.imgur.com/ArqBsRG.png)
-### What information could we add to better understand the data contained in the dataset?
-We could add additional metadata to indicate data provenance, i.e. data origin, data handling and processing (what happens to it or where it moves over time).
-In this case, we should add more information about the cohort name. "Human Welsh Cohort" does not tell us much about the data if compared to other Welsh cohorts. Instead, we could include the following:
-- A unique ID or detailed title for the cohort
-- A project URL describing its origin and composition
-At first glance, the column headings seem descriptive. However, taking a closer look, we can see that the "disease type" column captures both the disease type and stage, which can cause ambiguity:
-- In row 3, it is unclear whether the disease is diabetes mellitus or insipidus
-- In row 4, it is unclear whether the type of diabetes mellitus is 1 or 2
-- There is an empty space in the final row. It is unclear whether this is due to a lack of information or that the patient does not have diabetes
-Compound values, missing values and those that are ambiguous information may cause downstream issues in analysis and interpretation.
-Instead, here, we can create two separate columns: one for disease type and one for the stage (see Figure 2).
-![Figure 2: An reviewed version of the fabricated example in Figure 1. Metadata has been updated to reduce ambiguity and offer further details.](https://i.imgur.com/hujGaWw.png)
-### The importance of metadata
-Metadata is usually proportionately small compared to a dataset, and can be easily maintained not only in the database but in personal computers. The maintenance of datasets in a public database comes at a cost. It can be minimised when maintaining the metadata instead.
-In addition, metadata is also highly efficient for sharing sensitive data. The details available are those provided in the metadata, such contact details of the researchers, how to get the data and how it was generated.
-### Types of metadata
-We've seen that metadata can describe various aspects of your dataset. It can be classified into three types:
-- **Descriptive Metadata**: defines the characteristics of the dataset
-- **Structural Metadata**: explains how the dataset is generated and structured internally, known as **data provenance**.
-- **Administrative metadata**: describes data owner(s), data contributors and funding sources.
-Let's look at an example using microarray data from the ArrayExpress database (Figure 3) to locate the different types of metadata that we have defined.
-[![Figure 3: A snapshot of a real microarray dataset on the ArrayExpress database](https://i.imgur.com/igdEmOu.png)](https://www.ebi.ac.uk/biostudies/arrayexpress/studies/E-MTAB-7933)
-We can observe:
-- **Administrative metadata**: authors and organisations underneath the dataset title, and the information in "Publication"
-- **Descriptive metadata**: "Description" section that sumarises the information contained in the dataset
-- **Structural Metadata**: "Protocols", "Samples" and "Assay and Data" sections describing the structure of the dataset and how it was generated
-### Following community standards
-Often, different data types will have their own community that develops guidelines to describe data appropriately and consistently. Make sure to follow these community standards when describing your data, where they are available.
-Following standards will also make your data more accessible for other researchers, allowing it to be reused across multiple platforms. If you decide to use other guidelines outside your community, document them. 
- 
-> ## Exercise 1: Finidng community standards for your data
-> [RDMkit](https://rdmkit.elixir-europe.org/) is an open-source, community-driven site that guides life scientists to manage their research data better. >RDMKit provides comprehensive information about [RDM life cycle](https://rdmkit.elixir-europe.org/data_life_cycle), [resources relevant to RDM specific roles](https://rdmkit.elixir-europe.org/your_role), [guidlines and solutions for common data managment tasks](https://rdmkit.elixir-europe.org/your_tasks), [RDM tools ecosystem](https://rdmkit.elixir-europe.org/tool_assembly), [national](https://rdmkit.elixir-europe.org/national_resources) and [RDM training resoures](https://rdmkit.elixir-europe.org/all_training_resources). 
-> 
->  In addition information about research domain or community can be found inside the domain tab where you can navigate though multiple available sudomains with the side navigation panel. For example you can extract the following information for [Bioimaging data](https://rdmkit.elixir-europe.org/bioimaging_data) community standards.
->  
->  1. What is bioimage data and metadata?
->  2. Standards of bioimage research data management
->  3. Bioimage data collection
->  4. Data publication and archiving
-> ![A demonstration of how to navigate the RDMkit to find Bioimage metadata information](https://i.imgur.com/kXl80Rm.gif)
->   
->  Please use RDMkit to find information and discuss, what should be considered and what solutions are avaliable for storing and sharing sturctural predictions? Think about one other example of RDM domain/community standards, try to find information about it in **RDMkit**?
+## Metadata and the FAIR Principles
+Metadata relates most directly to the following 10 FAIR Principles highlighted in Table 2.1.  We will discuss and signpost these in this episode.
+
+Table 2.1: The 15 FAIR Guiding Principles.  Principles relating directly to metadata are in black.
+
+## What is metadata?
+Metadata is information that describes your data - it is data about data.
+The provision of ‘rich’ metadata is key to FAIR since it allows data to be found, and enables other researchers to interpret data appropriately. ‘Rich’ in this context refers to extensive metadata, often connecting data to other data or terms (even in other datasets), with qualified references specifying how they are connected.
+
+If a researcher is given access to a dataset (a spreadsheet in CSV format, for example), the data is not usable without meaningful column headings and context. For example, what is this data about?  Is it part of a larger dataset and, if so, how is it related?  What are the column headings representing, and what are the rows representing?  Additionally, if the values in the individual cells are device or assay measurements, what device was used, and what assay?  
+If you look at the example of the spreadsheet below (Figure 2.1) the metadata are coloured blue and the data are in orange.  The data in this example are clinical observations for a cohort of patients and the metadata are the descriptive column headings and additional information about the origin of the data.  The column headings provide context for the data values in each cell.  The contact information enables a researcher to direct questions about data reuse and context.  This raises an interesting point though, because metadata should be rich enough to allow any person to reuse the underlying data without ambiguity (FAIR Principles F2, R1).  
+Though  this Figure 2.1 shows the difference between metadata and data, it does not exemplify  the use of rich metadata.  We will address this in the next exercise.
+
+![Figure 2.1:  A spreadsheet showing the relationship between data (orange) and metadata (blue).
+](../fig/figure2-1_human-welsh-cohort.png)
+
+> ## Exercise: How could the metadata in Figure 2.1 be enriched?
+
 >> ## Solution
->> Extract this information from RDMkit >> Your domain >> [Structural Bioinformatics](https://rdmkit.elixir-europe.org/structural_bioinformatics)
+>> We are given only 2 pieces of data provenance in this example (i) the study name “LONDON DIABETES COHORT” which could help discover other documentation about the project; (ii) the name of the person who presumably led the study.  While these may help to search for further information, for a human user, this would still be fraught with issues since both names may not uniquely identify the study or its lead.  For a machine agent, such as a script, interpretation is made difficult because the metadata is not clearly marked-up (represented formally with tags).
+To fix this, contact details for investigators could be included.  Often [ORCID IDs](https://info.orcid.org/what-is-orcid/) associated with names are used since they uniquely identify an individual and do not pose problems when an investigator moves institutions and the original (email) address changes.  Coupled with this, investigators can be formally assigned a role in the provenance metadata allowing people to contact the appropriate person, for example, “data producer”, “data manager”.
+
+A project URL should be used where possible, ideally one that can act as a persistent identifier for the dataset.  The landing page for that URL should provide more context for the dataset, and describe high level information such as how the dataset relates to other project outputs, as well as providing other provenance information (dates, times, places, people).  This could include more metadata about the type of study, objectives, protocols, dates, release versioning and so on.  At the end of this episode, resources are given to help define metadata elements that could be included, including a project called [Dublin Core](https://www.dublincore.org/specifications/dublin-core/) which defines [15 such elements](https://www.dublincore.org/specifications/dublin-core/dcmi-terms/) or metadata fields.
+Terms of access and reuse are missing which could be rectified by including a [data licence](https://rdmkit.elixir-europe.org/licensing#what-licence-should-you-apply-to-your-research-data), which often appears as part of the metadata, usually at the bottom of a webpage hosting data.
+There could be ambiguity around the acronym, “BPM”, used in the third column header, so this should be defined within a glossary of acronyms and or ideally hyperlinked to a definition in an existing ontology.
+There are issues too with the data, as well as the metadata. The second column DISEASE TYPE could be better designed. Two pieces of information (data) are depicted in the same column: disease type (diabetes) and disease stage (early/late).  Ideally these should be in 2 separate columns allowing researchers to subset on stage and disease type independently for downstream analysis. There are also four different terms used for diabetes (“Diabetes Mellitus II”, “Diabetes”, “Diabetes Mellitus” and “Diabetes Mellitus I”), which again does not allow a researcher to subset data efficiently.  To fix this you would use defined terms within an existing vocabulary or ontology.  The following [link](https://disease-ontology.org/?id=DOID:9352) accesses a disease ontology we could use, where each term (for example, “type 2 diabetes mellitus”) is described and assigned a unique ID.  In the example above you would use this unique ID, or the associated descriptive  term, to tag all patients with the same disease, identically.  This then makes the data sub-setable and machine-readable.
+As a side point, there is a missing value for DISEASE TYPE data in the bottom row.  This isn’t a metadata problem, but it is worth mentioning that missing data can cause more ambiguity.  Does the blank mean the data were not available, or that the data were available but not recorded, or that the individual has no disease? This has implications on how the data are interpreted, and it is likely this data row would be discarded from an analysis.  Here you would be looking to use terms to denote missing, for example, “no disease”, “not recorded”.
 >>
->   {: .solution}
->
+> {: .solution}
 {: .challenge}
 
+## Writing FAIR metadata
+We have discussed already how rich metadata enables a dataset to be reused and interpreted correctly.  In the context of the FAIR principles, the previous exercise illustrates two of these, namely that _“(Meta)data are richly described with a plurality of accurate and relevant attributes”_ (FAIR Principle R1) and that _“(Meta)data are associated with detailed provenance”_ (FAIR Principle R1,2).  Further to this, the suggested use of the published (disease ontology)[https://disease-ontology.org/?id=DOID:9352] for data, illustrates a further three principles, where _“(Meta)data use vocabularies that follow FAIR principles”_ (FAIR Principle I2), and _“(Meta)data meet domain-relevant community standards” _(FAIR Principle R1.3). The use of hyperlinks specifically to terms in the ontology means that _“(Meta)data include qualified references to other (meta)data”_ (FAIR Principle I3).   From the previous exercise, the (disease ontology)[https://disease-ontology.org/] provides the vocabulary for the different types of diabetes: (type 1 diabetes mellitus)[https://disease-ontology.org/?id=DOID:9352] and (type 2 diabetes mellitus)[https://disease-ontology.org/?id=DOID:9352].   
+The FAIR Guiding Principles also highlight the importance of providing rich metadata to enable researchers to **find** datasets such that _“Data are described with rich metadata”_ (FAIR Principle F2).  More often than not, a researcher will find data through searching its metadata, usually via an online or a database search.  Information on how this can be achieved is discussed in the next episode on data registration.
+The use of vocabularies and cross-references is fundamental to data interoperability.  Interoperable (meta)data can be linked and combined across studies, aided by consistent,  compatible and machine-readable curation.  [FAIRsharing](https://fairsharing.org/search?fairsharingRegistry=Standard) is a useful registry of vocabularies, and standards, while more comprehensive ontology lists are maintained by [OLS (Ontology Lookup Service)](https://www.ebi.ac.uk/ols/index) and [BioPortal](https://bioportal.bioontology.org/).
+The previous exercise also touches on machine-readability of (meta)data through mention of using controlled terms in the “DISEASE TYPE” column to allow subsetting.  The [Open Data handbook](https://opendatahandbook.org/glossary/en/terms/machine-readable/) gives a nice overview of machine-readable (meta)data but in short it is (meta)data supplied in a defined and structured format that can easily be read by an appropriate script or piece of software.  If we use our example of a spreadsheet in comma-separated value form (CSV format), the (meta)data will be organised into cells, in a format that is interoperable with many software .  This would not be true if the same data were made available as a screenshot, highlighting that human-readable data may not be machine-readable.
 
+## Rich metadata in public data repositories
+
+Help with rich metadata curation is often supported by public data repositories, and data deposition is one way you can improve its level of FAIRness.  During submission, metadata is composed and linked, making it understood, accessible and searchable.
+The figure below shows a screenshot of a dataset hosted by the [BioStudies](https://www.ebi.ac.uk/biostudies/) (Figure 2.2).  BioStudies is a public database holding descriptions for biological studies and their (meta)data, and is often used by researchers to provide primary identifiers to supplementary information described in publications.
+
+![Figure 2.2: A screenshot of a plant [RNAseq dataset](https://www.ebi.ac.uk/biostudies/arrayexpress/studies/E-MTAB-7933?query=E-MTAB-7933) housed in BioStudies showing rich metadata](../fig/figure2-2_rnaseq-database.png)
+
+> ## Exercise: Look at the example given in Figure 2.2. What metadata is given?
+
+>> ## Solution
+
+Metadata can be categorised into 3 basic types i (i) descriptive (what the data is); (ii) structural (how the data was generated, i.e. provenance); (iii) administrative (data owners, contributors and funders).  In this example, all 3 are given.
+**Administrative metadata**: authors and organisations underneath the dataset title, and the information in “Publication”
+**Structural Metadata**: “Protocols” and data links on the right hand side of the page
+**Descriptive metadata**: All other metadata on the left-hand side of the page, describing the study type through to “Samples” and “Assays and Data”.  Of note here is the use of controlled vocabularies for metadata such as Organism ([taxonomy database](https://www.ncbi.nlm.nih.gov/taxonomy)) and BioStudy-specific terms for fields such as Experimental Factors, Technology.  These allow a researcher to search for all experiments in the database around a theme or type: with queries of the type: “get me all Arabidopsis RNAseq data”.
+>>
+> {: .solution}
+{: .challenge}
+
+## Using community standards for (meta)data 
+Public databases often serve communities and specific types of data, and may often use community standards for metadata curation.  These standards include, usually,  open-access ontologies that can be used by researchers to annotate their (meta)data.  The [FAIRsharing](https://fairsharing.org/search?fairsharingRegistry=Standard) initiative provides a curated, searchable resource to help find many of these.  The [disease ontology](https://disease-ontology.org/) we have mentioned already in the first exercise has its [own page](https://fairsharing.org/FAIRsharing.8b6wfq) in FAIRsharing.
+Another useful resource serving the data needs of specific communities is [RDMkit](https://rdmkit.elixir-europe.org/).  RDMkit is an online research data management toolkit for Life Sciences, and as part of its product hosts pages for domain-specific best practices and guidelines.  [Domain pages](https://rdmkit.elixir-europe.org/your_domain) signpost detail and promote relevant considerations, tools and resources.
+
+> ## Exercise: Look at the example given in Figure 2.2. What metadata is given?
+Familiarise yourself with the [Bioimaging data](https://rdmkit.elixir-europe.org/bioimaging_data) domain page on RDMkit.  Read the section on “Standard (meta)data formats” about a third of the way down.  What 3 URLs are given to help a researcher gather appropriate metadata for their images?
+
+>> ## Solution
+>>-[OME model](https://docs.openmicroscopy.org/ome-model/6.3.1/) XML-based representation of microscopy data.
+>>-[Quality assessment working groups](https://quarep.org/)
+>>-[REMBI](https://www.nature.com/articles/s41592-021-01166-8)
+> {: .solution}
+{: .challenge}
+
+Useful resources
+More about Metadata: [RDMkit](https://rdmkit.elixir-europe.org/metadata_management), [FAIR Cookbook](https://faircookbook.elixir-europe.org/content/recipes/introduction/metadata-fair.html)
+Definition of Machine readability: [Research Data Alliance (RDA)](https://www.rd-alliance.org/groups/long-tail-research-data-ig/wiki/enable-machine-readability.html)
+Definition of Qualified identifiers: [GO FAIR](https://www.go-fair.org/fair-principles/i3-metadata-include-qualified-references-metadata/)
+More about Data licensing: [RDMkit](https://rdmkit.elixir-europe.org/licensing),[ FAIR Cookbook](https://faircookbook.elixir-europe.org/content/recipes/reusability/ATI-licensing.html)
+Definition of Metadata community standards: [FAIRDOM](https://fair-dom.org/community_standards)
+Registry of FAIR metadata standards: [FAIRsharing](https://fairsharing.org/search?fairsharingRegistry=Standard)
+Making interoperable metadata: [Ed-DaSH](https://carpentries-incubator.github.io/fair-bio-practice/06-being-precise/index.html)
+[Ten simple rules for making a vocabulary FAIR](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1009041)
+[EOSC Guidelines for research institutes to enable discoverability of research data](https://eosc-portal.eu/sites/default/files/Final-D4.4%20Guidelines%20for%20RIs%20to%20enable%20discoverability%20of%20research%20data-pdf.pdf)
+Useful metadata projects and tools: [Dublin Core](https://www.dublincore.org/specifications/dublin-core/dcmi-terms/), [ISA framework](https://isa-tools.org/index.html), [COPO](https://f1000research.com/articles/9-495)
