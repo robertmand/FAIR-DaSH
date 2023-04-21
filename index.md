@@ -3,22 +3,21 @@ layout: lesson
 root: .  # Is the only page that doesn't follow the pattern /:path/index.html
 permalink: index.html  # Is the only page that doesn't follow the pattern /:path/index.html
 ---
+## Audience and content
+This short online course caters for people working in the Life Sciences with little or no experience of FAIR.  The course aims to be succinct in introducing FAIR, its concepts and terminology, and supplements all material with signposting to useful FAIR resources.  These resources include RDMkit](https://rdmkit.elixir-europe.org/), [FAIR Cookbookt](https://faircookbook.elixir-europe.org/content/home.html), [RDMbites](https://www.youtube.com/@elixir-uk/playlists),  [FAIRsharing](https://fairsharing.org/) and the [Data Stewardship Wizard](https://ds-wizard.org/).  These are some of the suite of [services](https://elixir-europe.org/platforms/interoperability/rirs) and [resources](https://elixir-europe.org/services/tag/interoperability-and-standards) offered through the [ELIXIR](https://elixir-europe.org/) open-access infrastructure, supporting FAIR research data management.
 
-This short online course is suitable for researchers working with Life Science data, who would like to apply FAIR principles to their research outputs.
-The course uses simple examples of how to make research data FAIR, providing direct guidance, as well as signposting to other more comprehensive FAIR data resources such as [RDMkit](https://rdmkit.elixir-europe.org), [FAIRcookbook](https://faircookbook.elixir-europe.org/content/home.html), [FAIRsharing](https://fairsharing.org), and the [DSW Wizard]( https://ds-wizard.org).  Participants will be able to familiarise themselves with basic content and context, as well as being made aware of where to find additional guidance and training.
-
-**This work is funded by ELIXIR-UK: FAIR Data Stewardship training UKRI (MR/C038966/1)**
-
-> ## You will learn
-> - The FAIR principles and related terms including 'FAIRification' and 'FAIRness' of data.  
-> - The differences between FAIR and Open data.
-> - How to find further information from a broader and more comprehensive set of FAIR data resources
-> - How to make data FAIR through worked examples.
+>## You will learn about
+This course tackles FAIR from the perspective of the [15 FAIR Principles published in 2016](https://doi.org/10.1038/sdata.2016.18).  You will learn about:
+FAIR and its origins
+The FAIR Principles and its basic characteristics
 {: .objectives}
 
-> ## Prerequisites
-> This is a basic course. There is no prior knowledge necessary.  
+>## Prerequisites
+This is a basic course and no prior knowledge is necessary.
 {: .prereq}
+
+This work is funded by [ELIXIR-UK](https://elixiruknode.org/): FAIR Data Stewardship training UKRI award (MR/C038966/1).
+
 
 > ## For Reviewers
 > If you have any comments or suggestions for our course, please open a pull request 
