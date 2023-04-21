@@ -62,10 +62,12 @@ Pseudonymisation ensures no one can link data back to the individual, apart from
 > {: .solution}
 {: .challenge}
 
-Useful resources
+> ## Useful resources
 
-More about Data Access and Sharing: [RDMkit](https://rdmkit.elixir-europe.org/sharing), [FAIR Cookbook](https://faircookbook.elixir-europe.org/content/recipes/accessibility.html)
-Definition and examples of Standardised Communication protocol using authentication: [Australian Research Data Commons](https://ardc.edu.au/resource/standardised-communications-protocols/)
-More about Data licensing: [RDMkit](https://rdmkit.elixir-europe.org/licensing), [FAIR Cookbook](https://faircookbook.elixir-europe.org/content/recipes/reusability/ATI-licensing.html)
-The [Creative commons licences](https://creativecommons.org/choose/)
-Working with sensitive data: [EBI training](https://www.ebi.ac.uk/training/events/working-sensitive-data/)
+> - More about Data Access and Sharing: [RDMkit](https://rdmkit.elixir-europe.org/sharing), [FAIR Cookbook](https://faircookbook.elixir-europe.org/content/recipes/accessibility.html)
+> - Definition and examples of Standardised Communication protocol using authentication: [Australian Research Data Commons](https://ardc.edu.au/resource/standardised-communications-protocols/)
+> - More about Data licensing: [RDMkit](https://rdmkit.elixir-europe.org/licensing), [FAIR Cookbook](https://faircookbook.elixir-europe.org/content/recipes/reusability/ATI-licensing.html)
+> - The [Creative commons licences](https://creativecommons.org/choose/)
+> - Working with sensitive data: [EBI training](https://www.ebi.ac.uk/training/events/working-sensitive-data/)
+
+{: .callout}
