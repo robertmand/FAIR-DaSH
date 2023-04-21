@@ -42,34 +42,27 @@ The data submission interface of ArrayExpress is called [Annotare](https://www.e
 >> ## Solution
 >>Both a [submission guide](https://www.ebi.ac.uk/fg/annotare/help/index.html) and [YouTube video](https://www.youtube.com/watch?v=ANr2PTVy7JA) is provided.
 > {: .solution}
->
 {: .challenge}
 
 > ## Exercise: Finding more help on how to upload data to specific repositories
 > The [FAIR Cookbook](https://faircookbook.elixir-europe.org/content/home.html) is an online open resource housing specific ‘how to’ guides or recipes.  Use the FAIR Cookbook to find two recipes for “depositing data to Zenodo” and “registering datasets with Wikidata”, respectively.
-
 >> ## Solution
 >>Open the **Findability** pulldown on the left hand banner to find recipes for the following:
 [Depositing to generic repositories - Zenodo use case](https://faircookbook.elixir-europe.org/content/recipes/findability/zenodo-deposition.html) and [Registering Datasets in Wikidata](https://faircookbook.elixir-europe.org/content/recipes/findability/registeringDatasets.html).
-
 > {: .solution}
->
 {: .challenge}
 
 > ## Exercise: Choosing the right data repository for your data
 > [FAIRsharing](https://fairsharing.org/) helps researchers identify suitable data repositories, standards and policies relating to their data.  Use this resource to identify data repositories for proteomic data.
-
 >> ## Solution
 >>Access the search bar for the [FAIRsharing database registry](https://fairsharing.org/search?fairsharingRegistry=Database).  Search for proteomics and select “repository” under “Record Type”.
-
-
-![Figure 3.1: A screenshot of FAIRsharing showing the results for a search for all proteomics repositories.](../fig/figure3-1-fairsharing.png)
-
+>> ![Figure 3.1: A screenshot of FAIRsharing showing the results for a search for all proteomics repositories.](../fig/figure3-1-fairsharing.png)
 > {: .solution}
->
 {: .challenge}
 
-Resources
-Registries and lists of public repositories: [FAIR Cookbook](https://fairsharing.org/search?page=1&recordType=repository) and [nature](https://www.nature.com/sdata/policies/repositories)
-Publishing your data: [RDMkit](https://rdmkit.elixir-europe.org/data_publication)
-Using Bioschemas to embed metadata into webpages: [FAIR Cookbook Bioschemas](https://faircookbook.elixir-europe.org/content/recipes/findability/seo/bioschemas-datacatalog.html)
+> ## Useful Resources
+> - Registries and lists of public repositories: [FAIR Cookbook](https://fairsharing.org/search?page=1&recordType=repository) and [nature](https://www.nature.com/sdata/policies/repositories)
+> - Publishing your data: [RDMkit](https://rdmkit.elixir-europe.org/data_publication)
+> - Using Bioschemas to embed metadata into webpages: [FAIR Cookbook Bioschemas](https://faircookbook.elixir-europe.org/content/recipes/findability/seo/bioschemas-datacatalog.html)
+
+{: .callout}
