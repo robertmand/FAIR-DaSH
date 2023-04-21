@@ -31,17 +31,14 @@ Though  this Figure 2.1 shows the difference between metadata and data, it does 
 ](../fig/figure2-1_human-welsh-cohort.png)
 
 > ## Exercise: How could the metadata in Figure 2.1 be enriched?
-
 >> ## Solution
 >> We are given only 2 pieces of data provenance in this example (i) the study name “LONDON DIABETES COHORT” which could help discover other documentation about the project; (ii) the name of the person who presumably led the study.  While these may help to search for further information, for a human user, this would still be fraught with issues since both names may not uniquely identify the study or its lead.  For a machine agent, such as a script, interpretation is made difficult because the metadata is not clearly marked-up (represented formally with tags).
 >> To fix this, contact details for investigators could be included.  Often [ORCID IDs](https://info.orcid.org/what-is-orcid/) associated with names are used since they uniquely identify an individual and do not pose problems when an investigator moves institutions and the original (email) address changes.  Coupled with this, investigators can be formally assigned a role in the provenance metadata allowing people to contact the appropriate person, for example, “data producer”, “data manager”.
-
 >> A project URL should be used where possible, ideally one that can act as a persistent identifier for the dataset.  The landing page for that URL should provide more context for the dataset, and describe high level information such as how the dataset relates to other project outputs, as well as providing other provenance information (dates, times, places, people).  This could include more metadata about the type of study, objectives, protocols, dates, release versioning and so on.  At the end of this episode, resources are given to help define metadata elements that could be included, including a project called [Dublin Core](https://www.dublincore.org/specifications/dublin-core/) which defines [15 such elements](https://www.dublincore.org/specifications/dublin-core/dcmi-terms/) or metadata fields.
 Terms of access and reuse are missing which could be rectified by including a [data licence](https://rdmkit.elixir-europe.org/licensing#what-licence-should-you-apply-to-your-research-data), which often appears as part of the metadata, usually at the bottom of a webpage hosting data.
 There could be ambiguity around the acronym, “BPM”, used in the third column header, so this should be defined within a glossary of acronyms and or ideally hyperlinked to a definition in an existing ontology.
 There are issues too with the data, as well as the metadata. The second column DISEASE TYPE could be better designed. Two pieces of information (data) are depicted in the same column: disease type (diabetes) and disease stage (early/late).  Ideally these should be in 2 separate columns allowing researchers to subset on stage and disease type independently for downstream analysis. There are also four different terms used for diabetes (“Diabetes Mellitus II”, “Diabetes”, “Diabetes Mellitus” and “Diabetes Mellitus I”), which again does not allow a researcher to subset data efficiently.  To fix this you would use defined terms within an existing vocabulary or ontology.  The following [link](https://disease-ontology.org/?id=DOID:9352) accesses a disease ontology we could use, where each term (for example, “type 2 diabetes mellitus”) is described and assigned a unique ID.  In the example above you would use this unique ID, or the associated descriptive  term, to tag all patients with the same disease, identically.  This then makes the data sub-setable and machine-readable.
 As a side point, there is a missing value for DISEASE TYPE data in the bottom row.  This isn’t a metadata problem, but it is worth mentioning that missing data can cause more ambiguity.  Does the blank mean the data were not available, or that the data were available but not recorded, or that the individual has no disease? This has implications on how the data are interpreted, and it is likely this data row would be discarded from an analysis.  Here you would be looking to use terms to denote missing, for example, “no disease”, “not recorded”.
->>
 > {: .solution}
 {: .challenge}
 
@@ -59,14 +56,11 @@ The figure below shows a screenshot of a dataset hosted by the [BioStudies](http
 ![Figure 2.2: A screenshot of a plant [RNAseq dataset](https://www.ebi.ac.uk/biostudies/arrayexpress/studies/E-MTAB-7933?query=E-MTAB-7933) housed in BioStudies showing rich metadata](../fig/figure2-2_rnaseq-database.png)
 
 > ## Exercise: Look at the example given in Figure 2.2. What metadata is given?
-
 >> ## Solution
-
 >> Metadata can be categorised into 3 basic types i (i) descriptive (what the data is); (ii) structural (how the data was generated, i.e. provenance); (iii) administrative (data owners, contributors and funders).  In this example, all 3 are given.
 **Administrative metadata**: authors and organisations underneath the dataset title, and the information in “Publication”
 **Structural Metadata**: “Protocols” and data links on the right hand side of the page
 **Descriptive metadata**: All other metadata on the left-hand side of the page, describing the study type through to “Samples” and “Assays and Data”.  Of note here is the use of controlled vocabularies for metadata such as Organism ([taxonomy database](https://www.ncbi.nlm.nih.gov/taxonomy)) and BioStudy-specific terms for fields such as Experimental Factors, Technology.  These allow a researcher to search for all experiments in the database around a theme or type: with queries of the type: “get me all Arabidopsis RNAseq data”.
->>
 > {: .solution}
 {: .challenge}
 
@@ -76,11 +70,10 @@ Another useful resource serving the data needs of specific communities is [RDMki
 
 > ## Exercise: Look at the example given in Figure 2.2. What metadata is given?
 > Familiarise yourself with the [Bioimaging data](https://rdmkit.elixir-europe.org/bioimaging_data) domain page on RDMkit.  Read the section on “Standard (meta)data formats” about a third of the way down.  What 3 URLs are given to help a researcher gather appropriate metadata for their images?
-
 >> ## Solution
->>-[OME model](https://docs.openmicroscopy.org/ome-model/6.3.1/) XML-based representation of microscopy data.
->>-[Quality assessment working groups](https://quarep.org/)
->>-[REMBI](https://www.nature.com/articles/s41592-021-01166-8)
+>> -[OME model](https://docs.openmicroscopy.org/ome-model/6.3.1/) XML-based representation of microscopy data.
+>> -[Quality assessment working groups](https://quarep.org/)
+>> -[REMBI](https://www.nature.com/articles/s41592-021-01166-8)
 > {: .solution}
 {: .challenge}
 
