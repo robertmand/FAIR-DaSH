@@ -37,7 +37,8 @@ Though  this Figure 2.1 shows the difference between metadata and data, it does 
 ![Figure 2.1:  A spreadsheet showing the relationship between data (orange) and metadata (blue).
 ](../fig/figure2-1_human-welsh-cohort.png)
 
-> ## Exercise: How could the metadata in Figure 2.1 be enriched?
+> ## Exercise
+> How could the metadata in Figure 2.1 be enriched?
 >> ## Solution
 >> We are given only 2 pieces of data provenance in this example (i) the study name “LONDON DIABETES COHORT” which could help discover other documentation about the project; (ii) the name of the person who presumably led the study.  While these may help to search for further information, for a human user, this would still be fraught with issues since both names may not uniquely identify the study or its lead.  For a machine agent, such as a script, interpretation is made difficult because the metadata is not clearly marked-up (represented formally with tags).
 >> To fix this, contact details for investigators could be included.  Often [ORCID IDs](https://info.orcid.org/what-is-orcid/) associated with names are used since they uniquely identify an individual and do not pose problems when an investigator moves institutions and the original (email) address changes.  Coupled with this, investigators can be formally assigned a role in the provenance metadata allowing people to contact the appropriate person, for example, “data producer”, “data manager”.
@@ -62,7 +63,8 @@ The figure below shows a screenshot of a dataset hosted by the [BioStudies](http
 
 ![Figure 2.2: A screenshot of a plant [RNAseq dataset](https://www.ebi.ac.uk/biostudies/arrayexpress/studies/E-MTAB-7933?query=E-MTAB-7933) housed in BioStudies showing rich metadata](../fig/figure2-2_rnaseq-database.png)
 
-> ## Exercise: Look at the example given in Figure 2.2. What metadata is given?
+> ## Exercise
+> Look at the example given in Figure 2.2. What metadata is given?
 >> ## Solution
 >> Metadata can be categorised into 3 basic types i (i) descriptive (what the data is); (ii) structural (how the data was generated, i.e. provenance); (iii) administrative (data owners, contributors and funders).  In this example, all 3 are given.
 **Administrative metadata**: authors and organisations underneath the dataset title, and the information in “Publication”
@@ -75,7 +77,8 @@ The figure below shows a screenshot of a dataset hosted by the [BioStudies](http
 Public databases often serve communities and specific types of data, and may often use community standards for metadata curation.  These standards include, usually,  open-access ontologies that can be used by researchers to annotate their (meta)data.  The [FAIRsharing](https://fairsharing.org/search?fairsharingRegistry=Standard) initiative provides a curated, searchable resource to help find many of these.  The [disease ontology](https://disease-ontology.org/) we have mentioned already in the first exercise has its [own page](https://fairsharing.org/FAIRsharing.8b6wfq) in FAIRsharing.
 Another useful resource serving the data needs of specific communities is [RDMkit](https://rdmkit.elixir-europe.org/).  RDMkit is an online research data management toolkit for Life Sciences, and as part of its product hosts pages for domain-specific best practices and guidelines.  [Domain pages](https://rdmkit.elixir-europe.org/your_domain) signpost detail and promote relevant considerations, tools and resources.
 
-> ## Exercise: Look at the example given in Figure 2.2. What metadata is given?
+> ## Exercise 
+> Look at the example given in Figure 2.2. What metadata is given?
 > Familiarise yourself with the [Bioimaging data](https://rdmkit.elixir-europe.org/bioimaging_data) domain page on RDMkit.  Read the section on “Standard (meta)data formats” about a third of the way down.  What 3 URLs are given to help a researcher gather appropriate metadata for their images?
 >> ## Solution
 >> -[OME model](https://docs.openmicroscopy.org/ome-model/6.3.1/) XML-based representation of microscopy data.
