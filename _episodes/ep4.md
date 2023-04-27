@@ -65,7 +65,8 @@ Though people refer to anonymisation when de-identifying (meta)data, often they 
 **Pseudonymisation** is more commonly used.  It is a process where identifying-fields are replaced by artificial identifiers called pseudonyms or pseudonymised IDs.  Commonly, a person’s name or medical ID, will be replaced with a unique participant ID within the study.
 Pseudonymisation ensures no one can link data back to the individual, apart from nominated members of the study team who will be able to link pseudonyms to identifying information, such medical records.
 
-> ## Exercise: Use RDMkit guideline on [Sensitive data](https://rdmkit.elixir-europe.org/sensitive_data) to families yourself further on deidentification of data.  What further training can you identify?
+> ## Exercise
+>  Use RDMkit guideline on [Sensitive data](https://rdmkit.elixir-europe.org/sensitive_data) to families yourself further on deidentification of data.  What further training can you identify?
 >> ## Solution
 >At the bottom of the page, under “Training”, useful resources are given.  The [TeSS training portal](https://tess.elixir-europe.org/) permits users to search for courses, events, videos and other learning material for data in the life sciences.
 > {: .solution}
