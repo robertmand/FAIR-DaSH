@@ -42,7 +42,7 @@ These 4 major components form headings for the 15 FAIR Guiding Principles shown 
 Table 1.1: The FAIR guiding principles as described in Wilkinson, M., Dumontier, M., Aalbersberg, I. et al. The FAIR Guiding Principles for scientific data management and stewardship. Sci Data 3, 160018 (2016). [https://doi.org/10.1038/sdata.2016.18](https://doi.org/10.1038/sdata.2016.18)
 
 
-> ## Exercise: 
+> ## Exercise
 > Look at the wording of the FAIR principles in Table 1.1. Which terms are used more than once?  Which terms are you seeing for the first time?
 >> ## Solution:
 >> Shared terms are: **data** (F1, F2, F4, A1, A2, I1, I2, I3, R1, R1.1, R1.2, R1,3), **metadata** (F1, F2, F3, F4, A1, A2, I1, I2, I3,  R1, R1.1, R1.2, R1,3), **identifier** (F1, F3, A1), **protocol** (A1, A1.1, A1.2).
@@ -60,7 +60,7 @@ The aim of this course is to put these principles into context and familiarise l
 Since FAIR promotes data sharing, it is often misunderstood as Open data.
 The [Open Data handbook](https://opendatahandbook.org/) defines Open data as **“data that can be freely used, reused and redistributed by anyone.”**  Commonly, FAIR data is open however FAIR compliance does not mandate access without restriction. Instead, for instances where FAIR data is subject to restricted access, the conditions of access need to be stated to be compliant with FAIR, for example access around sensitive data.  Often in FAIR data, people adhere to the philosophy of **“as open as possible, and as closed as necessary”** thereby maximising opportunities to reuse data.
 
-> ## Exercise: 
+> ## Exercise
 > Under which circumstances would restricted or closed  access to FAIR data be advisable?
 >> ## Solution:
 >> Where data is sensitive or subject to intellectual property.  Protecting sensitive data overrules mandating research data should be open access.
