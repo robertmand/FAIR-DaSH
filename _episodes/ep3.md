@@ -44,14 +44,16 @@ Institutional repositories work similarly and provide an online archive for host
 
 Discipline-specific repositories cater for communities and datatypes, and typically provide web interfaces to annotate rich metadata at the point when data are submitted.  Examples of these belong to the suite of data repositories at the [European Bioinformatics Institute (EBI)](https://www.ebi.ac.uk/submission/) where rich metadata creation is supported by teams of curators.
 
-> ## Exercise: An example of a discipline specific repository is [ArrayExpress](https://www.ebi.ac.uk/biostudies/arrayexpress) database.  ArrayExpress stores data from high-through functional genomics assays, such as RNAseq, ChIPseq and expression microarrays.
+> ## Exercise
+>  An example of a discipline specific repository is [ArrayExpress](https://www.ebi.ac.uk/biostudies/arrayexpress) database.  ArrayExpress stores data from high-through functional genomics assays, such as RNAseq, ChIPseq and expression microarrays.
 The data submission interface of ArrayExpress is called [Annotare](https://www.ebi.ac.uk/fg/annotare/login/).  Without creating a login, what help is given to a person looking to submit a dataset for the first time?
 >> ## Solution
 >>Both a [submission guide](https://www.ebi.ac.uk/fg/annotare/help/index.html) and [YouTube video](https://www.youtube.com/watch?v=ANr2PTVy7JA) is provided.
 > {: .solution}
 {: .challenge}
 
-> ## Exercise: Finding more help on how to upload data to specific repositories
+> ## Exercise
+>  Finding more help on how to upload data to specific repositories
 > The [FAIR Cookbook](https://faircookbook.elixir-europe.org/content/home.html) is an online open resource housing specific ‘how to’ guides or recipes.  Use the FAIR Cookbook to find two recipes for “depositing data to Zenodo” and “registering datasets with Wikidata”, respectively.
 >> ## Solution
 >>Open the **Findability** pulldown on the left hand banner to find recipes for the following:
@@ -59,7 +61,8 @@ The data submission interface of ArrayExpress is called [Annotare](https://www.e
 > {: .solution}
 {: .challenge}
 
-> ## Exercise: Choosing the right data repository for your data
+> ## Exercise
+> Choosing the right data repository for your data
 > [FAIRsharing](https://fairsharing.org/) helps researchers identify suitable data repositories, standards and policies relating to their data.  Use this resource to identify data repositories for proteomic data.
 >> ## Solution
 >>Access the search bar for the [FAIRsharing database registry](https://fairsharing.org/search?fairsharingRegistry=Database).  Search for proteomics and select “repository” under “Record Type”.
