@@ -44,7 +44,7 @@ Table 1.1: The FAIR guiding principles as described in Wilkinson, M., Dumontier,
 
 > ## Exercise
 > Look at the wording of the FAIR principles in Table 1.1. Which terms are used more than once?  Which terms are you seeing for the first time?
->> ## Solution:
+>> ## Solution
 >> Shared terms are: **data** (F1, F2, F4, A1, A2, I1, I2, I3, R1, R1.1, R1.2, R1,3), **metadata** (F1, F2, F3, F4, A1, A2, I1, I2, I3,  R1, R1.1, R1.2, R1,3), **identifier** (F1, F3, A1), **protocol** (A1, A1.1, A1.2).
 >>Not so obviously shared terms are: **vocabularies** (I1, I2), **access** (A1, A1.1, A1.2, R1.1)
 Terms which you may be seeing for the first time are: metadata, persistent identifier, searchable resource, standardised communications protocol, authentication and authorisation procedure, knowledge representation, vocabularies, qualified references, data usage license, provenance, domain-relevant community standards.
@@ -62,7 +62,7 @@ The [Open Data handbook](https://opendatahandbook.org/) defines Open data as **�
 
 > ## Exercise
 > Under which circumstances would restricted or closed  access to FAIR data be advisable?
->> ## Solution:
+>> ## Solution
 >> Where data is sensitive or subject to intellectual property.  Protecting sensitive data overrules mandating research data should be open access.
 >> Note though that in most cases, people following FAIR principles will be looking to share their data openly.   Also note that sensitive data can be released through anonymisation and in many cases subject to controlled access by the authority of the principal investigator or data access committee.
 > {: .solution}
@@ -75,9 +75,9 @@ The [Open Data handbook](https://opendatahandbook.org/) defines Open data as **�
 
 A [report from the European Commission Expert Group on FAIR data](https://zenodo.org/record/1285272#.ZD_9KhXMIqt) describes the origins of FAIR and its development in 2014-2015 by a FORCE11 Working Group.  The following exercise dips into this report and asks you to investigate some of FAIR’s history and foundation. 
 
-> ## Exercise: 
+> ## Exercise 
 > Read page 11 of [the European Commission report](https://zenodo.org/record/1285272#.ZD_9QxXMIqu), under the heading “Origins and definitions of FAIR”. What benefit did the FORCE11 Working Group see to coining the word FAIR?
->> ## Solution:
+>> ## Solution
 >> The report states: “a FORCE11 Working Group coined the FAIR data definition, latching onto an arresting and rhetorically useful acronym. The wordplay with fairness, in the sense of equity and justice, has also been eloquent in communicating the idea that FAIR data serves the best interests of the research community ,and the advancement of science as a public enterprise that benefits society.” 
 > {: .solution}
 {: .challenge}
