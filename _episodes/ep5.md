@@ -51,7 +51,8 @@ Examples of using identifiers.org to construct a PID are given below for 2 diffe
 
 ![](../fig/figure5-2.png)
 
-> ## Exercise: Access the preprint for [Identifiers for the 21st century: How to design, provision, and reuse persistent identifiers to maximize utility and impact of life science data](https://www.google.com/url?q=https://doi.org/10.1101/117812&sa=D&source=docs&ust=1681921501619473&usg=AOvVaw0iHyEgvEzDniMbIcvhokQk) .  This paper makes 10 recommendations for PID best practice.
+> ## Exercise
+>  Access the preprint for [Identifiers for the 21st century: How to design, provision, and reuse persistent identifiers to maximize utility and impact of life science data](https://www.google.com/url?q=https://doi.org/10.1101/117812&sa=D&source=docs&ust=1681921501619473&usg=AOvVaw0iHyEgvEzDniMbIcvhokQk) .  This paper makes 10 recommendations for PID best practice.
 > Locate the lesson for “Do not reassign or delete identifiers”.  Which PID is used as an example of a “tombstone page”?  Which FAIR Principle does this relate to?
 >> ## Solution
 >> Tombstone PID: [https://www.uniprot.org/uniprotkb/A0AV18](https://www.uniprot.org/uniprotkb/A0AV18/history)
