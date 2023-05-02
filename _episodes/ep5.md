@@ -78,7 +78,7 @@ Additionally, the webpage features a link to the updated UniProt record thereby 
 {: .challenge}
 
 > ## Useful Resources
-  
+>
 > - More on identifiers: [RDMkit](https://rdmkit.elixir-europe.org/identifiers.html) and [FAIR Cookbook](https://faircookbook.elixir-europe.org/content/recipes/findability/identifiers.html)
 > - Nick Juty, Sarala M. Wimalaratne, Stian Soiland-Reyes, John Kunze, Carole A. Goble, Tim Clark; Unique, Persistent, Resolvable: Identifiers as the Foundation of FAIR. Data Intelligence 2020; 2 (1-2): 30–39. doi: [https://doi.org/10.1162/dint_a_00025](https://doi.org/10.1162/dint_a_00025)
 
