@@ -18,7 +18,7 @@ keypoints:
 
 --- 
 ## Data access and the FAIR Principles
-Data access relates to the following 5 FAIR Principles (Table 4.1).  We will discuss and signpost these in this Episode.
+Data access relates to the following 5 FAIR Principles (Table 4.1).  We will discuss and signpost these in this episode.
 
 | The FAIR Guiding Principles |                                                                                                                                                                                                                                                                                                                                       |
 | --------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
