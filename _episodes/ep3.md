@@ -18,7 +18,7 @@ keypoints:
 --- 
 ## Data registration and the FAIR Principles
 
-Data registration relates to the following 3 FAIR Principles (Table 3.1).  We will discuss and signpost these in this Episode.
+Data registration relates to the following 3 FAIR Principles (Table 3.1).  We will discuss and signpost these in this episode.
 
 | The FAIR Guiding Principles |                                                                                                                                                                                                                                                                                                                                       |
 | --------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
