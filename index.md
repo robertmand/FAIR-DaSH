@@ -20,5 +20,5 @@ This work is funded by [ELIXIR-UK](https://elixiruknode.org/): FAIR Data Steward
 
 
 > ## For Reviewers
-> If you have any comments or suggestions for our course, please open a pull request 
+> If you have any comments or suggestions for our course, please open a pull request. 
 {: .discussion}
