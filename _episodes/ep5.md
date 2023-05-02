@@ -17,7 +17,7 @@ keypoints:
 --- 
 
 ## Persistent identifiers and the FAIR Principles
-Data Identifiers relate to the following 5 FAIR Principles (Table 4.1).  We will discuss and signpost these in this Episode.
+Data Identifiers relate to the following 5 FAIR Principles (Table 4.1).  We will discuss and signpost these in this episode.
 
 | The FAIR Guiding Principles |                                                                                                                                                                                                                                                                                                                                       |
 | --------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -30,6 +30,7 @@ Data Identifiers relate to the following 5 FAIR Principles (Table 4.1).  We will
 Table 5.1: The 15 FAIR Guiding Principles.  Principles relating to data identifiers are highlighted in **black**.
 
 ## Using persistent identifiers (PIDs)
+
 Identifiers are an important theme within the FAIR principles, arguably being foundational; they are considered two of the pillars for the FAIR principles, since they are crucial for Findable (F) and Accessible (A) principles.
 Identifiers are an eternal reference to a digital resource such as a dataset and its metadata. They provide the information required to reliably identify, verify and locate your research data. 
 Commonly, a persistent identifier is a unique record ID in a database, or a unique URL that takes a researcher to the data in question in a database. Persistent identifiers (PIDs) have to be unique so that only one dataset can be identified by this identifier. In addition to the identifier being unique, it needs to be persistent. When depositing or hosting data, you should ensure the longevity of this persistence meets your requirements, which may require reading specific database policies regarding identifier policy.  
