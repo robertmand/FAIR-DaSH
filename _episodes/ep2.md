@@ -30,7 +30,7 @@ Table 2.1: The 15 FAIR Guiding Principles. Principles relating directly to metad
 
 Metadata is information that describes your data - it is data about data.
 
-The provision of ‘rich’ metadata is key to FAIR since it allows data to be found, and enables other researchers to interpret data appropriately. ‘Rich’ in this context refers to extensive metadata, often connecting data to other data or terms (even in other datasets), with [qualified references](## "Qualified references: terms used to describe relationships to pieces of (meta)data.) specifying how they are connected.
+The provision of ‘rich’ metadata is key to FAIR since it allows data to be found, and enables other researchers to interpret data appropriately. ‘Rich’ in this context refers to extensive metadata, often connecting data to other data or terms (even in other datasets), with [qualified references](## "Qualified references: terms used to describe relationships to pieces of (meta)data.") specifying how they are connected.
 
 If a researcher is given access to a dataset (a spreadsheet in CSV format, for example), the data is not usable without meaningful column headings and context. For example, what is this data about?  Is it part of a larger dataset and, if so, how is it related?  What are the column headings representing, and what are the rows representing?  Additionally, if the values in the individual cells are device or assay measurements, what device was used, and what assay?  
 
