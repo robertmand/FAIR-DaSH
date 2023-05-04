@@ -45,9 +45,9 @@ Table 1.1: The FAIR guiding principles as described in Wilkinson, M., Dumontier,
 > ## Exercise
 > Look at the wording of the FAIR principles in Table 1.1. Which terms are used more than once?  Which terms are you seeing for the first time?
 >> ## Solution
->> <p> Shared terms are: **data** (F1, F2, F4, A1, A2, I1, I2, I3, R1, R1.1, R1.2, R1,3), **metadata** (F1, F2, F3, F4, A1, A2, I1, I2, I3,  R1, R1.1, R1.2, R1,3), **identifier** (F1, F3, A1), **protocol** (A1, A1.1, A1.2). </p> <p>
->>Not so obviously shared terms are: **vocabularies** (I1, I2), **access** (A1, A1.1, A1.2, R1.1) </p>
->>Terms which you may be seeing for the first time are: metadata, persistent identifier, searchable resource, standardised communications protocol, authentication and authorisation procedure, knowledge representation, vocabularies, qualified references, data usage license, provenance, domain-relevant community standards.
+>> <p>Shared terms are: **data** (F1, F2, F4, A1, A2, I1, I2, I3, R1, R1.1, R1.2, R1,3), **metadata** (F1, F2, F3, F4, A1, A2, I1, I2, I3,  R1, R1.1, R1.2, R1,3), **identifier** (F1, F3, A1), **protocol** (A1, A1.1, A1.2). </p>
+>> <p>Not so obviously shared terms are: **vocabularies** (I1, I2), **access** (A1, A1.1, A1.2, R1.1) </p>
+>><p>Terms which you may be seeing for the first time are: metadata, persistent identifier, searchable resource, standardised communications protocol, authentication and authorisation procedure, knowledge representation, vocabularies, qualified references, data usage license, provenance, domain-relevant community standards.</p>
 > {: .solution}
 {: .challenge}
 
