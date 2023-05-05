@@ -66,13 +66,13 @@ Examples of using identifiers.org to construct a PID are given below for 2 diffe
 Figure 5.1: The structure of a PID using the identifiers.org resolver service
 
 > ## Exercise: 
-> <p> Access the preprint for [Identifiers for the 21st century: How to design, provision, and reuse persistent identifiers to maximize utility and impact of life science data](https://www.google.com/url?q=https://doi.org/10.1101/117812&sa=D&source=docs&ust=1681921501619473&usg=AOvVaw0iHyEgvEzDniMbIcvhokQk) .  This paper makes 10 recommendations for PID best practice. </p>
+> Access the preprint for [Identifiers for the 21st century: How to design, provision, and reuse persistent identifiers to maximize utility and impact of life science data](https://www.google.com/url?q=https://doi.org/10.1101/117812&sa=D&source=docs&ust=1681921501619473&usg=AOvVaw0iHyEgvEzDniMbIcvhokQk).  This paper makes 10 recommendations for PID best practice. 
 > <p> Locate the lesson for “Do not reassign or delete identifiers”.  Which PID is used as an example of a “tombstone page”?  Which FAIR Principle does this relate to? </p>
 >> ## Solution
->> <p> Tombstone PID: [https://www.uniprot.org/uniprotkb/A0AV18](https://www.uniprot.org/uniprotkb/A0AV18/history) </p>
->> <p> This relates directly to the FAIR Principle A2._ “Metadata are accessible, even when the data are no longer available”_ Note that other FAIR Principles are also illustrated. </p> 
->> <p> The Tombstone page is _“retrievable by their identifier using a standardised communications protocol”_(FAIR Principle A1), which in this case is http(s).  The page contains metadata which _“are assigned a globally unique and persistent identifier”_ (FAIR Principle F1).  Also the metadata _“clearly and explicitly includes the identifier of the data they describe”_ (FAIR Principle F3) noting that the identifier itself is featured on the webpage. </p>
->> <p> Additionally, the webpage features a link to the updated UniProt record thereby _“metadata include qualified reference to other (meta)data”_ (FAIR Principle I3) </p>
+>> Tombstone PID: [https://www.uniprot.org/uniprotkb/A0AV18](https://www.uniprot.org/uniprotkb/A0AV18/history)
+>> <p> </p>  This relates directly to the FAIR Principle A2._ “Metadata are accessible, even when the data are no longer available”_ Note that other FAIR Principles are also illustrated.
+>> <p>  </p> The Tombstone page is _“retrievable by their identifier using a standardised communications protocol”_(FAIR Principle A1), which in this case is http(s).  The page contains metadata which _“are assigned a globally unique and persistent identifier”_ (FAIR Principle F1).  Also the metadata _“clearly and explicitly includes the identifier of the data they describe”_ (FAIR Principle F3) noting that the identifier itself is featured on the webpage. 
+>> <p>  </p> Additionally, the webpage features a link to the updated UniProt record thereby _“metadata include qualified reference to other (meta)data”_ (FAIR Principle I3) 
 > {: .solution}
 {: .challenge}
 
