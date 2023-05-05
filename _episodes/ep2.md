@@ -80,10 +80,10 @@ The figure below shows a screenshot of a dataset hosted by the [BioStudies](http
 > ## Exercise
 > Look at the example given in Figure 2.2. What metadata is given?
 >> ## Solution
->> Metadata can be categorised into 3 basic types i (i) descriptive (what the data is); (ii) structural (how the data was generated, i.e. provenance); (iii) administrative (data owners, contributors and funders).  In this example, all 3 are given. <p>
-**Administrative metadata**: authors and organisations underneath the dataset title, and the information in “Publication” <p>
-**Structural Metadata**: “Protocols” and data links on the right hand side of the page <p>
-**Descriptive metadata**: All other metadata on the left-hand side of the page, describing the study type through to “Samples” and “Assays and Data”.  Of note here is the use of controlled vocabularies for metadata such as Organism ([taxonomy database](https://www.ncbi.nlm.nih.gov/taxonomy)) and BioStudy-specific terms for fields such as Experimental Factors, Technology.  These allow a researcher to search for all experiments in the database around a theme or type: with queries of the type: “get me all Arabidopsis RNAseq data”.
+>> <p> Metadata can be categorised into 3 basic types i (i) descriptive (what the data is); (ii) structural (how the data was generated, i.e. provenance); (iii) administrative (data owners, contributors and funders).  In this example, all 3 are given. </p>
+<p> **Administrative metadata**: authors and organisations underneath the dataset title, and the information in “Publication” </p>
+<p> **Structural Metadata**: “Protocols” and data links on the right hand side of the page </p>
+<p> **Descriptive metadata**: All other metadata on the left-hand side of the page, describing the study type through to “Samples” and “Assays and Data”.  Of note here is the use of controlled vocabularies for metadata such as Organism ([taxonomy database](https://www.ncbi.nlm.nih.gov/taxonomy)) and BioStudy-specific terms for fields such as Experimental Factors, Technology.  These allow a researcher to search for all experiments in the database around a theme or type: with queries of the type: “get me all Arabidopsis RNAseq data”.</p>
 > {: .solution}
 {: .challenge}
 
