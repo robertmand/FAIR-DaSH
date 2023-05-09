@@ -87,7 +87,7 @@ A [report from the European Commission Expert Group on FAIR data](https://zenodo
 
 ## Course structure
   
-During the remainder of this course we will put the FAIR Guiding Principles into context using the 4 FAIR characteristics of **metadata**, **data registration**, **access** and **identifiers**, and devotes an episode to each of these.  Whilst we teach, we will map content to the appropriate FAIR principle and define all relevant terms identified.
+During the remainder of this course we will put the FAIR Guiding Principles into context using the 4 FAIR characteristics of **metadata**, **data registration**, **access** and **identifiers**, and devote an episode to each of these.  Whilst we teach, we will map content to the appropriate FAIR principle and define all relevant terms identified.
  
 ## Glossary of FAIR terms
   
@@ -99,7 +99,7 @@ All terms in this glossary are mentioned in the FAIR Guiding Principles (Table 1
 | To be Findable:             | F1. (meta)data are assigned a **globally unique and persistent identifier**<br>F2. data are described with rich metadata (defined by R1 below)<br>F3. metadata clearly and explicitly include the **identifier** of the data it describes <br>F4. (meta)data are registered or **indexed in a searchable resource**                                   |
 | To be Accessible:           | A1. (meta)data are retrievable by their **identifier** using a **standardized communications protocol** <br>A1.1 the protocol is open, free, and **universally implementable**<br>A1.2 the protocol allows for an **authentication and authorization procedure**, where necessary <br>A2. metadata are accessible, even when the data are no longer available |
 | To be Interoperable:        | I1. (meta)data use a formal, accessible, shared, and broadly applicable **language for knowledge representation**. <br>I2. (meta)data use **vocabularies** that follow FAIR principles<br>I3. (meta)data include **qualified references** to other (meta)data                                                                                         |
-| To be Reusable:             | R1. meta(data) are richly described with a plurality of accurate and relevant attributes R1.1. (meta)data are released with a clear and accessible **data usage license**<br>R1.2. (meta)data are associated with detailed **provenance**<br>R1.3. (meta)data meet domain-relevant **community standards**            
+| To be Reusable:             | R1. meta(data) are richly described with a plurality of accurate and relevant attributes <br> R1.1. (meta)data are released with a clear and accessible **data usage license**<br>R1.2. (meta)data are associated with detailed **provenance**<br>R1.3. (meta)data meet domain-relevant **community standards**            
 
 Table 1.2: Terms used by the FAIR Principles that appear in this glossary are highlighted in **black**.
 
@@ -112,6 +112,7 @@ Table 1.2: Terms used by the FAIR Principles that appear in this glossary are hi
 **Universally implementable**: in the context of a standardised communications protocol such as http(s), universally implementable means it can be used by a number of resources and software, for example Firefox, Chrome and Unix commands such as wget.  For more see the [Australian Research Data Commons](https://ardc.edu.au/resource/standardised-communications-protocols/).
   
 **Authentication and authorisation procedure**: data repositories with authentication and authorisation procedures generally require a login (and password) to access (meta)data.  For more see the [Australian Research Data Commons](https://ardc.edu.au/resource/standardised-communications-protocols/).
+
 **Language for knowledge representation**: in the context of (meta)data exchange between computers, (meta)data should be in formats that are universally recognised (interoperable standards).  For more see [GO FAIR](https://www.go-fair.org/fair-principles/i1-metadata-use-formal-accessible-shared-broadly-applicable-language-knowledge-representation/) and [FAIR Cookbook](https://faircookbook.elixir-europe.org/content/recipes/introduction/FAIR-and-knowledge-graphs.html).
   
 **Vocabularies**: (or **controlled vocabulary**) is a dictionary of terms you can use when producing (meta)data.  Controlled vocabularies are often shared between databases and communities so by using them you can allow data from different sources to be merged (interoperable), based on a shared understanding of the concepts.   Ontologies are related to vocabularies, where terms in the vocabulary are organised by relations between them.  A commonly used ontology is the [NCBI taxonomy](https://www.ncbi.nlm.nih.gov/taxonomy) where the term ‘Homo sapiens’ belongs to a hierarchy of parent terms such as ‘Primates’ and ‘Mammalia’.   The ontology defines the vocabularies and the parent/child relationships.   For more see [Ten simple rules for making a vocabulary FAIR](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1009041).
