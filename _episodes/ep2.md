@@ -80,10 +80,10 @@ The figure below shows a screenshot of a dataset hosted by the [BioStudies](http
 > ## Exercise
 > Look at the example given in Figure 2.2. What metadata is given?
 >> ## Solution
->> <p> Metadata can be categorised into 3 basic types i (i) descriptive (what the data is); (ii) structural (how the data was generated, i.e. provenance); (iii) administrative (data owners, contributors and funders).  In this example, all 3 are given. </p>
->> <p> **Administrative metadata**: authors and organisations underneath the dataset title, and the information in “Publication” </p>
->> <p> **Structural Metadata**: “Protocols” and data links on the right hand side of the page </p>
->> <p> **Descriptive metadata**: All other metadata on the left-hand side of the page, describing the study type through to “Samples” and “Assays and Data”.  Of note here is the use of controlled vocabularies for metadata such as Organism ([taxonomy database](https://www.ncbi.nlm.nih.gov/taxonomy)) and BioStudy-specific terms for fields such as Experimental Factors, Technology.  These allow a researcher to search for all experiments in the database around a theme or type: with queries of the type: “get me all Arabidopsis RNAseq data”.</p>
+>> Metadata can be categorised into 3 basic types i (i) descriptive (what the data is); (ii) structural (how the data was generated, i.e. provenance); (iii) administrative (data owners, contributors and funders).  In this example, all 3 are given. <br> </br>
+>> **Administrative metadata**: authors and organisations underneath the dataset title, and the information in “Publication” <br> </br>
+>> **Structural Metadata**: “Protocols” and data links on the right hand side of the page <br> </br>
+>> **Descriptive metadata**: All other metadata on the left-hand side of the page, describing the study type through to “Samples” and “Assays and Data”.  Of note here is the use of controlled vocabularies for metadata such as Organism ([taxonomy database](https://www.ncbi.nlm.nih.gov/taxonomy)) and BioStudy-specific terms for fields such as Experimental Factors, Technology.  These allow a researcher to search for all experiments in the database around a theme or type: with queries of the type: “get me all Arabidopsis RNAseq data”.<br> </br>
 > {: .solution}
 {: .challenge}
 
@@ -95,9 +95,9 @@ Another useful resource serving the data needs of specific communities is [RDMki
 > Look at the example given in Figure 2.2. What metadata is given?
 > Familiarise yourself with the [Bioimaging data](https://rdmkit.elixir-europe.org/bioimaging_data) domain page on RDMkit.  Read the section on “Standard (meta)data formats” about a third of the way down.  What 3 URLs are given to help a researcher gather appropriate metadata for their images?
 >> ## Solution
->> <p>[OME model](https://docs.openmicroscopy.org/ome-model/6.3.1/) XML-based representation of microscopy data. </p>
->> <p>[Quality assessment working groups](https://quarep.org/)</p>
->> <p>[REMBI](https://www.nature.com/articles/s41592-021-01166-8)</p>
+>> [OME model](https://docs.openmicroscopy.org/ome-model/6.3.1/) XML-based representation of microscopy data. <br> </br>
+>> [Quality assessment working groups](https://quarep.org/)<br> </br>
+>> [REMBI](https://www.nature.com/articles/s41592-021-01166-8)<br> </br>
 > {: .solution}
 {: .challenge}
 
