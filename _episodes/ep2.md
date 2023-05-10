@@ -41,6 +41,8 @@ Though  this Figure 2.1 shows the difference between metadata and data, it does 
 ![Figure 2.1:  A spreadsheet showing the relationship between data (orange) and metadata (blue).
 ](../fig/figure2-1_human-welsh-cohort.png)
 
+Figure 2.1:  A spreadsheet showing the relationship between data (orange) and metadata (blue).
+
 We are given only 2 pieces of [data provenance](## "Data provenance: metadata describing the origin of a piece of data, including information such as version, original location of the data, and usually an audit trail up to the current version.") in this example (i) the study name “LONDON DIABETES COHORT” which could help discover other documentation about the project; (ii) the name of the person who presumably led the study.  While these may help to search for further information, for a human user, this would still be fraught with issues since both names may not uniquely identify the study or its lead.  For a machine agent, such as a script, interpretation is made difficult because the metadata is not clearly marked-up (represented formally with tags).
 
 To fix this, contact details for investigators could be included.  Often [ORCID IDs](https://info.orcid.org/what-is-orcid/) associated with names are used since they uniquely identify an individual and do not pose problems when an investigator moves institutions and the original (email) address changes.  Coupled with this, investigators can be formally assigned a role in the provenance metadata allowing people to contact the appropriate person, for example, “data producer”, “data manager”.
