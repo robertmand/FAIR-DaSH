@@ -3,7 +3,7 @@ title: Persistent identifiers
 teaching: 40
 exercises: 10
 questions:
-- What is a persistant identifier?
+- What is a persistent identifier?
 - What is the structure of identifiers?
 - Why it is important for your dataset to have an identifiers?
 objectives:

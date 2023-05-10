@@ -11,7 +11,7 @@ This short online course caters for people working in the Life Sciences with lit
 >## You will learn about
 This course tackles FAIR from the perspective of the [15 FAIR Principles published in 2016](https://doi.org/10.1038/sdata.2016.18).  You will learn about:
 FAIR and its origins
-The FAIR Principles and its basic characteristics
+The FAIR Principles and its basic characteristics.
 {: .objectives}
 
 >## Prerequisites
