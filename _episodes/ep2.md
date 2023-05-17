@@ -91,10 +91,9 @@ Public databases often serve communities and specific types of data, and may oft
 Another useful resource serving the data needs of specific communities is [RDMkit](https://rdmkit.elixir-europe.org/).  RDMkit is an online research data management toolkit for Life Sciences, and as part of its product hosts pages for domain-specific best practices and guidelines.  [Domain pages](https://rdmkit.elixir-europe.org/your_domain) signpost detail and promote relevant considerations, tools and resources.
 
 > ## Exercise 
-> Look at the example given in Figure 2.2. What metadata is given?
-> Familiarise yourself with the [Bioimaging data](https://rdmkit.elixir-europe.org/bioimaging_data) domain page on RDMkit.  Read the section on “Standard (meta)data formats” about a third of the way down.  What 3 URLs are given to help a researcher gather appropriate metadata for their images?
+> Familiarise yourself with the [Bioimaging data](https://rdmkit.elixir-europe.org/bioimaging_data) domain page on RDMkit.  Read the section on “Standard (meta)data formats” about a third of the way down. <br> What 3 URLs are given to help a researcher gather appropriate metadata for their images?
 >> ## Solution
->> [OME model](https://docs.openmicroscopy.org/ome-model/6.3.1/) XML-based representation of microscopy data. <br> [Quality assessment working groups](https://quarep.org/)<br> [REMBI](https://www.nature.com/articles/s41592-021-01166-8)<br> 
+>> [OME model](https://docs.openmicroscopy.org/ome-model/6.3.1/) XML-based representation of microscopy data. <br> [Quality assessment working groups](https://quarep.org/) <br> [REMBI](https://www.nature.com/articles/s41592-021-01166-8)<br> 
 > {: .solution}
 {: .challenge}
 
