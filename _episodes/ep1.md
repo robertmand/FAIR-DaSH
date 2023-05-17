@@ -30,7 +30,7 @@ FAIR’s primary goal is to maximise data reuse by researchers.  The FAIR princi
 
 **Reusable** means that metadata is rich, enabling appropriate reuse.  Commonly FAIR will encourage the use of community standards for data curation.
 
-These 4 major components form headings for the 15 FAIR Guiding Principles shown in Table 1.1
+These 4 major components form headings for the 15 FAIR Guiding Principles shown in Table 1.1 <a name="table"></a> 
 
 | The FAIR Guiding Principles |                                                                                                                                                                                                                                                                                                                                       |
 | --------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -39,7 +39,7 @@ These 4 major components form headings for the 15 FAIR Guiding Principles shown 
 | To be Interoperable:        | I1. (meta)data use a formal, accessible, shared, and broadly applicable language for knowledge representation. <br>I2. (meta)data use vocabularies that follow FAIR principles<br>I3. (meta)data include qualified references to other (meta)data                                                                                         |
 | To be Reusable:             | R1. meta(data) are richly described with a plurality of accurate and relevant attributes <br>R1.1. (meta)data are released with a clear and accessible data usage license<br>R1.2. (meta)data are associated with detailed provenance<br>R1.3. (meta)data meet domain-relevant community standards                                        |
 
-Table 1.1: The FAIR guiding principles as described in Wilkinson, M., Dumontier, M., Aalbersberg, I. et al. The FAIR Guiding Principles for scientific data management and stewardship. Sci Data 3, 160018 (2016). [https://doi.org/10.1038/sdata.2016.18](https://doi.org/10.1038/sdata.2016.18) <a name="table"></a> 
+Table 1.1: The FAIR guiding principles as described in Wilkinson, M., Dumontier, M., Aalbersberg, I. et al. The FAIR Guiding Principles for scientific data management and stewardship. Sci Data 3, 160018 (2016). [https://doi.org/10.1038/sdata.2016.18](https://doi.org/10.1038/sdata.2016.18) 
 
 > ## Exercise
 > Look at the wording of the FAIR principles in [Table 1.1](#table). Which terms are used more than once?  Which terms are you seeing for the first time?
