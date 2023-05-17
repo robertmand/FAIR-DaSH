@@ -105,9 +105,8 @@ Another useful resource serving the data needs of specific communities is [RDMki
 > - More about Data licensing: [RDMkit](https://rdmkit.elixir-europe.org/licensing),[ FAIR Cookbook](https://faircookbook.elixir-europe.org/content/recipes/reusability/ATI-licensing.html)
 > - Definition of Metadata community standards: [FAIRDOM](https://fair-dom.org/community_standards)
 > - Registry of FAIR metadata standards: [FAIRsharing](https://fairsharing.org/search?fairsharingRegistry=Standard)
-> - Making interoperable metadata: [Ed-DaSH](https://carpentries-incubator.github.io/fair-bio-practice/06-being-precise/index.html)
-[Ten simple rules for making a vocabulary FAIR](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1009041)
-[EOSC Guidelines for research institutes to enable discoverability of research data](https://eosc-portal.eu/sites/default/files/Final-D4.4%20Guidelines%20for%20RIs%20to%20enable%20discoverability%20of%20research%20data-pdf.pdf)
+> - Making interoperable metadata: [Ed-DaSH](https://carpentries-incubator.github.io/fair-bio-practice/06-being-precise/index.html),
+[Ten simple rules for making a vocabulary FAIR](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1009041),<br> [EOSC Guidelines for research institutes to enable discoverability of research data](https://eosc-portal.eu/sites/default/files/Final-D4.4%20Guidelines%20for%20RIs%20to%20enable%20discoverability%20of%20research%20data-pdf.pdf)
 > - Useful metadata projects and tools: [Dublin Core](https://www.dublincore.org/specifications/dublin-core/dcmi-terms/), [ISA framework](https://isa-tools.org/index.html), [COPO](https://f1000research.com/articles/9-495)
 
 {: .callout}
