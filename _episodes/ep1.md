@@ -78,7 +78,7 @@ A [report from the European Commission Expert Group on FAIR data](https://zenodo
 > ## Exercise 
 > Read page 11 of [the European Commission report](https://zenodo.org/record/1285272#.ZD_9QxXMIqu), under the heading “Origins and definitions of FAIR”. What benefit did the FORCE11 Working Group see to coining the word FAIR?
 >> ## Solution
->> The report states: “a FORCE11 Working Group coined the FAIR data definition, latching onto an arresting and rhetorically useful acronym. The wordplay with fairness, in the sense of equity and justice, has also been eloquent in communicating the idea that FAIR data serves the best interests of the research community ,and the advancement of science as a public enterprise that benefits society.” 
+>> The report states: “a FORCE11 Working Group coined the FAIR data definition, latching onto an arresting and rhetorically useful acronym. The wordplay with fairness, in the sense of equity and justice, has also been eloquent in communicating the idea that FAIR data serves the best interests of the research community, and the advancement of science as a public enterprise that benefits society.” 
 > {: .solution}
 {: .challenge}
 
