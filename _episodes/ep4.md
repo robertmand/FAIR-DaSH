@@ -88,7 +88,7 @@ Though people refer to anonymisation when de-identifying (meta)data, often they 
 Pseudonymisation ensures no one can link data back to the individual, apart from nominated members of the study team who will be able to link pseudonyms to identifying information, such medical records.
 
 > ## Exercise
->  Use RDMkit guideline on [Sensitive data](https://rdmkit.elixir-europe.org/sensitive_data) to families yourself further on deidentification of data.  What further training can you identify?
+>  Use RDMkit's guidelines on [sensitive data](https://rdmkit.elixir-europe.org/sensitive_data) to familiarise yourself further on de-identification of data. What further training can you identify?
 >> ## Solution
 >At the bottom of the page, under “Training”, useful resources are given.  The [TeSS training portal](https://tess.elixir-europe.org/) permits users to search for courses, events, videos and other learning material for data in the life sciences.
 > {: .solution}
